@@ -87,9 +87,8 @@
           </Articulation>
         <Channel>
           <program value="52"/>
-          <controller ctrl="7" value="111"/>
+          <controller ctrl="7" value="110"/>
           <synti>Fluid</synti>
-          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -151,7 +150,7 @@
           </Articulation>
         <Channel>
           <program value="52"/>
-          <controller ctrl="7" value="115"/>
+          <controller ctrl="7" value="109"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -1178,6 +1177,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1776,15 +1778,15 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           </voice>
@@ -2298,6 +2300,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
