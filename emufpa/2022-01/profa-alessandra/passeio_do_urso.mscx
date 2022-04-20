@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.2.3</programVersion>
-  <programRevision>d2d863f</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <pageWidth>8.27</pageWidth>
-      <pageHeight>11.69</pageHeight>
-      <pagePrintableWidth>7.4826</pagePrintableWidth>
+      <harmonyPlay>0</harmonyPlay>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -23,6 +23,7 @@
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
@@ -38,7 +39,7 @@
         <defaultTransposingClef>F</defaultTransposingClef>
         </Staff>
       <trackName>Contrabass</trackName>
-      <Instrument>
+      <Instrument id="contrabass">
         <longName>Contrabass</longName>
         <shortName>Cb.</shortName>
         <trackName>Contrabass</trackName>
@@ -92,6 +93,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="43"/>
           <synti>Fluid</synti>
           </Channel>
@@ -100,6 +103,8 @@
           <synti>Fluid</synti>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
           </Channel>
@@ -108,6 +113,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
           <text>As Melodias da Cecília
@@ -186,6 +192,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -310,6 +317,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -413,6 +421,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -514,6 +523,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -649,6 +659,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -784,6 +795,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -944,6 +956,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -975,6 +988,9 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -991,6 +1007,9 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -1034,6 +1053,9 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1050,6 +1072,9 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -1083,6 +1108,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -1093,6 +1119,9 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1109,6 +1138,9 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -1267,6 +1299,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -1393,6 +1426,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -1507,6 +1541,7 @@
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
+            <offset x="0.125041" y="-0.874959"/>
             </Fermata>
           <Chord>
             <durationType>half</durationType>
@@ -1525,6 +1560,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -1652,6 +1688,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -1663,8 +1700,8 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1744,6 +1781,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1795,6 +1833,22 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.140354" y="2.59646"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1813,6 +1867,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1851,6 +1912,10 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -1859,6 +1924,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1997,6 +2065,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2092,6 +2161,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -2159,6 +2231,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
