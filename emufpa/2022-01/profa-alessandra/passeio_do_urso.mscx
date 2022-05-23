@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.02">
-  <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+<museScore version="3.01">
+  <programVersion>3.2.3</programVersion>
+  <programRevision>d2d863f</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <harmonyPlay>0</harmonyPlay>
-      <usePre_3_6_defaults>1</usePre_3_6_defaults>
-      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -39,7 +36,7 @@
         <defaultTransposingClef>F</defaultTransposingClef>
         </Staff>
       <trackName>Contrabass</trackName>
-      <Instrument id="contrabass">
+      <Instrument>
         <longName>Contrabass</longName>
         <shortName>Cb.</shortName>
         <trackName>Contrabass</trackName>
@@ -113,7 +110,6 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
           <text>As Melodias da Cecília
@@ -225,9 +221,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -296,6 +289,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -368,9 +364,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -479,6 +472,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -543,9 +539,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -692,6 +685,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>mf</subtype>
@@ -700,6 +696,11 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <style>LH Guitar Fingering</style>
+                <offset x="0.312801" y="-6.61852"/>
+                <text><font size="10"/>1</text>
+                </Fingering>
               <pitch>29</pitch>
               <tpc>13</tpc>
               </Note>
@@ -728,9 +729,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -885,6 +883,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text><font size="10"/>2</text>
+                </Fingering>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
@@ -957,9 +958,6 @@
         </Measure>
       <Measure>
         <measureNumberMode>1</measureNumberMode>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -978,6 +976,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -990,6 +991,9 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
               </Articulation>
             <Note>
               <Spanner type="Tie">
@@ -1013,6 +1017,9 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
               </Articulation>
             <Note>
               <Spanner type="Tie">
@@ -1060,6 +1067,9 @@
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1082,6 +1092,9 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
               </Articulation>
             <Note>
               <Spanner type="Tie">
@@ -1130,12 +1143,15 @@
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
                   <TieSegment no="0">
-                    <o1 x="-0.125041" y="0.875288"/>
-                    <o4 x="0.250082" y="0.812768"/>
+                    <o1 x="0" y="1.30004"/>
+                    <o4 x="0.216673" y="1.40837"/>
                     </TieSegment>
                   </Tie>
                 <next>
@@ -1152,6 +1168,9 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
               </Articulation>
             <Note>
               <Spanner type="Tie">
@@ -1210,6 +1229,9 @@
             </Spanner>
           <Chord>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1227,9 +1249,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
@@ -1312,6 +1331,9 @@
         </Measure>
       <Measure>
         <measureNumberMode>1</measureNumberMode>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -1342,6 +1364,9 @@
         <voice>
           <Chord>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1482,11 +1507,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="1.27726" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1580,8 +1600,8 @@
               <subtype>stringsDownBow</subtype>
               </Articulation>
             <Note>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -1622,6 +1642,13 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
@@ -1638,13 +1665,6 @@
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1712,8 +1732,8 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1740,9 +1760,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -1754,6 +1771,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -1798,13 +1818,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
@@ -1821,6 +1834,13 @@
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1927,12 +1947,15 @@
         <measureNumberMode>1</measureNumberMode>
         <voice>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
@@ -1946,6 +1969,9 @@
             </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              </Articulation>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -1978,6 +2004,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -2170,6 +2199,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -2188,6 +2220,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text><font size="10"/>1</text>
+                </Fingering>
               <pitch>29</pitch>
               <tpc>13</tpc>
               </Note>
@@ -2216,6 +2251,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <style>LH Guitar Fingering</style>
+                <offset x="1.82229" y="-5.45738"/>
+                <text><font size="10"/>4</text>
+                </Fingering>
               <pitch>37</pitch>
               <tpc>21</tpc>
               </Note>
@@ -2359,6 +2399,9 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <text><font size="10"/>1</text>
+                </Fingering>
               <pitch>44</pitch>
               <tpc>22</tpc>
               </Note>
