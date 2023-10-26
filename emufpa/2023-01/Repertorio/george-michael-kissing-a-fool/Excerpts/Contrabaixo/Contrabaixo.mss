@@ -354,7 +354,7 @@
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>

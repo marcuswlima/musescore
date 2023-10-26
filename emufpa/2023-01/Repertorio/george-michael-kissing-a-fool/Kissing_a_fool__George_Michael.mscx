@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.10">
-  <programVersion>4.1.1</programVersion>
-  <programRevision>e4d1ddf</programRevision>
+<museScore version="4.00">
+  <programVersion>4.0.2</programVersion>
+  <programRevision>dbe7c6d</programRevision>
   <Score>
+    <LayerTag id="0" tag="default"></LayerTag>
+    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -124,7 +126,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <bracket type="1" span="2" col="2" visible="1"/>
+        <bracket type="1" span="2" col="2"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <Staff id="3">
@@ -233,12 +235,15 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <linkedMain/>
         <Text>
+          <linkedMain/>
           <style>title</style>
           <family>Hiragino Kaku Gothic StdN</family>
           <text><font face="Hiragino Kaku Gothic StdN"></font>KISSING A FOOL</text>
           </Text>
         <Text>
+          <linkedMain/>
           <style>composer</style>
           <text>Words and Music by 
  GEORGE MICHAEL</text>
@@ -247,7 +252,7 @@
       <Measure>
         <voice>
           <KeySig>
-            <concertKey>2</concertKey>
+            <accidental>2</accidental>
             </KeySig>
           <TimeSig>
             <sigN>4</sigN>
@@ -259,6 +264,7 @@
           <Tempo>
             <tempo>2</tempo>
             <followText>1</followText>
+            <linkedMain/>
             <text><sym>metNoteQuarterUp</sym> = 80</text>
             </Tempo>
           <Rest>
@@ -352,6 +358,7 @@
       <Measure>
         <startRepeat/>
         <Marker>
+          <linkedMain/>
           <style>repeat_left</style>
           <family>ScoreText</family>
           <size>28</size>
@@ -712,12 +719,14 @@
         </Measure>
       <Measure>
         <Marker>
+          <linkedMain/>
           <style>repeat_right</style>
           <offset x="-2.01587" y="-2.53757"/>
           <text>To Coda</text>
           <label>coda</label>
           </Marker>
         <Marker>
+          <linkedMain/>
           <style>repeat_left</style>
           <offset x="53.5789" y="-2.15173"/>
           <text><sym>coda</sym></text>
@@ -2558,18 +2567,6 @@
           <Harmony>
             <root>16</root>
             </Harmony>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>9</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -2600,14 +2597,16 @@
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <linkedMain/>
+              <endings>1</endings>
+              </Volta>
             <next>
               <location>
-                <measures>3</measures>
-                <fractions>1/4</fractions>
+                <measures>8</measures>
                 </location>
               </next>
             </Spanner>
@@ -2889,14 +2888,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -3252,13 +3243,14 @@
           <Spanner type="Volta">
             <prev>
               <location>
-                <measures>-9</measures>
+                <measures>-8</measures>
                 </location>
               </prev>
             </Spanner>
           <Spanner type="Volta">
             <Volta>
               <beginText>2.</beginText>
+              <linkedMain/>
               <endings>2</endings>
               </Volta>
             <next>
@@ -4651,6 +4643,7 @@
         </Measure>
       <Measure>
         <Jump>
+          <linkedMain/>
           <style>repeat_right</style>
           <text>D.S. al Coda</text>
           <jumpTo>segno</jumpTo>
@@ -4658,6 +4651,7 @@
           <continueAt>codab</continueAt>
           </Jump>
         <LayoutBreak>
+          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -4714,12 +4708,14 @@
         </Measure>
       <Measure>
         <Marker>
+          <linkedMain/>
           <style>repeat_left</style>
           <text><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
           <SystemText>
+            <linkedMain/>
             <size>12</size>
             <italic>1</italic>
             <offset x="-5.64444" y="-2.80635"/>
@@ -5108,7 +5104,9 @@
         </Measure>
       <TBox>
         <height>1</height>
+        <linkedMain/>
         <Text>
+          <linkedMain/>
           <style>frame</style>
           <text>Verse 2:
 You are far
@@ -5142,7 +5140,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <KeySig>
-            <concertKey>2</concertKey>
+            <accidental>2</accidental>
             </KeySig>
           <TimeSig>
             <sigN>4</sigN>
@@ -12092,7 +12090,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <KeySig>
-            <concertKey>2</concertKey>
+            <accidental>2</accidental>
             </KeySig>
           <TimeSig>
             <sigN>4</sigN>
@@ -14067,13 +14065,16 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <KeySig>
-            <concertKey>2</concertKey>
+            <linkedMain/>
+            <accidental>2</accidental>
             </KeySig>
           <TimeSig>
+            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14082,6 +14083,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14090,6 +14092,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14098,6 +14101,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14106,36 +14110,46 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -14145,8 +14159,10 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -14155,29 +14171,37 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>39</pitch>
               <tpc>23</tpc>
               </Note>
@@ -14187,36 +14211,46 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
@@ -14226,8 +14260,10 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
@@ -14236,22 +14272,28 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>37</pitch>
               <tpc>21</tpc>
               </Note>
@@ -14261,29 +14303,37 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -14293,29 +14343,37 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>37</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>37</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -14325,29 +14383,37 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>30</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>31</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -14357,8 +14423,10 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
@@ -14367,22 +14435,28 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
@@ -14392,36 +14466,46 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -14431,8 +14515,10 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -14441,29 +14527,37 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>39</pitch>
               <tpc>23</tpc>
               </Note>
@@ -14473,23 +14567,29 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
+                <linkedMain/>
                 </Slur>
               <next>
                 <location>
@@ -14498,11 +14598,13 @@ You must have been kissing a fool.</text>
                 </next>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14512,6 +14614,7 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -14521,20 +14624,25 @@ You must have been kissing a fool.</text>
                 </prev>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
@@ -14545,15 +14653,19 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
@@ -14562,15 +14674,19 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>37</pitch>
               <tpc>21</tpc>
               </Note>
@@ -14580,24 +14696,30 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -14606,8 +14728,10 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
@@ -14617,22 +14741,28 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>37</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -14641,8 +14771,10 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
@@ -14652,6 +14784,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14661,21 +14794,26 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14685,24 +14823,30 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Rest>
+            <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>31</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14712,21 +14856,26 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14736,18 +14885,23 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Rest>
+            <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>30</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>31</pitch>
               <tpc>15</tpc>
               </Note>
@@ -14758,24 +14912,30 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o4 x="-4.90159" y="0.102116"/>
                   </SlurSegment>
@@ -14787,11 +14947,13 @@ You must have been kissing a fool.</text>
                 </next>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14801,20 +14963,25 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -14824,6 +14991,7 @@ You must have been kissing a fool.</text>
                 </prev>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -14834,36 +15002,46 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -14873,8 +15051,10 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -14883,22 +15063,28 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -14908,14 +15094,17 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14925,18 +15114,23 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Rest>
+            <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>30</pitch>
               <tpc>20</tpc>
               </Note>
@@ -14947,23 +15141,29 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
+              <linkedMain/>
               <pitch>31</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
@@ -14973,6 +15173,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -14982,16 +15183,20 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <linkedMain/>
                 </Slur>
               <next>
                 <location>
@@ -15000,12 +15205,14 @@ You must have been kissing a fool.</text>
                 </next>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -15015,6 +15222,7 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -15024,19 +15232,23 @@ You must have been kissing a fool.</text>
                 </prev>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -15046,8 +15258,10 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -15056,9 +15270,11 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <linkedMain/>
                 </Slur>
               <next>
                 <location>
@@ -15067,12 +15283,14 @@ You must have been kissing a fool.</text>
                 </next>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <endTuplet/>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -15082,6 +15300,7 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -15091,13 +15310,16 @@ You must have been kissing a fool.</text>
                 </prev>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
@@ -15108,22 +15330,28 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>37</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -15132,8 +15360,10 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
@@ -15143,23 +15373,29 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
+                <linkedMain/>
                 <SlurSegment no="0">
                   <o4 x="-0.909754" y="0"/>
                   </SlurSegment>
@@ -15171,11 +15407,13 @@ You must have been kissing a fool.</text>
                 </next>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Tuplet>
+            <linkedMain/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -15185,6 +15423,7 @@ You must have been kissing a fool.</text>
               </Number>
             </Tuplet>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -15194,20 +15433,25 @@ You must have been kissing a fool.</text>
                 </prev>
               </Spanner>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>30</pitch>
               <tpc>20</tpc>
               </Note>
@@ -15218,31 +15462,39 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Chord>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>31</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>31</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
+              <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
@@ -15251,7 +15503,1013 @@ You must have been kissing a fool.</text>
         </Measure>
       <Measure>
         <voice>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/12</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/12</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/12</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/12</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/12</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/12</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>quarter</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
           <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>29</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>29</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>29</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>30</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>quarter</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15260,6 +16518,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15268,6 +16527,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15276,6 +16536,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15284,6 +16545,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15292,6 +16554,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15300,6 +16563,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15308,6 +16572,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15316,6 +16581,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15324,6 +16590,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15332,97 +16599,20 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15431,6 +16621,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15439,6 +16630,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15447,6 +16639,7 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -15455,11 +16648,3379 @@ You must have been kissing a fool.</text>
       <Measure>
         <voice>
           <Rest>
+            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       </Staff>
+    <Score>
+      <initialPartId>3</initialPartId>
+      <LayerTag id="0" tag="default"></LayerTag>
+      <currentLayer>0</currentLayer>
+      <Division>480</Division>
+      <Style>
+        <pageWidth>8.5</pageWidth>
+        <pageHeight>11</pageHeight>
+        <pagePrintableWidth>7.3189</pagePrintableWidth>
+        <createMultiMeasureRests>1</createMultiMeasureRests>
+        <Spatium>1.74978</Spatium>
+        </Style>
+      <showInvisible>1</showInvisible>
+      <showUnprintable>1</showUnprintable>
+      <showFrames>1</showFrames>
+      <showMargins>0</showMargins>
+      <open>1</open>
+      <metaTag name="partName">Contrabaixo</metaTag>
+      <Part id="3">
+        <Staff id="1">
+          <linkedTo>4</linkedTo>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          <defaultConcertClef>F8vb</defaultConcertClef>
+          <defaultTransposingClef>F</defaultTransposingClef>
+          </Staff>
+        <trackName>Contrabaixo</trackName>
+        <Instrument id="bass-guitar">
+          <longName>Contrabaixo</longName>
+          <shortName>Contb.</shortName>
+          <trackName>Contrabaixo</trackName>
+          <minPitchP>28</minPitchP>
+          <maxPitchP>67</maxPitchP>
+          <minPitchA>28</minPitchA>
+          <maxPitchA>65</maxPitchA>
+          <transposeDiatonic>-7</transposeDiatonic>
+          <transposeChromatic>-12</transposeChromatic>
+          <instrumentId>pluck.bass</instrumentId>
+          <concertClef>F8vb</concertClef>
+          <transposingClef>F</transposingClef>
+          <singleNoteDynamics>0</singleNoteDynamics>
+          <StringData>
+            <frets>24</frets>
+            <string>40</string>
+            <string>45</string>
+            <string>50</string>
+            <string>55</string>
+            </StringData>
+          <Channel>
+            <program value="34"/>
+            <synti>Fluid</synti>
+            </Channel>
+          <Channel name="slap">
+            <program value="36"/>
+            <synti>Fluid</synti>
+            </Channel>
+          <Channel name="pop">
+            <program value="37"/>
+            <synti>Fluid</synti>
+            </Channel>
+          </Instrument>
+        </Part>
+      <Staff id="1">
+        <VBox>
+          <height>10</height>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <Text>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <style>title</style>
+            <family>Hiragino Kaku Gothic StdN</family>
+            <text><font face="Hiragino Kaku Gothic StdN"></font>KISSING A FOOL</text>
+            </Text>
+          <Text>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <style>composer</style>
+            <text>Words and Music by 
+ GEORGE MICHAEL</text>
+            </Text>
+          <Text>
+            <style>instrument_excerpt</style>
+            <text>Contrabaixo</text>
+            </Text>
+          </VBox>
+        <Measure>
+          <voice>
+            <KeySig>
+              <linked>
+                </linked>
+              <accidental>2</accidental>
+              </KeySig>
+            <TimeSig>
+              <linked>
+                </linked>
+              <sigN>4</sigN>
+              <sigD>4</sigD>
+              </TimeSig>
+            <Tempo>
+              <tempo>2</tempo>
+              <followText>1</followText>
+              <linked>
+                <location>
+                  <staves>-3</staves>
+                  </location>
+                <indexDiff>3</indexDiff>
+                </linked>
+              <text><sym>metNoteQuarterUp</sym> = 80</text>
+              </Tempo>
+            <Rest>
+              <linked>
+                <indexDiff>2</indexDiff>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure len="16/4">
+          <multiMeasureRest>4</multiMeasureRest>
+          <voice>
+            <TimeSig>
+              <linked>
+                </linked>
+              <sigN>4</sigN>
+              <sigD>4</sigD>
+              </TimeSig>
+            <Tempo>
+              <tempo>2</tempo>
+              <followText>1</followText>
+              <linked>
+                <location>
+                  <staves>-3</staves>
+                  </location>
+                <indexDiff>3</indexDiff>
+                </linked>
+              <text><sym>metNoteQuarterUp</sym> = 80</text>
+              </Tempo>
+            <Rest>
+              <durationType>measure</durationType>
+              <duration>16/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <startRepeat/>
+          <Marker>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <style>repeat_left</style>
+            <family>ScoreText</family>
+            <size>28</size>
+            <text><font size="28"></font><font face="ScoreText"></font></text>
+            <label>segno</label>
+            </Marker>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>45</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>45</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalFlat</subtype>
+                  </Accidental>
+                <pitch>34</pitch>
+                <tpc>12</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>34</pitch>
+                <tpc>12</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <Marker>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <style>repeat_right</style>
+            <offset x="-2.01587" y="-2.53757"/>
+            <text>To Coda</text>
+            <label>coda</label>
+            </Marker>
+          <Marker>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <style>repeat_left</style>
+            <offset x="53.5789" y="-2.15173"/>
+            <text><sym>coda</sym></text>
+            <label>codab</label>
+            </Marker>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>30</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalFlat</subtype>
+                  </Accidental>
+                <pitch>34</pitch>
+                <tpc>12</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>34</pitch>
+                <tpc>12</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>45</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>45</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>43</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalFlat</subtype>
+                  </Accidental>
+                <pitch>34</pitch>
+                <tpc>12</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>30</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>5/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-5/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>45</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>half</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>30</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>half</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>30</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <dots>1</dots>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>quarter</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>39</pitch>
+                <tpc>23</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Spanner type="Volta">
+              <Volta>
+                <endHookType>1</endHookType>
+                <beginText>1.</beginText>
+                <linked>
+                  <location>
+                    <staves>-3</staves>
+                    </location>
+                  </linked>
+                <endings>1</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>8</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>28</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>40</pitch>
+                <tpc>18</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>42</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>29</pitch>
+                <tpc>13</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>29</pitch>
+                <tpc>13</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>29</pitch>
+                <tpc>13</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>30</pitch>
+                <tpc>20</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              </Rest>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>half</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>31</pitch>
+                <tpc>15</tpc>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <endRepeat>2</endRepeat>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>eighth</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            <Tuplet>
+              <linked>
+                </linked>
+              <normalNotes>2</normalNotes>
+              <actualNotes>3</actualNotes>
+              <baseNote>quarter</baseNote>
+              <Number>
+                <style>tuplet</style>
+                <text>3</text>
+                </Number>
+              </Tuplet>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>33</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>35</pitch>
+                <tpc>19</tpc>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>37</pitch>
+                <tpc>21</tpc>
+                </Note>
+              </Chord>
+            <endTuplet/>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-8</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Volta">
+              <Volta>
+                <beginText>2.</beginText>
+                <linked>
+                  <location>
+                    <staves>-3</staves>
+                    </location>
+                  </linked>
+                <endings>2</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure len="40/4">
+          <multiMeasureRest>10</multiMeasureRest>
+          <Jump>
+            <style>repeat_right</style>
+            <text>D.S. al Coda</text>
+            <jumpTo>segno</jumpTo>
+            <playUntil>coda</playUntil>
+            <continueAt>codab</continueAt>
+            </Jump>
+          <LayoutBreak>
+            <subtype>section</subtype>
+            </LayoutBreak>
+          <voice>
+            <Rest>
+              <durationType>measure</durationType>
+              <duration>40/4</duration>
+              </Rest>
+            <BarLine>
+              <subtype>double</subtype>
+              <linked>
+                </linked>
+              </BarLine>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <Jump>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <style>repeat_right</style>
+            <text>D.S. al Coda</text>
+            <jumpTo>segno</jumpTo>
+            <playUntil>coda</playUntil>
+            <continueAt>codab</continueAt>
+            </Jump>
+          <LayoutBreak>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            <BarLine>
+              <subtype>double</subtype>
+              <linked>
+                </linked>
+              </BarLine>
+            </voice>
+          </Measure>
+        <Measure>
+          <Marker>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <style>repeat_left</style>
+            <text><sym>coda</sym></text>
+            <label>codab</label>
+            </Marker>
+          <voice>
+            <SystemText>
+              <linked>
+                <location>
+                  <staves>-3</staves>
+                  </location>
+                </linked>
+              <size>12</size>
+              <italic>1</italic>
+              <text><i><font size="12"></font>CODA</i></text>
+              </SystemText>
+            <Rest>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure len="20/4">
+          <multiMeasureRest>5</multiMeasureRest>
+          <Marker>
+            <style>repeat_left</style>
+            <text><sym>coda</sym></text>
+            <label>codab</label>
+            </Marker>
+          <voice>
+            <SystemText>
+              <linked>
+                <location>
+                  <staves>-3</staves>
+                  </location>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <size>12</size>
+              <italic>1</italic>
+              <text><i><font size="12"></font>CODA</i></text>
+              </SystemText>
+            <Rest>
+              <durationType>measure</durationType>
+              <duration>20/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>4/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <TBox>
+          <height>1</height>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <Text>
+            <style>frame</style>
+            <text>Verse 2:
+You are far
+I'm never gonna be your star
+I'll pick up the pieces and mend my heart
+Maybe I'll be strong enough
+I don't know where to start
+But I'll never find peace of mind
+While I listen to my heart.
+People you can never change the way they feel
+Better let them do just what they will
+For they will
+If you let them steal your heart.
+People 
+Will always make a lover feel a fool
+But you knew I loved you
+We could have shown you all la la la la la.
+
+Verse 3:
+You are far
+When I could have been your star You listened to people
+Who scared you to death and from my heart
+Strange that I was wrong enough
+To think you'd love me too
+Guess you were kissing a fool
+You must have been kissing a fool.</text>
+            </Text>
+          </TBox>
+        </Staff>
+      <name>Contrabaixo</name>
+      </Score>
     </Score>
   </museScore>
