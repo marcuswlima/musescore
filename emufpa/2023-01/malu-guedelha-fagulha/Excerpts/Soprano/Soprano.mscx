@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.2</programVersion>
-  <programRevision>dbe7c6d</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <initialPartId>1</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <barWidth>0.18</barWidth>
@@ -44,7 +42,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <bracket type="0" span="4" col="0"/>
+        <bracket type="0" span="4" col="0" visible="1"/>
         </Staff>
       <trackName>Soprano</trackName>
       <Instrument id="soprano">
@@ -990,6 +988,11 @@
               </linked>
             <text>F6</text>
             </StaffText>
+          <RehearsalMark>
+            <linked>
+              </linked>
+            <text>1</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -1995,6 +1998,11 @@
               </linked>
             <text>C7M</text>
             </StaffText>
+          <RehearsalMark>
+            <linked>
+              </linked>
+            <text>2</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -2359,6 +2367,11 @@
               </linked>
             <text>Am</text>
             </StaffText>
+          <RehearsalMark>
+            <linked>
+              </linked>
+            <text>3</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -2650,6 +2663,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Soprano</name>
     </Score>
   </museScore>

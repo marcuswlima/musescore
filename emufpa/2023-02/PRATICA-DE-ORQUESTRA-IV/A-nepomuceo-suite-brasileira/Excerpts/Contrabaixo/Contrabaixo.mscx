@@ -128,24 +128,43 @@
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              <indexDiff>7</indexDiff>
+              </linked>
+            <text><i>Lentamente</i></text>
+            </SystemText>
           <Rest>
             <linked>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/2">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="20/2">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-2</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              <indexDiff>7</indexDiff>
+              </linked>
+            <italic>1</italic>
+            <text><i>Lentamente</i></text>
+            </SystemText>
           <Rest>
             <durationType>measure</durationType>
             <duration>24/2</duration>
@@ -244,11 +263,36 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text>1</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text>1</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -292,7 +336,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>38/2</duration>
+            <duration>14/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -390,8 +434,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="42/2">
-        <multiMeasureRest>21</multiMeasureRest>
+      <Measure len="20/2">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -528,12 +572,43 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text>3</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure len="22/2">
+        <multiMeasureRest>11</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text>3</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>22/2</duration>
+            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <linked>
+              </linked>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -1100,7 +1175,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>32/2</duration>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1926,7 +2001,7 @@
                 </location>
               </linked>
             <italic>1</italic>
-            <offset x="0.82945" y="-2.62209"/>
+            <offset x="5.18406" y="-4.28099"/>
             <text><i>Harpa</i></text>
             </SystemText>
           <Rest>
@@ -4395,14 +4470,6 @@
         <LayoutBreak>
           <subtype>section</subtype>
           </LayoutBreak>
-        <LayoutBreak>
-          <linked>
-            <location>
-              <staves>-5</staves>
-              </location>
-            </linked>
-          <subtype>section</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>pp</subtype>
@@ -4439,12 +4506,14 @@
           <location>
             <staves>-4</staves>
             </location>
+          <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <linked>
             <location>
               <staves>-4</staves>
               </location>
+            <indexDiff>1</indexDiff>
             </linked>
           <style>frame</style>
           <size>20</size>
@@ -9925,12 +9994,14 @@
           <location>
             <staves>-4</staves>
             </location>
+          <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <linked>
             <location>
               <staves>-4</staves>
               </location>
+            <indexDiff>1</indexDiff>
             </linked>
           <style>frame</style>
           <size>20</size>
@@ -11075,12 +11146,14 @@
           <location>
             <staves>-4</staves>
             </location>
+          <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <linked>
             <location>
               <staves>-4</staves>
               </location>
+            <indexDiff>1</indexDiff>
             </linked>
           <style>frame</style>
           <size>20</size>
@@ -14981,6 +15054,7 @@
               <location>
                 <staves>-4</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text><i>Doppio movimento</i></text>
             </SystemText>
@@ -15001,6 +15075,7 @@
               <location>
                 <staves>-4</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
@@ -16059,6 +16134,7 @@
               <location>
                 <staves>-4</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <frameType>2</frameType>
             <text>Q</text>
@@ -16085,6 +16161,11 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linked>
+              </linked>
+            <text>Texto de pauta</text>
+            </StaffText>
           <Chord>
             <linked>
               </linked>
@@ -17378,6 +17459,7 @@
               <location>
                 <staves>-4</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <frameType>2</frameType>
             <text>S</text>

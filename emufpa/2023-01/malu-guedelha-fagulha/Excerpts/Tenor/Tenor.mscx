@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.2</programVersion>
-  <programRevision>dbe7c6d</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <initialPartId>3</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <barWidth>0.18</barWidth>
@@ -163,6 +161,11 @@
               </linked>
             <durationType>eighth</durationType>
             </Rest>
+          <StaffText>
+            <linked>
+              </linked>
+            <text>Am</text>
+            </StaffText>
           <RehearsalMark>
             <linked>
               <location>
@@ -172,29 +175,28 @@
               </linked>
             <text>A</text>
             </RehearsalMark>
-          <StaffText>
-            <linked>
-              </linked>
-            <text>Am</text>
-            </StaffText>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <text>Fa</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <text>A</text>
               </Lyrics>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -977,24 +979,37 @@
               </linked>
             <text>F6</text>
             </StaffText>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>1</text>
+            </RehearsalMark>
           <Chord>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <text>fo</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <text>pon</text>
               </Lyrics>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -1947,6 +1962,15 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>2</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -2219,6 +2243,15 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>3</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -2504,6 +2537,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Tenor</name>
     </Score>
   </museScore>

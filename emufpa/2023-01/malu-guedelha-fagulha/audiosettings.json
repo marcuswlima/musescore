@@ -1,5 +1,37 @@
 {
     "activeSoundProfile": "MuseScore Basic",
+    "aux": [
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                    "0": {
+                        "active": true,
+                        "chainOrder": 0,
+                        "resourceMeta": {
+                            "attributes": {
+                            },
+                            "hasNativeEditorSupport": true,
+                            "id": "Muse Reverb",
+                            "type": "muse_plugin",
+                            "vendor": "Muse"
+                        },
+                        "unitConfiguration": {
+                        }
+                    }
+                },
+                "volumeDb": 0
+            }
+        },
+        {
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            }
+        }
+    ],
     "master": {
         "balance": 0,
         "fxChain": {
@@ -20,14 +52,96 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bass",
+            "instrumentId": "soprano",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 2
             },
-            "partId": "4",
+            "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "tenor",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 2.700000047683716
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "alto",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 3.299999952316284
+            },
+            "partId": "2",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -72,66 +186,24 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "alto",
+            "instrumentId": "bass",
             "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 3.299999952316284
-            },
-            "partId": "2",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
                     },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "tenor",
-            "out": {
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 2.700000047683716
+                "volumeDb": 0
             },
-            "partId": "3",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "soprano",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 2
-            },
-            "partId": "1",
+            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.2</programVersion>
-  <programRevision>dbe7c6d</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <initialPartId>4</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <pageWidth>8.5</pageWidth>
@@ -695,6 +693,15 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>1</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -1301,8 +1308,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/4">
-        <multiMeasureRest>4</multiMeasureRest>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -1331,11 +1338,38 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>2</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>2</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1534,6 +1568,15 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>3</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -1816,6 +1859,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Bass</name>
     </Score>
   </museScore>

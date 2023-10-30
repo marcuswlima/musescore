@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.2</programVersion>
-  <programRevision>dbe7c6d</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <initialPartId>2</initialPartId>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
       <barWidth>0.18</barWidth>
@@ -943,6 +941,15 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>1</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -2056,6 +2063,15 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>2</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -2834,6 +2850,15 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>3</text>
+            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -3116,6 +3141,5 @@
           </voice>
         </Measure>
       </Staff>
-    <name>Alto</name>
     </Score>
   </museScore>
