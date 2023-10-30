@@ -1454,6 +1454,7 @@
                 <staves>-3</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>B</text>
             </RehearsalMark>
           <Dynamic>
@@ -1488,11 +1489,10 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>whole</durationType>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -1500,86 +1500,240 @@
                   </location>
                 </prev>
               </Spanner>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="16/2">
-        <multiMeasureRest>8</multiMeasureRest>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>16/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -1592,119 +1746,399 @@
               </linked>
             <text>6</text>
             </RehearsalMark>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/2">
-        <multiMeasureRest>10</multiMeasureRest>
+      <Measure>
         <voice>
-          <RehearsalMark>
+          <Chord>
             <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
               <location>
-                <staves>-3</staves>
+                <measures>1</measures>
                 </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <linked>
               </linked>
-            <text>6</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/2</duration>
-            </Rest>
+            <durationType>whole</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -1717,49 +2151,128 @@
               </linked>
             <text>7</text>
             </RehearsalMark>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="6/2">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <linked>
-              <location>
-                <staves>-3</staves>
-                </location>
               </linked>
-            <text>7</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/2</duration>
-            </Rest>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            </Dynamic>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -1780,20 +2293,50 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="14/2">
-        <multiMeasureRest>7</multiMeasureRest>
+      <Measure>
         <voice>
-          <RehearsalMark>
+          <Chord>
             <linked>
-              <location>
-                <staves>-3</staves>
-                </location>
               </linked>
-            <text>C</text>
-            </RehearsalMark>
+            <durationType>whole</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>14/2</duration>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -1807,23 +2350,12 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="8/2">
+        <multiMeasureRest>4</multiMeasureRest>
         <voice>
           <Rest>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <duration>8/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2135,6 +2667,7 @@
                 <staves>-3</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>D</text>
             </RehearsalMark>
           <Rest>
