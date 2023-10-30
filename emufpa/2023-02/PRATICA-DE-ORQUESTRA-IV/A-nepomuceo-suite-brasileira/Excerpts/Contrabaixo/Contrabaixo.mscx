@@ -410,14 +410,6 @@
               </linked>
             <text>2</text>
             </RehearsalMark>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-4</staves>
-                </location>
-              </linked>
-            <text>A</text>
-            </RehearsalMark>
           <SystemText>
             <linked>
               <location>
@@ -446,16 +438,6 @@
             <offset x="2.57883" y="-3.20853"/>
             <text>2</text>
             </RehearsalMark>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-4</staves>
-                </location>
-              </linked>
-            <offset x="-1.12824" y="-3"/>
-            <frameType>2</frameType>
-            <text>A</text>
-            </RehearsalMark>
           <SystemText>
             <linked>
               <location>
@@ -469,15 +451,6 @@
             <durationType>measure</durationType>
             <duration>24/2</duration>
             </Rest>
-          <location>
-            <fractions>9/1</fractions>
-            </location>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <linked>
-              </linked>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -588,8 +561,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="22/2">
-        <multiMeasureRest>11</multiMeasureRest>
+      <Measure len="20/2">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -603,12 +576,6 @@
             <durationType>measure</durationType>
             <duration>22/2</duration>
             </Rest>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <linked>
-              </linked>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -703,18 +670,40 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text>4</text>
+            </RehearsalMark>
           <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
+          </voice>
+        </Measure>
+      <Measure len="6/2">
+        <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <RehearsalMark>
             <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
               </linked>
-            </Clef>
+            <text>4</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -727,41 +716,17 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="4/2">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/2</duration>
-            </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            <linked>
-              </linked>
-            </Clef>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            <linked>
-              </linked>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -1042,6 +1007,12 @@
               </linked>
             <text>pizz.</text>
             </PlayTechAnnotation>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <linked>
               </linked>
