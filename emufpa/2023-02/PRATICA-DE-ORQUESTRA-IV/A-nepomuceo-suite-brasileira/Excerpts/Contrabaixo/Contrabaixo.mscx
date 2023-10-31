@@ -451,6 +451,7 @@
                 </location>
               </linked>
             <italic>1</italic>
+            <offset x="2.79308" y="-2.46832"/>
             <text><i>Clarinete</i></text>
             </SystemText>
           <Rest>
@@ -1959,8 +1960,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="12/2">
-        <multiMeasureRest>6</multiMeasureRest>
+      <Measure len="8/2">
+        <multiMeasureRest>4</multiMeasureRest>
         <voice>
           <SystemText>
             <linked>
@@ -1968,8 +1969,9 @@
                 <staves>-4</staves>
                 </location>
               </linked>
+            <minDistance>0.336146</minDistance>
             <italic>1</italic>
-            <offset x="5.18406" y="-4.28099"/>
+            <offset x="3.08925" y="-2.65169"/>
             <text><i>Harpa</i></text>
             </SystemText>
           <Rest>
@@ -2011,6 +2013,14 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text><i>rall..</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -2021,6 +2031,14 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-4</staves>
+                </location>
+              </linked>
+            <text><i>rall..</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -2049,6 +2067,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
           <Fermata>
             <subtype>fermataAbove</subtype>
             <linked>
@@ -2057,8 +2080,7 @@
           <Rest>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -4446,6 +4468,9 @@
       <Measure>
         <LayoutBreak>
           <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Dynamic>
@@ -9999,6 +10024,9 @@
         <LayoutBreak>
           <subtype>section</subtype>
           </LayoutBreak>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>ff</subtype>
@@ -10113,7 +10141,8 @@
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><b><i>Andante</i></b></text>
+            <bold>1</bold>
+            <text><b>Andante</b></text>
             </SystemText>
           <Rest>
             <small>1</small>
@@ -10684,9 +10713,6 @@
         </Measure>
       <Measure len="24/4">
         <multiMeasureRest>6</multiMeasureRest>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <small>1</small>
@@ -10736,9 +10762,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <linked>
@@ -11288,6 +11311,9 @@
       <Measure>
         <LayoutBreak>
           <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <PlayTechAnnotation>
@@ -16298,6 +16324,9 @@
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -16830,9 +16859,14 @@
               <linked>
                 </linked>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="-1.16029" y="2"/>
                 <off2 x="2.36962" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -18059,9 +18093,6 @@
           </voice>
         </Measure>
       <Measure>
-        <MeasureNumber>
-          <text>208</text>
-          </MeasureNumber>
         <voice>
           <Chord>
             <linked>
