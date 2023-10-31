@@ -60,24 +60,14 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "contrabass",
+            "instrumentId": "metronome",
             "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "5",
+            "partId": "999",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -113,7 +103,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "3",
+            "partId": "6",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -204,14 +194,24 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "metronome",
+            "instrumentId": "violin",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "999",
+            "partId": "3",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -230,7 +230,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "violin",
+            "instrumentId": "contrabass",
             "out": {
                 "auxSends": [
                     {
@@ -247,7 +247,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "6",
+            "partId": "5",
             "soloMuteState": {
                 "mute": false,
                 "solo": false

@@ -124,7 +124,7 @@
               <indexDiff>7</indexDiff>
               </linked>
             <italic>1</italic>
-            <text><i>Lentamente</i></text>
+            <text><b>Lentamente</b></text>
             </SystemText>
           <Rest>
             <linked>
@@ -151,8 +151,9 @@
                 </location>
               <indexDiff>7</indexDiff>
               </linked>
+            <bold>1</bold>
             <italic>1</italic>
-            <text><i>Lentamente</i></text>
+            <text><b>Lentamente</b></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -3489,8 +3490,8 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="16/2">
-        <multiMeasureRest>8</multiMeasureRest>
+      <Measure len="12/2">
+        <multiMeasureRest>6</multiMeasureRest>
         <voice>
           <RehearsalMark>
             <linked>
@@ -3558,6 +3559,14 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><i>stentando</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -3568,6 +3577,14 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><i>a tempo</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -4309,6 +4326,14 @@
               </linked>
             <text>18</text>
             </RehearsalMark>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><i>rall e dim sempre</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -4331,6 +4356,14 @@
               </linked>
             <text>18</text>
             </RehearsalMark>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><i>rall e dim sempre</i></text>
+            </SystemText>
           <Rest>
             <durationType>measure</durationType>
             <duration>18/2</duration>
@@ -4462,9 +4495,18 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><b>Allegro</b></text>
+            </SystemText>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -4476,11 +4518,20 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-1</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><b>Allegro</b></text>
+            </SystemText>
           <Rest>
             <durationType>measure</durationType>
             <duration>20/4</duration>
@@ -8125,29 +8176,97 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><b><i>Andante</i></b></text>
+            </SystemText>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
+      <Measure len="40/4">
+        <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
             <linked>
-              <indexDiff>-1</indexDiff>
+              <indexDiff>1</indexDiff>
               </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><b><i>Andante</i></b></text>
+            </SystemText>
           <Rest>
             <durationType>measure</durationType>
             <duration>20/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8284,25 +8403,16 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
+      <Measure>
         <voice>
-          <RehearsalMark>
+          <SystemText>
             <linked>
               <location>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <text>N</text>
-            </RehearsalMark>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+            <text><i>poco rit</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -8313,6 +8423,14 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><i>a tempo</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -8323,6 +8441,14 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><i>poco rit</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -8333,6 +8459,14 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><i>a tempo</i></text>
+            </SystemText>
           <Rest>
             <linked>
               </linked>
@@ -8492,8 +8626,18 @@
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><i>un poco piú presto</i></text>
+            </SystemText>
           <Rest>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -8505,11 +8649,20 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><i>un poco piú presto</i></text>
+            </SystemText>
           <Rest>
             <durationType>measure</durationType>
             <duration>60/4</duration>
@@ -8985,9 +9138,18 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>4</indexDiff>
+              </linked>
+            <text><b>Marcato e bem ritimado</b></text>
+            </SystemText>
           <Rest>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -8999,11 +9161,19 @@
         <voice>
           <TimeSig>
             <linked>
-              <indexDiff>-1</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>4</indexDiff>
+              </linked>
+            <text><b>Marcato e bem ritimado</b></text>
+            </SystemText>
           <Rest>
             <durationType>measure</durationType>
             <duration>20/4</duration>
@@ -9981,6 +10151,15 @@
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
             </SystemText>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><i>(in 1)</i></text>
+            </SystemText>
           <Rest>
             <linked>
               <indexDiff>1</indexDiff>
@@ -10002,6 +10181,15 @@
               </linked>
             <italic>1</italic>
             <text><i>Doppio movimento</i></text>
+            </SystemText>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><i>(in 1)</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -11915,8 +12103,18 @@
         </Measure>
       <Measure>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><i>Furioso</i></text>
+            </SystemText>
           <Rest>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -11926,6 +12124,15 @@
       <Measure len="16/4">
         <multiMeasureRest>8</multiMeasureRest>
         <voice>
+          <SystemText>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><i>Furioso</i></text>
+            </SystemText>
           <Rest>
             <durationType>measure</durationType>
             <duration>16/4</duration>
