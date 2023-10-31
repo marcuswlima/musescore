@@ -2711,18 +2711,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2742,11 +2730,16 @@
       <Measure>
         <voice>
           <Spanner type="HairPin">
-            <prev>
+            <HairPin>
+              <subtype>2</subtype>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
               <location>
-                <measures>-1</measures>
+                <measures>1</measures>
                 </location>
-              </prev>
+              </next>
             </Spanner>
           <Chord>
             <linked>
@@ -2805,6 +2798,13 @@
               </linked>
             <text>12</text>
             </RehearsalMark>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
