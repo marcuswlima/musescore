@@ -2921,11 +2921,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            </Rest>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>2</subtype>
@@ -2935,10 +2930,14 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
           <Chord>
             <linked>
               </linked>
@@ -2959,11 +2958,17 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linked>
+              </linked>
+            <italic>1</italic>
+            <offset x="-0.48353" y="-1.66753"/>
+            <text><i>molto</i></text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
                 <measures>-1</measures>
-                <fractions>1/2</fractions>
                 </location>
               </prev>
             </Spanner>
