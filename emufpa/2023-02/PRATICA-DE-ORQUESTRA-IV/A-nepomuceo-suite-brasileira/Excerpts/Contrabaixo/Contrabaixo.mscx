@@ -290,7 +290,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
-            <text>Texto de sistema</text>
+            <text><i>Pui Lento</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -988,6 +988,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>B</text>
             </RehearsalMark>
           <PlayTechAnnotation>
@@ -1670,6 +1671,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>C</text>
             </RehearsalMark>
           <Rest>
@@ -2133,6 +2135,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>D</text>
             </RehearsalMark>
           <Chord>
@@ -3024,7 +3027,9 @@
                 <staves>-6</staves>
                 </location>
               </linked>
-            <text>stentando</text>
+            <italic>1</italic>
+            <offset x="0" y="-2.48143"/>
+            <text><i>stentando</i></text>
             </SystemText>
           <Chord>
             <linked>
@@ -3057,7 +3062,8 @@
                 <staves>-6</staves>
                 </location>
               </linked>
-            <text>a tempo</text>
+            <italic>1</italic>
+            <text><i>a tempo</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -3090,6 +3096,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>E</text>
             </RehearsalMark>
           <Dynamic>
@@ -3402,6 +3409,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <italic>1</italic>
             <text><i>a tempo</i></text>
             </SystemText>
           <Chord>
@@ -4016,18 +4024,6 @@
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -4061,6 +4057,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>F</text>
             </RehearsalMark>
           <PlayTechAnnotation>
@@ -4069,13 +4066,6 @@
               </linked>
             <text>pizz.</text>
             </PlayTechAnnotation>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5227,6 +5217,7 @@
               </linked>
             <minDistance>-6.30284</minDistance>
             <offset x="0.81228" y="-3.15032"/>
+            <frameType>2</frameType>
             <text>G</text>
             </RehearsalMark>
           <Tempo>
@@ -5960,6 +5951,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>H</text>
             </RehearsalMark>
           <Rest>
@@ -6815,6 +6807,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>I</text>
             </RehearsalMark>
           <PlayTechAnnotation>
@@ -7670,6 +7663,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>J</text>
             </RehearsalMark>
           <Chord>
@@ -8357,6 +8351,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>K</text>
             </RehearsalMark>
           <Rest>
@@ -8768,6 +8763,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>L</text>
             </RehearsalMark>
           <SystemText>
@@ -9287,6 +9283,7 @@
               </linked>
             <minDistance>-999</minDistance>
             <offset x="0.581892" y="-0.66668"/>
+            <frameType>2</frameType>
             <text>M</text>
             </RehearsalMark>
           <PlayTechAnnotation>
@@ -10430,6 +10427,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>N</text>
             </RehearsalMark>
           <Chord>
@@ -13590,6 +13588,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>O</text>
             </RehearsalMark>
           <Chord>
@@ -15792,6 +15791,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>P</text>
             </RehearsalMark>
           <PlayTechAnnotation>
@@ -16483,6 +16483,7 @@
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <frameType>2</frameType>
             <text>Q</text>
             </RehearsalMark>
           <Chord>
@@ -17328,6 +17329,7 @@
                 <staves>-6</staves>
                 </location>
               </linked>
+            <frameType>2</frameType>
             <text>R</text>
             </RehearsalMark>
           <Chord>
@@ -17842,6 +17844,7 @@
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <frameType>2</frameType>
             <text>S</text>
             </RehearsalMark>
           <PlayTechAnnotation>
