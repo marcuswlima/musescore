@@ -317,7 +317,7 @@
                 </location>
               </linked>
             <italic>1</italic>
-            <text><i>Pui Lento</i></text>
+            <text><i>Piu Lento</i></text>
             </SystemText>
           <Rest>
             <linked>
@@ -9050,6 +9050,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.5</stretch>
         <voice>
           <Chord>
             <linked>
@@ -9158,6 +9159,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.5</stretch>
         <voice>
           <RehearsalMark>
             <linked>
@@ -9244,6 +9246,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>p</subtype>
@@ -9315,9 +9320,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <linked>
@@ -9509,9 +9511,6 @@
         </Measure>
       <Measure>
         <stretch>0.5</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linked>
@@ -9760,6 +9759,7 @@
                 </location>
               </linked>
             <italic>1</italic>
+            <offset x="-3.52516" y="-4.49885"/>
             <text><i>rall e dim sempre</i></text>
             </SystemText>
           <Chord>
@@ -9839,12 +9839,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Clef>
-            <concertClefType>C3</concertClefType>
-            <transposingClefType>C3</transposingClefType>
-            <linked>
-              </linked>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -15816,7 +15810,10 @@
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
             <italic>1</italic>
+            <offset x="1.6589" y="2.5973"/>
             <text><i>(in 1)</i></text>
             </SystemText>
           <Rest>
@@ -20120,35 +20117,11 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <linked>
-              </linked>
-            </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
+          <Rest>
             <linked>
               </linked>
             <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           <Rest>
             <linked>
               </linked>
@@ -20158,13 +20131,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <linked>
               </linked>
@@ -20750,6 +20716,17 @@
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -20765,6 +20742,13 @@
             <linked>
               </linked>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linked>

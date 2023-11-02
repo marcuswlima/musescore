@@ -379,7 +379,7 @@
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>I - Madrugada na Serra</text>
+          <text><font size="20"></font>I - Madrugada na Serra</text>
           </Text>
         </TBox>
       <Measure>
@@ -540,7 +540,7 @@
             <italic>1</italic>
             <align>center,baseline</align>
             <offset x="5.15765" y="-2.32235"/>
-            <text><i>Pui Lento</i></text>
+            <text><i>Piu Lento</i></text>
             </SystemText>
           <Rest>
             <linkedMain/>
@@ -6964,7 +6964,7 @@
           <size>20</size>
           <align>center,top</align>
           <offset x="0" y="-0.316561"/>
-          <text><font size="20"/>II- Intermedio</text>
+          <text><font size="20"></font>II- Intermedio</text>
           </Text>
         </TBox>
       <Measure>
@@ -9671,7 +9671,7 @@
             <size>12</size>
             <italic>1</italic>
             <offset x="-2.04682" y="-1.87207"/>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <linkedMain/>
@@ -9690,7 +9690,7 @@
             <size>12</size>
             <italic>1</italic>
             <offset x="-2.04682" y="-1.87207"/>
-            <text><i><font size="12"/>Vivo</i></text>
+            <text><i><font size="12"></font>Vivo</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -9849,7 +9849,7 @@
             <linkedMain/>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <linkedMain/>
@@ -9867,7 +9867,7 @@
               </linked>
             <size>12</size>
             <italic>1</italic>
-            <text><i><font size="12"/>Tempo I</i></text>
+            <text><i><font size="12"></font>Tempo I</i></text>
             </SystemText>
           <Rest>
             <durationType>measure</durationType>
@@ -10098,7 +10098,7 @@
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>III- La Siesta</text>
+          <text><font size="20"></font>III- La Siesta</text>
           </Text>
         </TBox>
       <Measure>
@@ -10904,7 +10904,7 @@
           <style>frame</style>
           <size>20</size>
           <align>center,top</align>
-          <text><font size="20"/>IV - Batuque</text>
+          <text><font size="20"></font>IV - Batuque</text>
           </Text>
         </TBox>
       <Measure>
@@ -13434,9 +13434,6 @@
         <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -19559,9 +19556,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -22385,9 +22379,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -22694,9 +22685,6 @@
         <multiMeasureRest>17</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -23090,9 +23078,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -25426,9 +25411,6 @@
         <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -32628,6 +32610,12 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <italic>1</italic>
+            <offset x="-0.164584" y="-0.917708"/>
+            <text><i>div.</i></text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
@@ -32641,6 +32629,11 @@
                   </location>
                 </next>
               </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -32676,27 +32669,9 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -32714,6 +32689,34 @@
             <linkedMain/>
             <durationType>whole</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>whole</durationType>
+            <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
                 </Slur>
@@ -32831,8 +32834,8 @@
             <durationType>whole</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -32844,8 +32847,8 @@
             <durationType>whole</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -32857,8 +32860,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -32866,8 +32869,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -32886,8 +32889,8 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -32907,8 +32910,8 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -32916,8 +32919,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -32936,8 +32939,8 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -32957,8 +32960,8 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -32966,8 +32969,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -32986,8 +32989,8 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33007,8 +33010,8 @@
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33016,8 +33019,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33025,8 +33028,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33038,8 +33041,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33047,8 +33050,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33056,8 +33059,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33069,8 +33072,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33078,8 +33081,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33087,8 +33090,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33100,8 +33103,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33109,8 +33112,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33118,8 +33121,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33131,8 +33134,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33140,8 +33143,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33149,8 +33152,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33162,8 +33165,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33171,8 +33174,8 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -33180,8 +33183,8 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -33229,9 +33232,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -36055,9 +36055,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -36364,9 +36361,6 @@
         <multiMeasureRest>17</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -36760,9 +36754,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -39096,9 +39087,6 @@
         <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -40932,75 +40920,29 @@
         </Measure>
       <Measure>
         <voice>
-          <Chord>
+          <Rest>
             <linkedMain/>
-            <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Chord>
+          <Rest>
             <linkedMain/>
-            <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Chord>
+          <Rest>
             <linkedMain/>
-            <durationType>whole</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -41182,9 +41124,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -44008,9 +43947,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -44317,9 +44253,6 @@
         <multiMeasureRest>17</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -44713,9 +44646,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -47049,9 +46979,6 @@
         <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -55217,11 +55144,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Clef>
-            <concertClefType>C3</concertClefType>
-            <transposingClefType>C3</transposingClefType>
-            <linkedMain/>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -55407,9 +55329,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -58241,9 +58160,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -58550,9 +58466,6 @@
         <multiMeasureRest>17</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -58950,9 +58863,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -61290,9 +61200,6 @@
         <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -63028,31 +62935,10 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            <linkedMain/>
-            </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
+          <Rest>
             <linkedMain/>
             <durationType>half</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           <Rest>
             <linkedMain/>
             <durationType>half</durationType>
@@ -63061,13 +62947,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <linkedMain/>
             <durationType>half</durationType>
@@ -63604,6 +63483,16 @@
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -63617,6 +63506,13 @@
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
@@ -63776,9 +63672,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -66602,9 +66495,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -66911,9 +66801,6 @@
         <multiMeasureRest>17</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -67307,9 +67194,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -69643,9 +69527,6 @@
         <multiMeasureRest>9</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
@@ -73083,9 +72964,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -77484,9 +77362,6 @@
         <voice>
           <TimeSig>
             <subtype>1</subtype>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -78009,9 +77884,6 @@
         <multiMeasureRest>17</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -78462,9 +78334,6 @@
         <multiMeasureRest>10</multiMeasureRest>
         <voice>
           <TimeSig>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
