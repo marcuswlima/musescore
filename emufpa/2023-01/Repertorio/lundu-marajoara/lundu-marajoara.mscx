@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.2</programVersion>
-  <programRevision>dbe7c6d</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -21,6 +19,7 @@
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">Subtitle</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -80,7 +79,7 @@
           </StaffType>
         <defaultConcertClef>F8vb</defaultConcertClef>
         <defaultTransposingClef>F</defaultTransposingClef>
-        <bracket type="0" span="3" col="0"/>
+        <bracket type="0" span="3" col="0" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Contrabasses</trackName>
@@ -213,6 +212,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <RehearsalMark>
+            <frameType>2</frameType>
             <text>A</text>
             </RehearsalMark>
           <Rest>
@@ -305,6 +305,7 @@
         <startRepeat/>
         <voice>
           <RehearsalMark>
+            <frameType>2</frameType>
             <text>B</text>
             </RehearsalMark>
           <Chord>
@@ -831,6 +832,7 @@
         <startRepeat/>
         <voice>
           <RehearsalMark>
+            <frameType>2</frameType>
             <text>C</text>
             </RehearsalMark>
           <Spanner type="Volta">
@@ -1415,6 +1417,7 @@
       <Measure>
         <voice>
           <RehearsalMark>
+            <frameType>2</frameType>
             <text>D</text>
             </RehearsalMark>
           <Chord>
