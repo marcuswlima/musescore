@@ -7,7 +7,7 @@
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
-    <showMargins>0</showMargins>
+    <showMargins>1</showMargins>
     <open>1</open>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer">A. Nepomuceno</metaTag>
@@ -355,6 +355,33 @@
         </Instrument>
       </Part>
     <Staff id="1">
+      <TBox>
+        <height>1</height>
+        <linkedMain/>
+        <Text>
+          <linkedMain/>
+          <style>frame</style>
+          <size>20</size>
+          <align>center,top</align>
+          <text><font size="67"/>
+Série Brazileira
+<font size="20"/>
+
+para 
+ORCHESTRA
+
+<font size="23"/>Por
+<font size="38"/>Alberto Nepomuceno
+
+<font size="20"/>1.Alvorada na Serra
+2. Intermedio
+3. A Sesta - Na Rede
+4. Batuque
+
+Emufpa/2023
+</text>
+          </Text>
+        </TBox>
       <VBox>
         <height>10</height>
         <bottomGap>0</bottomGap>
@@ -6924,6 +6951,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <LayoutBreak>
@@ -10073,6 +10101,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <LayoutBreak>
@@ -10882,6 +10911,7 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <LayoutBreak>
+          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
