@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>4961</LastEID>
+  <LastEID>4963</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -517,6 +517,11 @@
           <label>segno2</label>
           </Marker>
         <voice>
+          <RehearsalMark>
+            <eid>21311627722806</eid>
+            <linkedMain/>
+            <text>B</text>
+            </RehearsalMark>
           <Rest>
             <eid>597000454169</eid>
             <durationType>measure</durationType>
@@ -871,7 +876,7 @@
           <RehearsalMark>
             <eid>8323646619702</eid>
             <linkedMain/>
-            <text>A</text>
+            <text>C</text>
             </RehearsalMark>
           <Rest>
             <eid>2207613190169</eid>
@@ -956,11 +961,6 @@
         </Measure>
       <Measure>
         <voice>
-          <RehearsalMark>
-            <eid>8336531521590</eid>
-            <linkedMain/>
-            <text>B</text>
-            </RehearsalMark>
           <Rest>
             <eid>2516850835481</eid>
             <durationType>measure</durationType>
@@ -1044,7 +1044,7 @@
           <RehearsalMark>
             <eid>8345121456182</eid>
             <linkedMain/>
-            <text>C</text>
+            <text>D</text>
             </RehearsalMark>
           <Rest>
             <eid>2551210573849</eid>
@@ -1165,11 +1165,6 @@
         </Measure>
       <Measure>
         <voice>
-          <RehearsalMark>
-            <eid>8349416423478</eid>
-            <linkedMain/>
-            <text>D</text>
-            </RehearsalMark>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -1471,7 +1466,7 @@
           <RehearsalMark>
             <eid>10823317585974</eid>
             <linkedMain/>
-            <text>A</text>
+            <text>F</text>
             </RehearsalMark>
           <Rest>
             <eid>8461085573145</eid>
@@ -1621,7 +1616,7 @@
           <RehearsalMark>
             <eid>11725260718134</eid>
             <linkedMain/>
-            <text>B</text>
+            <text>G</text>
             </RehearsalMark>
           <Rest>
             <eid>8529805049881</eid>
@@ -1831,7 +1826,7 @@
           <RehearsalMark>
             <eid>13361643257910</eid>
             <linkedMain/>
-            <text>A</text>
+            <text>H</text>
             </RehearsalMark>
           <Rest>
             <eid>13365938225177</eid>
@@ -1921,7 +1916,7 @@
           <RehearsalMark>
             <eid>13408887898166</eid>
             <linkedMain/>
-            <text>B</text>
+            <text>I</text>
             </RehearsalMark>
           <Rest>
             <eid>13413182865433</eid>
@@ -8294,8 +8289,8 @@
             <Note>
               <eid>8839042695188</eid>
               <linkedMain/>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>

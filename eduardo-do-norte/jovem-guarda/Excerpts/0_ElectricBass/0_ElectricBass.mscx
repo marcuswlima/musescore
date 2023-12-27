@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>4961</LastEID>
+  <LastEID>4963</LastEID>
   <Score>
     <name>ElectricBass</name>
     <initialPartId>1</initialPartId>
@@ -2070,17 +2070,29 @@
             <linked>
               </linked>
             </Harmony>
+          <RehearsalMark>
+            <eid>21315922690102</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
           <Chord>
             <eid>9053791060083</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <eid>9058086027284</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -4700,7 +4712,7 @@
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text>A</text>
+            <text>C</text>
             </RehearsalMark>
           <Chord>
             <eid>6163278069875</eid>
@@ -5471,25 +5483,14 @@
             <linked>
               </linked>
             </Harmony>
-          <RehearsalMark>
-            <eid>9083855831094</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
-            <text>B</text>
-            </RehearsalMark>
           <Chord>
             <eid>6644314407027</eid>
             <linked>
-              <indexDiff>2</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <eid>6648609374228</eid>
               <linked>
-                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>40</pitch>
               <tpc>18</tpc>
@@ -6327,7 +6328,7 @@
                 <staves>-2</staves>
                 </location>
               </linked>
-            <text>C</text>
+            <text>D</text>
             </RehearsalMark>
           <Chord>
             <eid>7168300417139</eid>
@@ -7254,15 +7255,6 @@
             <linked>
               </linked>
             </Harmony>
-          <RehearsalMark>
-            <eid>9096740732982</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
-            <text>D</text>
-            </RehearsalMark>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -7273,13 +7265,11 @@
           <Chord>
             <eid>7752415969395</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Note>
               <eid>7756710936596</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>37</pitch>
               <tpc>21</tpc>
@@ -9571,7 +9561,7 @@
                 <staves>-2</staves>
                 </location>
               </linked>
-            <text>A</text>
+            <text>F</text>
             </RehearsalMark>
           <Chord>
             <eid>11317238825075</eid>
@@ -10696,7 +10686,7 @@
                 <staves>-2</staves>
                 </location>
               </linked>
-            <text>B</text>
+            <text>G</text>
             </RehearsalMark>
           <Chord>
             <eid>11501922418803</eid>
@@ -11879,7 +11869,7 @@
                 <staves>-2</staves>
                 </location>
               </linked>
-            <text>A</text>
+            <text>H</text>
             </RehearsalMark>
           <Harmony>
             <root>14</root>
@@ -12502,7 +12492,7 @@
                 <staves>-2</staves>
                 </location>
               </linked>
-            <text>B</text>
+            <text>I</text>
             </RehearsalMark>
           <Chord>
             <eid>14319420964979</eid>
@@ -13974,7 +13964,7 @@
         <voice>
           <RehearsalMark>
             <eid>15835544420406</eid>
-            <text>A</text>
+            <text>J</text>
             </RehearsalMark>
           <Harmony>
             <root>18</root>
@@ -15289,7 +15279,7 @@
             </Harmony>
           <RehearsalMark>
             <eid>17020955394102</eid>
-            <text>B</text>
+            <text>K</text>
             </RehearsalMark>
           <Rest>
             <eid>14139032338457</eid>
@@ -16892,7 +16882,7 @@
         <voice>
           <RehearsalMark>
             <eid>20770461843510</eid>
-            <text>A</text>
+            <text>L</text>
             </RehearsalMark>
           <SystemText>
             <eid>20774756810801</eid>
