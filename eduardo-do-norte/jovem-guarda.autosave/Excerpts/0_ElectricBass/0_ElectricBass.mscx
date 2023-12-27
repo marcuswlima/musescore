@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>5124</LastEID>
+  <LastEID>5163</LastEID>
   <Score>
     <name>ElectricBass</name>
     <initialPartId>1</initialPartId>
@@ -17888,9 +17888,21 @@
         </VBox>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.333333</tempo>
+            <followText>1</followText>
+            <eid>22131966476335</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
+            </Tempo>
           <Rest>
             <eid>21247203213337</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -18330,7 +18342,7 @@
               <eid>21376052232212</eid>
               <linked>
                 </linked>
-              <pitch>35</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -18343,7 +18355,7 @@
               <eid>21384642166804</eid>
               <linked>
                 </linked>
-              <pitch>35</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -18387,7 +18399,7 @@
               <eid>21376052232212</eid>
               <linked>
                 </linked>
-              <pitch>35</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -18398,6 +18410,63 @@
             <durationType>quarter</durationType>
             <Note>
               <eid>22020297326612</eid>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>21354577395827</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>21358872363028</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>21363167330419</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>21367462297620</eid>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>21371757265011</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>21376052232212</eid>
+              <linked>
+                </linked>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>22136261443699</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>22140556410900</eid>
               <linked>
                 </linked>
               <pitch>43</pitch>
@@ -18431,48 +18500,36 @@
               <eid>21367462297620</eid>
               <linked>
                 </linked>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <eid>21371757265011</eid>
             <linked>
               </linked>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <eid>21376052232212</eid>
               <linked>
                 </linked>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>21380347199603</eid>
+            <eid>22136261443699</eid>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>21384642166804</eid>
+              <eid>22140556410900</eid>
               <linked>
                 </linked>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>22024592293913</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>

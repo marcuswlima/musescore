@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>5029</LastEID>
+  <LastEID>5155</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -3421,6 +3421,13 @@
         </VBox>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.333333</tempo>
+            <followText>1</followText>
+            <eid>22119081574447</eid>
+            <linkedMain/>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
+            </Tempo>
           <Rest>
             <eid>19769734463513</eid>
             <durationType>measure</durationType>
@@ -22047,7 +22054,7 @@
             <Note>
               <eid>21835613732884</eid>
               <linkedMain/>
-              <pitch>35</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -22058,7 +22065,7 @@
             <Note>
               <eid>21844203667476</eid>
               <linkedMain/>
-              <pitch>35</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -22096,7 +22103,7 @@
             <Note>
               <eid>21869973471252</eid>
               <linkedMain/>
-              <pitch>35</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
@@ -22107,8 +22114,8 @@
             <Note>
               <eid>21878563405844</eid>
               <linkedMain/>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           </voice>
@@ -22134,43 +22141,81 @@
             <Note>
               <eid>21895743275028</eid>
               <linkedMain/>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <eid>21900038242419</eid>
             <linkedMain/>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <eid>21904333209620</eid>
               <linkedMain/>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>21908628177011</eid>
+            <eid>22123376541811</eid>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>21912923144212</eid>
+              <eid>22127671509012</eid>
               <linkedMain/>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>21917218111513</eid>
+          <Chord>
+            <eid>22144851378291</eid>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>22149146345492</eid>
+              <linkedMain/>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>22153441312883</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>22157736280084</eid>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>22162031247475</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>22166326214676</eid>
+              <linkedMain/>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>22170621182067</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>22174916149268</eid>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
