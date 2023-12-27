@@ -19,8 +19,8 @@
     <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
+    <metaTag name="source">https://musescore.com/user/17075846/scores/12987130</metaTag>
+    <metaTag name="sourceRevisionId">24906250</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle"></metaTag>
@@ -262,11 +262,6 @@
             <linkedMain/>
             <text>Am</text>
             </StaffText>
-          <RehearsalMark>
-            <linkedMain/>
-            <frameType>2</frameType>
-            <text>A</text>
-            </RehearsalMark>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -954,7 +949,15 @@
             </StaffText>
           <RehearsalMark>
             <linkedMain/>
+            <offset x="-2" y="-4.7"/>
             <text>1</text>
+            </RehearsalMark>
+          <RehearsalMark>
+            <linkedMain/>
+            <minDistance>-3.76</minDistance>
+            <offset x="1.5" y="-4.5"/>
+            <frameType>2</frameType>
+            <text>A</text>
             </RehearsalMark>
           <Chord>
             <linkedMain/>
@@ -1802,6 +1805,7 @@
             </StaffText>
           <RehearsalMark>
             <linkedMain/>
+            <offset x="0" y="-4.66"/>
             <text>2</text>
             </RehearsalMark>
           <Chord>
@@ -1893,9 +1897,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <StaffText>
             <linkedMain/>
@@ -1990,9 +1991,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <StaffText>
             <linkedMain/>
@@ -2297,20 +2295,6 @@
           </voice>
         </Measure>
       <Measure>
-        <Jump>
-          <linkedMain/>
-          <style>repeat_right</style>
-          <text>D.C. al Coda</text>
-          <jumpTo>start</jumpTo>
-          <playUntil>coda</playUntil>
-          <continueAt>codab</continueAt>
-          </Jump>
-        <Marker>
-          <linkedMain/>
-          <style>repeat_right</style>
-          <text>To Coda</text>
-          <label>coda</label>
-          </Marker>
         <voice>
           <StaffText>
             <linkedMain/>

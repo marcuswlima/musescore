@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.10">
+<museScore version="4.20">
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
@@ -88,7 +88,7 @@
     <doubleBarDistance>0.37</doubleBarDistance>
     <endBarDistance>0.37</endBarDistance>
     <repeatBarlineDotSeparation>0.37</repeatBarlineDotSeparation>
-    <repeatBarTips>0</repeatBarTips>
+    <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.45</bracketWidth>
@@ -165,7 +165,7 @@
     <articulationMag>1</articulationMag>
     <articulationPosAbove x="0" y="0"/>
     <articulationAnchorDefault>2</articulationAnchorDefault>
-    <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
+    <articulationAnchorLuteFingering>1</articulationAnchorLuteFingering>
     <articulationAnchorOther>0</articulationAnchorOther>
     <articulationStemHAlign>2</articulationStemHAlign>
     <articulationKeepTogether>1</articulationKeepTogether>
@@ -173,8 +173,8 @@
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-2"/>
     <hairpinPosBelow x="0" y="2"/>
-    <hairpinLinePosAbove x="0" y="-3"/>
-    <hairpinLinePosBelow x="0" y="4"/>
+    <hairpinLinePosAbove x="0" y="-1.5"/>
+    <hairpinLinePosBelow x="0" y="2.5"/>
     <hairpinHeight>1.15</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
     <hairpinWidth>0.12</hairpinWidth>
@@ -223,9 +223,12 @@
     <pedalFrameRound>0</pedalFrameRound>
     <pedalFrameFgColor r="0" g="0" b="0" a="255"/>
     <pedalFrameBgColor r="255" g="255" b="255" a="0"/>
-    <pedalText></pedalText>
-    <pedalContinueText></pedalContinueText>
+    <pedalText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</pedalText>
+    <pedalHookText></pedalHookText>
+    <pedalContinueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</pedalContinueText>
+    <pedalContinueHookText></pedalContinueHookText>
     <pedalEndText></pedalEndText>
+    <pedalRosetteEndText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</pedalRosetteEndText>
     <trillPlacement>0</trillPlacement>
     <trillPosAbove x="0" y="-0.5"/>
     <trillPosBelow x="0" y="2"/>
@@ -358,9 +361,9 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
-    <minMMRestWidth>4</minMMRestWidth>
+    <minMMRestWidth>6</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
     <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
@@ -381,8 +384,8 @@
     <tenutoGateTime>100</tenutoGateTime>
     <staccatoGateTime>50</staccatoGateTime>
     <slurGateTime>100</slurGateTime>
-    <ArpeggioNoteDistance>0.5</ArpeggioNoteDistance>
-    <ArpeggioAccidentalDistance>0.5</ArpeggioAccidentalDistance>
+    <ArpeggioNoteDistance>0.4</ArpeggioNoteDistance>
+    <ArpeggioAccidentalDistance>0.3</ArpeggioAccidentalDistance>
     <ArpeggioAccidentalDistanceMin>0.33</ArpeggioAccidentalDistanceMin>
     <ArpeggioLineWidth>0.18</ArpeggioLineWidth>
     <ArpeggioHookLen>0.8</ArpeggioHookLen>
@@ -395,26 +398,32 @@
     <minWigglyGlissandoLength>2</minWigglyGlissandoLength>
     <slurMinDistance>0.5</slurMinDistance>
     <headerSlurTieDistance>1</headerSlurTieDistance>
+    <tiePlacementSingleNote>outside</tiePlacementSingleNote>
+    <tiePlacementChord>outside</tiePlacementChord>
+    <tieMinShoulderHeight>0.3</tieMinShoulderHeight>
+    <tieMaxShoulderHeight>2</tieMaxShoulderHeight>
     <sectionPause>3</sectionPause>
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
-    <headerFirstPage>0</headerFirstPage>
-    <headerOddEven>1</headerOddEven>
+    <headerFirstPage>1</headerFirstPage>
+    <headerOddEven>0</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Eduardo do Norte canta Jovem Guarda (contrabaixo)</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Eduardo do Norte canta Jovem Guarda (contrabaixo)</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>1</footerOddEven>
+    <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
+    <evenFooterC>marcuswlima@gmail.com
+@marciswlima_</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>marcuswlima@gmail.com
+@marciswlima_</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -700,6 +709,7 @@
     <stringNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <stringNumberOffset x="0" y="0"/>
     <preferSameStringForTranspose>0</preferSameStringForTranspose>
+    <stringTuningsFontSize>9</stringTuningsFontSize>
     <harpPedalDiagramFontFace>Edwin</harpPedalDiagramFontFace>
     <harpPedalDiagramFontSize>10</harpPedalDiagramFontSize>
     <harpPedalDiagramLineSpacing>1</harpPedalDiagramLineSpacing>
@@ -1041,6 +1051,8 @@
     <glissandoFrameBgColor r="255" g="255" b="255" a="0"/>
     <glissandoLineWidth>0.15</glissandoLineWidth>
     <glissandoText>gliss.</glissandoText>
+    <glissandoStyle>0</glissandoStyle>
+    <glissandoStyleHarp>3</glissandoStyleHarp>
     <bendFontFace>Edwin</bendFontFace>
     <bendFontSize>8</bendFontSize>
     <bendLineSpacing>1</bendLineSpacing>
@@ -1057,6 +1069,14 @@
     <bendFrameBgColor r="255" g="255" b="255" a="0"/>
     <bendLineWidth>0.15</bendLineWidth>
     <bendArrowWidth>0.5</bendArrowWidth>
+    <guitarBendLineWidth>0.13</guitarBendLineWidth>
+    <guitarBendLineWidthTab>0.15</guitarBendLineWidthTab>
+    <guitarBendHeightAboveTABStaff>1.5</guitarBendHeightAboveTABStaff>
+    <guitarBendPartialBendHeight>1.5</guitarBendPartialBendHeight>
+    <guitarBendUseFull>0</guitarBendUseFull>
+    <guitarBendArrowWidth>1</guitarBendArrowWidth>
+    <guitarBendArrowHeight>1</guitarBendArrowHeight>
+    <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
     <headerFontFace>Edwin</headerFontFace>
     <headerFontSize>11</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
@@ -1351,8 +1371,8 @@
     <palmMuteTextAlign>left,center</palmMuteTextAlign>
     <palmMuteHookHeight>0.6</palmMuteHookHeight>
     <palmMutePlacement>1</palmMutePlacement>
-    <palmMutePosAbove x="0" y="-4"/>
-    <palmMutePosBelow x="0" y="4"/>
+    <palmMutePosAbove x="0" y="0"/>
+    <palmMutePosBelow x="0" y="0"/>
     <palmMuteLineWidth>0.11</palmMuteLineWidth>
     <palmMuteLineStyle>dashed</palmMuteLineStyle>
     <palmMuteDashLineLen>5</palmMuteDashLineLen>
@@ -1414,7 +1434,7 @@
     <golpeShowTabCommon>1</golpeShowTabCommon>
     <chordlineThickness>0.16</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
-    <defaultsVersion>400</defaultsVersion>
+    <defaultsVersion>420</defaultsVersion>
     <Spatium>1.74978</Spatium>
     </Style>
   </museScore>

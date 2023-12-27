@@ -141,16 +141,6 @@
               </linked>
             <durationType>eighth</durationType>
             </Rest>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-3</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <frameType>2</frameType>
-            <text>A</text>
-            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -702,6 +692,15 @@
               <indexDiff>1</indexDiff>
               </linked>
             <text>1</text>
+            </RehearsalMark>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>A</text>
             </RehearsalMark>
           <Chord>
             <linked>
@@ -1787,28 +1786,6 @@
           </voice>
         </Measure>
       <Measure>
-        <Jump>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
-          <style>repeat_right</style>
-          <text>D.C. al Coda</text>
-          <jumpTo>start</jumpTo>
-          <playUntil>coda</playUntil>
-          <continueAt>codab</continueAt>
-          </Jump>
-        <Marker>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
-          <style>repeat_right</style>
-          <text>To Coda</text>
-          <label>coda</label>
-          </Marker>
         <voice>
           <Chord>
             <linked>

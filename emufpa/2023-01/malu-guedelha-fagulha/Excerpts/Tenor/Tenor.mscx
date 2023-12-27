@@ -166,37 +166,24 @@
               </linked>
             <text>Am</text>
             </StaffText>
-          <RehearsalMark>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <text>A</text>
-            </RehearsalMark>
           <Chord>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <text>Fa</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <text>A</text>
               </Lyrics>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -987,6 +974,15 @@
               <indexDiff>1</indexDiff>
               </linked>
             <text>1</text>
+            </RehearsalMark>
+          <RehearsalMark>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>A</text>
             </RehearsalMark>
           <Chord>
             <linked>
@@ -2462,28 +2458,6 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Jump>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            </linked>
-          <style>repeat_right</style>
-          <text>D.C. al Coda</text>
-          <jumpTo>start</jumpTo>
-          <playUntil>coda</playUntil>
-          <continueAt>codab</continueAt>
-          </Jump>
-        <Marker>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            </linked>
-          <style>repeat_right</style>
-          <text>To Coda</text>
-          <label>coda</label>
-          </Marker>
         <voice>
           <Chord>
             <linked>

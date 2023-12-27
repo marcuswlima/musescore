@@ -173,8 +173,8 @@
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-2"/>
     <hairpinPosBelow x="0" y="2"/>
-    <hairpinLinePosAbove x="0" y="-3"/>
-    <hairpinLinePosBelow x="0" y="4"/>
+    <hairpinLinePosAbove x="0" y="-1.5"/>
+    <hairpinLinePosBelow x="0" y="2.5"/>
     <hairpinHeight>1.15</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
     <hairpinWidth>0.12</hairpinWidth>
@@ -358,9 +358,9 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
-    <minMMRestWidth>4</minMMRestWidth>
+    <minMMRestWidth>6</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
     <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
@@ -1063,7 +1063,7 @@
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
     <headerFontStyle>1</headerFontStyle>
     <headerColor r="0" g="0" b="0" a="255"/>
-    <headerAlign>center,top</headerAlign>
+    <headerAlign>center,center</headerAlign>
     <headerOffset x="0" y="0"/>
     <headerFrameType>0</headerFrameType>
     <headerFramePadding>0.2</headerFramePadding>
@@ -1077,7 +1077,7 @@
     <footerFontSpatiumDependent>0</footerFontSpatiumDependent>
     <footerFontStyle>0</footerFontStyle>
     <footerColor r="0" g="0" b="0" a="255"/>
-    <footerAlign>center,bottom</footerAlign>
+    <footerAlign>center,center</footerAlign>
     <footerOffset x="0" y="0"/>
     <footerFrameType>0</footerFrameType>
     <footerFramePadding>0.2</footerFramePadding>
@@ -1351,8 +1351,8 @@
     <palmMuteTextAlign>left,center</palmMuteTextAlign>
     <palmMuteHookHeight>0.6</palmMuteHookHeight>
     <palmMutePlacement>1</palmMutePlacement>
-    <palmMutePosAbove x="0" y="-4"/>
-    <palmMutePosBelow x="0" y="4"/>
+    <palmMutePosAbove x="0" y="0"/>
+    <palmMutePosBelow x="0" y="0"/>
     <palmMuteLineWidth>0.11</palmMuteLineWidth>
     <palmMuteLineStyle>dashed</palmMuteLineStyle>
     <palmMuteDashLineLen>5</palmMuteDashLineLen>

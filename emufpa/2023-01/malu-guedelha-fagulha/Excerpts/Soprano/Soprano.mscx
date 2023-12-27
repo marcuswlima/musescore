@@ -161,11 +161,6 @@
               </linked>
             <text>Am</text>
             </StaffText>
-          <RehearsalMark>
-            <linked>
-              </linked>
-            <text>A</text>
-            </RehearsalMark>
           <Chord>
             <linked>
               </linked>
@@ -992,6 +987,11 @@
             <linked>
               </linked>
             <text>1</text>
+            </RehearsalMark>
+          <RehearsalMark>
+            <linked>
+              </linked>
+            <text>A</text>
             </RehearsalMark>
           <Chord>
             <linked>
@@ -2589,22 +2589,6 @@
           </voice>
         </Measure>
       <Measure>
-        <Jump>
-          <linked>
-            </linked>
-          <style>repeat_right</style>
-          <text>D.C. al Coda</text>
-          <jumpTo>start</jumpTo>
-          <playUntil>coda</playUntil>
-          <continueAt>codab</continueAt>
-          </Jump>
-        <Marker>
-          <linked>
-            </linked>
-          <style>repeat_right</style>
-          <text>To Coda</text>
-          <label>coda</label>
-          </Marker>
         <voice>
           <StaffText>
             <linked>
