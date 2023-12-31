@@ -60,7 +60,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "soprano",
+            "instrumentId": "bass",
             "out": {
                 "auxSends": [
                     {
@@ -75,9 +75,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 2
+                "volumeDb": 0
             },
-            "partId": "1",
+            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -96,24 +96,14 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "tenor",
+            "instrumentId": "metronome",
             "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 2.700000047683716
+                "volumeDb": 1.2999999523162842
             },
-            "partId": "3",
+            "partId": "999",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -168,14 +158,24 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "metronome",
+            "instrumentId": "tenor",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 1.2999999523162842
+                "volumeDb": 2.700000047683716
             },
-            "partId": "999",
+            "partId": "3",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -194,7 +194,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "bass",
+            "instrumentId": "soprano",
             "out": {
                 "auxSends": [
                     {
@@ -209,9 +209,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 2
             },
-            "partId": "4",
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
