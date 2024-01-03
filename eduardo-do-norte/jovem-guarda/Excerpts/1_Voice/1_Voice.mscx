@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>11549</LastEID>
+  <LastEID>12266</LastEID>
   <Score>
     <name>Voice</name>
     <initialPartId>4</initialPartId>
@@ -11,6 +11,12 @@
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.3189</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+      <pageOddTopMargin>0.590551</pageOddTopMargin>
+      <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <repeatBarTips>1</repeatBarTips>
       <measureNumberPosBelow x="0" y="1"/>
       <Spatium>1.74978</Spatium>
@@ -95,7 +101,7 @@
             <eid>37370510442543</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 134</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 134</text>
             </Tempo>
           <Rest>
             <eid>37374805409817</eid>
@@ -154,7 +160,7 @@
             </linked>
           <style>repeat_left</style>
           <offset x="0" y="-3.70968"/>
-          <text><sym>segno</sym><font face="Edwin"/>1</text>
+          <text><sym>segno</sym><font face="Edwin"></font>1</text>
           <label>segno1</label>
           </Marker>
         <voice>
@@ -882,7 +888,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>2</text>
+          <text><sym>segno</sym><font face="Edwin"></font>2</text>
           <label>segno2</label>
           </Marker>
         <voice>
@@ -1119,7 +1125,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>coda</sym><font face="Edwin"/>1</text>
+          <text><sym>coda</sym><font face="Edwin"></font>1</text>
           <label>coda1</label>
           </Marker>
         <voice>
@@ -1160,7 +1166,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>coda</sym><font face="Edwin"/>2</text>
+          <text><sym>coda</sym><font face="Edwin"></font>2</text>
           <label>coda2</label>
           </Marker>
         <voice>
@@ -1198,18 +1204,11 @@
       <Measure>
         <LayoutBreak>
           <eid>37915971289168</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>37920266256409</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -1310,7 +1309,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>1</text>
+          <text><sym>segno</sym><font face="Edwin"></font>1</text>
           <label>segno1</label>
           </Marker>
         <voice>
@@ -1515,7 +1514,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>2</text>
+          <text><sym>segno</sym><font face="Edwin"></font>2</text>
           <label>segno2</label>
           </Marker>
         <voice>
@@ -1788,7 +1787,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>coda</sym><font face="Edwin"/>1</text>
+          <text><sym>coda</sym><font face="Edwin"></font>1</text>
           <label>coda1</label>
           </Marker>
         <voice>
@@ -1903,7 +1902,7 @@
             </linked>
           <style>repeat_left</style>
           <offset x="3.5" y="-3"/>
-          <text><sym>coda</sym><font face="Edwin"/>2</text>
+          <text><sym>coda</sym><font face="Edwin"></font>2</text>
           <label>coda2</label>
           </Marker>
         <voice>
@@ -1941,18 +1940,11 @@
       <Measure>
         <LayoutBreak>
           <eid>38225208934480</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>38229503901721</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -2389,18 +2381,11 @@
       <Measure>
         <LayoutBreak>
           <eid>38414187495504</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>38418482462745</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -2806,18 +2791,11 @@
       <Measure>
         <LayoutBreak>
           <eid>38594576121936</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>38598871089177</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -3668,18 +3646,11 @@
       <Measure>
         <LayoutBreak>
           <eid>38951058407504</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>38955353374745</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -3727,7 +3698,7 @@
             <eid>38981123178543</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 120</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 120</text>
             </Tempo>
           <Rest>
             <eid>38985418145817</eid>
@@ -4470,18 +4441,11 @@
       <Measure>
         <LayoutBreak>
           <eid>39320425594960</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>39324720562201</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -4514,7 +4478,7 @@
             <eid>39341900431407</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 140</text>
             </Tempo>
           <Rest>
             <eid>39346195398681</eid>
@@ -5300,18 +5264,11 @@
       <Measure>
         <LayoutBreak>
           <eid>39672612913232</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>39676907880473</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -5359,7 +5316,7 @@
             <eid>39702677684271</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 120</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 120</text>
             </Tempo>
           <Rest>
             <eid>39706972651545</eid>
@@ -5919,18 +5876,11 @@
       <Measure>
         <LayoutBreak>
           <eid>39930310950992</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>39934605918233</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -5988,7 +5938,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>2</text>
+          <text><sym>segno</sym><font face="Edwin"></font>2</text>
           <label>segno2</label>
           </Marker>
         <voice>
@@ -6136,7 +6086,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>1</text>
+          <text><sym>segno</sym><font face="Edwin"></font>1</text>
           <label>segno1</label>
           </Marker>
         <voice>
@@ -6462,18 +6412,11 @@
       <Measure>
         <LayoutBreak>
           <eid>40157944217680</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>40162239184921</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -6506,7 +6449,7 @@
             <eid>40179419054127</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 100</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 100</text>
             </Tempo>
           <Rest>
             <eid>40183714021401</eid>
@@ -6694,7 +6637,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>1</text>
+          <text><sym>segno</sym><font face="Edwin"></font>1</text>
           <label>segno1</label>
           </Marker>
         <Marker>
@@ -6702,7 +6645,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>2</text>
+          <text><sym>segno</sym><font face="Edwin"></font>2</text>
           <label>segno2</label>
           </Marker>
         <voice>
@@ -6812,7 +6755,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>3</text>
+          <text><sym>segno</sym><font face="Edwin"></font>3</text>
           <label>segno3</label>
           </Marker>
         <voice>
@@ -7057,23 +7000,16 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>coda</sym><font face="Edwin"/>2</text>
+          <text><sym>coda</sym><font face="Edwin"></font>2</text>
           <label>coda2</label>
           </Marker>
         <LayoutBreak>
           <eid>40415642255440</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>40419937222681</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -7120,7 +7056,7 @@
             <eid>40445707026479</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 127</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 127</text>
             </Tempo>
           <Rest>
             <eid>40450001993753</eid>
@@ -7171,7 +7107,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>1</text>
+          <text><sym>segno</sym><font face="Edwin"></font>1</text>
           <label>segno</label>
           </Marker>
         <Marker>
@@ -7179,7 +7115,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>2</text>
+          <text><sym>segno</sym><font face="Edwin"></font>2</text>
           <label>segno</label>
           </Marker>
         <Marker>
@@ -7187,7 +7123,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>3</text>
+          <text><sym>segno</sym><font face="Edwin"></font>3</text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -7526,7 +7462,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>coda</sym><font face="Edwin"/>1</text>
+          <text><sym>coda</sym><font face="Edwin"></font>1</text>
           <label>codab</label>
           </Marker>
         <Marker>
@@ -7534,7 +7470,7 @@
           <linked>
             </linked>
           <style>repeat_left</style>
-          <text><sym>coda</sym><font face="Edwin"/>3</text>
+          <text><sym>coda</sym><font face="Edwin"></font>3</text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -7560,18 +7496,11 @@
           </Jump>
         <LayoutBreak>
           <eid>47085726466128</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>40630390620185</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -7594,7 +7523,7 @@
             </linked>
           <style>title</style>
           <family>serif</family>
-          <text><font face="serif"/>Namoradinha de um amigo meu</text>
+          <text><font face="serif"></font>Namoradinha de um amigo meu</text>
           </Text>
         </VBox>
       <Measure>
@@ -7618,7 +7547,7 @@
             <eid>44216688312367</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 136</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 136</text>
             </Tempo>
           <Rest>
             <eid>40656160423961</eid>
@@ -9799,25 +9728,16 @@
         <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>44611825303632</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
             <eid>44577465565299</eid>
-            <linked>
-              </linked>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <eid>44581760532500</eid>
-              <linked>
-                </linked>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -9887,7 +9807,7 @@
             <eid>46982647250991</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 131</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 131</text>
             </Tempo>
           <Chord>
             <eid>41832981463155</eid>
@@ -10218,35 +10138,31 @@
         <Marker>
           <eid>46986942218283</eid>
           <linked>
-            <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>1</text>
+          <text><sym>segno</sym><font face="Edwin"></font>1</text>
           <label>segno</label>
           </Marker>
         <Marker>
           <eid>46991237185579</eid>
           <linked>
-            <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>2</text>
+          <text><sym>segno</sym><font face="Edwin"></font>2</text>
           <label>segno</label>
           </Marker>
         <Marker>
           <eid>46995532152875</eid>
           <linked>
-            <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym><font face="Edwin"/>3</text>
+          <text><sym>segno</sym><font face="Edwin"></font>3</text>
           <label>segno</label>
           </Marker>
         <voice>
           <Chord>
             <eid>42009075122291</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -10254,14 +10170,12 @@
               <subtype>articTenutoBelow</subtype>
               <eid>42013370089503</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <eid>42017665056788</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -11454,18 +11368,11 @@
       <Measure>
         <LayoutBreak>
           <eid>47029891891280</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>42597485641753</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -11583,15 +11490,10 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <eid>47979079663628</eid>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Rest>
             <eid>47983374630937</eid>
@@ -11961,7 +11863,23 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <eid>50049253900351</eid>
+              <linked>
+                </linked>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <eid>49675591745561</eid>
             <linked>
@@ -11973,6 +11891,46 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>2.</beginText>
+              <eid>50053548867647</eid>
+              <linked>
+                </linked>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <eid>50057843834905</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <eid>49679886712857</eid>
             <linked>
@@ -12038,6 +11996,15 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>49276159787088</eid>
+          <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>48726403973145</eid>
@@ -12046,8 +12013,35 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>49280454754316</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>50062138802298</eid>
+        <linked>
+          </linked>
+        <Text>
+          <eid>50066433769478</eid>
+          <linked>
+            </linked>
+          <style>title</style>
+          <text>A Primeira Lágrima</text>
+          </Text>
+        <Text>
+          <eid>50070728736774</eid>
+          <linked>
+            </linked>
+          <style>composer</style>
+          <text>Renato e Seus Blue Caps
+</text>
+          </Text>
+        </VBox>
       <Measure>
         <voice>
           <Rest>
@@ -12181,6 +12175,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Rest>
             <eid>48782238547993</eid>
@@ -12244,6 +12239,644 @@
             <linked>
               </linked>
             <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>50075023704089</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52686363820057</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52690658787353</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52694953754649</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52699248721945</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52703543689241</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52707838656537</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52712133623833</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52716428591129</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52720723558425</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52725018525721</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52729313493017</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52733608460313</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52737903427609</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52742198394905</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52746493362201</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52750788329497</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52755083296793</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52759378264089</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <eid>52763673231423</eid>
+              <linked>
+                </linked>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <eid>52767968198681</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>2.</beginText>
+              <eid>52772263166015</eid>
+              <linked>
+                </linked>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <eid>52776558133273</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>52780853100556</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <eid>52785148067865</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52789443035161</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52793738002457</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52798032969753</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52802327937049</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52806622904345</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52810917871641</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>52815212838992</eid>
+          <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>52819507806233</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>52823802773626</eid>
+        <linked>
+          </linked>
+        </VBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52828097740825</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52832392708121</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52836687675417</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52840982642713</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52845277610009</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52849572577305</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52853867544601</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52858162511897</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52862457479193</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52866752446489</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52871047413785</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52875342381081</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52879637348377</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52883932315673</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52888227282969</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52892522250265</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52896817217561</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52901112184857</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52905407152153</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52909702119449</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52913997086745</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>52918292054041</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>50079318671385</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
