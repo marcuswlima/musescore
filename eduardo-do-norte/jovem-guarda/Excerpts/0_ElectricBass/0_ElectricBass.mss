@@ -406,7 +406,7 @@
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
-    <headerFirstPage>1</headerFirstPage>
+    <headerFirstPage>0</headerFirstPage>
     <headerOddEven>0</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
     <evenHeaderC>Eduardo do Norte canta Jovem Guarda (contrabaixo)</evenHeaderC>
@@ -415,7 +415,7 @@
     <oddHeaderC>Eduardo do Norte canta Jovem Guarda (contrabaixo)</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>marcuswlima@gmail.com
