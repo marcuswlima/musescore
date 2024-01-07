@@ -407,12 +407,12 @@
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
-    <headerOddEven>0</headerOddEven>
+    <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC>Eduardo do Norte canta Jovem Guarda (contrabaixo)</evenHeaderC>
+    <evenHeaderC>Eduardo do Norte canta Jovem Guarda</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC>Eduardo do Norte canta Jovem Guarda (contrabaixo)</oddHeaderC>
+    <oddHeaderC>Eduardo do Norte canta Jovem Guarda</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>0</footerFirstPage>
