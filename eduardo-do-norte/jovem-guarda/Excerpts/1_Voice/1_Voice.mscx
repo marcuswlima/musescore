@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>22325</LastEID>
+  <LastEID>22957</LastEID>
   <Score>
     <name>Voice</name>
     <initialPartId>4</initialPartId>
@@ -69,18 +69,34 @@
           <linked>
             </linked>
           <style>frame</style>
-          <size>12</size>
-          <text><font size="15"></font><i><font size="29"></font><font face="DejaVu Serif"></font>Eduardo do Norte 
+          <family>Chilanka</family>
+          <size>29</size>
+          <italic>1</italic>
+          <text><i><font size="29"/><font face="Chilanka"/>Eduardo do Norte 
 Canta 
 Jovem Guarda
-<font size="15"></font></i><font size="17"></font><font face="Edwin"></font>1. Coração de Papel F
+<font face="DejaVu Serif"/>
+</i></text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>10</height>
+        <eid>62612033241210</eid>
+        <linked>
+          </linked>
+        <Text>
+          <eid>98187247353862</eid>
+          <linked>
+            </linked>
+          <style>frame</style>
+          <text><font size="15"/>1. Coração de Papel F
 2. Mar de Rosas A
 3. Agora eu sei G
 4. Alguém na Multidão A
 5. Era um garoto que como eu G
 6. Pobre Menina G
 7. Quero que tudo vá pro inferno Em
-8. Vem me ajudar D
+8. Vem me ajudar D 
 9. Estúpido cupido Bb
 10. A Pobreza Em
 11. Quando G
@@ -101,18 +117,18 @@ Jovem Guarda
         </VBox>
       <VBox>
         <height>10</height>
-        <eid>62612033241210</eid>
+        <eid>98191542321274</eid>
         <linked>
           </linked>
         <Text>
-          <eid>62616328208390</eid>
+          <eid>98195837288454</eid>
           <linked>
             </linked>
           <style>title</style>
           <text>Coração de Papel</text>
           </Text>
         <Text>
-          <eid>62620623175686</eid>
+          <eid>98200132255750</eid>
           <linked>
             </linked>
           <style>composer</style>
@@ -1294,6 +1310,14 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.216667</tempo>
+            <followText>1</followText>
+            <eid>98066988269615</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 133</text>
+            </Tempo>
           <Rest>
             <eid>37950331027481</eid>
             <linked>
@@ -2024,6 +2048,14 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.133333</tempo>
+            <followText>1</followText>
+            <eid>98071283236911</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 128</text>
+            </Tempo>
           <Rest>
             <eid>38255273705497</eid>
             <linked>
@@ -2477,6 +2509,14 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.216667</tempo>
+            <followText>1</followText>
+            <eid>98075578204207</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 133</text>
+            </Tempo>
           <Rest>
             <eid>38448547233817</eid>
             <linked>
@@ -2844,7 +2884,7 @@ Jovem Guarda
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <subtype>double</subtype>
+            <subtype>end</subtype>
             <eid>38603166056460</eid>
             <linked>
               </linked>
@@ -2888,6 +2928,14 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.133333</tempo>
+            <followText>1</followText>
+            <eid>98079873171503</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 128</text>
+            </Tempo>
           <Rest>
             <eid>38628935860249</eid>
             <linked>
@@ -3699,7 +3747,7 @@ Jovem Guarda
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <subtype>double</subtype>
+            <subtype>end</subtype>
             <eid>38959648342028</eid>
             <linked>
               </linked>
@@ -5985,6 +6033,14 @@ Jovem Guarda
             <sigD>4</sigD>
             <showCourtesySig>0</showCourtesySig>
             </TimeSig>
+          <Tempo>
+            <tempo>2.3</tempo>
+            <followText>1</followText>
+            <eid>98204427223087</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 138</text>
+            </Tempo>
           <Rest>
             <eid>39960375722009</eid>
             <linked>
@@ -9799,7 +9855,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>44611825303632</eid>
           <subtype>section</subtype>
@@ -9851,6 +9906,12 @@ Jovem Guarda
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>98255966830604</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -11479,6 +11540,14 @@ Jovem Guarda
         </VBox>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.183333</tempo>
+            <followText>1</followText>
+            <eid>98208722190383</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 131</text>
+            </Tempo>
           <Rest>
             <eid>42601780609049</eid>
             <linked>
@@ -12110,6 +12179,14 @@ Jovem Guarda
         </VBox>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.216667</tempo>
+            <followText>1</followText>
+            <eid>98213017157679</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 133</text>
+            </Tempo>
           <Rest>
             <eid>48730698940441</eid>
             <linked>
@@ -12719,6 +12796,14 @@ Jovem Guarda
             <eid>50882477555734</eid>
             <concertKey>-1</concertKey>
             </KeySig>
+          <Tempo>
+            <tempo>1.75</tempo>
+            <followText>1</followText>
+            <eid>98217312124975</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 105</text>
+            </Tempo>
           <Rest>
             <eid>55207509622809</eid>
             <linked>
@@ -14235,6 +14320,14 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.4</tempo>
+            <followText>1</followText>
+            <eid>98221607092271</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 144</text>
+            </Tempo>
           <Rest>
             <eid>53064320942105</eid>
             <linked>
@@ -15742,6 +15835,14 @@ Jovem Guarda
         </VBox>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.866667</tempo>
+            <followText>1</followText>
+            <eid>98225902059567</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 86</text>
+            </Tempo>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -17919,6 +18020,14 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.316667</tempo>
+            <followText>1</followText>
+            <eid>98230197026863</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 139</text>
+            </Tempo>
           <Rest>
             <eid>54885387075609</eid>
             <linked>
@@ -18709,6 +18818,14 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.316667</tempo>
+            <followText>1</followText>
+            <eid>98234491994159</eid>
+            <linked>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 139</text>
+            </Tempo>
           <Rest>
             <eid>54936926683161</eid>
             <linked>
@@ -18793,13 +18910,21 @@ Jovem Guarda
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>96696893702156</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Rest>
             <eid>54971286421529</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -18873,6 +18998,7 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Rest>
             <eid>55001351192601</eid>
@@ -18919,12 +19045,324 @@ Jovem Guarda
       <Measure>
         <voice>
           <Rest>
-            <eid>55018531061785</eid>
+            <eid>96701188669465</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <startRepeat/>
+        <Marker>
+          <eid>98015448662059</eid>
+          <linked>
+            </linked>
+          <style>repeat_left</style>
+          <text><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
+        <voice>
+          <Rest>
+            <eid>96705483636761</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96709778604057</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96714073571353</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96718368538649</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96722663505945</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96726958473241</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96731253440537</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <endRepeat>2</endRepeat>
+        <Marker>
+          <eid>98019743629355</eid>
+          <linked>
+            </linked>
+          <style>repeat_right</style>
+          <text>To Coda</text>
+          <label>ToCoda</label>
+          </Marker>
+        <voice>
+          <Rest>
+            <eid>96735548407833</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96739843375129</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96744138342425</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96748433309721</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96752728277017</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96757023244313</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96761318211609</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96765613178905</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96769908146201</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96774203113497</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96778498080793</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96782793048089</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <Jump>
+          <eid>98024038596652</eid>
+          <linked>
+            </linked>
+          <style>repeat_right</style>
+          <text>D.S. al Coda</text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>ToCoda</playUntil>
+          <continueAt>coda</continueAt>
+          </Jump>
+        <voice>
+          <Rest>
+            <eid>96787088015385</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>96791382982668</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <Marker>
+          <eid>98028333563947</eid>
+          <linked>
+            </linked>
+          <style>repeat_left</style>
+          <text><sym>coda</sym></text>
+          <label>coda</label>
+          </Marker>
+        <voice>
+          <Rest>
+            <eid>96795677949977</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96799972917273</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96804267884569</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>96808562851865</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>96812857819148</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       </Staff>

@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.0</programVersion>
   <programRevision>eb8d33c</programRevision>
-  <LastEID>22254</LastEID>
+  <LastEID>22955</LastEID>
   <Score>
     <name>ElectricBass</name>
     <initialPartId>1</initialPartId>
@@ -86,7 +86,8 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>126</height>
+        <height>26</height>
+        <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <eid>3354369458298</eid>
         <linked>
@@ -94,6 +95,7 @@
             <staves>-2</staves>
             </location>
           </linked>
+        <positionLinkedToMaster>0</positionLinkedToMaster>
         <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
           <eid>65536905969670</eid>
@@ -104,19 +106,46 @@
             </linked>
           <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>frame</style>
+          <family>Chilanka</family>
+          <size>29</size>
+          <italic>1</italic>
           <align>center,top</align>
           <offset x="0" y="0.87489"/>
-          <text><font size="15"></font><i><font size="29"></font><font face="DejaVu Serif"></font>Eduardo do Norte 
+          <text><i><font size="29"/><font face="Chilanka"/>Eduardo do Norte 
 Canta 
 Jovem Guarda
-<font size="15"></font></i><font size="17"></font><font face="Edwin"></font>1. Coração de Papel F
+<font face="DejaVu Serif"/>
+</i></text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>10</height>
+        <leftMargin>8.5</leftMargin>
+        <eid>62577673502842</eid>
+        <linked>
+          <location>
+            <staves>-2</staves>
+            </location>
+          </linked>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
+        <Text>
+          <eid>98135707746310</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <positionLinkedToMaster>0</positionLinkedToMaster>
+          <style>frame</style>
+          <offset x="0" y="0.174978"/>
+          <text><font size="15"/>1. Coração de Papel F
 2. Mar de Rosas A
 3. Agora eu sei G
 4. Alguém na Multidão A
 5. Era um garoto que como eu G
 6. Pobre Menina G
 7. Quero que tudo vá pro inferno Em
-8. Vem me ajudar D
+8. Vem me ajudar D 
 9. Estúpido cupido Bb
 10. A Pobreza Em
 11. Quando G
@@ -137,14 +166,14 @@ Jovem Guarda
         </VBox>
       <VBox>
         <height>10</height>
-        <eid>62577673502842</eid>
+        <eid>98140002713722</eid>
         <linked>
           <location>
             <staves>-2</staves>
             </location>
           </linked>
         <Text>
-          <eid>62581968470022</eid>
+          <eid>98144297680902</eid>
           <linked>
             <location>
               <staves>-2</staves>
@@ -154,7 +183,7 @@ Jovem Guarda
           <text>Coração de Papel</text>
           </Text>
         <Text>
-          <eid>62586263437318</eid>
+          <eid>98148592648198</eid>
           <linked>
             <location>
               <staves>-2</staves>
@@ -187,7 +216,7 @@ Jovem Guarda
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>7</indexDiff>
+              <indexDiff>9</indexDiff>
               </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 134</text>
             </Tempo>
@@ -4517,17 +4546,29 @@ Jovem Guarda
               <indexDiff>1</indexDiff>
               </linked>
             </Harmony>
+          <Tempo>
+            <tempo>2.216667</tempo>
+            <followText>1</followText>
+            <eid>98049808400431</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>6</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 133</text>
+            </Tempo>
           <Chord>
             <eid>6012954214515</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>4</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <eid>6017249181716</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>4</indexDiff>
                 </linked>
               <pitch>33</pitch>
               <tpc>17</tpc>
@@ -9421,10 +9462,22 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.133333</tempo>
+            <followText>1</followText>
+            <eid>98054103367727</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 128</text>
+            </Tempo>
           <Rest>
             <eid>14224931684377</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             </Rest>
@@ -11904,10 +11957,22 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.216667</tempo>
+            <followText>1</followText>
+            <eid>98058398335023</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>6</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 133</text>
+            </Tempo>
           <Rest>
             <eid>13258564042777</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -13868,7 +13933,7 @@ Jovem Guarda
               </Note>
             </Chord>
           <BarLine>
-            <subtype>double</subtype>
+            <subtype>end</subtype>
             <eid>14113262534668</eid>
             <linked>
               </linked>
@@ -13934,10 +13999,22 @@ Jovem Guarda
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.133333</tempo>
+            <followText>1</followText>
+            <eid>98062693302319</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>6</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 128</text>
+            </Tempo>
           <Rest>
             <eid>14121852469273</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -16820,7 +16897,7 @@ Jovem Guarda
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
-            <subtype>double</subtype>
+            <subtype>end</subtype>
             <eid>17682380357644</eid>
             <linked>
               </linked>
@@ -18220,10 +18297,10 @@ Jovem Guarda
       <Measure>
         <voice>
           <Tempo>
-            <tempo>2.333333</tempo>
+            <tempo>2.316667</tempo>
             <followText>1</followText>
             <eid>22131966476335</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 139</text>
             </Tempo>
           <Rest>
             <eid>21247203213337</eid>
@@ -24288,6 +24365,18 @@ Jovem Guarda
             <eid>31353261260822</eid>
             <concertKey>-2</concertKey>
             </KeySig>
+          <Tempo>
+            <tempo>2.3</tempo>
+            <followText>1</followText>
+            <eid>98152887615535</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 138</text>
+            </Tempo>
           <Rest>
             <eid>29326036697113</eid>
             <durationType>eighth</durationType>
@@ -35827,7 +35916,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>44607530336336</eid>
           <subtype>section</subtype>
@@ -35916,6 +36004,12 @@ Jovem Guarda
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>98251671863308</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -38889,15 +38983,29 @@ Jovem Guarda
         </VBox>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.183333</tempo>
+            <followText>1</followText>
+            <eid>98157182582831</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>4</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 131</text>
+            </Tempo>
           <Chord>
             <eid>47102906335347</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <eid>47107201302548</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>36</pitch>
               <tpc>14</tpc>
@@ -41984,9 +42092,22 @@ Jovem Guarda
         </VBox>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.216667</tempo>
+            <followText>1</followText>
+            <eid>98161477550127</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>4</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 133</text>
+            </Tempo>
           <Rest>
             <eid>124554051609</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -45264,9 +45385,22 @@ Jovem Guarda
             <eid>50766513438742</eid>
             <concertKey>-1</concertKey>
             </KeySig>
+          <Tempo>
+            <tempo>1.75</tempo>
+            <followText>1</followText>
+            <eid>98165772517423</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 105</text>
+            </Tempo>
           <Chord>
             <eid>55478092562547</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -45274,6 +45408,7 @@ Jovem Guarda
             <Note>
               <eid>55482387529748</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -47899,6 +48034,17 @@ Jovem Guarda
             <linked>
               </linked>
             </Harmony>
+          <Tempo>
+            <tempo>2.4</tempo>
+            <followText>1</followText>
+            <eid>98170067484719</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 144</text>
+            </Tempo>
           <Beam>
             <eid>180388626469</eid>
             <StemDirection>up</StemDirection>
@@ -47906,12 +48052,14 @@ Jovem Guarda
           <Chord>
             <eid>184683593843</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <eid>188978561044</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>31</pitch>
               <tpc>15</tpc>
@@ -59051,6 +59199,18 @@ Jovem Guarda
             <custom>1</custom>
             <mode>none</mode>
             </KeySig>
+          <Tempo>
+            <tempo>2.866667</tempo>
+            <followText>1</followText>
+            <eid>98174362452015</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>4</indexDiff>
+              </linked>
+            <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 86</text>
+            </Tempo>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -59061,6 +59221,7 @@ Jovem Guarda
           <Chord>
             <eid>77309411443</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -59068,6 +59229,7 @@ Jovem Guarda
             <Note>
               <eid>81604378644</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>36</pitch>
               <tpc>14</tpc>
@@ -70165,19 +70327,34 @@ Jovem Guarda
             <linked>
               </linked>
             </Harmony>
+          <Tempo>
+            <tempo>2.316667</tempo>
+            <followText>1</followText>
+            <eid>98178657419311</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 139</text>
+            </Tempo>
           <Chord>
             <eid>86444806766707</eid>
             <linked>
+              <indexDiff>3</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <eid>86449101733908</eid>
               <linked>
+                <indexDiff>3</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
                   <eid>86522116177950</eid>
                   <linked>
+                    <indexDiff>3</indexDiff>
                     </linked>
                   </Tie>
                 <next>
@@ -75192,6 +75369,10 @@ Jovem Guarda
             </linked>
           <subtype>section</subtype>
           </LayoutBreak>
+        <LayoutBreak>
+          <eid>96001109000272</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>95833605275763</eid>
@@ -75273,7 +75454,12 @@ Jovem Guarda
         <Text>
           <eid>54653458841606</eid>
           <style>title</style>
-          <text>Diana E</text>
+          <text>Diana</text>
+          </Text>
+        <Text>
+          <eid>97792110362630</eid>
+          <style>composer</style>
+          <text>Carlos Gonzaga</text>
           </Text>
         </VBox>
       <Measure>
@@ -75287,92 +75473,926 @@ Jovem Guarda
                 <fractions>-1/1</fractions>
                 </location>
               </linked>
-            <concertKey>4</concertKey>
+            <concertKey>-1</concertKey>
             </KeySig>
-          <Chord>
-            <eid>93918049861747</eid>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
             <linked>
               <indexDiff>1</indexDiff>
               </linked>
-            <dots>1</dots>
+            </Harmony>
+          <Tempo>
+            <tempo>2.316667</tempo>
+            <followText>1</followText>
+            <eid>98182952386607</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 139</text>
+            </Tempo>
+          <Chord>
+            <eid>96817152786547</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <eid>93922344828948</eid>
+              <eid>96821447753748</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>95876554948625</eid>
-                </Accidental>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <eid>96825742721049</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
-            <eid>93926639796339</eid>
+            <eid>96830037688435</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
             <Note>
-              <eid>93930934763540</eid>
+              <eid>96834332655636</eid>
               <linked>
                 </linked>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>98260261797918</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>93935229730931</eid>
+            <eid>98264556765299</eid>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
-              <eid>93939524698132</eid>
+              <eid>98268851732500</eid>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>95880849915921</eid>
-                </Accidental>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>96842922590323</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96847217557524</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>96851512524915</eid>
+            <linked>
+              </linked>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96855807492116</eid>
+              <linked>
+                </linked>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>93943819665523</eid>
+            <eid>96860102459507</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
             <Note>
-              <eid>93948114632724</eid>
+              <eid>96864397426708</eid>
               <linked>
                 </linked>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Chord>
-            <eid>93952409600115</eid>
+            <eid>96868692394099</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>96872987361300</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96877282328601</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>96881577295987</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
             <Note>
-              <eid>93956704567316</eid>
+              <eid>96885872263188</eid>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>95885144883217</eid>
-                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>98273146699806</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>98277441667187</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>98281736634388</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97049081020531</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97053375987732</eid>
+              <linked>
+                </linked>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97057670955123</eid>
+            <linked>
+              </linked>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97061965922324</eid>
+              <linked>
+                </linked>
               <pitch>38</pitch>
               <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97066260889715</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97070555856916</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>96920232001651</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>96924526968852</eid>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96928821936153</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>96933116903539</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96937411870740</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>98286031601694</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>98290326569075</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>98294621536276</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>96950296772723</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96954591739924</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97796405330035</eid>
+            <linked>
+              </linked>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97800700297236</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97804995264627</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97809290231828</eid>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>97813585199184</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>97817880166515</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>97822175133716</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96988951478297</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97023311216755</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97027606183956</eid>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96993246445593</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97826470101107</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97830765068308</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97835060035699</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97839355002900</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97843649970291</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97847944937492</eid>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>96817152786547</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>96821447753748</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96825742721049</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>96830037688435</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96834332655636</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>98260261797918</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>98264556765299</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>98268851732500</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>96842922590323</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96847217557524</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>96851512524915</eid>
+            <linked>
+              </linked>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96855807492116</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>96860102459507</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96864397426708</eid>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>96868692394099</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>96872987361300</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96877282328601</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>96881577295987</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96885872263188</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>98273146699806</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>98277441667187</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>98281736634388</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97049081020531</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97053375987732</eid>
+              <linked>
+                </linked>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97057670955123</eid>
+            <linked>
+              </linked>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97061965922324</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97066260889715</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97070555856916</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>96920232001651</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>96924526968852</eid>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96928821936153</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>96933116903539</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96937411870740</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>98286031601694</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>98290326569075</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>98294621536276</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>96950296772723</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>96954591739924</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97796405330035</eid>
+            <linked>
+              </linked>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97800700297236</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97804995264627</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97809290231828</eid>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>96636764160080</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>97817880166515</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>97822175133716</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96988951478297</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97023311216755</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97027606183956</eid>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>96993246445593</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97826470101107</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97830765068308</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97835060035699</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97839355002900</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97843649970291</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97847944937492</eid>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>96641059127308</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <startRepeat/>
+        <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>96005403967513</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
             <eid>54662048776217</eid>
             <linked>
@@ -75384,6 +76404,12 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
             <eid>54666343743513</eid>
             <linked>
@@ -75395,6 +76421,13 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
             <eid>54670638710809</eid>
             <linked>
@@ -75406,8 +76439,14 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54674933678105</eid>
+            <eid>96005403967513</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75417,8 +76456,15 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54679228645401</eid>
+            <eid>54662048776217</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75428,8 +76474,37 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54683523612697</eid>
+            <eid>54666343743513</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>96645354094672</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>54670638710809</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75439,8 +76514,14 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54687818579993</eid>
+            <eid>96005403967513</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75450,8 +76531,15 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54692113547289</eid>
+            <eid>54662048776217</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75461,8 +76549,65 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54696408514585</eid>
+            <eid>54666343743513</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>96649649061968</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>54670638710809</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <startRepeat/>
+        <Marker>
+          <eid>97852239904811</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <style>repeat_left</style>
+          <text><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
+        <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>96005403967513</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75472,8 +76617,15 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54700703481881</eid>
+            <eid>54662048776217</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75483,8 +76635,14 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54704998449177</eid>
+            <eid>54666343743513</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75494,8 +76652,15 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54709293416473</eid>
+            <eid>54670638710809</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75505,8 +76670,14 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54713588383769</eid>
+            <eid>96005403967513</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75516,8 +76687,15 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54717883351065</eid>
+            <eid>54662048776217</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75527,8 +76705,48 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54722178318361</eid>
+            <eid>54666343743513</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>96653944029264</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Marker>
+          <eid>97856534872107</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <style>repeat_right</style>
+          <text>To Coda</text>
+          <label>ToCoda</label>
+          </Marker>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>54670638710809</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75538,8 +76756,14 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54726473285657</eid>
+            <eid>96005403967513</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75549,8 +76773,15 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54730768252953</eid>
+            <eid>54662048776217</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75560,8 +76791,167 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54735063220249</eid>
+            <eid>54666343743513</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>96658238996560</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>97860829839475</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>97865124806676</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>97869419773982</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97873714741363</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97878009708564</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97882304675955</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97886599643156</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <root>13</root>
+            <name>7</name>
+            <eid>97890894610489</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>97083440758899</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97087735726100</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97092030693491</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97096325660692</eid>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>98595269246993</eid>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97104915595379</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97109210562580</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97113505529971</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97117800497172</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96026878804025</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>96031173771289</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -75571,13 +76961,440 @@ Jovem Guarda
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <name>m</name>
+            <eid>96035468738617</eid>
+            <linked>
+              </linked>
+            </Harmony>
           <Rest>
-            <eid>54739358187545</eid>
+            <eid>96039763705881</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96662533963833</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>96666828931097</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>97895189577808</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>54670638710809</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
+          <Harmony>
+            <root>13</root>
+            <name>7</name>
+            <eid>97899484545081</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>97083440758899</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97087735726100</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97092030693491</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97096325660692</eid>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>98599564214289</eid>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97104915595379</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97109210562580</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97113505529971</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97117800497172</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96026878804025</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>96031173771289</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <name>m</name>
+            <eid>96035468738617</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>96039763705881</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>97903779512345</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97908074479731</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97912369446932</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97916664414323</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97920959381524</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>97925254348825</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <eid>97929549316121</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97933844283507</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97938139250708</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97942434218099</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97946729185300</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>97951024152601</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>96675418865744</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Jump>
+          <eid>97955319119916</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <style>repeat_right</style>
+          <text>D.S. al Coda</text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>ToCoda</playUntil>
+          <continueAt>coda</continueAt>
+          </Jump>
+        <voice>
+          <Rest>
+            <eid>96679713832985</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97959614087283</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97963909054484</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>97968204021785</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97972498989171</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97976793956372</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>97981088923673</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>97985383891059</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97989678858260</eid>
+              <linked>
+                </linked>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>97993973825651</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>97998268792852</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>98002563760243</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>98006858727444</eid>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>96684008800268</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <Marker>
+          <eid>98011153694763</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>repeat_left</style>
+          <text><sym>coda</sym></text>
+          <label>coda</label>
+          </Marker>
+        <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>96009698934841</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>96005403967513</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>96013993902137</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>54662048776217</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>96018288869433</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>54666343743513</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>96688303767632</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <name>7</name>
+            <eid>96022583836729</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>54670638710809</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>96692598734860</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       </Staff>
