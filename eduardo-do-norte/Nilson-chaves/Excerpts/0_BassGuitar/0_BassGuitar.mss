@@ -361,7 +361,7 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>6</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
@@ -406,7 +406,7 @@
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
-    <headerFirstPage>1</headerFirstPage>
+    <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
     <evenHeaderC>Eduardo do Norte canta Nilson Chaves</evenHeaderC>
@@ -415,7 +415,7 @@
     <oddHeaderC>Eduardo do Norte canta Nilson Chaves</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>marcuswlima@gmail.com
