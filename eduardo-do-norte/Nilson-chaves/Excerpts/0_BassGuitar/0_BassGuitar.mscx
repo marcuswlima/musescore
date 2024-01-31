@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>15601</LastEID>
+  <LastEID>15819</LastEID>
   <Score>
     <name>BassGuitar</name>
     <initialPartId>1</initialPartId>
@@ -20,6 +20,7 @@
       <repeatBarTips>1</repeatBarTips>
       <bracketWidth>0.44</bracketWidth>
       <ledgerLineLength>0.35</ledgerLineLength>
+      <createMultiMeasureRests>1</createMultiMeasureRests>
       <mmRestHBarThickness>1</mmRestHBarThickness>
       <slurEndWidth>0.07</slurEndWidth>
       <evenHeaderC>Eduardo do Norte canta Nilson Chaves</evenHeaderC>
@@ -198,6 +199,7 @@ Jan/2024</text>
             </KeySig>
           <TimeSig>
             <eid>2826088480792</eid>
+            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -205,12 +207,7 @@ Jan/2024</text>
             <tempo>2.833333</tempo>
             <followText>1</followText>
             <eid>67001489817647</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
+            <linkedMain/>
             <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 85</text>
             </Tempo>
           <Rest>
@@ -220,6 +217,41 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="32/4">
+        <multiMeasureRest>16</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <eid>67074504261656</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>8</indexDiff>
+              </linked>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>2.833333</tempo>
+            <followText>1</followText>
+            <eid>67078799228975</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>8</indexDiff>
+              </linked>
+            <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 85</text>
+            </Tempo>
+          <Rest>
+            <eid>67083094196250</eid>
+            <durationType>measure</durationType>
+            <duration>32/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -406,6 +438,27 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="26/4">
+        <multiMeasureRest>13</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <eid>67087389163574</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              </linked>
+            <size>10</size>
+            <text><font size="10"/>A1</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>67091684130842</eid>
+            <durationType>measure</durationType>
+            <duration>26/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -552,6 +605,31 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="30/4">
+        <multiMeasureRest>15</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67095979098192</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <RehearsalMark>
+            <eid>67100274065462</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              </linked>
+            <size>10</size>
+            <text><font size="10"/>A2</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>67104569032730</eid>
+            <durationType>measure</durationType>
+            <duration>30/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8607,11 +8685,6 @@ Jan/2024</text>
         <startRepeat/>
         <Marker>
           <eid>65219078389803</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <style>repeat_left</style>
           <text><sym>segno</sym><font face="Edwin"/>1</text>
           <label>segno</label>
@@ -9086,11 +9159,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>64222645977151</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -9271,11 +9339,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>64226940944447</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -9346,11 +9409,6 @@ Jan/2024</text>
         <startRepeat/>
         <Marker>
           <eid>65317862637611</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <style>repeat_left</style>
           <text><sym>segno</sym><font face="Edwin"/>2</text>
           <label>segno</label>
@@ -10297,11 +10355,6 @@ Jan/2024</text>
         <endRepeat>2</endRepeat>
         <Jump>
           <eid>65223373357100</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <style>repeat_right</style>
           <text>D.S.1</text>
           <jumpTo>segno</jumpTo>
@@ -11053,11 +11106,6 @@ Jan/2024</text>
       <Measure>
         <Jump>
           <eid>65322157604908</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_right</style>
           <text>D.S.2 al Coda</text>
@@ -11186,11 +11234,6 @@ Jan/2024</text>
       <Measure>
         <Marker>
           <eid>65326452572203</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_left</style>
           <offset x="2.5" y="-2.13709"/>
@@ -11201,13 +11244,11 @@ Jan/2024</text>
           <Chord>
             <eid>65262028062835</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <eid>65266323030036</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -11344,16 +11385,21 @@ Jan/2024</text>
         </Measure>
       <VBox>
         <height>10</height>
-        <eid>9028021256314</eid>
+        <eid>67366562037882</eid>
+        <linked>
+          <location>
+            <staves>-1</staves>
+            </location>
+          </linked>
         <Text>
-          <eid>9032316223494</eid>
+          <eid>67370857005062</eid>
+          <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
+            </linked>
           <style>title</style>
-          <text>Tô que tô saudade</text>
-          </Text>
-        <Text>
-          <eid>9036611190790</eid>
-          <style>composer</style>
-          <text>Nilson Chaves</text>
+          <text>To que to Saudade</text>
           </Text>
         </VBox>
       <Measure>
@@ -11489,6 +11535,17 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Rest>
+            <eid>67108864000026</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11628,6 +11685,17 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Rest>
+            <eid>67113158967322</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13891,11 +13959,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>65360812310591</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -14022,11 +14085,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>65365107277887</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -18956,11 +19014,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>65369402245183</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -19091,11 +19144,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>65373697212479</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -19685,6 +19733,16 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="10/2">
+        <multiMeasureRest>5</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>67117453934618</eid>
+            <durationType>measure</durationType>
+            <duration>10/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -26190,11 +26248,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>65438121721919</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -26734,11 +26787,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>65442416689215</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -29738,11 +29786,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>65455301591103</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -30307,11 +30350,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>65459596558399</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -33003,6 +33041,29 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67121748901968</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>67126043869264</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>67130338836506</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>67134633803788</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <LayoutBreak>
           <eid>60172491817040</eid>
@@ -33023,17 +33084,45 @@ Jan/2024</text>
           <BarLine>
             <subtype>end</subtype>
             <eid>59571196395532</eid>
-            <linkedMain/>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              </linked>
             </BarLine>
           </voice>
         </Measure>
       <VBox>
         <height>10</height>
-        <eid>31563714658426</eid>
+        <eid>67375151972474</eid>
+        <linked>
+          <location>
+            <staves>-1</staves>
+            </location>
+          <indexDiff>1</indexDiff>
+          </linked>
         <Text>
-          <eid>31568009625606</eid>
+          <eid>67379446939654</eid>
+          <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
           <style>title</style>
           <text>Coração Sonhador</text>
+          </Text>
+        <Text>
+          <eid>67405216743430</eid>
+          <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>composer</style>
+          <text>N</text>
           </Text>
         </VBox>
       <Measure>
@@ -33051,12 +33140,6 @@ Jan/2024</text>
             <tempo>1.933333</tempo>
             <followText>1</followText>
             <eid>64201171140655</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <positionLinkedToMaster>0</positionLinkedToMaster>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 116</text>
             </Tempo>
@@ -35087,6 +35170,16 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>67138928771098</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -41182,6 +41275,28 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67143223738448</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>19</root>
+            <name>7</name>
+            <eid>67147518705721</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67151813672986</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <LayoutBreak>
           <eid>43121471651920</eid>
@@ -41339,6 +41454,32 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <Marker>
+          <eid>67156108640299</eid>
+          <style>repeat_right</style>
+          <text>To Coda</text>
+          <label>coda</label>
+          </Marker>
+        <voice>
+          <Harmony>
+            <root>19</root>
+            <name>7</name>
+            <eid>67160403607609</eid>
+            <linked>
+              <location>
+                <fractions>-5/1</fractions>
+                </location>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67164698574874</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <Marker>
           <eid>43130061586475</eid>
@@ -41364,6 +41505,20 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67168993542224</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>67173288509466</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -41590,6 +41745,24 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <name>m</name>
+            <eid>67177583476793</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67181878444058</eid>
+            <durationType>measure</durationType>
+            <duration>12/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -41646,6 +41819,24 @@ Jan/2024</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>67186173411385</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67190468378650</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -41929,6 +42120,42 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="16/4">
+        <multiMeasureRest>4</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67194763346000</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Jump>
+          <eid>67199058313260</eid>
+          <style>repeat_right</style>
+          <text>D.S. al Coda</text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>coda</playUntil>
+          <continueAt>codab</continueAt>
+          </Jump>
+        <voice>
+          <Harmony>
+            <root>19</root>
+            <name>7</name>
+            <eid>67203353280569</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67207648247834</eid>
+            <durationType>measure</durationType>
+            <duration>16/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>67211943215116</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -41997,6 +42224,33 @@ Jan/2024</text>
             <eid>43194486095897</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <Marker>
+          <eid>67216238182443</eid>
+          <style>repeat_left</style>
+          <text><sym>coda</sym></text>
+          <label>codab</label>
+          </Marker>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <eid>67220533149753</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67224828117018</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -49287,6 +49541,26 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="8/2">
+        <multiMeasureRest>4</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67229123084368</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>67233418051610</eid>
+            <durationType>measure</durationType>
+            <duration>8/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>67237713018892</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -49355,13 +49629,9 @@ Jan/2024</text>
           <Harmony>
             <root>16</root>
             <eid>48799418417209</eid>
-            <linked>
-              </linked>
             </Harmony>
           <Rest>
             <eid>39402029973529</eid>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -52376,11 +52646,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>65403761983551</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -52419,11 +52684,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>65408056950847</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -52435,7 +52695,6 @@ Jan/2024</text>
           <Rest>
             <eid>41790031790105</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             </Rest>
@@ -52921,11 +53180,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>65412351918143</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -52937,7 +53191,6 @@ Jan/2024</text>
           <Rest>
             <eid>41790031790105</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             </Rest>
@@ -52974,11 +53227,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>65416646885439</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -54828,11 +55076,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>65420941852735</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -54844,7 +55087,6 @@ Jan/2024</text>
           <Rest>
             <eid>41790031790105</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>half</durationType>
             </Rest>
@@ -54881,11 +55123,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>65425236820031</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -55029,11 +55266,6 @@ Jan/2024</text>
             <tempo>1.866667</tempo>
             <followText>1</followText>
             <eid>64209761075247</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              </linked>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 112</text>
             </Tempo>
           <Rest>
@@ -55626,6 +55858,23 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <eid>67242007986233</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67246302953498</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -55650,6 +55899,23 @@ Jan/2024</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <eid>67250597920825</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67254892888090</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -55720,6 +55986,27 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67259187855440</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <eid>67263482822713</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67267777789978</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <LayoutBreak>
           <eid>52467320488016</eid>
@@ -55751,6 +56038,23 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>15</root>
+            <eid>67272072757305</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67276367724570</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -55775,6 +56079,23 @@ Jan/2024</text>
             <linked>
               </linked>
             <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <eid>67280662691897</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67284957659162</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56670,6 +56991,23 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="6/2">
+        <multiMeasureRest>3</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <eid>67289252626489</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67293547593754</eid>
+            <durationType>measure</durationType>
+            <duration>6/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -56722,6 +57060,23 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>18</root>
+            <eid>67297842561081</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67302137528346</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56837,6 +57192,24 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>20</root>
+            <name>7</name>
+            <eid>67306432495673</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67310727462938</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -57317,6 +57690,24 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>21</root>
+            <name>m</name>
+            <eid>67315022430265</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67319317397530</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -59717,18 +60108,8 @@ Jan/2024</text>
       <VBox>
         <height>10</height>
         <eid>66043712110714</eid>
-        <linked>
-          <location>
-            <staves>-1</staves>
-            </location>
-          </linked>
         <Text>
           <eid>66048007077894</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <style>title</style>
           <text>Em Frente ao Rio</text>
           </Text>
@@ -59737,50 +60118,68 @@ Jan/2024</text>
         <voice>
           <KeySig>
             <eid>66052302045206</eid>
+            <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
           <Harmony>
             <root>16</root>
             <name>m</name>
             <eid>65463891525689</eid>
-            <linked>
-              </linked>
+            <linkedMain/>
             </Harmony>
           <Tempo>
             <tempo>1.7</tempo>
             <followText>1</followText>
             <eid>67005784784943</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              <indexDiff>2</indexDiff>
-              </linked>
+            <linkedMain/>
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 102</text>
             </Tempo>
           <Rest>
             <eid>65468186492953</eid>
-            <linked>
-              <indexDiff>2</indexDiff>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>16</root>
             <name>m</name>
-            <eid>65463891525689</eid>
+            <eid>67692979552313</eid>
             <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Tempo>
+            <tempo>1.7</tempo>
+            <followText>1</followText>
+            <eid>67697274519599</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 102</text>
+            </Tempo>
+          <Rest>
+            <eid>67701569486874</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65468186492953</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -59792,19 +60191,13 @@ Jan/2024</text>
             <root>16</root>
             <name>m</name>
             <eid>65463891525689</eid>
-            <linked>
-              </linked>
+            <linkedMain/>
             </Harmony>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>66056597012543</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -59815,28 +60208,39 @@ Jan/2024</text>
             </Spanner>
           <Rest>
             <eid>65468186492953</eid>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Harmony>
+            <root>16</root>
+            <name>m</name>
+            <eid>67705864454201</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67710159421466</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
         <voice>
-          <Harmony>
-            <root>16</root>
-            <name>m</name>
-            <eid>65463891525689</eid>
-            <linked>
-              </linked>
-            </Harmony>
           <Rest>
             <eid>65468186492953</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -59847,8 +60251,7 @@ Jan/2024</text>
           <Harmony>
             <root>12</root>
             <eid>65472481460281</eid>
-            <linked>
-              </linked>
+            <linkedMain/>
             </Harmony>
           <Spanner type="Volta">
             <prev>
@@ -59861,11 +60264,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>66060891979839</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -59876,26 +60274,36 @@ Jan/2024</text>
             </Spanner>
           <Rest>
             <eid>65476776427545</eid>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>12</root>
-            <eid>65472481460281</eid>
+            <eid>67714454388793</eid>
             <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-1</indexDiff>
               </linked>
             </Harmony>
           <Rest>
+            <eid>67718749356058</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
             <eid>65476776427545</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -59907,8 +60315,7 @@ Jan/2024</text>
           <Harmony>
             <root>13</root>
             <eid>65481071394873</eid>
-            <linked>
-              </linked>
+            <linkedMain/>
             </Harmony>
           <Spanner type="Volta">
             <prev>
@@ -59919,8 +60326,81 @@ Jan/2024</text>
             </Spanner>
           <Rest>
             <eid>65485366362137</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <startRepeat/>
+        <voice>
+          <Harmony>
+            <root>13</root>
+            <eid>67723044323385</eid>
             <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-1</indexDiff>
               </linked>
+            </Harmony>
+          <Rest>
+            <eid>67727339290650</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>65485366362137</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>65472481460281</eid>
+            <linkedMain/>
+            </Harmony>
+          <Rest>
+            <eid>65476776427545</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>67731634257977</eid>
+            <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67735929225242</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>65476776427545</eid>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -59943,18 +60423,27 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
-            <root>12</root>
-            <eid>65472481460281</eid>
+            <root>13</root>
+            <eid>67740224192569</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
           <Rest>
-            <eid>65476776427545</eid>
-            <linked>
-              </linked>
+            <eid>67744519159834</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>65485366362137</eid>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -59972,6 +60461,32 @@ Jan/2024</text>
             <eid>65476776427545</eid>
             <linked>
               </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Harmony>
+            <root>12</root>
+            <eid>67748814127161</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67753109094426</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>65476776427545</eid>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -59982,13 +60497,9 @@ Jan/2024</text>
           <Harmony>
             <root>13</root>
             <eid>65481071394873</eid>
-            <linked>
-              </linked>
             </Harmony>
           <Rest>
             <eid>65485366362137</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -59997,15 +60508,12 @@ Jan/2024</text>
       <Measure>
         <voice>
           <Harmony>
-            <root>13</root>
-            <eid>65481071394873</eid>
-            <linked>
-              </linked>
+            <root>16</root>
+            <name>m</name>
+            <eid>65463891525689</eid>
             </Harmony>
           <Rest>
-            <eid>65485366362137</eid>
-            <linked>
-              </linked>
+            <eid>65468186492953</eid>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
@@ -60014,47 +60522,42 @@ Jan/2024</text>
       <Measure>
         <voice>
           <Harmony>
-            <root>12</root>
-            <eid>65472481460281</eid>
-            <linked>
-              </linked>
+            <root>14</root>
+            <eid>66219805769785</eid>
+            <linkedMain/>
             </Harmony>
           <Rest>
-            <eid>65476776427545</eid>
-            <linked>
-              </linked>
+            <eid>66078071848985</eid>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
-            <root>12</root>
-            <eid>65472481460281</eid>
+            <root>14</root>
+            <eid>67757404061753</eid>
             <linked>
+              <score>same</score>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>-1</indexDiff>
               </linked>
             </Harmony>
           <Rest>
-            <eid>65476776427545</eid>
-            <linked>
-              </linked>
+            <eid>67761699029018</eid>
             <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <root>13</root>
-            <eid>65481071394873</eid>
-            <linked>
-              </linked>
-            </Harmony>
           <Rest>
-            <eid>65485366362137</eid>
+            <eid>66078071848985</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -60080,67 +60583,26 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <root>14</root>
-            <eid>66219805769785</eid>
-            <linked>
-              </linked>
-            </Harmony>
-          <Rest>
-            <eid>66078071848985</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <root>14</root>
-            <eid>66219805769785</eid>
-            <linked>
-              </linked>
-            </Harmony>
-          <Rest>
-            <eid>66078071848985</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>16</root>
             <name>m</name>
-            <eid>65463891525689</eid>
+            <eid>67765993996345</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
           <Rest>
-            <eid>65468186492953</eid>
-            <linked>
-              </linked>
+            <eid>67770288963610</eid>
             <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <root>16</root>
-            <name>m</name>
-            <eid>65463891525689</eid>
-            <linked>
-              </linked>
-            </Harmony>
           <Rest>
             <eid>65468186492953</eid>
             <linked>
@@ -60167,14 +60629,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>12</root>
-            <eid>65472481460281</eid>
+            <eid>67774583930937</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67778878898202</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65476776427545</eid>
             <linked>
@@ -60201,14 +60674,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>13</root>
-            <eid>65481071394873</eid>
+            <eid>67783173865529</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67787468832794</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65485366362137</eid>
             <linked>
@@ -60235,14 +60719,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>14</root>
-            <eid>66219805769785</eid>
+            <eid>67791763800121</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67796058767386</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>66078071848985</eid>
             <linked>
@@ -60265,11 +60760,6 @@ Jan/2024</text>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <eid>66383014527039</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>1</endings>
               </Volta>
             <next>
@@ -60281,22 +60771,33 @@ Jan/2024</text>
           <Rest>
             <eid>65476776427545</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <endRepeat>2</endRepeat>
         <voice>
           <Harmony>
             <root>12</root>
-            <eid>65472481460281</eid>
+            <eid>67800353734713</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67804648701978</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <endRepeat>2</endRepeat>
+        <voice>
           <Rest>
             <eid>65476776427545</eid>
             <linked>
@@ -60326,11 +60827,6 @@ Jan/2024</text>
             <Volta>
               <beginText>2.</beginText>
               <eid>66387309494335</eid>
-              <linked>
-                <location>
-                  <staves>-1</staves>
-                  </location>
-                </linked>
               <endings>2</endings>
               </Volta>
             <next>
@@ -60342,22 +60838,32 @@ Jan/2024</text>
           <Rest>
             <eid>65468186492953</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>16</root>
             <name>m</name>
-            <eid>65463891525689</eid>
+            <eid>67808943669305</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67813238636570</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65468186492953</eid>
             <linked>
@@ -60391,14 +60897,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>12</root>
-            <eid>65472481460281</eid>
+            <eid>67817533603897</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67821828571162</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65476776427545</eid>
             <linked>
@@ -60425,14 +60942,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>13</root>
-            <eid>65481071394873</eid>
+            <eid>67826123538489</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67830418505754</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65485366362137</eid>
             <linked>
@@ -60459,14 +60987,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>14</root>
-            <eid>66219805769785</eid>
+            <eid>67834713473081</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67839008440346</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>66078071848985</eid>
             <linked>
@@ -60493,14 +61032,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>12</root>
-            <eid>65472481460281</eid>
+            <eid>67843303407673</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67847598374938</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65476776427545</eid>
             <linked>
@@ -60527,14 +61077,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>14</root>
-            <eid>66219805769785</eid>
+            <eid>67851893342265</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67856188309530</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>66078071848985</eid>
             <linked>
@@ -60561,14 +61122,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>13</root>
-            <eid>65481071394873</eid>
+            <eid>67860483276857</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67864778244122</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65485366362137</eid>
             <linked>
@@ -60596,15 +61168,26 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>15</root>
             <name>m</name>
-            <eid>66709432041529</eid>
+            <eid>67869073211449</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67873368178714</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>66189740998681</eid>
             <linked>
@@ -60633,15 +61216,26 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>17</root>
             <name>m</name>
-            <eid>66713727008825</eid>
+            <eid>67877663146041</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67881958113306</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>66198330933273</eid>
             <linked>
@@ -60741,15 +61335,26 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>15</root>
             <name>m</name>
-            <eid>66709432041529</eid>
+            <eid>67886253080633</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67890548047898</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>66189740998681</eid>
             <linked>
@@ -60776,14 +61381,33 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>67946382622800</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <root>17</root>
-            <eid>66718021976121</eid>
+            <eid>67894843015225</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67899137982490</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>67950677590096</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
           <Rest>
             <eid>66675072303129</eid>
             <linked>
@@ -60812,15 +61436,27 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <startRepeat/>
         <voice>
           <Harmony>
             <root>16</root>
             <name>m</name>
-            <eid>65463891525689</eid>
+            <eid>67903432949817</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67907727917082</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65468186492953</eid>
             <linked>
@@ -60847,14 +61483,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>12</root>
-            <eid>65472481460281</eid>
+            <eid>67912022884409</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67916317851674</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65476776427545</eid>
             <linked>
@@ -60881,14 +61528,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>13</root>
-            <eid>65481071394873</eid>
+            <eid>67920612819001</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67924907786266</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65485366362137</eid>
             <linked>
@@ -60912,18 +61570,38 @@ Jan/2024</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>67954972557392</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Harmony>
+            <root>14</root>
+            <eid>67929202753593</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            </Harmony>
+          <Rest>
+            <eid>67933497720858</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>67959267524688</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
-          <Harmony>
-            <root>14</root>
-            <eid>66219805769785</eid>
-            <linked>
-              </linked>
-            </Harmony>
           <Rest>
             <eid>66078071848985</eid>
             <linked>
@@ -60950,14 +61628,25 @@ Jan/2024</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
           <Harmony>
             <root>12</root>
-            <eid>65472481460281</eid>
+            <eid>67937792688185</eid>
             <linked>
+              <indexDiff>-2</indexDiff>
               </linked>
             </Harmony>
+          <Rest>
+            <eid>67942087655450</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <eid>65476776427545</eid>
             <linked>
