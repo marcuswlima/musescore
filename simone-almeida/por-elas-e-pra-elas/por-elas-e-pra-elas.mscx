@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>1091</LastEID>
+  <LastEID>1101</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -9114,6 +9114,11 @@
             <eid>3118146256918</eid>
             <concertKey>1</concertKey>
             </KeySig>
+          <TimeSig>
+            <eid>4711579123736</eid>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Tempo>
             <tempo>1.583333</tempo>
             <followText>1</followText>
@@ -10446,6 +10451,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>4707284156428</eid>
+            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -10464,6 +10473,11 @@
         </VBox>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>4715874091032</eid>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Tempo>
             <tempo>2.666667</tempo>
             <followText>1</followText>
@@ -10811,6 +10825,11 @@
             <eid>3762391351318</eid>
             <concertKey>2</concertKey>
             </KeySig>
+          <TimeSig>
+            <eid>4720169058328</eid>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Harmony>
             <root>16</root>
             <eid>3620657430585</eid>
@@ -11909,11 +11928,16 @@
             <eid>4123168604182</eid>
             <concertKey>-1</concertKey>
             </KeySig>
+          <TimeSig>
+            <eid>4724464025624</eid>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Tempo>
             <tempo>2.083333</tempo>
             <followText>1</followText>
             <eid>4127463571503</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 125</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 125</text>
             </Tempo>
           <Rest>
             <eid>3839700762649</eid>
@@ -13316,12 +13340,21 @@
             <eid>4535485464598</eid>
             <concertKey>5</concertKey>
             </KeySig>
+          <TimeSig>
+            <eid>4728758992920</eid>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Tempo>
             <tempo>0.983333</tempo>
             <followText>1</followText>
             <eid>4539780431919</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 59</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 59</text>
             </Tempo>
+          <Harmony>
+            <root>19</root>
+            <eid>4690104287289</eid>
+            </Harmony>
           <Chord>
             <eid>4544075399283</eid>
             <durationType>quarter</durationType>
@@ -13440,6 +13473,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <name>dim</name>
+            <eid>4694399254585</eid>
+            </Harmony>
           <Chord>
             <eid>4544075399283</eid>
             <durationType>quarter</durationType>
@@ -13548,6 +13586,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>19</root>
+            <eid>4698694221881</eid>
+            </Harmony>
           <Chord>
             <eid>4544075399283</eid>
             <durationType>quarter</durationType>
@@ -13670,6 +13712,11 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <name>dim</name>
+            <eid>4702989189177</eid>
+            </Harmony>
           <Chord>
             <eid>4544075399283</eid>
             <durationType>quarter</durationType>
