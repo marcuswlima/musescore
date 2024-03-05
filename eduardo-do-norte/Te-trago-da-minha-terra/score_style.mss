@@ -88,7 +88,7 @@
     <doubleBarDistance>0.37</doubleBarDistance>
     <endBarDistance>0.37</endBarDistance>
     <repeatBarlineDotSeparation>0.37</repeatBarlineDotSeparation>
-    <repeatBarTips>0</repeatBarTips>
+    <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.45</bracketWidth>
@@ -406,16 +406,16 @@
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
-    <headerFirstPage>1</headerFirstPage>
+    <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC>Eduardo do Norte canta Nilson Chaves (contrabaixo)</evenHeaderC>
+    <evenHeaderC>Eduardo do Norte  - Te Trago da Minha Terra</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC>Eduardo do Norte canta Nilson Chaves (contrabaixo)</oddHeaderC>
+    <oddHeaderC>Eduardo do Norte  - Te Trago da Minha Terra </oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>marcuswlima@gmail.com
