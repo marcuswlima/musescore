@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.20">
-  <programVersion>4.2.0</programVersion>
-  <programRevision>eb8d33c</programRevision>
-  <LastEID>24428</LastEID>
+  <programVersion>4.2.1</programVersion>
+  <programRevision>d757433</programRevision>
+  <LastEID>24431</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -12929,6 +12929,17 @@ Jovem Guarda
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
           </Jump>
+        <Jump>
+          <eid>104921756074028</eid>
+          <linkedMain/>
+          <style>repeat_right</style>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.C. al Coda</b></text>
+          <jumpTo>start</jumpTo>
+          <playUntil>coda</playUntil>
+          <continueAt>codab</continueAt>
+          </Jump>
         <voice>
           <Harmony>
             <root>20</root>
@@ -15667,7 +15678,8 @@ O Milionário</text>
           <eid>104170136797227</eid>
           <linkedMain/>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -15731,7 +15743,9 @@ O Milionário</text>
           <eid>104883101368363</eid>
           <linkedMain/>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -15895,7 +15909,9 @@ O Milionário</text>
           <eid>104178726731820</eid>
           <linkedMain/>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -15919,7 +15935,8 @@ O Milionário</text>
           <eid>104187316666411</eid>
           <linkedMain/>
           <style>repeat_left</style>
-          <text><sym>coda</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -16014,13 +16031,11 @@ O Milionário</text>
       <Measure>
         <LayoutBreak>
           <eid>104200201568336</eid>
-          <linkedMain/>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>104204496535577</eid>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -83826,22 +83841,6 @@ O Milionário</text>
               <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
-              <Spanner type="Glissando">
-                <Glissando>
-                  <text>gliss.</text>
-                  <subtype>1</subtype>
-                  <eid>104556683853934</eid>
-                  <linkedMain/>
-                  <diagonal>1</diagonal>
-                  <anchor>3</anchor>
-                  </Glissando>
-                <next>
-                  <location>
-                    <measures>-941</measures>
-                    <fractions>-3/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           </voice>

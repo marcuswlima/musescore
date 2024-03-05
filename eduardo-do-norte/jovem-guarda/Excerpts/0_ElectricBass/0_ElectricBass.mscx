@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.20">
-  <programVersion>4.2.0</programVersion>
-  <programRevision>eb8d33c</programRevision>
-  <LastEID>24428</LastEID>
+  <programVersion>4.2.1</programVersion>
+  <programRevision>d757433</programRevision>
+  <LastEID>24431</LastEID>
   <Score>
     <name>ElectricBass</name>
     <initialPartId>1</initialPartId>
@@ -17345,8 +17345,8 @@ Jovem Guarda
         <Marker>
           <eid>20843476287531</eid>
           <style>repeat_left</style>
-          <size>24</size>
-          <text><font size="24"></font><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <LayoutBreak>
@@ -17800,7 +17800,9 @@ Jovem Guarda
         <Marker>
           <eid>33251636805675</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -17969,7 +17971,9 @@ Jovem Guarda
         <Jump>
           <eid>21174188769324</eid>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -17994,7 +17998,9 @@ Jovem Guarda
         <Marker>
           <eid>21187073671211</eid>
           <style>repeat_left</style>
-          <text><sym>coda</sym></text>
+          <size>30</size>
+          <offset x="2.5" y="-1.63709"/>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -18472,7 +18478,8 @@ Jovem Guarda
         <Marker>
           <eid>24919400251435</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -20873,7 +20880,9 @@ Jovem Guarda
         <Marker>
           <eid>24970939858987</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -21226,7 +21235,9 @@ Jovem Guarda
         <Jump>
           <eid>24975234826284</eid>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -21298,9 +21309,9 @@ Jovem Guarda
         <Marker>
           <eid>24983824760875</eid>
           <style>repeat_left</style>
-          <minDistance>0.453536</minDistance>
-          <offset x="2" y="-1.63709"/>
-          <text><sym>coda</sym></text>
+          <size>30</size>
+          <offset x="3.5" y="-2.30031"/>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -22166,7 +22177,8 @@ Jovem Guarda
         <Marker>
           <eid>26431228739627</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -23591,7 +23603,9 @@ Jovem Guarda
         <Jump>
           <eid>26508538150956</eid>
           <style>repeat_right</style>
-          <text>D.S. al Fine</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Fine</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -45734,7 +45748,9 @@ Jovem Guarda
         <Marker>
           <eid>57191784513579</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <LayoutBreak>
@@ -46418,7 +46434,8 @@ Jovem Guarda
         <Marker>
           <eid>57196079480875</eid>
           <style>repeat_left</style>
-          <text><sym>coda</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -47186,18 +47203,26 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <Jump>
-          <eid>56873956933676</eid>
-          <style>repeat_right</style>
-          <text>D.S. al Coda</text>
-          <jumpTo>segno</jumpTo>
-          <playUntil>coda</playUntil>
-          <continueAt>codab</continueAt>
-          </Jump>
         <LayoutBreak>
           <eid>66181151064144</eid>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Jump>
+          <eid>104926051041324</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>repeat_right</style>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.C. al Coda</b></text>
+          <jumpTo>start</jumpTo>
+          <playUntil>coda</playUntil>
+          <continueAt>codab</continueAt>
+          </Jump>
         <voice>
           <Harmony>
             <root>20</root>
@@ -47886,12 +47911,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <VBox>
-        <height>133</height>
-        <boxAutoSize>0</boxAutoSize>
-        <eid>52948356825210</eid>
-        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
-        </VBox>
-      <VBox>
         <height>10</height>
         <eid>62590558404730</eid>
         <Text>
@@ -48364,10 +48383,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>62182536511568</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>283467841651</eid>
@@ -48408,7 +48423,8 @@ Jovem Guarda
         <Marker>
           <eid>62191126446123</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -48862,10 +48878,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>62195421413456</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <root>21</root>
@@ -49466,10 +49478,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>62208306315344</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>1090921693221</eid>
@@ -50060,10 +50068,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>62221191217232</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <root>18</root>
@@ -50647,10 +50651,6 @@ Jovem Guarda
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <eid>62251255988304</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <root>15</root>
@@ -51280,10 +51280,6 @@ Jovem Guarda
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>62268435857488</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <root>15</root>
@@ -52009,7 +52005,9 @@ Jovem Guarda
         <Marker>
           <eid>62277025792043</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -54052,7 +54050,10 @@ Jovem Guarda
         <Jump>
           <eid>62294205661228</eid>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <offset x="-2.5" y="-3"/>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -54085,7 +54086,10 @@ Jovem Guarda
         <Marker>
           <eid>62315680497707</eid>
           <style>repeat_left</style>
-          <text><sym>coda</sym></text>
+          <minDistance>-0.375996</minDistance>
+          <size>30</size>
+          <offset x="2.5" y="-4.09981"/>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <LayoutBreak>
@@ -54943,7 +54947,8 @@ Jovem Guarda
         <Marker>
           <eid>66189740998699</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -55391,7 +55396,9 @@ Jovem Guarda
         <Marker>
           <eid>66194035965995</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -56410,7 +56417,9 @@ Jovem Guarda
         <Jump>
           <eid>66211215835180</eid>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -56479,7 +56488,8 @@ Jovem Guarda
         <Marker>
           <eid>66215510802475</eid>
           <style>repeat_left</style>
-          <text><sym>coda</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -59597,8 +59607,8 @@ Jovem Guarda
         <Marker>
           <eid>74672301408299</eid>
           <style>repeat_left</style>
-          <size>22</size>
-          <text><font size="22"></font><sym>segno</sym></text>
+          <size>31</size>
+          <text><font size="31"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -60906,8 +60916,9 @@ Jovem Guarda
         <Marker>
           <eid>74719546048555</eid>
           <style>repeat_right</style>
+          <size>15</size>
           <bold>1</bold>
-          <text><b>To Coda</b></text>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -61033,8 +61044,9 @@ Jovem Guarda
         <Jump>
           <eid>74758200754220</eid>
           <style>repeat_right</style>
+          <size>15</size>
           <bold>1</bold>
-          <text><b>D.S. al Coda</b></text>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -61077,9 +61089,10 @@ Jovem Guarda
         <Marker>
           <eid>74783970557995</eid>
           <style>repeat_left</style>
-          <size>22</size>
+          <size>30</size>
           <bold>1</bold>
-          <text><b><font size="22"></font><sym>coda</sym></b></text>
+          <offset x="3" y="-1.98387"/>
+          <text><b><font size="30"/><sym>coda</sym></b></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -61722,11 +61735,6 @@ Jovem Guarda
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>117</height>
-        <boxAutoSize>0</boxAutoSize>
-        <eid>54464480280698</eid>
-        </VBox>
       <VBox>
         <height>10</height>
         <eid>104780022153338</eid>
@@ -65605,7 +65613,8 @@ O Milionário</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -65936,7 +65945,9 @@ O Milionário</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -67072,8 +67083,12 @@ O Milionário</text>
               <staves>-2</staves>
               </location>
             </linked>
+          <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <offset x="-1.5" y="-2"/>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -67162,8 +67177,11 @@ O Milionário</text>
               </location>
             <indexDiff>1</indexDiff>
             </linked>
+          <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_left</style>
-          <text><sym>coda</sym></text>
+          <size>30</size>
+          <offset x="2" y="-2"/>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -67732,23 +67750,6 @@ O Milionário</text>
                 </linked>
               <pitch>38</pitch>
               <tpc>16</tpc>
-              <Spanner type="Glissando">
-                <Glissando>
-                  <text>gliss.</text>
-                  <subtype>1</subtype>
-                  <eid>79641578569838</eid>
-                  <linked>
-                    </linked>
-                  <diagonal>1</diagonal>
-                  <anchor>3</anchor>
-                  </Glissando>
-                <next>
-                  <location>
-                    <measures>-941</measures>
-                    <fractions>-3/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -67820,11 +67821,6 @@ O Milionário</text>
       <Measure>
         <LayoutBreak>
           <eid>104814381891664</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <LayoutBreak>
@@ -67979,7 +67975,8 @@ O Milionário</text>
         <Marker>
           <eid>83696027697195</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -68947,7 +68944,9 @@ O Milionário</text>
         <Marker>
           <eid>83859236454443</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <LayoutBreak>
@@ -70920,7 +70919,9 @@ O Milionário</text>
         <Jump>
           <eid>84366042595372</eid>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -70970,8 +70971,9 @@ O Milionário</text>
           <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_left</style>
           <minDistance>0.0372862</minDistance>
+          <size>30</size>
           <offset x="2" y="-1.63709"/>
-          <text><sym>coda</sym></text>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -71989,7 +71991,8 @@ O Milionário</text>
         <Marker>
           <eid>93578747445291</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -72664,7 +72667,9 @@ O Milionário</text>
         <Marker>
           <eid>95593087107115</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <LayoutBreak>
@@ -74252,7 +74257,9 @@ O Milionário</text>
           <eid>93737661235244</eid>
           <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>ToCoda</playUntil>
           <continueAt>coda</continueAt>
@@ -74317,9 +74324,10 @@ O Milionário</text>
           <eid>95614561943595</eid>
           <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_left</style>
-          <minDistance>0</minDistance>
-          <offset x="5" y="-4.43548"/>
-          <text><sym>coda</sym><font face="Edwin"></font> 1:36</text>
+          <minDistance>-0.935481</minDistance>
+          <size>30</size>
+          <offset x="8.5" y="-4.04839"/>
+          <text><font size="30"/><sym>coda</sym><font face="Edwin"/> 1:36</text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -77611,7 +77619,8 @@ O Milionário</text>
         <Marker>
           <eid>97852239904811</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -77744,7 +77753,9 @@ O Milionário</text>
         <Marker>
           <eid>97856534872107</eid>
           <style>repeat_right</style>
-          <text>To Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>ToCoda</label>
           </Marker>
         <voice>
@@ -78802,7 +78813,9 @@ O Milionário</text>
         <Jump>
           <eid>97955319119916</eid>
           <style>repeat_right</style>
-          <text>D.S. al Coda</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>ToCoda</playUntil>
           <continueAt>coda</continueAt>
@@ -78903,8 +78916,8 @@ O Milionário</text>
         <Marker>
           <eid>98011153694763</eid>
           <style>repeat_right</style>
-          <size>18</size>
-          <text><font size="18"/><sym>coda</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>coda</label>
           </Marker>
         <voice>
