@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>2165</LastEID>
+  <LastEID>2166</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -136,8 +136,8 @@
           <eid>9302899163142</eid>
           <style>frame</style>
           <align>center,top</align>
-          <text><font size="37"/>Por Elas e pra Elas
-<font size="30"/>Simone Almeida 
+          <text><font size="37"></font>Por Elas e pra Elas
+<font size="30"></font>Simone Almeida 
 </text>
           </Text>
         </VBox>
@@ -154,7 +154,7 @@
           <style>frame</style>
           <size>24</size>
           <align>center,top</align>
-          <text><font size="24"/>Março/2024</text>
+          <text><font size="24"></font>Março/2024</text>
           </Text>
         </VBox>
       <VBox>
@@ -561,7 +561,7 @@
           <eid>876173328427</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -2947,11 +2947,22 @@
           </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Rest>
+            <eid>9302899163161</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
         <Marker>
           <eid>889058230315</eid>
           <style>repeat_right</style>
+          <size>15</size>
           <bold>1</bold>
-          <text><b>To Coda</b></text>
+          <offset x="0" y="-2.20307"/>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <LayoutBreak>
@@ -3397,8 +3408,9 @@
         <Jump>
           <eid>1108101562412</eid>
           <style>repeat_right</style>
+          <size>15</size>
           <bold>1</bold>
-          <text><b>D.S. al Coda</b></text>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -3433,7 +3445,7 @@
           <eid>1125281431595</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -5567,7 +5579,7 @@
           <eid>2869038153771</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -6314,9 +6326,10 @@
           <eid>4303557230636</eid>
           <style>repeat_right</style>
           <minDistance>-3.5</minDistance>
+          <size>15</size>
           <bold>1</bold>
           <offset x="0" y="-5.06076"/>
-          <text><b>D.S. al Coda</b></text>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -6353,7 +6366,7 @@
           <eid>2881923055659</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -10245,7 +10258,8 @@
         <Marker>
           <eid>4398046511147</eid>
           <style>repeat_left</style>
-          <text><sym>segno</sym></text>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -11532,7 +11546,9 @@
         <Jump>
           <eid>4488240824364</eid>
           <style>repeat_right</style>
-          <text>D.S.</text>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S.</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>end</playUntil>
           <continueAt></continueAt>
@@ -14055,6 +14071,13 @@
             <eid>5269924872307</eid>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <eid>5274219839604</eid>
                 </Slur>
@@ -14063,13 +14086,6 @@
                   <fractions>1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <eid>5278514806804</eid>
@@ -17115,7 +17131,7 @@
             <tempo>1.166667</tempo>
             <followText>1</followText>
             <eid>6012954214447</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 70</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 70</text>
             </Tempo>
           <Harmony>
             <root>19</root>
@@ -17712,14 +17728,14 @@
             <name>7</name>
             <eid>6043018985529</eid>
             </Harmony>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            <eid>6098853560353</eid>
-            </Fermata>
           <StaffText>
             <eid>6103148527664</eid>
             <text>1:16</text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <eid>6098853560353</eid>
+            </Fermata>
           <Chord>
             <eid>6794638262387</eid>
             <BeamMode>no</BeamMode>
@@ -18205,7 +18221,7 @@
             <tempo>1.783333</tempo>
             <followText>1</followText>
             <eid>6210522710063</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 107</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 107</text>
             </Tempo>
           <Harmony>
             <root>12</root>
@@ -18234,7 +18250,7 @@
           <eid>6511170420779</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -18641,8 +18657,9 @@
         <Marker>
           <eid>7125350744107</eid>
           <style>repeat_right</style>
+          <size>15</size>
           <bold>1</bold>
-          <text><b>To Coda</b></text>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>coda</label>
           </Marker>
         <voice>
@@ -18962,9 +18979,10 @@
         <Jump>
           <eid>6567004995628</eid>
           <style>repeat_right</style>
+          <size>15</size>
           <bold>1</bold>
           <offset x="-1.5" y="-6"/>
-          <text><b>D.S. al Coda</b></text>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -18998,7 +19016,7 @@
           <minDistance>0.120971</minDistance>
           <size>30</size>
           <offset x="2" y="-5"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -20111,7 +20129,7 @@
             <tempo>2.966667</tempo>
             <followText>1</followText>
             <eid>8216272437295</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 178</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 178</text>
             </Tempo>
           <Rest>
             <eid>6476810682393</eid>
@@ -21545,7 +21563,7 @@
             <tempo>2.016667</tempo>
             <followText>1</followText>
             <eid>8740258447407</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 121</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 121</text>
             </Tempo>
           <Rest>
             <eid>8744553414681</eid>
@@ -22475,7 +22493,7 @@
             <tempo>2.15</tempo>
             <followText>1</followText>
             <eid>8504035246127</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 129</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 129</text>
             </Tempo>
           <Chord>
             <eid>8508330213491</eid>
