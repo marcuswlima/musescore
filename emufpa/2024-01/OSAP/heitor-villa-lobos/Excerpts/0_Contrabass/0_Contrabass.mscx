@@ -17,6 +17,7 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <createMultiMeasureRests>1</createMultiMeasureRests>
       <measureNumberPosBelow x="0" y="1"/>
       <Spatium>1.74978</Spatium>
       </Style>
@@ -131,6 +132,34 @@
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>12</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <eid>1773821493272</eid>
+            <linked>
+              </linked>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.533333</tempo>
+            <eid>1778116460591</eid>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text>Andante</text>
+            </Tempo>
+          <Rest>
+            <eid>1782411427866</eid>
+            <durationType>measure</durationType>
+            <duration>36/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -273,6 +302,26 @@
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>12</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <eid>1786706395190</eid>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <frameType>2</frameType>
+            <text>1</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>1791001362458</eid>
+            <durationType>measure</durationType>
+            <duration>93/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -424,6 +473,39 @@
               </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/4">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <RehearsalMark>
+            <eid>1799591297078</eid>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-2.31258</minDistance>
+            <frameType>2</frameType>
+            <text>2</text>
+            </RehearsalMark>
+          <SystemText>
+            <eid>1876900708401</eid>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="0.5" y="-3.04032"/>
+            <text>Violin II</text>
+            </SystemText>
+          <Rest>
+            <eid>1803886264346</eid>
+            <durationType>measure</durationType>
+            <duration>57/4</duration>
             </Rest>
           </voice>
         </Measure>
