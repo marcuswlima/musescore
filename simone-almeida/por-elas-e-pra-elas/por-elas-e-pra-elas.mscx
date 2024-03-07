@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>2724</LastEID>
+  <LastEID>2736</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -8963,7 +8963,7 @@
           <eid>11669426143275</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -9632,7 +9632,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S.</b></text>
+          <text><b><font size="15"></font>D.S.</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>end</playUntil>
           <continueAt></continueAt>
@@ -9867,8 +9867,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>3715146711060</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           </voice>
@@ -10302,8 +10302,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>3715146711060</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           </voice>
@@ -10404,8 +10404,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>3715146711060</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           </voice>
@@ -10515,8 +10515,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>3732326580244</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           </voice>
@@ -10534,8 +10534,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>3650722201620</eid>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10543,8 +10543,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>3659312136212</eid>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10553,11 +10553,11 @@
             <Note>
               <eid>3667902070804</eid>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>3723736645649</eid>
+                <subtype>accidentalFlat</subtype>
+                <eid>4011499454481</eid>
                 </Accidental>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10575,8 +10575,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10601,8 +10601,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10617,8 +10617,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10626,8 +10626,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>3732326580244</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <BarLine>
@@ -10673,6 +10673,11 @@
             <eid>4032974290969</eid>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <root>13</root>
+            <name>7</name>
+            <eid>11755325489209</eid>
+            </Harmony>
           <Chord>
             <eid>4037269258355</eid>
             <durationType>eighth</durationType>
@@ -14662,6 +14667,13 @@
             <eid>5269924872307</eid>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <eid>5274219839604</eid>
                 </Slur>
@@ -14670,13 +14682,6 @@
                   <fractions>1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <eid>5278514806804</eid>
@@ -17402,6 +17407,13 @@
             <eid>5269924872307</eid>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
               <Slur>
                 <eid>5274219839604</eid>
                 </Slur>
@@ -17410,13 +17422,6 @@
                   <fractions>1/8</fractions>
                   </location>
                 </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <grace>0</grace>
-                  </location>
-                </prev>
               </Spanner>
             <Note>
               <eid>5278514806804</eid>
@@ -23665,8 +23670,14 @@
         <voice>
           <KeySig>
             <eid>9268539424790</eid>
-            <concertKey>3</concertKey>
+            <concertKey>1</concertKey>
             </KeySig>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <eid>11703785881647</eid>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 120</text>
+            </Tempo>
           <Rest>
             <eid>1421634175001</eid>
             <durationType>half</durationType>
@@ -23690,8 +23701,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23707,8 +23718,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23716,8 +23727,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1468878815252</eid>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23729,8 +23740,8 @@
             <durationType>quarter</durationType>
             <Note>
               <eid>1288490188820</eid>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23738,8 +23749,8 @@
             <durationType>quarter</durationType>
             <Note>
               <eid>1297080123412</eid>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23747,8 +23758,8 @@
             <durationType>quarter</durationType>
             <Note>
               <eid>1305670058004</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23756,8 +23767,8 @@
             <durationType>quarter</durationType>
             <Note>
               <eid>1314259992596</eid>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23769,8 +23780,8 @@
             <durationType>quarter</durationType>
             <Note>
               <eid>1322849927188</eid>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23778,8 +23789,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1331439861780</eid>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23788,11 +23799,11 @@
             <Note>
               <eid>1340029796372</eid>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
-                <eid>1975684956177</eid>
+                <subtype>accidentalFlat</subtype>
+                <eid>11708080848913</eid>
                 </Accidental>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
+              <pitch>37</pitch>
+              <tpc>9</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23801,8 +23812,12 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1430224109588</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>11712375816209</eid>
+                </Accidental>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23810,8 +23825,12 @@
             <durationType>16th</durationType>
             <Note>
               <eid>1838246002708</eid>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>11716670783505</eid>
+                </Accidental>
+              <pitch>37</pitch>
+              <tpc>9</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23820,8 +23839,12 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1846835937300</eid>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>11720965750801</eid>
+                </Accidental>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23840,8 +23863,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23861,8 +23884,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -23874,8 +23897,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1889785610260</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23883,8 +23906,8 @@
             <durationType>quarter</durationType>
             <Note>
               <eid>1898375544852</eid>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23893,8 +23916,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1906965479444</eid>
-              <pitch>32</pitch>
-              <tpc>22</tpc>
+              <pitch>30</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23913,8 +23936,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23935,8 +23958,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -23949,8 +23972,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1945620185108</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -23963,8 +23986,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1962800054292</eid>
-              <pitch>37</pitch>
-              <tpc>21</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23972,8 +23995,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>1971389988884</eid>
-              <pitch>37</pitch>
-              <tpc>21</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23982,8 +24005,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1906965479444</eid>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24002,8 +24025,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -24024,8 +24047,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24033,8 +24056,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2005749727252</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24043,8 +24066,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2014339661844</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24052,8 +24075,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2031519531028</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24062,8 +24085,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2040109465620</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24071,8 +24094,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2057289334804</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24081,8 +24104,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2065879269396</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24090,8 +24113,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2074469203988</eid>
-              <pitch>32</pitch>
-              <tpc>22</tpc>
+              <pitch>30</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           </voice>
@@ -24104,8 +24127,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2083059138580</eid>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24113,27 +24136,26 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2134598746132</eid>
-              <pitch>32</pitch>
-              <tpc>22</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
             <eid>2095944040563</eid>
-            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <eid>2100239007764</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>2211908157555</eid>
-            <durationType>16th</durationType>
+            <eid>11759620456563</eid>
+            <durationType>eighth</durationType>
             <Note>
-              <eid>2216203124756</eid>
-              <pitch>32</pitch>
-              <tpc>22</tpc>
+              <eid>11763915423764</eid>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -24145,8 +24167,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2224793059348</eid>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -24160,8 +24182,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2237677961236</eid>
-              <pitch>30</pitch>
-              <tpc>20</tpc>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -24174,8 +24196,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2250562863124</eid>
-              <pitch>32</pitch>
-              <tpc>22</tpc>
+              <pitch>30</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -24200,8 +24222,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -24221,8 +24243,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24230,8 +24252,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2297807503380</eid>
-              <pitch>37</pitch>
-              <tpc>21</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24239,8 +24261,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2306397437972</eid>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24249,8 +24271,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2314987372564</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24258,8 +24280,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2323577307156</eid>
-              <pitch>37</pitch>
-              <tpc>21</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24268,8 +24290,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2336462209044</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24288,8 +24310,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -24310,8 +24332,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24319,8 +24341,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2357937045524</eid>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24329,8 +24351,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2297807503380</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24338,8 +24360,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2366526980116</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24348,8 +24370,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1962800054292</eid>
-              <pitch>37</pitch>
-              <tpc>21</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24357,8 +24379,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>1971389988884</eid>
-              <pitch>37</pitch>
-              <tpc>21</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24367,8 +24389,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>1906965479444</eid>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24387,8 +24409,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -24409,8 +24431,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24418,8 +24440,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2005749727252</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24428,8 +24450,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2014339661844</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24437,8 +24459,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2031519531028</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24447,8 +24469,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2040109465620</eid>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24456,8 +24478,8 @@
             <durationType>16th</durationType>
             <Note>
               <eid>2057289334804</eid>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24466,8 +24488,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2065879269396</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24486,8 +24508,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -24507,8 +24529,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>28</pitch>
-              <tpc>18</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24516,8 +24538,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2439541424148</eid>
-              <pitch>32</pitch>
-              <tpc>22</tpc>
+              <pitch>30</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -24525,8 +24547,8 @@
             <durationType>eighth</durationType>
             <Note>
               <eid>2448131358740</eid>
-              <pitch>35</pitch>
-              <tpc>19</tpc>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -24550,6 +24572,10 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>11725260718092</eid>
+            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -24563,6 +24589,10 @@
         </VBox>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>11729555685398</eid>
+            <concertKey>2</concertKey>
+            </KeySig>
           <TimeSig>
             <eid>9418863280152</eid>
             <sigN>4</sigN>
@@ -24576,7 +24606,7 @@
             <tempo>1.566667</tempo>
             <followText>1</followText>
             <eid>9423158247471</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 94</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 94</text>
             </Tempo>
           <Rest>
             <eid>9311489097753</eid>
@@ -25297,6 +25327,10 @@
             <durationType>half</durationType>
             <Note>
               <eid>9805410336788</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>11733850652689</eid>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
               </Note>
@@ -25413,6 +25447,10 @@
             <durationType>half</durationType>
             <Note>
               <eid>9805410336788</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>11738145619985</eid>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
               </Note>
@@ -25580,6 +25618,10 @@
             <durationType>half</durationType>
             <Note>
               <eid>9805410336788</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>11742440587281</eid>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
               </Note>
@@ -25734,6 +25776,10 @@
             <durationType>half</durationType>
             <Note>
               <eid>9805410336788</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>11746735554577</eid>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
               </Note>
@@ -25856,6 +25902,10 @@
             <durationType>half</durationType>
             <Note>
               <eid>9805410336788</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>11751030521873</eid>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
               </Note>
@@ -25998,7 +26048,7 @@
             <tempo>2.283333</tempo>
             <followText>1</followText>
             <eid>10273561772079</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 137</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 137</text>
             </Tempo>
           <Harmony>
             <root>18</root>
@@ -26428,7 +26478,7 @@
           <eid>10642928959531</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -26796,7 +26846,7 @@
           <eid>10655813861419</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
