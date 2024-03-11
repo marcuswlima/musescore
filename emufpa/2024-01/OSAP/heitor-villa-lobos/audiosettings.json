@@ -51,20 +51,86 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Strings",
-                        "museName": "Violin 1 (Solo)",
-                        "museUID": "103",
-                        "playbackSetupData": "strings.violin.orchestral:primary"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "metronome",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "contrabass",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violoncello (Solo)",
+                        "museUID": "106",
+                        "playbackSetupData": "strings.violoncello.orchestral"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Strings\\Violoncello (Solo)\\106",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "violin",
+            "instrumentId": "violoncello",
             "out": {
                 "auxSends": [
                     {
@@ -81,7 +147,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "1",
+            "partId": "3",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -132,19 +198,19 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Strings",
-                        "museName": "Violoncello (Solo)",
-                        "museUID": "106",
-                        "playbackSetupData": "strings.violoncello.orchestral"
+                        "museName": "Violin 1 (Solo)",
+                        "museUID": "103",
+                        "playbackSetupData": "strings.violin.orchestral:primary"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violoncello (Solo)\\106",
+                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "Muse Strings"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "violoncello",
+            "instrumentId": "violin",
             "out": {
                 "auxSends": [
                     {
@@ -161,73 +227,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "3",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "contrabass",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "4",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "metronome",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "999",
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
