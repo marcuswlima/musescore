@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>2807</LastEID>
+  <LastEID>3027</LastEID>
   <Score>
     <name>Contrabass</name>
     <initialPartId>4</initialPartId>
@@ -18,6 +18,13 @@
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <createMultiMeasureRests>1</createMultiMeasureRests>
+      <evenHeaderC>Bachiana brasileira nº 7 - Heitor Villa-Lobos</evenHeaderC>
+      <oddHeaderC>Bachiana brasileira nº 7 - Heitor Villa-Lobos</oddHeaderC>
+      <footerFirstPage>0</footerFirstPage>
+      <evenFooterC>OSAP - EMUFPA
+2024</evenFooterC>
+      <oddFooterC>OSAP - EMUFPA
+2024</oddFooterC>
       <measureNumberPosBelow x="0" y="1"/>
       <Spatium>1.74978</Spatium>
       </Style>
@@ -67,69 +74,444 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <eid>609885356154</eid>
+        <eid>12098922872954</eid>
         <linked>
           <location>
             <staves>-3</staves>
             </location>
           </linked>
         <Text>
-          <eid>614180323334</eid>
+          <eid>12103217840134</eid>
           <linked>
             <location>
               <staves>-3</staves>
               </location>
             </linked>
-          <style>title</style>
-          <text>IV - Fuga</text>
+          <positionLinkedToMaster>0</positionLinkedToMaster>
+          <style>frame</style>
+          <align>center,top</align>
+          <offset x="0" y="-0.398842"/>
+          <text><font size="26"/>Heitor Villa-Lobos
+<font size="20"/>Bachiana brasileira nº 7 
+para orquestra 
+(1942)</text>
           </Text>
+        </VBox>
+      <VBox>
+        <height>77.9256</height>
+        <boxAutoSize>0</boxAutoSize>
+        <eid>12073153069178</eid>
+        <linked>
+          <location>
+            <staves>-3</staves>
+            </location>
+          </linked>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
-          <eid>618475290630</eid>
+          <eid>12107512807430</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <positionLinkedToMaster>0</positionLinkedToMaster>
+          <style>frame</style>
+          <size>18</size>
+          <align>center,top</align>
+          <offset x="0.398842" y="-0.797684"/>
+          <text><font size="18"/>I - Prelúdio (Ponteio) — Adagio
+II - Giga (Quadrilha Caipira) — Allegretto scherzando
+III - Toccata (Desafio) — Andantino quasi allegretto
+IV - Fuga (Conversa) — Andante
+</text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>10</height>
+        <eid>12111807774842</eid>
+        <linked>
+          <location>
+            <staves>-3</staves>
+            </location>
+          </linked>
+        <Text>
+          <eid>12120397709318</eid>
           <linked>
             <location>
               <staves>-3</staves>
               </location>
             </linked>
           <style>subtitle</style>
-          <text>Conversa</text>
+          <text>2024.01</text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>10</height>
+        <eid>12146167513210</eid>
+        <linked>
+          <location>
+            <staves>-3</staves>
+            </location>
+          </linked>
+        <Text>
+          <eid>12150462480390</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <style>title</style>
+          <text>I - Prelúdio</text>
           </Text>
         <Text>
-          <eid>622770257926</eid>
-          <style>instrument_excerpt</style>
-          <text>Contrabass</text>
+          <eid>12184822218758</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <style>subtitle</style>
+          <offset x="0" y="9.60116"/>
+          <text>Ponteiro</text>
+          </Text>
+        <Text>
+          <eid>12601434046470</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <style>composer</style>
+          <text>Heitor Villa Lobos</text>
           </Text>
         </VBox>
       <Measure>
         <voice>
           <KeySig>
-            <eid>1554778161174</eid>
+            <eid>12979391168534</eid>
             <linked>
               </linked>
             <concertKey>-1</concertKey>
             </KeySig>
-          <TimeSig>
-            <eid>1559073128472</eid>
+          <Rest>
+            <eid>12983686135833</eid>
             <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>12987981103184</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>12992276070426</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>12996571037776</eid>
+          <linked>
+            <location>
+              <staves>-4</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>13000866005017</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>12378095747194</eid>
+        <linked>
+          <location>
+            <staves>-3</staves>
+            </location>
+          </linked>
+        <Text>
+          <eid>12382390714374</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <style>title</style>
+          <text>II - Giga</text>
+          </Text>
+        <Text>
+          <eid>12588549144582</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <style>subtitle</style>
+          <text>Quandrilha Caipira</text>
+          </Text>
+        <Text>
+          <eid>12605729013766</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            </linked>
+          <style>composer</style>
+          <text>Heitor Villa Lobos</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12554189406233</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>12622908883024</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>12627203850266</eid>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12893491822604</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>12219181957200</eid>
+          <linked>
+            <location>
+              <staves>-4</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>1571958030361</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12880606920716</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>12339441041530</eid>
+        <linked>
+          <location>
+            <staves>-3</staves>
+            </location>
+          <indexDiff>1</indexDiff>
+          </linked>
+        <Text>
+          <eid>12343736008710</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>title</style>
+          <text>III - Toccata</text>
+          </Text>
+        <Text>
+          <eid>12356620910598</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>subtitle</style>
+          <text>Desafio</text>
+          </Text>
+        <Text>
+          <eid>12360915877894</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>composer</style>
+          <text>Heitor Villa Lobos</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12575664242713</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>12631498817616</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>12635793784912</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>12640088752154</eid>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12897786789900</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>12223476924496</eid>
+          <linked>
+            <location>
+              <staves>-4</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>12644383719504</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>1576252997657</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12884901888012</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>12240656793722</eid>
+        <linked>
+          <location>
+            <staves>-3</staves>
+            </location>
+          <indexDiff>1</indexDiff>
+          </linked>
+        <Text>
+          <eid>12244951760902</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>title</style>
+          <text>IV - Fuga</text>
+          </Text>
+        <Text>
+          <eid>12322261172230</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>subtitle</style>
+          <text>Conversa</text>
+          </Text>
+        <Text>
+          <eid>12326556139526</eid>
+          <linked>
+            <location>
+              <staves>-3</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>composer</style>
+          <offset x="0" y="-0.398842"/>
+          <text>Heitor Villa Lobos</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>12421045420056</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
             <tempo>1.533333</tempo>
-            <eid>1563368095791</eid>
+            <eid>12395275616303</eid>
             <linked>
               <location>
                 <staves>-3</staves>
                 </location>
-              <indexDiff>5</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
             <text>Andante</text>
             </Tempo>
           <Rest>
-            <eid>1567663063065</eid>
+            <eid>1580547964953</eid>
             <linked>
               <indexDiff>2</indexDiff>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -139,7 +521,7 @@
         <multiMeasureRest>12</multiMeasureRest>
         <voice>
           <TimeSig>
-            <eid>1773821493272</eid>
+            <eid>12468290060312</eid>
             <linked>
               </linked>
             <sigN>3</sigN>
@@ -147,52 +529,19 @@
             </TimeSig>
           <Tempo>
             <tempo>1.533333</tempo>
-            <eid>1778116460591</eid>
+            <eid>12399570583599</eid>
             <linked>
               <location>
                 <staves>-3</staves>
                 </location>
-              <indexDiff>5</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
             <text>Andante</text>
             </Tempo>
           <Rest>
-            <eid>1782411427866</eid>
+            <eid>12227771891738</eid>
             <durationType>measure</durationType>
-            <duration>36/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1571958030361</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1576252997657</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1580547964953</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>27/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -200,6 +549,39 @@
         <voice>
           <Rest>
             <eid>1584842932249</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12300786335769</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12305081303065</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12309376270361</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -3793,10 +4175,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>12025908428880</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6244882448499</eid>
@@ -3937,10 +4315,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>12030203396176</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>6850472837174</eid>
@@ -4279,10 +4653,6 @@
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>4</multiMeasureRest>
-        <LayoutBreak>
-          <eid>12038793330768</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>12043088298038</eid>
@@ -4324,10 +4694,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>12051678232656</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <eid>6837587935257</eid>
@@ -6487,13 +6853,6 @@
               <linked>
                 </linked>
               <positionLinkedToMaster>0</positionLinkedToMaster>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-4.39561" y="0"/>
-                <eid>11733850652736</eid>
-                <positionLinkedToMaster>0</positionLinkedToMaster>
-                </Segment>
               </HairPin>
             <next>
               <location>

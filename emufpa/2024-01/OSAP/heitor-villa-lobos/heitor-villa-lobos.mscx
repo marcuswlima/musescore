@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>2807</LastEID>
+  <LastEID>3027</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -219,42 +219,304 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <eid>4294967418</eid>
+        <eid>12081743003770</eid>
         <linkedMain/>
         <Text>
-          <eid>8589934598</eid>
+          <eid>12086037970950</eid>
           <linkedMain/>
-          <style>title</style>
-          <text>IV - Fuga</text>
+          <style>frame</style>
+          <align>center,top</align>
+          <text><font size="26"/>Heitor Villa-Lobos
+<font size="20"/>Bachiana brasileira nº 7 
+para orquestra 
+(1942)</text>
           </Text>
+        </VBox>
+      <VBox>
+        <height>86.1314</height>
+        <boxAutoSize>0</boxAutoSize>
+        <eid>12068858101882</eid>
+        <linkedMain/>
         <Text>
-          <eid>12884901894</eid>
+          <eid>12090332938246</eid>
+          <linkedMain/>
+          <style>frame</style>
+          <size>18</size>
+          <align>center,top</align>
+          <text><font size="18"/>I - Prelúdio (Ponteio) — Adagio
+II - Giga (Quadrilha Caipira) — Allegretto scherzando
+III - Toccata (Desafio) — Andantino quasi allegretto
+IV - Fuga (Conversa) — Andante
+<font size="20"/></text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>10</height>
+        <eid>12094627905658</eid>
+        <linkedMain/>
+        <Text>
+          <eid>12116102742022</eid>
           <linkedMain/>
           <style>subtitle</style>
-          <text>Conversa</text>
+          <text>2024.01</text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>10</height>
+        <eid>12124692676730</eid>
+        <linkedMain/>
+        <Text>
+          <eid>12128987643910</eid>
+          <linkedMain/>
+          <style>title</style>
+          <text>I - Prelúdio</text>
+          </Text>
+        <Text>
+          <eid>12167642349574</eid>
+          <linkedMain/>
+          <style>subtitle</style>
+          <offset x="0" y="9.60116"/>
+          <text>Ponteiro</text>
+          </Text>
+        <Text>
+          <eid>12592844111878</eid>
+          <linkedMain/>
+          <style>composer</style>
+          <text>Heitor Villa Lobos</text>
           </Text>
         </VBox>
       <Measure>
         <voice>
           <KeySig>
-            <eid>777389080598</eid>
+            <eid>12902081757206</eid>
             <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
+          <Rest>
+            <eid>12906376724505</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>12910671691856</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>12914966659098</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>12919261626448</eid>
+          <linkedMain/>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>12923556593689</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>12365210845306</eid>
+        <linkedMain/>
+        <Text>
+          <eid>12369505812486</eid>
+          <linkedMain/>
+          <style>title</style>
+          <text>II - Giga</text>
+          </Text>
+        <Text>
+          <eid>12584254177286</eid>
+          <linkedMain/>
+          <style>subtitle</style>
+          <text>Quandrilha Caipira</text>
+          </Text>
+        <Text>
+          <eid>12597139079174</eid>
+          <linkedMain/>
+          <style>composer</style>
+          <text>Heitor Villa Lobos</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12537009537049</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>12661563588688</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>12665858555984</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>12670153523226</eid>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12781822672908</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>12206297055312</eid>
+          <linkedMain/>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>12579959210064</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>794568949785</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12786117640204</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>12330851106938</eid>
+        <linkedMain/>
+        <Text>
+          <eid>12335146074118</eid>
+          <linkedMain/>
+          <style>title</style>
+          <text>III - Toccata</text>
+          </Text>
+        <Text>
+          <eid>12348030976006</eid>
+          <linkedMain/>
+          <style>subtitle</style>
+          <text>Desafio</text>
+          </Text>
+        <Text>
+          <eid>12352325943302</eid>
+          <linkedMain/>
+          <style>composer</style>
+          <text>Heitor Villa Lobos</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12558484373529</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>12674448490576</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>12678743457818</eid>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12790412607500</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>12210592022608</eid>
+          <linkedMain/>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>798863917081</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12794707574796</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>12232066859130</eid>
+        <linkedMain/>
+        <Text>
+          <eid>12236361826310</eid>
+          <linkedMain/>
+          <style>title</style>
+          <text>IV - Fuga</text>
+          </Text>
+        <Text>
+          <eid>12313671237638</eid>
+          <linkedMain/>
+          <style>subtitle</style>
+          <text>Conversa</text>
+          </Text>
+        <Text>
+          <eid>12317966204934</eid>
+          <linkedMain/>
+          <style>composer</style>
+          <offset x="0" y="-0.398842"/>
+          <text>Heitor Villa Lobos</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
           <TimeSig>
-            <eid>781684047896</eid>
+            <eid>12403865550872</eid>
             <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
             <tempo>1.533333</tempo>
-            <eid>785979015215</eid>
+            <eid>12390980649007</eid>
             <linkedMain/>
             <text>Andante</text>
             </Tempo>
           <Rest>
-            <eid>790273982489</eid>
+            <eid>803158884377</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -264,7 +526,7 @@
         <multiMeasureRest>12</multiMeasureRest>
         <voice>
           <TimeSig>
-            <eid>2804613644312</eid>
+            <eid>12683038425112</eid>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
@@ -273,14 +535,14 @@
             </TimeSig>
           <Tempo>
             <tempo>1.533333</tempo>
-            <eid>2808908611631</eid>
+            <eid>12687333392431</eid>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
             <text>Andante</text>
             </Tempo>
           <Rest>
-            <eid>2813203578906</eid>
+            <eid>12691628359706</eid>
             <durationType>measure</durationType>
             <duration>36/4</duration>
             </Rest>
@@ -289,34 +551,34 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>794568949785</eid>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>798863917081</eid>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>803158884377</eid>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
             <eid>807453851673</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12249246728217</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12253541695513</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12257836662809</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -1844,35 +2106,58 @@
       <Measure>
         <voice>
           <KeySig>
-            <eid>974957576214</eid>
+            <eid>12927851560982</eid>
             <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
-          <TimeSig>
-            <eid>979252543512</eid>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <eid>983547510809</eid>
+            <eid>12932146528281</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>12936441495578</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12940736462873</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12541304504345</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
-          <TimeSig>
-            <eid>2843268349976</eid>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <eid>2847563317274</eid>
+            <eid>12704513261594</eid>
             <durationType>measure</durationType>
-            <duration>36/4</duration>
+            <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12807592476684</eid>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1882,6 +2167,37 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12811887443980</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12562779340825</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>12708808228890</eid>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12816182411276</eid>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -1891,12 +2207,52 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12820477378572</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>12408160518168</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>996432412697</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>12</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <eid>12713103196184</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>12717398163482</eid>
+            <durationType>measure</durationType>
+            <duration>36/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>996432412697</eid>
+            <eid>1000727379993</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -1905,7 +2261,25 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>1000727379993</eid>
+            <eid>12262131630105</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12266426597401</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12270721564697</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -3260,35 +3634,58 @@
       <Measure>
         <voice>
           <KeySig>
-            <eid>1168231104534</eid>
+            <eid>12945031430166</eid>
             <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
-          <TimeSig>
-            <eid>1172526071832</eid>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <eid>1176821039129</eid>
+            <eid>12949326397465</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>12953621364762</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12957916332057</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12545599471641</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
-          <TimeSig>
-            <eid>2864743186456</eid>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <eid>2869038153754</eid>
+            <eid>12730283065370</eid>
             <durationType>measure</durationType>
-            <duration>36/4</duration>
+            <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12833362280460</eid>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3298,6 +3695,37 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12837657247756</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12567074308121</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>12734578032666</eid>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12841952215052</eid>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3307,12 +3735,52 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12846247182348</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>12412455485464</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>1189705941017</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>12</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <eid>12738872999960</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>12743167967258</eid>
+            <durationType>measure</durationType>
+            <duration>36/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>1189705941017</eid>
+            <eid>1194000908313</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -3321,7 +3789,25 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>1194000908313</eid>
+            <eid>12275016531993</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12279311499289</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12283606466585</eid>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -4676,37 +5162,61 @@
       <Measure>
         <voice>
           <KeySig>
-            <eid>1361504632854</eid>
+            <eid>12962211299350</eid>
             <linkedMain/>
             <concertKey>-1</concertKey>
             </KeySig>
-          <TimeSig>
-            <eid>1365799600152</eid>
-            <linkedMain/>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <eid>1370094567449</eid>
+            <eid>12966506266649</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>12970801233946</eid>
+            <durationType>measure</durationType>
+            <duration>8/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12975096201241</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12549894438937</eid>
             <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="36/4">
-        <multiMeasureRest>12</multiMeasureRest>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
         <voice>
-          <TimeSig>
-            <eid>2886218022936</eid>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <eid>2890512990234</eid>
+            <eid>12756052869146</eid>
             <durationType>measure</durationType>
-            <duration>36/4</duration>
+            <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12859132084236</eid>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -4717,6 +5227,37 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12863427051532</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12571369275417</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <multiMeasureRest>2</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>12760347836442</eid>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12867722018828</eid>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -4727,12 +5268,52 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>12872016986124</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>12416750452760</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>1382979469337</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="36/4">
+        <multiMeasureRest>12</multiMeasureRest>
+        <voice>
+          <TimeSig>
+            <eid>12764642803736</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>12768937771034</eid>
+            <durationType>measure</durationType>
+            <duration>36/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>1382979469337</eid>
+            <eid>1387274436633</eid>
             <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -4742,7 +5323,27 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>1387274436633</eid>
+            <eid>12287901433881</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12292196401177</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>12296491368473</eid>
             <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>

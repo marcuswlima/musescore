@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>35095</LastEID>
+  <LastEID>35119</LastEID>
   <Score>
     <name>Double Bass</name>
     <initialPartId>1</initialPartId>
@@ -151,11 +151,14 @@
           </Text>
         </VBox>
       <VBox>
-        <height>10</height>
-        <topGap>2</topGap>
+        <height>6</height>
+        <topGap>0</topGap>
+        <boxAutoSize>0</boxAutoSize>
         <eid>150663157776506</eid>
         <linked>
           </linked>
+        <positionLinkedToMaster>0</positionLinkedToMaster>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
           <eid>150667452743686</eid>
           <linked>
@@ -184,7 +187,6 @@
             <eid>126491081834544</eid>
             <linked>
               </linked>
-            <bold>1</bold>
             <text><b>Allegro moderato</b></text>
             </StaffText>
           <Tempo>
@@ -195,7 +197,7 @@
               </linked>
             <visible>0</visible>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="Edwin"/> = 115</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="Edwin"></font> = 115</b></text>
             </Tempo>
           <Rest>
             <eid>126499671769113</eid>
@@ -235,7 +237,7 @@
               </linked>
             <visible>0</visible>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="Edwin"/> = 115</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="Edwin"></font> = 115</b></text>
             </Tempo>
           <Rest>
             <eid>126516851638298</eid>
@@ -16339,9 +16341,43 @@
         </Measure>
       <VBox>
         <height>10</height>
+        <bottomGap>0</bottomGap>
+        <eid>150770531958906</eid>
+        <linked>
+          </linked>
+        <positionLinkedToMaster>0</positionLinkedToMaster>
+        <Text>
+          <eid>150774826926086</eid>
+          <linked>
+            </linked>
+          <style>title</style>
+          <text>Concerto in E major</text>
+          </Text>
+        <Text>
+          <eid>150779121893382</eid>
+          <linked>
+            </linked>
+          <style>frame</style>
+          <size>14</size>
+          <text><font size="14"></font>Double Bass</text>
+          </Text>
+        <Text>
+          <eid>150783416860678</eid>
+          <linked>
+            </linked>
+          <style>composer</style>
+          <text>Karl Ditters von Dittersdorf</text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>6</height>
+        <topGap>0</topGap>
+        <boxAutoSize>0</boxAutoSize>
         <eid>135763916226682</eid>
         <linked>
           </linked>
+        <positionLinkedToMaster>0</positionLinkedToMaster>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
           <eid>150671747710982</eid>
           <linked>
@@ -16386,7 +16422,7 @@
               </linked>
             <visible>0</visible>
             <bold>0</bold>
-            <text><b></b><sym>metNote8thUp</sym><b><font face="Edwin"/> = 56</b></text>
+            <text><b></b><sym>metNote8thUp</sym><b><font face="Edwin"></font> = 56</b></text>
             </Tempo>
           <Rest>
             <eid>135789686030361</eid>
@@ -27428,9 +27464,43 @@
         </Measure>
       <VBox>
         <height>10</height>
+        <bottomGap>0</bottomGap>
+        <eid>150822071566458</eid>
+        <linked>
+          </linked>
+        <positionLinkedToMaster>0</positionLinkedToMaster>
+        <Text>
+          <eid>150826366533638</eid>
+          <linked>
+            </linked>
+          <style>title</style>
+          <text>Concerto in E major</text>
+          </Text>
+        <Text>
+          <eid>150830661500934</eid>
+          <linked>
+            </linked>
+          <style>frame</style>
+          <size>14</size>
+          <text><font size="14"></font>Double Bass</text>
+          </Text>
+        <Text>
+          <eid>150834956468230</eid>
+          <linked>
+            </linked>
+          <style>composer</style>
+          <text>Karl Ditters von Dittersdorf</text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>6</height>
+        <topGap>0</topGap>
+        <boxAutoSize>0</boxAutoSize>
         <eid>141811230179450</eid>
         <linked>
           </linked>
+        <positionLinkedToMaster>0</positionLinkedToMaster>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
           <eid>150693222547462</eid>
           <linked>
@@ -27468,7 +27538,7 @@
             <linked>
               </linked>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="Edwin"/> = 94</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="Edwin"></font> = 94</b></text>
             </Tempo>
           <Rest>
             <eid>141836999983129</eid>
