@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>3027</LastEID>
+  <LastEID>3676</LastEID>
   <Score>
     <name>Contrabass</name>
     <initialPartId>4</initialPartId>
@@ -202,8 +202,8 @@ IV - Fuga (Conversa) — Andante
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>5</multiMeasureRest>
         <LayoutBreak>
           <eid>12987981103184</eid>
           <subtype>section</subtype>
@@ -214,16 +214,53 @@ IV - Fuga (Conversa) — Andante
             <durationType>measure</durationType>
             <duration>8/4</duration>
             </Rest>
+          <location>
+            <fractions>3/1</fractions>
+            </location>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>13125420056588</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>15187004358681</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>15195594293273</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>15199889260569</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <LayoutBreak>
           <eid>12996571037776</eid>
-          <linked>
-            <location>
-              <staves>-4</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -234,6 +271,12 @@ IV - Fuga (Conversa) — Andante
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>13129715023884</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -243,6 +286,7 @@ IV - Fuga (Conversa) — Andante
           <location>
             <staves>-3</staves>
             </location>
+          <indexDiff>2</indexDiff>
           </linked>
         <Text>
           <eid>12382390714374</eid>
@@ -250,6 +294,7 @@ IV - Fuga (Conversa) — Andante
             <location>
               <staves>-3</staves>
               </location>
+            <indexDiff>2</indexDiff>
             </linked>
           <style>title</style>
           <text>II - Giga</text>
@@ -260,6 +305,7 @@ IV - Fuga (Conversa) — Andante
             <location>
               <staves>-3</staves>
               </location>
+            <indexDiff>2</indexDiff>
             </linked>
           <style>subtitle</style>
           <text>Quandrilha Caipira</text>
@@ -270,6 +316,7 @@ IV - Fuga (Conversa) — Andante
             <location>
               <staves>-3</staves>
               </location>
+            <indexDiff>2</indexDiff>
             </linked>
           <style>composer</style>
           <text>Heitor Villa Lobos</text>
@@ -278,55 +325,87 @@ IV - Fuga (Conversa) — Andante
       <Measure>
         <voice>
           <Rest>
-            <eid>12554189406233</eid>
+            <eid>15311558410265</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>5</multiMeasureRest>
         <LayoutBreak>
-          <eid>12622908883024</eid>
+          <eid>15315853377616</eid>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>12627203850266</eid>
+            <eid>15320148344858</eid>
             <durationType>measure</durationType>
-            <duration>6/4</duration>
+            <duration>132/4</duration>
             </Rest>
+          <location>
+            <fractions>-28/1</fractions>
+            </location>
           <BarLine>
             <subtype>end</subtype>
-            <eid>12893491822604</eid>
+            <eid>15324443312140</eid>
             <linked>
               </linked>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Rest>
+            <eid>15328738279449</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>15358803050521</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>15363098017817</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
         <LayoutBreak>
           <eid>12219181957200</eid>
-          <linked>
-            <location>
-              <staves>-4</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>1571958030361</eid>
+            <eid>13151189860377</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <eid>12880606920716</eid>
+            <eid>13155484827660</eid>
             <linked>
               </linked>
             </BarLine>
@@ -335,19 +414,13 @@ IV - Fuga (Conversa) — Andante
       <VBox>
         <height>10</height>
         <eid>12339441041530</eid>
-        <linked>
-          <location>
-            <staves>-3</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
         <Text>
           <eid>12343736008710</eid>
           <linked>
             <location>
               <staves>-3</staves>
               </location>
-            <indexDiff>1</indexDiff>
+            <indexDiff>2</indexDiff>
             </linked>
           <style>title</style>
           <text>III - Toccata</text>
@@ -358,19 +431,13 @@ IV - Fuga (Conversa) — Andante
             <location>
               <staves>-3</staves>
               </location>
-            <indexDiff>1</indexDiff>
+            <indexDiff>2</indexDiff>
             </linked>
           <style>subtitle</style>
           <text>Desafio</text>
           </Text>
         <Text>
           <eid>12360915877894</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
           <style>composer</style>
           <text>Heitor Villa Lobos</text>
           </Text>
@@ -378,64 +445,95 @@ IV - Fuga (Conversa) — Andante
       <Measure>
         <voice>
           <Rest>
-            <eid>12575664242713</eid>
+            <eid>15457587298329</eid>
             <linked>
               <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="6/4">
-        <multiMeasureRest>2</multiMeasureRest>
+      <Measure len="20/4">
+        <multiMeasureRest>5</multiMeasureRest>
         <LayoutBreak>
-          <eid>12631498817616</eid>
+          <eid>15642270892112</eid>
           <subtype>section</subtype>
           </LayoutBreak>
         <LayoutBreak>
-          <eid>12635793784912</eid>
+          <eid>15655155794000</eid>
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>12640088752154</eid>
+            <eid>15470472200218</eid>
             <durationType>measure</durationType>
-            <duration>6/4</duration>
+            <duration>132/4</duration>
             </Rest>
+          <location>
+            <fractions>-28/1</fractions>
+            </location>
           <BarLine>
             <subtype>end</subtype>
-            <eid>12897786789900</eid>
+            <eid>15474767167500</eid>
             <linked>
               </linked>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Rest>
+            <eid>15504831938585</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>15509126905881</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>15513421873177</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
         <LayoutBreak>
           <eid>12223476924496</eid>
-          <linked>
-            <location>
-              <staves>-4</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <LayoutBreak>
-          <eid>12644383719504</eid>
+          <eid>15659450761296</eid>
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>1576252997657</eid>
+            <eid>13181254631449</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <eid>12884901888012</eid>
+            <eid>13185549598732</eid>
             <linked>
               </linked>
             </BarLine>
@@ -444,19 +542,13 @@ IV - Fuga (Conversa) — Andante
       <VBox>
         <height>10</height>
         <eid>12240656793722</eid>
-        <linked>
-          <location>
-            <staves>-3</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
         <Text>
           <eid>12244951760902</eid>
           <linked>
             <location>
               <staves>-3</staves>
               </location>
-            <indexDiff>1</indexDiff>
+            <indexDiff>2</indexDiff>
             </linked>
           <style>title</style>
           <text>IV - Fuga</text>
@@ -467,19 +559,13 @@ IV - Fuga (Conversa) — Andante
             <location>
               <staves>-3</staves>
               </location>
-            <indexDiff>1</indexDiff>
+            <indexDiff>2</indexDiff>
             </linked>
           <style>subtitle</style>
           <text>Conversa</text>
           </Text>
         <Text>
           <eid>12326556139526</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
           <style>composer</style>
           <offset x="0" y="-0.398842"/>
           <text>Heitor Villa Lobos</text>
@@ -489,9 +575,6 @@ IV - Fuga (Conversa) — Andante
         <voice>
           <TimeSig>
             <eid>12421045420056</eid>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -502,15 +585,12 @@ IV - Fuga (Conversa) — Andante
               <location>
                 <staves>-3</staves>
                 </location>
-              <indexDiff>6</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <text>Andante</text>
             </Tempo>
           <Rest>
             <eid>1580547964953</eid>
-            <linked>
-              <indexDiff>2</indexDiff>
-              </linked>
             <positionLinkedToMaster>0</positionLinkedToMaster>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -522,8 +602,6 @@ IV - Fuga (Conversa) — Andante
         <voice>
           <TimeSig>
             <eid>12468290060312</eid>
-            <linked>
-              </linked>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -534,7 +612,7 @@ IV - Fuga (Conversa) — Andante
               <location>
                 <staves>-3</staves>
                 </location>
-              <indexDiff>6</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <text>Andante</text>
             </Tempo>
@@ -847,7 +925,9 @@ IV - Fuga (Conversa) — Andante
                 <staves>-3</staves>
                 </location>
               </linked>
-            <text>Violin II</text>
+            <bold>1</bold>
+            <italic>1</italic>
+            <text><b><i>Violin II</i></b></text>
             </SystemText>
           <Rest>
             <eid>1670742278169</eid>
@@ -881,8 +961,10 @@ IV - Fuga (Conversa) — Andante
                 </location>
               </linked>
             <positionLinkedToMaster>0</positionLinkedToMaster>
+            <bold>1</bold>
+            <italic>1</italic>
             <offset x="0.5" y="-3.04032"/>
-            <text>Violin II</text>
+            <text><b><i>Violin II</i></b></text>
             </SystemText>
           <Rest>
             <eid>1803886264346</eid>
@@ -940,8 +1022,8 @@ IV - Fuga (Conversa) — Andante
             <dots>1</dots>
             <durationType>half</durationType>
             <Articulation>
-              <subtype>stringsUpBow</subtype>
-              <eid>1937030250527</eid>
+              <subtype>stringsDownBow</subtype>
+              <eid>13297218748447</eid>
               <linked>
                 </linked>
               </Articulation>
@@ -1394,6 +1476,12 @@ IV - Fuga (Conversa) — Andante
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <eid>13301513715743</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>2297807503380</eid>
               <linked>
@@ -2276,6 +2364,18 @@ IV - Fuga (Conversa) — Andante
             <frameType>2</frameType>
             <text>5</text>
             </RehearsalMark>
+          <SystemText>
+            <eid>13310103650353</eid>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <bold>1</bold>
+            <italic>1</italic>
+            <offset x="0.5" y="-3.04032"/>
+            <text><b><i>Oboe</i></b></text>
+            </SystemText>
           <Chord>
             <eid>3702261809267</eid>
             <linked>
@@ -2621,6 +2721,11 @@ IV - Fuga (Conversa) — Andante
               <eid>3899830304788</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13331578486801</eid>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <eid>4234837753886</eid>
@@ -2748,6 +2853,11 @@ IV - Fuga (Conversa) — Andante
               <eid>4294967296020</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13542031884305</eid>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -2796,6 +2906,11 @@ IV - Fuga (Conversa) — Andante
               <eid>4320737099796</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13335873454097</eid>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -3383,11 +3498,12 @@ IV - Fuga (Conversa) — Andante
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>5248450035729</eid>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13340168421393</eid>
                 </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -4039,6 +4155,19 @@ IV - Fuga (Conversa) — Andante
               <eid>6171868004372</eid>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>13344463388702</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
@@ -4056,6 +4185,14 @@ IV - Fuga (Conversa) — Andante
               <eid>6180457938964</eid>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
@@ -4274,6 +4411,12 @@ IV - Fuga (Conversa) — Andante
             <linked>
               </linked>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <eid>13357348290591</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>6524055322644</eid>
               <linked>
@@ -4282,6 +4425,18 @@ IV - Fuga (Conversa) — Andante
                 <subtype>accidentalSharp</subtype>
                 <eid>6528350289937</eid>
                 </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>13361643257886</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
@@ -4295,6 +4450,13 @@ IV - Fuga (Conversa) — Andante
               <eid>6536940224532</eid>
               <linked>
                 </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>42</pitch>
               <tpc>20</tpc>
               </Note>
@@ -4304,6 +4466,12 @@ IV - Fuga (Conversa) — Andante
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>13370233192479</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>6545530159124</eid>
               <linked>
@@ -4338,6 +4506,12 @@ IV - Fuga (Conversa) — Andante
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <eid>13378823127071</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>6554120093716</eid>
               <linked>
@@ -4799,6 +4973,11 @@ IV - Fuga (Conversa) — Andante
               <eid>7636451852308</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13413182865425</eid>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -5004,6 +5183,11 @@ IV - Fuga (Conversa) — Andante
               <eid>8392366096404</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13417477832721</eid>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -5204,6 +5388,11 @@ IV - Fuga (Conversa) — Andante
               <eid>8525510082580</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13421772800017</eid>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -5329,6 +5518,11 @@ IV - Fuga (Conversa) — Andante
               <eid>8607114461204</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13426067767313</eid>
+                </Accidental>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
@@ -5595,6 +5789,11 @@ IV - Fuga (Conversa) — Andante
               <eid>9174050144276</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13430362734609</eid>
+                </Accidental>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
@@ -5897,6 +6096,11 @@ IV - Fuga (Conversa) — Andante
               <eid>9363028705300</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13434657701905</eid>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -6262,6 +6466,15 @@ IV - Fuga (Conversa) — Andante
             <frameType>2</frameType>
             <text>11</text>
             </RehearsalMark>
+          <StaffText>
+            <eid>13438952669232</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <bold>1</bold>
+            <italic>1</italic>
+            <text><b><i>Gradioso</i></b></text>
+            </StaffText>
           <Chord>
             <eid>9887014715507</eid>
             <linked>
@@ -6639,6 +6852,11 @@ IV - Fuga (Conversa) — Andante
               <eid>10999411245076</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13477607374865</eid>
+                </Accidental>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
@@ -6729,6 +6947,11 @@ IV - Fuga (Conversa) — Andante
               <eid>11059540787220</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13481902342161</eid>
+                </Accidental>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
@@ -6829,6 +7052,11 @@ IV - Fuga (Conversa) — Andante
               <eid>11115375362068</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13486197309457</eid>
+                </Accidental>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
@@ -6949,6 +7177,11 @@ IV - Fuga (Conversa) — Andante
               <eid>11175504904212</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                <eid>13490492276753</eid>
+                </Accidental>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
@@ -7022,6 +7255,11 @@ IV - Fuga (Conversa) — Andante
               <eid>11222749544468</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13494787244049</eid>
+                </Accidental>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
@@ -7035,8 +7273,12 @@ IV - Fuga (Conversa) — Andante
               <eid>11231339479060</eid>
               <linked>
                 </linked>
-              <pitch>32</pitch>
-              <tpc>10</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>13499082211345</eid>
+                </Accidental>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7093,10 +7335,10 @@ IV - Fuga (Conversa) — Andante
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>11269994184721</eid>
+                <eid>13524852015121</eid>
                 </Accidental>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7125,8 +7367,8 @@ IV - Fuga (Conversa) — Andante
               <eid>11291469021204</eid>
               <linked>
                 </linked>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7296,6 +7538,11 @@ IV - Fuga (Conversa) — Andante
               <eid>11407433138196</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13503377178641</eid>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -7496,6 +7743,11 @@ IV - Fuga (Conversa) — Andante
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <eid>13507672145937</eid>
+                </Accidental>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
@@ -7524,10 +7776,10 @@ IV - Fuga (Conversa) — Andante
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>11536282157073</eid>
+                <eid>13529146982417</eid>
                 </Accidental>
-              <pitch>30</pitch>
-              <tpc>20</tpc>
+              <pitch>32</pitch>
+              <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7541,10 +7793,10 @@ IV - Fuga (Conversa) — Andante
                 </linked>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
-                <eid>11549167058961</eid>
+                <eid>13533441949713</eid>
                 </Accidental>
-              <pitch>29</pitch>
-              <tpc>13</tpc>
+              <pitch>31</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -7583,6 +7835,20 @@ IV - Fuga (Conversa) — Andante
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>15689515532319</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <eid>15693810499615</eid>
+              <linked>
+                </linked>
+              <offset x="1" y="1.5"/>
+              <positionLinkedToMaster>0</positionLinkedToMaster>
+              </Articulation>
             <Note>
               <eid>11574936862740</eid>
               <linked>
@@ -7628,7 +7894,7 @@ IV - Fuga (Conversa) — Andante
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
-            <offset x="11" y="-4.02781"/>
+            <offset x="13.5" y="-3.5"/>
             <eid>11944304050209</eid>
             <linked>
               </linked>
@@ -7670,7 +7936,7 @@ IV - Fuga (Conversa) — Andante
             </Chord>
           <Fermata>
             <subtype>fermataAbove</subtype>
-            <offset x="2.5" y="-4"/>
+            <offset x="5" y="-3.5"/>
             <eid>11948599017505</eid>
             <linked>
               </linked>
@@ -7681,6 +7947,20 @@ IV - Fuga (Conversa) — Andante
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>15698105466911</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <eid>15702400434207</eid>
+              <linked>
+                </linked>
+              <offset x="1" y="1.5"/>
+              <positionLinkedToMaster>0</positionLinkedToMaster>
+              </Articulation>
             <Note>
               <eid>11609296601108</eid>
               <linked>
@@ -7851,6 +8131,20 @@ IV - Fuga (Conversa) — Andante
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>15706695401503</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <eid>15710990368799</eid>
+              <linked>
+                </linked>
+              <offset x="1" y="1.5"/>
+              <positionLinkedToMaster>0</positionLinkedToMaster>
+              </Articulation>
             <Note>
               <eid>11922829213716</eid>
               <linked>
