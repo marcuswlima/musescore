@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>4851</LastEID>
+  <LastEID>4916</LastEID>
   <Score>
     <name>Piano</name>
     <initialPartId>2</initialPartId>
@@ -11,12 +11,6 @@
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.3189</pagePrintableWidth>
-      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
-      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
-      <pageOddTopMargin>0.590551</pageOddTopMargin>
-      <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <lyricsOddFontFace>Default</lyricsOddFontFace>
       <lyricsEvenFontFace>Default</lyricsEvenFontFace>
       <doubleBarDistance>0.37</doubleBarDistance>
@@ -154,14 +148,6 @@
         </VBox>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <isHeader>1</isHeader>
-            <eid>14976550961173</eid>
-            <linked>
-              </linked>
-            </Clef>
           <KeySig>
             <eid>14980845928470</eid>
             <linked>
@@ -176,20 +162,6 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>2</tempo>
-            <followText>1</followText>
-            <eid>14989435863087</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              <indexDiff>6</indexDiff>
-              </linked>
-            <visible>0</visible>
-            <placement>below</placement>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 120</text>
-            </Tempo>
-          <Tempo>
             <tempo>1.666667</tempo>
             <followText>1</followText>
             <eid>20813411516463</eid>
@@ -199,12 +171,12 @@
                 </location>
               <indexDiff>8</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 100</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 100</text>
             </Tempo>
           <Rest>
             <eid>14993730830361</eid>
             <linked>
-              <indexDiff>3</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>half</durationType>
             </Rest>
@@ -1795,30 +1767,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <eid>15934328668254</eid>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <eid>15938623635571</eid>
-            <linked>
-              </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <eid>15942918602772</eid>
-              <linked>
-                </linked>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -2117,13 +2072,8 @@
             <eid>16093242458137</eid>
             <linked>
               </linked>
+            <dots>1</dots>
             <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <eid>16097537425433</eid>
-            <linked>
-              </linked>
-            <durationType>16th</durationType>
             </Rest>
           <Chord>
             <eid>16101832392819</eid>
@@ -2545,13 +2495,8 @@
             <eid>16303695855641</eid>
             <linked>
               </linked>
+            <dots>1</dots>
             <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <eid>16307990822937</eid>
-            <linked>
-              </linked>
-            <durationType>16th</durationType>
             </Rest>
           <Chord>
             <eid>16312285790323</eid>
@@ -4528,7 +4473,7 @@
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 60</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 60</text>
             </Tempo>
           <Rest>
             <eid>17416092385305</eid>
@@ -4933,7 +4878,7 @@
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 100</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 100</text>
             </Tempo>
           <Rest>
             <eid>17648020619289</eid>
@@ -6385,14 +6330,6 @@
     <Staff id="2">
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            <isHeader>1</isHeader>
-            <eid>18498424143893</eid>
-            <linked>
-              </linked>
-            </Clef>
           <KeySig>
             <eid>18502719111190</eid>
             <linked>
@@ -7628,27 +7565,27 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>19181323944051</eid>
+            <eid>20847771254899</eid>
             <linked>
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <eid>19185618911252</eid>
+              <eid>20852066222100</eid>
               <linked>
                 </linked>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>19189913878643</eid>
+            <eid>20856361189491</eid>
             <linked>
               </linked>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <eid>19194208845844</eid>
+              <eid>20860656156692</eid>
               <linked>
                 </linked>
               <pitch>33</pitch>
@@ -7656,62 +7593,29 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>19198503813235</eid>
+            <eid>20864951124083</eid>
             <linked>
               </linked>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <eid>19202798780436</eid>
+              <eid>20869246091284</eid>
               <linked>
                 </linked>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>19207093747827</eid>
+            <eid>20873541058675</eid>
             <linked>
               </linked>
             <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
-              <eid>19211388715028</eid>
+              <eid>20877836025876</eid>
               <linked>
                 </linked>
-              <Spanner type="Tie">
-                <Tie>
-                  <eid>19215683682334</eid>
-                  <linked>
-                    </linked>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>19219978649715</eid>
-            <linked>
-              </linked>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <eid>19224273616916</eid>
-              <linked>
-                </linked>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>

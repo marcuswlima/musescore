@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>4849</LastEID>
+  <LastEID>4916</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -181,15 +181,6 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Tempo>
-            <tempo>2</tempo>
-            <followText>1</followText>
-            <eid>2469606195247</eid>
-            <linkedMain/>
-            <visible>0</visible>
-            <placement>below</placement>
-            <text><sym>metNoteQuarterUp</sym> = 120</text>
-            </Tempo>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>60</velocity>
@@ -756,6 +747,11 @@
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20830591385631</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>347892350996</eid>
               <linkedMain/>
@@ -899,6 +895,11 @@
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20834886352927</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>442381631508</eid>
               <linkedMain/>
@@ -1039,6 +1040,11 @@
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20839181320223</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>11523397255188</eid>
               <linkedMain/>
@@ -1183,6 +1189,11 @@
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20843476287519</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>11617886535700</eid>
               <linkedMain/>
@@ -3348,9 +3359,6 @@
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Stem>
-              <eid>12945031430163</eid>
-              </Stem>
             <Note>
               <eid>12949326397460</eid>
               <linkedMain/>
@@ -3877,13 +3885,6 @@
     <Staff id="2">
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <isHeader>1</isHeader>
-            <eid>2473901162517</eid>
-            <linkedMain/>
-            </Clef>
           <KeySig>
             <eid>2478196129814</eid>
             <linkedMain/>
@@ -5274,27 +5275,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <eid>3423088935006</eid>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <eid>3427383902323</eid>
-            <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <eid>3431678869524</eid>
-              <linkedMain/>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -5559,12 +5546,8 @@
           <Rest>
             <eid>3582002724889</eid>
             <linkedMain/>
+            <dots>1</dots>
             <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <eid>3586297692185</eid>
-            <linkedMain/>
-            <durationType>16th</durationType>
             </Rest>
           <Chord>
             <eid>3590592659571</eid>
@@ -5939,12 +5922,8 @@
           <Rest>
             <eid>3865470566425</eid>
             <linkedMain/>
+            <dots>1</dots>
             <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <eid>3869765533721</eid>
-            <linkedMain/>
-            <durationType>16th</durationType>
             </Rest>
           <Chord>
             <eid>3874060501107</eid>
@@ -9251,13 +9230,6 @@
     <Staff id="3">
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            <isHeader>1</isHeader>
-            <eid>6485400616981</eid>
-            <linkedMain/>
-            </Clef>
           <KeySig>
             <eid>6489695584278</eid>
             <linkedMain/>
@@ -10335,79 +10307,49 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>7155415515251</eid>
+            <eid>7116760809587</eid>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <eid>7159710482452</eid>
+              <eid>7121055776788</eid>
               <linkedMain/>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>7164005449843</eid>
+            <eid>7125350744179</eid>
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <eid>7168300417044</eid>
+              <eid>7129645711380</eid>
               <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>7172595384435</eid>
+            <eid>7133940678771</eid>
             <linkedMain/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <eid>7176890351636</eid>
+              <eid>7138235645972</eid>
               <linkedMain/>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>7181185319027</eid>
+            <eid>7142530613363</eid>
             <linkedMain/>
             <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
-              <eid>7185480286228</eid>
+              <eid>7146825580564</eid>
               <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <eid>7189775253534</eid>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>33</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>7194070220915</eid>
-            <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <eid>7198365188116</eid>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>

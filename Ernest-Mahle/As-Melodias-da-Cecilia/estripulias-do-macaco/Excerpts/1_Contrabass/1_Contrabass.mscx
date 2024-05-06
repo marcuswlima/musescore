@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>4850</LastEID>
+  <LastEID>4916</LastEID>
   <Score>
     <name>Contrabass</name>
     <initialPartId>3</initialPartId>
@@ -11,12 +11,6 @@
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.3189</pagePrintableWidth>
-      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
-      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
-      <pageOddTopMargin>0.590551</pageOddTopMargin>
-      <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <lyricsOddFontFace>Default</lyricsOddFontFace>
       <lyricsEvenFontFace>Default</lyricsEvenFontFace>
       <doubleBarDistance>0.37</doubleBarDistance>
@@ -117,16 +111,6 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Tempo>
-            <tempo>2</tempo>
-            <followText>1</followText>
-            <eid>13305808683055</eid>
-            <linked>
-              </linked>
-            <visible>0</visible>
-            <placement>below</placement>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 120</text>
-            </Tempo>
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>60</velocity>
@@ -148,7 +132,7 @@
             <eid>20809116549167</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 100</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 100</text>
             </Tempo>
           <Chord>
             <eid>13318693585011</eid>
@@ -763,6 +747,12 @@
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20882130993183</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>13627931230228</eid>
               <linked>
@@ -928,6 +918,12 @@
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20886425960479</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>13726715478036</eid>
               <linked>
@@ -1090,6 +1086,12 @@
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20890720927775</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>9633611644948</eid>
               <linked>
@@ -1252,6 +1254,12 @@
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>20895015895071</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>9728100925460</eid>
               <linked>
@@ -2466,7 +2474,7 @@
             <eid>20822001451055</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 60</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 60</text>
             </Tempo>
           <Chord>
             <eid>10423885627507</eid>
@@ -3142,7 +3150,7 @@
             <eid>20834886352943</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 100</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 100</text>
             </Tempo>
           <Chord>
             <eid>10784662880371</eid>
@@ -3842,9 +3850,6 @@
               </linked>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Stem>
-              <eid>14761802596371</eid>
-              </Stem>
             <Note>
               <eid>14766097563668</eid>
               <linked>
@@ -3958,9 +3963,6 @@
               </linked>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Stem>
-              <eid>14834817040403</eid>
-              </Stem>
             <Note>
               <eid>14839112007700</eid>
               <linked>
