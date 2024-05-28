@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.20">
+<museScore version="4.30">
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
@@ -165,7 +165,7 @@
     <articulationMag>1</articulationMag>
     <articulationPosAbove x="0" y="0"/>
     <articulationAnchorDefault>2</articulationAnchorDefault>
-    <articulationAnchorLuteFingering>1</articulationAnchorLuteFingering>
+    <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
     <articulationAnchorOther>0</articulationAnchorOther>
     <articulationStemHAlign>2</articulationStemHAlign>
     <articulationKeepTogether>1</articulationKeepTogether>
@@ -173,8 +173,8 @@
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-2"/>
     <hairpinPosBelow x="0" y="2"/>
-    <hairpinLinePosAbove x="0" y="-1.5"/>
-    <hairpinLinePosBelow x="0" y="2.5"/>
+    <hairpinLinePosAbove x="0" y="-3"/>
+    <hairpinLinePosBelow x="0" y="4"/>
     <hairpinHeight>1.15</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
     <hairpinWidth>0.12</hairpinWidth>
@@ -337,6 +337,7 @@
     <smallStaffMag>0.7</smallStaffMag>
     <smallClefMag>0.8</smallClefMag>
     <genClef>1</genClef>
+    <hideTabClefAfterFirst>1</hideTabClefAfterFirst>
     <genKeysig>1</genKeysig>
     <genCourtesyTimesig>1</genCourtesyTimesig>
     <genCourtesyKeysig>1</genCourtesyKeysig>
@@ -361,9 +362,9 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
-    <minMMRestWidth>6</minMMRestWidth>
+    <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
     <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
@@ -384,8 +385,8 @@
     <tenutoGateTime>100</tenutoGateTime>
     <staccatoGateTime>50</staccatoGateTime>
     <slurGateTime>100</slurGateTime>
-    <ArpeggioNoteDistance>0.4</ArpeggioNoteDistance>
-    <ArpeggioAccidentalDistance>0.3</ArpeggioAccidentalDistance>
+    <ArpeggioNoteDistance>0.5</ArpeggioNoteDistance>
+    <ArpeggioAccidentalDistance>0.5</ArpeggioAccidentalDistance>
     <ArpeggioAccidentalDistanceMin>0.33</ArpeggioAccidentalDistanceMin>
     <ArpeggioLineWidth>0.18</ArpeggioLineWidth>
     <ArpeggioHookLen>0.8</ArpeggioHookLen>
@@ -399,7 +400,7 @@
     <slurMinDistance>0.5</slurMinDistance>
     <headerSlurTieDistance>1</headerSlurTieDistance>
     <tiePlacementSingleNote>outside</tiePlacementSingleNote>
-    <tiePlacementChord>outside</tiePlacementChord>
+    <tiePlacementChord>inside</tiePlacementChord>
     <tieMinShoulderHeight>0.3</tieMinShoulderHeight>
     <tieMaxShoulderHeight>2</tieMaxShoulderHeight>
     <sectionPause>3</sectionPause>
@@ -1369,8 +1370,8 @@
     <palmMuteTextAlign>left,center</palmMuteTextAlign>
     <palmMuteHookHeight>0.6</palmMuteHookHeight>
     <palmMutePlacement>1</palmMutePlacement>
-    <palmMutePosAbove x="0" y="0"/>
-    <palmMutePosBelow x="0" y="0"/>
+    <palmMutePosAbove x="0" y="-4"/>
+    <palmMutePosBelow x="0" y="4"/>
     <palmMuteLineWidth>0.11</palmMuteLineWidth>
     <palmMuteLineStyle>dashed</palmMuteLineStyle>
     <palmMuteDashLineLen>5</palmMuteDashLineLen>
@@ -1430,9 +1431,12 @@
     <wahShowTabCommon>1</wahShowTabCommon>
     <golpeShowTabSimple>1</golpeShowTabSimple>
     <golpeShowTabCommon>1</golpeShowTabCommon>
+    <tabShowTiedFret>0</tabShowTiedFret>
+    <tabParenthesizeTiedFret>0</tabParenthesizeTiedFret>
+    <parenthesizeTiedFretIfArticulation>1</parenthesizeTiedFretIfArticulation>
     <chordlineThickness>0.16</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
-    <defaultsVersion>420</defaultsVersion>
+    <defaultsVersion>400</defaultsVersion>
     <Spatium>1.74978</Spatium>
     </Style>
   </museScore>

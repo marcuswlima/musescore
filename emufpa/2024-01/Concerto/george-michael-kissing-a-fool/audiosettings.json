@@ -1,5 +1,5 @@
 {
-    "activeSoundProfile": "Muse Sounds",
+    "activeSoundProfile": "MuseScore Basic",
     "aux": [
         {
             "out": {
@@ -44,15 +44,13 @@
         "balance": 0,
         "fxChain": {
         },
-        "volumeDb": 6
+        "volumeDb": 0
     },
     "tracks": [
         {
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
                     "id": "MS Basic",
@@ -62,7 +60,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "contrabass",
+            "instrumentId": "piano",
             "out": {
                 "auxSends": [
                     {
@@ -79,7 +77,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "1",
+            "partId": "2",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -89,8 +87,6 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
                     "id": "MS Basic",
@@ -100,7 +96,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "contrabass",
+            "instrumentId": "chord_symbols",
             "out": {
                 "auxSends": [
                     {
@@ -115,9 +111,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 12
+                "volumeDb": -6.699999809265137
             },
-            "partId": "2",
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -127,8 +123,6 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
                     "id": "MS Basic",
@@ -148,6 +142,78 @@
             "partId": "999",
             "soloMuteState": {
                 "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "bass-guitar",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "voice",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": -0.699999988079071
+            },
+            "partId": "1",
+            "soloMuteState": {
+                "mute": true,
                 "solo": false
             }
         }
