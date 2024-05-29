@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.20">
+<museScore version="4.30">
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
@@ -337,6 +337,7 @@
     <smallStaffMag>0.7</smallStaffMag>
     <smallClefMag>0.8</smallClefMag>
     <genClef>1</genClef>
+    <hideTabClefAfterFirst>1</hideTabClefAfterFirst>
     <genKeysig>1</genKeysig>
     <genCourtesyTimesig>1</genCourtesyTimesig>
     <genCourtesyKeysig>1</genCourtesyKeysig>
@@ -1432,6 +1433,9 @@
     <wahShowTabCommon>1</wahShowTabCommon>
     <golpeShowTabSimple>1</golpeShowTabSimple>
     <golpeShowTabCommon>1</golpeShowTabCommon>
+    <tabShowTiedFret>0</tabShowTiedFret>
+    <tabParenthesizeTiedFret>0</tabParenthesizeTiedFret>
+    <parenthesizeTiedFretIfArticulation>1</parenthesizeTiedFretIfArticulation>
     <chordlineThickness>0.16</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>420</defaultsVersion>
