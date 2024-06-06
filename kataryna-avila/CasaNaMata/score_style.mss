@@ -410,22 +410,19 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC>Rock In Bossa - Kataryna Ávila</evenHeaderC>
+    <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC>Rock In Bossa - Kataryna Ávila</oddHeaderC>
+    <oddHeaderC></oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>0</footerFirstPage>
+    <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>marcuswlima@gmail.com
-@marcuswlima_</evenFooterC>
+    <evenFooterC>$C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>marcuswlima@gmail.com
-@marcuswlima_
-</oddFooterC>
+    <oddFooterC>$C</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -883,7 +880,7 @@
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
     <measureNumberOffset x="0" y="-2"/>
-    <measureNumberPosBelow x="0" y="1"/>
+    <measureNumberPosBelow x="0" y="2"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
     <measureNumberHPlacement>0</measureNumberHPlacement>
@@ -1439,7 +1436,7 @@
     <parenthesizeTiedFretIfArticulation>1</parenthesizeTiedFretIfArticulation>
     <chordlineThickness>0.16</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
-    <defaultsVersion>420</defaultsVersion>
+    <defaultsVersion>430</defaultsVersion>
     <Spatium>1.74978</Spatium>
     </Style>
   </museScore>
