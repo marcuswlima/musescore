@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.30">
-  <programVersion>4.3.0</programVersion>
-  <programRevision>5f36e74</programRevision>
+  <programVersion>4.3.1</programVersion>
+  <programRevision>026c26b</programRevision>
   <LastEID>6605</LastEID>
   <Score>
     <name>Contrabaixo</name>
@@ -99,7 +99,7 @@
             </linked>
           <style>title</style>
           <family>Hiragino Kaku Gothic StdN</family>
-          <text><font face="Hiragino Kaku Gothic StdN"/>KISSING A FOOL</text>
+          <text><font face="Hiragino Kaku Gothic StdN"></font>KISSING A FOOL</text>
           </Text>
         <Text>
           <eid>14289356193798</eid>
@@ -143,7 +143,7 @@
                 </location>
               <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 80</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 80</text>
             </Tempo>
           <Rest>
             <eid>14310831030297</eid>
@@ -200,7 +200,7 @@
           <style>repeat_left</style>
           <family>ScoreText</family>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -484,7 +484,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>To Coda</b></text>
+          <text><b><font size="15"></font>To Coda</b></text>
           <label>ToCoda</label>
           </Marker>
         <voice>
@@ -3695,7 +3695,7 @@
           <size>15</size>
           <bold>1</bold>
           <offset x="-1" y="-6.69355"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>ToCoda</playUntil>
           <continueAt>Coda</continueAt>
@@ -3728,7 +3728,7 @@
           <style>repeat_left</style>
           <size>30</size>
           <offset x="3" y="-6"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>Coda</label>
           </Marker>
         <voice>

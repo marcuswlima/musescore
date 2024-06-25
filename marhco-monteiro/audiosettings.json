@@ -1,5 +1,5 @@
 {
-    "activeSoundProfile": "MuseScore Basic",
+    "activeSoundProfile": "Muse Sounds",
     "aux": [
         {
             "out": {
@@ -51,6 +51,8 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
                     "id": "MS Basic",
@@ -60,7 +62,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "voice",
+            "instrumentId": "chord_symbols",
             "out": {
                 "auxSends": [
                     {
@@ -75,18 +77,16 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": -0.699999988079071
+                "volumeDb": 0
             },
-            "partId": "1",
-            "soloMuteState": {
-                "mute": true,
-                "solo": false
-            }
+            "partId": "1"
         },
         {
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
                     "id": "MS Basic",
@@ -113,7 +113,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "3",
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -123,6 +123,8 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
                     "id": "MS Basic",
@@ -140,78 +142,6 @@
                 "volumeDb": 0
             },
             "partId": "999",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "chord_symbols",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": -6.699999809265137
-            },
-            "partId": "1",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "piano",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "2",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
