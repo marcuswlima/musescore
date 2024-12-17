@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.30">
-  <programVersion>4.3.1</programVersion>
-  <programRevision>026c26b</programRevision>
-  <LastEID>6605</LastEID>
+<museScore version="4.40">
+  <programVersion>4.4.3</programVersion>
+  <programRevision>eb6b367</programRevision>
+  <LastEID>76398</LastEID>
   <Score>
     <name>Piano&amp;Baixo</name>
     <Division>480</Division>
@@ -16,14 +16,34 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <lyricsDashMaxLength>0.8</lyricsDashMaxLength>
+      <lyricsMelismaPad>0.1</lyricsMelismaPad>
+      <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
+      <clefKeyDistance>1</clefKeyDistance>
+      <barNoteDistance>1.3</barNoteDistance>
+      <accidentalDistance>0.22</accidentalDistance>
       <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
+      <hairpinPosAbove x="0" y="-2"/>
+      <hairpinPosBelow x="0" y="2"/>
       <hairpinLinePosAbove x="0" y="-3"/>
       <hairpinLinePosBelow x="0" y="4"/>
+      <pedalFontSize>12</pedalFontSize>
+      <pedalContinueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</pedalContinueText>
+      <fretFretSpacing>0.8</fretFretSpacing>
+      <barreLineWidth>1</barreLineWidth>
       <minMMRestWidth>4</minMMRestWidth>
-      <ArpeggioNoteDistance>0.5</ArpeggioNoteDistance>
-      <ArpeggioAccidentalDistance>0.5</ArpeggioAccidentalDistance>
+      <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
+      <arpeggioNoteDistance>0.5</arpeggioNoteDistance>
+      <arpeggioAccidentalDistance>0.5</arpeggioAccidentalDistance>
       <tiePlacementChord>inside</tiePlacementChord>
+      <dynamicsPosAbove x="0" y="-1.5"/>
+      <dynamicsPosBelow x="0" y="2.5"/>
       <measureNumberPosBelow x="0" y="1"/>
+      <systemTextLineFontSize>12</systemTextLineFontSize>
+      <headerFontSize>11</headerFontSize>
+      <headerFontStyle>1</headerFontStyle>
+      <stickingAlign>left,baseline</stickingAlign>
+      <stickingPosAbove x="0" y="-2"/>
       <palmMutePosAbove x="0" y="-4"/>
       <palmMutePosBelow x="0" y="4"/>
       <defaultsVersion>400</defaultsVersion>
@@ -143,11 +163,12 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>28372553957499</eid>
         <Text>
           <eid>28376848924678</eid>
           <style>title</style>
-          <family>Hiragino Kaku Gothic StdN</family>
+          <family></family>
           <text><font face="Hiragino Kaku Gothic StdN"></font>KISSING A FOOL</text>
           </Text>
         <Text>
@@ -178,7 +199,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>2</tempo>
+            <tempo>1.383333</tempo>
             <followText>1</followText>
             <eid>28398323761199</eid>
             <linked>
@@ -187,7 +208,7 @@
                 </location>
               <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 80</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 83</text>
             </Tempo>
           <Dynamic>
             <subtype>mp</subtype>
@@ -861,11 +882,6 @@
               <eid>28707561406485</eid>
               <linked>
                 </linked>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                <eid>28711856373777</eid>
-                </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1140,8 +1156,8 @@
               </location>
             </linked>
           <style>repeat_left</style>
-          <family>ScoreText</family>
-          <size>30</size>
+          <family></family>
+          <size>12</size>
           <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
@@ -10108,8 +10124,7 @@
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-1" y="-6.69355"/>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
@@ -10191,7 +10206,7 @@
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="3" y="-6"/>
           <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
@@ -10941,7 +10956,6 @@
           </voice>
         </Measure>
       <TBox>
-        <height>1</height>
         <eid>34097745363068</eid>
         <linked>
           <location>
@@ -14334,6 +14348,7 @@ You must have been kissing a fool.</text>
             <eid>36064840384628</eid>
             <linked>
               </linked>
+            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <eid>36069135351829</eid>
@@ -14344,12 +14359,12 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
-            <eid>36073430319220</eid>
+            <eid>178945517420659</eid>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
-              <eid>36077725286421</eid>
+              <eid>178958402322452</eid>
               <linked>
                 </linked>
               <pitch>38</pitch>

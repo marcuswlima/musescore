@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.30">
-  <programVersion>4.3.1</programVersion>
-  <programRevision>026c26b</programRevision>
-  <LastEID>6605</LastEID>
+<museScore version="4.40">
+  <programVersion>4.4.3</programVersion>
+  <programRevision>eb6b367</programRevision>
+  <LastEID>76398</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -235,6 +235,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>4294967418</eid>
         <linkedMain/>
         <Text>
@@ -242,7 +243,7 @@
           <linkedMain/>
           <style>title</style>
           <family>Hiragino Kaku Gothic StdN</family>
-          <text><font face="Hiragino Kaku Gothic StdN"></font>KISSING A FOOL</text>
+          <text><font face="Hiragino Kaku Gothic StdN"/>KISSING A FOOL</text>
           </Text>
         <Text>
           <eid>12884901894</eid>
@@ -271,11 +272,11 @@
             <linkedMain/>
             </Harmony>
           <Tempo>
-            <tempo>2</tempo>
+            <tempo>1.383333</tempo>
             <followText>1</followText>
             <eid>30064771119</eid>
             <linkedMain/>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 80</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 83</text>
             </Tempo>
           <Rest>
             <eid>34359738393</eid>
@@ -358,6 +359,7 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <direction>down</direction>
             <eid>81604378659</eid>
             <linkedMain/>
             </Dynamic>
@@ -410,7 +412,7 @@
           <style>repeat_left</style>
           <family>ScoreText</family>
           <size>30</size>
-          <text><font size="30"></font><sym>segno</sym></text>
+          <text><font size="30"/><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -940,7 +942,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"></font>To Coda</b></text>
+          <text><b><font size="15"/>To Coda</b></text>
           <label>ToCoda</label>
           </Marker>
         <voice>
@@ -1781,6 +1783,7 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <direction>down</direction>
             <eid>1030792151075</eid>
             <linkedMain/>
             </Dynamic>
@@ -3614,6 +3617,7 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <direction>down</direction>
             <eid>2250562863139</eid>
             <linkedMain/>
             </Dynamic>
@@ -4027,6 +4031,7 @@
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
+            <direction>down</direction>
             <eid>2534030704675</eid>
             <linkedMain/>
             </Dynamic>
@@ -4205,6 +4210,7 @@
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
+            <direction>down</direction>
             <eid>2654289788963</eid>
             <linkedMain/>
             </Dynamic>
@@ -4469,6 +4475,7 @@
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
+            <direction>down</direction>
             <eid>2813203578915</eid>
             <linkedMain/>
             </Dynamic>
@@ -4576,6 +4583,7 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <direction>down</direction>
             <eid>2873333121059</eid>
             <linkedMain/>
             </Dynamic>
@@ -5586,6 +5594,7 @@
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
+            <direction>down</direction>
             <eid>3500398346275</eid>
             <linkedMain/>
             </Dynamic>
@@ -5818,6 +5827,7 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <direction>down</direction>
               <eid>3650722201694</eid>
               <linkedMain/>
               </HairPin>
@@ -6046,6 +6056,7 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <direction>down</direction>
             <eid>3792456122403</eid>
             <linkedMain/>
             </Dynamic>
@@ -6341,6 +6352,7 @@
           <Dynamic>
             <subtype>mp</subtype>
             <velocity>64</velocity>
+            <direction>down</direction>
             <eid>3977139716131</eid>
             <linkedMain/>
             </Dynamic>
@@ -6473,7 +6485,7 @@
           <size>15</size>
           <bold>1</bold>
           <offset x="-1" y="-6.69355"/>
-          <text><b><font size="15"></font>D.S. al Coda</b></text>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>ToCoda</playUntil>
           <continueAt>Coda</continueAt>
@@ -6563,7 +6575,7 @@
           <style>repeat_left</style>
           <size>30</size>
           <offset x="3" y="-6"/>
-          <text><font size="30"></font><sym>coda</sym></text>
+          <text><font size="30"/><sym>coda</sym></text>
           <label>Coda</label>
           </Marker>
         <voice>
@@ -7118,7 +7130,6 @@
           </voice>
         </Measure>
       <TBox>
-        <height>1</height>
         <eid>4501125726331</eid>
         <linkedMain/>
         <Text>
@@ -7766,11 +7777,6 @@ You must have been kissing a fool.</text>
             <Note>
               <eid>4827543240724</eid>
               <linkedMain/>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                <eid>4831838208017</eid>
-                </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -19674,6 +19680,7 @@ You must have been kissing a fool.</text>
           <Chord>
             <eid>12382390714483</eid>
             <linkedMain/>
+            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <eid>12386685681684</eid>
@@ -19683,11 +19690,11 @@ You must have been kissing a fool.</text>
               </Note>
             </Chord>
           <Chord>
-            <eid>12390980649075</eid>
+            <eid>178889682845811</eid>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
-              <eid>12395275616276</eid>
+              <eid>178902567747604</eid>
               <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>

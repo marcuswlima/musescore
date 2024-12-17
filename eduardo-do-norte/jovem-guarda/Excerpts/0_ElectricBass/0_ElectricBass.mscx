@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.20">
-  <programVersion>4.2.1</programVersion>
-  <programRevision>d757433</programRevision>
-  <LastEID>24431</LastEID>
+<museScore version="4.40">
+  <programVersion>4.4.2</programVersion>
+  <programRevision>3130f97</programRevision>
+  <LastEID>141532</LastEID>
   <Score>
     <name>ElectricBass</name>
     <initialPartId>1</initialPartId>
@@ -17,7 +17,22 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <lyricsDashMaxLength>0.8</lyricsDashMaxLength>
+      <lyricsMelismaPad>0.1</lyricsMelismaPad>
+      <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
       <repeatBarTips>1</repeatBarTips>
+      <clefKeyDistance>1</clefKeyDistance>
+      <barNoteDistance>1.3</barNoteDistance>
+      <accidentalDistance>0.22</accidentalDistance>
+      <hairpinPosAbove x="0" y="-2"/>
+      <hairpinPosBelow x="0" y="2"/>
+      <hairpinLinePosAbove x="0" y="-1.5"/>
+      <hairpinLinePosBelow x="0" y="2.5"/>
+      <pedalFontSize>12</pedalFontSize>
+      <pedalContinueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</pedalContinueText>
+      <fretFretSpacing>0.8</fretFretSpacing>
+      <barreLineWidth>1</barreLineWidth>
+      <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
       <evenHeaderC>Eduardo do Norte canta Jovem Guarda</evenHeaderC>
       <oddHeaderC>Eduardo do Norte canta Jovem Guarda</oddHeaderC>
       <footerFirstPage>0</footerFirstPage>
@@ -26,7 +41,16 @@
 @marciswlima_</evenFooterC>
       <oddFooterC>marcuswlima@gmail.com
 @marcuswlima_</oddFooterC>
+      <dynamicsPosAbove x="0" y="-1.5"/>
+      <dynamicsPosBelow x="0" y="2.5"/>
       <measureNumberPosBelow x="0" y="1"/>
+      <repeatLeftFontSize>18</repeatLeftFontSize>
+      <systemTextLineFontSize>12</systemTextLineFontSize>
+      <headerFontSize>11</headerFontSize>
+      <headerFontStyle>1</headerFontStyle>
+      <stickingAlign>left,baseline</stickingAlign>
+      <stickingPosAbove x="0" y="-2"/>
+      <defaultsVersion>420</defaultsVersion>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -89,6 +113,7 @@
         <height>26</height>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>3354369458298</eid>
         <linked>
           <location>
@@ -616,9 +641,10 @@ Jovem Guarda
               </location>
             <indexDiff>1</indexDiff>
             </linked>
+          <positionLinkedToMaster>0</positionLinkedToMaster>
           <style>repeat_left</style>
           <offset x="0" y="-3.70968"/>
-          <text><sym>segno</sym><font face="Edwin"></font>1</text>
+          <text><sym>segno</sym><font face="Edwin"/>1</text>
           <label>segno1</label>
           </Marker>
         <voice>
@@ -16176,12 +16202,12 @@ Jovem Guarda
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
-            <Tremolo>
+            <TremoloSingleChord>
               <subtype>r8</subtype>
               <eid>17257178595413</eid>
               <linked>
                 </linked>
-              </Tremolo>
+              </TremoloSingleChord>
             </Chord>
           </voice>
         </Measure>
@@ -16199,12 +16225,12 @@ Jovem Guarda
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
-            <Tremolo>
+            <TremoloSingleChord>
               <subtype>r8</subtype>
               <eid>17257178595413</eid>
               <linked>
                 </linked>
-              </Tremolo>
+              </TremoloSingleChord>
             </Chord>
           <BarLine>
             <subtype>double</subtype>
@@ -17346,7 +17372,7 @@ Jovem Guarda
           <eid>20843476287531</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <LayoutBreak>
@@ -17973,7 +17999,7 @@ Jovem Guarda
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -18000,7 +18026,7 @@ Jovem Guarda
           <style>repeat_left</style>
           <size>30</size>
           <offset x="2.5" y="-1.63709"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -18479,7 +18505,7 @@ Jovem Guarda
           <eid>24919400251435</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -21237,7 +21263,7 @@ Jovem Guarda
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -21311,7 +21337,7 @@ Jovem Guarda
           <style>repeat_left</style>
           <size>30</size>
           <offset x="3.5" y="-2.30031"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -22178,7 +22204,7 @@ Jovem Guarda
           <eid>26431228739627</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -23605,7 +23631,7 @@ Jovem Guarda
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Fine</b></text>
+          <text><b><font size="15"></font>D.S. al Fine</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -46435,7 +46461,7 @@ Jovem Guarda
           <eid>57196079480875</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -47218,7 +47244,7 @@ Jovem Guarda
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.C. al Coda</b></text>
+          <text><b><font size="15"></font>D.C. al Coda</b></text>
           <jumpTo>start</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -48424,7 +48450,7 @@ Jovem Guarda
           <eid>62191126446123</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -54053,7 +54079,7 @@ Jovem Guarda
           <size>15</size>
           <bold>1</bold>
           <offset x="-2.5" y="-3"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -54089,7 +54115,7 @@ Jovem Guarda
           <minDistance>-0.375996</minDistance>
           <size>30</size>
           <offset x="2.5" y="-4.09981"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <LayoutBreak>
@@ -54948,7 +54974,7 @@ Jovem Guarda
           <eid>66189740998699</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -56419,7 +56445,7 @@ Jovem Guarda
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -56489,7 +56515,7 @@ Jovem Guarda
           <eid>66215510802475</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -59608,7 +59634,7 @@ Jovem Guarda
           <eid>74672301408299</eid>
           <style>repeat_left</style>
           <size>31</size>
-          <text><font size="31"/><sym>segno</sym></text>
+          <text><font size="31"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -61046,7 +61072,7 @@ Jovem Guarda
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -61092,7 +61118,7 @@ Jovem Guarda
           <size>30</size>
           <bold>1</bold>
           <offset x="3" y="-1.98387"/>
-          <text><b><font size="30"/><sym>coda</sym></b></text>
+          <text><b><font size="30"></font><sym>coda</sym></b></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -65614,7 +65640,7 @@ O Milionário</text>
             </linked>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -67088,7 +67114,7 @@ O Milionário</text>
           <size>15</size>
           <bold>1</bold>
           <offset x="-1.5" y="-2"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -67181,7 +67207,7 @@ O Milionário</text>
           <style>repeat_left</style>
           <size>30</size>
           <offset x="2" y="-2"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -67976,7 +68002,7 @@ O Milionário</text>
           <eid>83696027697195</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -70921,7 +70947,7 @@ O Milionário</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -70973,7 +70999,7 @@ O Milionário</text>
           <minDistance>0.0372862</minDistance>
           <size>30</size>
           <offset x="2" y="-1.63709"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -71992,7 +72018,7 @@ O Milionário</text>
           <eid>93578747445291</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -74259,7 +74285,7 @@ O Milionário</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>ToCoda</playUntil>
           <continueAt>coda</continueAt>
@@ -74327,7 +74353,7 @@ O Milionário</text>
           <minDistance>-0.935481</minDistance>
           <size>30</size>
           <offset x="8.5" y="-4.04839"/>
-          <text><font size="30"/><sym>coda</sym><font face="Edwin"/> 1:36</text>
+          <text><font size="30"></font><sym>coda</sym><font face="Edwin"></font> 1:36</text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -77620,7 +77646,7 @@ O Milionário</text>
           <eid>97852239904811</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -77755,7 +77781,7 @@ O Milionário</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>To Coda</b></text>
+          <text><b><font size="15"></font>To Coda</b></text>
           <label>ToCoda</label>
           </Marker>
         <voice>
@@ -78815,7 +78841,7 @@ O Milionário</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>ToCoda</playUntil>
           <continueAt>coda</continueAt>

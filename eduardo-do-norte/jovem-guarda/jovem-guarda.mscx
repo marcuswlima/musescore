@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.20">
-  <programVersion>4.2.1</programVersion>
-  <programRevision>d757433</programRevision>
-  <LastEID>24431</LastEID>
+<museScore version="4.40">
+  <programVersion>4.4.2</programVersion>
+  <programRevision>3130f97</programRevision>
+  <LastEID>141532</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -199,6 +199,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>4294967418</eid>
         <linkedMain/>
         <Text>
@@ -346,7 +347,7 @@ Jovem Guarda
           <linkedMain/>
           <style>repeat_left</style>
           <offset x="0" y="-3.70968"/>
-          <text><sym>segno</sym><font face="Edwin"></font>1</text>
+          <text><sym>segno</sym><font face="Edwin"/>1</text>
           <label>segno1</label>
           </Marker>
         <voice>
@@ -12935,7 +12936,7 @@ Jovem Guarda
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.C. al Coda</b></text>
+          <text><b><font size="15"></font>D.C. al Coda</b></text>
           <jumpTo>start</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -15679,7 +15680,7 @@ O Milionário</text>
           <linkedMain/>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -15911,7 +15912,7 @@ O Milionário</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -15936,7 +15937,7 @@ O Milionário</text>
           <linkedMain/>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -41614,11 +41615,11 @@ O Milionário</text>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
-            <Tremolo>
+            <TremoloSingleChord>
               <subtype>r8</subtype>
               <eid>17459042058325</eid>
               <linkedMain/>
-              </Tremolo>
+              </TremoloSingleChord>
             </Chord>
           </voice>
         </Measure>
@@ -41634,11 +41635,11 @@ O Milionário</text>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
-            <Tremolo>
+            <TremoloSingleChord>
               <subtype>r8</subtype>
               <eid>17471926960213</eid>
               <linkedMain/>
-              </Tremolo>
+              </TremoloSingleChord>
             </Chord>
           <BarLine>
             <subtype>double</subtype>
