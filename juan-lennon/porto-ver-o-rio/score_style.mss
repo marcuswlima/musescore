@@ -438,19 +438,21 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Juan Lennon e as mais tocadas do Brega</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Juan Lennon e as mais tocadas do Brega</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
+    <evenFooterC>marcuswlima@gmail.com
+@marcuswlima_</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>marcuswlima@gmail.com
+@marcuswlima_</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
