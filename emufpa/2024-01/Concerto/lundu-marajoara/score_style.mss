@@ -435,22 +435,24 @@
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
-    <headerFirstPage>0</headerFirstPage>
+    <headerFirstPage>1</headerFirstPage>
     <headerOddEven>1</headerOddEven>
-    <evenHeaderL>$p</evenHeaderL>
+    <evenHeaderL></evenHeaderL>
     <evenHeaderC></evenHeaderC>
-    <evenHeaderR></evenHeaderR>
+    <evenHeaderR>$p</evenHeaderR>
     <oddHeaderL></oddHeaderL>
     <oddHeaderC></oddHeaderC>
-    <oddHeaderR>$p</oddHeaderR>
+    <oddHeaderR>$N</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
+    <evenFooterC>marcuswlima@gmail.com
+@marcuswlima_</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>marcuswlima@gmail.com
+@marcuswlima_</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
