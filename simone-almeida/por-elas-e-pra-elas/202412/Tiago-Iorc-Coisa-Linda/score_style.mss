@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.30">
+<museScore version="4.20">
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
@@ -88,7 +88,7 @@
     <doubleBarDistance>0.37</doubleBarDistance>
     <endBarDistance>0.37</endBarDistance>
     <repeatBarlineDotSeparation>0.37</repeatBarlineDotSeparation>
-    <repeatBarTips>1</repeatBarTips>
+    <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.45</bracketWidth>
@@ -337,7 +337,6 @@
     <smallStaffMag>0.7</smallStaffMag>
     <smallClefMag>0.8</smallClefMag>
     <genClef>1</genClef>
-    <hideTabClefAfterFirst>1</hideTabClefAfterFirst>
     <genKeysig>1</genKeysig>
     <genCourtesyTimesig>1</genCourtesyTimesig>
     <genCourtesyKeysig>1</genCourtesyKeysig>
@@ -410,27 +409,19 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC>Simone Almeida - Por Elas e Para Elas
-</evenHeaderC>
+    <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC>Simone Almeida - Por Elas e Para Elas
-</oddHeaderC>
+    <oddHeaderC></oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>0</footerFirstPage>
+    <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>marcuswlima@gmail.com
-@marcuswlima_
-(91)984117417
-$M</evenFooterC>
+    <evenFooterC>$C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>marcuswlima@gmail.com
-@marcuswlima_
-(91)984117417
-$M</oddFooterC>
+    <oddFooterC>$C</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -1439,9 +1430,6 @@ $M</oddFooterC>
     <wahShowTabCommon>1</wahShowTabCommon>
     <golpeShowTabSimple>1</golpeShowTabSimple>
     <golpeShowTabCommon>1</golpeShowTabCommon>
-    <tabShowTiedFret>0</tabShowTiedFret>
-    <tabParenthesizeTiedFret>0</tabParenthesizeTiedFret>
-    <parenthesizeTiedFretIfArticulation>1</parenthesizeTiedFretIfArticulation>
     <chordlineThickness>0.16</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>420</defaultsVersion>
