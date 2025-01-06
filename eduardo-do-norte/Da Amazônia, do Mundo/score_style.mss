@@ -441,12 +441,12 @@
     <evenHeaderC>Eduardo do Norte - Da Amazônia, do Mundo</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC>Eduardo do Norte - Da Amazônia, do Mundo</oddHeaderC>
+    <oddHeaderC>Eduardo do Norte - Da Amazônia, do Mundo </oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
-    <evenFooterL></evenFooterL>
+    <evenFooterL>$v $M $m</evenFooterL>
     <evenFooterC>marcuswlima@gmail.com
 @marcuswlima_</evenFooterC>
     <evenFooterR></evenFooterR>

@@ -438,10 +438,10 @@
     <headerFirstPage>1</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC>Eduardo du Norte / Da Amazônia, do Mundo / Eletric Bass</evenHeaderC>
+    <evenHeaderC>Eduardo du Norte / Da Amazônia, do Mundo / $I</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC>Eduardo du Norte / Da Amazônia, do Mundo / Eletric Bass</oddHeaderC>
+    <oddHeaderC>Eduardo du Norte / Da Amazônia, do Mundo / $I</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
@@ -449,8 +449,8 @@
     <evenFooterL></evenFooterL>
     <evenFooterC>marcuswlima@gmail.com
 @marcuswlima_</evenFooterC>
-    <evenFooterR></evenFooterR>
-    <oddFooterL></oddFooterL>
+    <evenFooterR>$v $M $m</evenFooterR>
+    <oddFooterL>$v $M $m</oddFooterL>
     <oddFooterC>marcuswlima@gmail.com
 @marcuswlima_</oddFooterC>
     <oddFooterR></oddFooterR>
