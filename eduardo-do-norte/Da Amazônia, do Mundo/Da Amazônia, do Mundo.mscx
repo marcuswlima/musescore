@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>2565197</LastEID>
+  <LastEID>2798401</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -1170,13 +1170,13 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>9879017486286929</eid>
-          <linkedMain/>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <LayoutBreak>
           <eid>9880705408434257</eid>
           <subtype>page</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>11353539888545873</eid>
+          <linkedMain/>
+          <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -1227,7 +1227,7 @@
             <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 118</text>
             </Tempo>
           <Rest>
-            <eid>404384055820314</eid>
+            <eid>11338069416345626</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -22337,10 +22337,39 @@ Dudu Neves</text>
           <Chord>
             <eid>418720656654451</eid>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
               <eid>418733541556244</eid>
               <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>11336944134914079</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>11336484573413491</eid>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <eid>11336480278446100</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
@@ -22348,11 +22377,7 @@ Dudu Neves</text>
           <Rest>
             <eid>420077866319898</eid>
             <linkedMain/>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <eid>417646914830362</eid>
-            <linkedMain/>
+            <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -24534,64 +24559,89 @@ Dudu Neves</text>
         <voice>
           <Harmony>
             <root>18</root>
-            <eid>469942436626490</eid>
+            <eid>11344816809967674</eid>
             <linkedMain/>
             </Harmony>
           <Chord>
-            <eid>469963911463027</eid>
+            <eid>11344842579771507</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
-              <eid>469976796364820</eid>
+              <eid>11344855464673300</eid>
               <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
-            <eid>469989681266714</eid>
+            <eid>11344868349575194</eid>
             <linkedMain/>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
-            <eid>470024041005171</eid>
+            <eid>11344902709313651</eid>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
-              <eid>470036925906964</eid>
+              <eid>11344915594215444</eid>
               <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>11345061623103519</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>11344945658986611</eid>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <eid>11344958543888404</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
-            <eid>470097055449114</eid>
+            <eid>11344975723757594</eid>
             <linkedMain/>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <eid>470114235318298</eid>
-            <linkedMain/>
+            <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
-            <eid>470144300089459</eid>
+            <eid>11345005788528755</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
-              <eid>470157184991252</eid>
+              <eid>11345018673430548</eid>
               <linkedMain/>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Rest>
-            <eid>470174364860442</eid>
+            <eid>11345035853299738</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
-            <eid>470191544729626</eid>
+            <eid>11345053033168922</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
@@ -25100,48 +25150,73 @@ Dudu Neves</text>
         <voice>
           <Harmony>
             <root>18</root>
-            <eid>479202386116666</eid>
+            <eid>11345697278263354</eid>
             <linkedMain/>
             </Harmony>
           <Chord>
-            <eid>479223860953203</eid>
+            <eid>11345723048067187</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
-              <eid>479236745854996</eid>
+              <eid>11345735932968980</eid>
               <linkedMain/>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
-            <eid>479249630756890</eid>
+            <eid>11345748817870874</eid>
             <linkedMain/>
             <durationType>16th</durationType>
             </Rest>
           <Chord>
-            <eid>479283990495347</eid>
+            <eid>11345783177609331</eid>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
-              <eid>479296875397140</eid>
+              <eid>11345796062511124</eid>
               <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>11345942091399199</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>11345826127282291</eid>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Note>
+              <eid>11345839012184084</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Rest>
-            <eid>479357004939290</eid>
+            <eid>11345856192053274</eid>
             <linkedMain/>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <eid>479369889841178</eid>
-            <linkedMain/>
+            <dots>1</dots>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
-            <eid>479687717421082</eid>
+            <eid>11347763157532698</eid>
             <linkedMain/>
             <durationType>half</durationType>
             </Rest>
