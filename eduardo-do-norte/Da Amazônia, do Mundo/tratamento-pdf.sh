@@ -21,3 +21,4 @@ pdftk ../../../_dados/Da\ Amazônia\,\ do\ Mundo.pdf               cat 34-39 out
 #    #cat output /home/marcus/musician/_dados/asd.pdf
 
 pdftk musicas01a07.pdf musicas08a09.pdf musicas10a15.pdf musicas16a17.pdf cat output out1.pdf
+
