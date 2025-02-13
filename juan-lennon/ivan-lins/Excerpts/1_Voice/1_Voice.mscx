@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>359905</LastEID>
+  <LastEID>622362</LastEID>
   <Score>
     <eid>7589207212036</eid>
     <name>Voice</name>
@@ -19,6 +19,20 @@
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <repeatBarTips>1</repeatBarTips>
+      <chordStyle>jazz</chordStyle>
+      <chordDescriptionFile>chords_jazz.xml</chordDescriptionFile>
+      <evenHeaderC>-- Juan Lennon  - Ivan Lins -- </evenHeaderC>
+      <oddHeaderC>-- Juan Lennon  - Ivan Lins --</oddHeaderC>
+      <footerFirstPage>0</footerFirstPage>
+      <evenFooterC>marcuswlima@gmail.com
+@marcuswlima_</evenFooterC>
+      <oddFooterC>marcuswlima@gmail.com
+@marcuswlima_</oddFooterC>
+      <titleFontFace>MuseJazz Text</titleFontFace>
+      <composerFontFace>MuseJazz Text</composerFontFace>
+      <headerFontFace>MuseJazz Text</headerFontFace>
+      <headerFontSize>18</headerFontSize>
+      <headerFontStyle>1</headerFontStyle>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -52,24 +66,35 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>140.5</height>
+        <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>7606387081338</eid>
         <linked>
           </linked>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
-          <eid>7610682048517</eid>
+          <eid>1995235647291397</eid>
           <linked>
             </linked>
-          <style>title</style>
-          <text>Abre Alas</text>
+          <style>frame</style>
+          <family>MuseJazz Text</family>
+          <size>33</size>
+          <align>center,top</align>
+          <offset x="-2.62467" y="74.3656"/>
+          <text><font size="33"/><font face="MuseJazz Text"/>Ruan Lennon
+canta
+Ivan Lins</text>
           </Text>
         <Text>
-          <eid>7614977015813</eid>
+          <eid>2008970952704005</eid>
           <linked>
             </linked>
-          <style>composer</style>
-          <text>Ivan Lins</text>
+          <style>frame</style>
+          <family>MuseJazz Text</family>
+          <size>24</size>
+          <offset x="71.741" y="224.847"/>
+          <text><font size="24"/><font face="MuseJazz Text"/>Fev/2025</text>
           </Text>
         </VBox>
       <VBox>
@@ -114,7 +139,7 @@
             <eid>16209206575151</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 130</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 130</text>
             </Tempo>
           <RehearsalMark>
             <eid>25336012079159</eid>
@@ -1051,7 +1076,7 @@
             <eid>89657442304047</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 80</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 80</text>
             </Tempo>
           <Rest>
             <eid>40879498723354</eid>
@@ -1136,7 +1161,7 @@
             <eid>133418864082991</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 89</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 89</text>
             </Tempo>
           <Rest>
             <eid>41059887349786</eid>
@@ -2183,7 +2208,7 @@
             <eid>339379725795375</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 97</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 97</text>
             </Tempo>
           <Rest>
             <eid>156444183756826</eid>
@@ -3263,7 +3288,7 @@
             <eid>577196359942191</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 86</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 86</text>
             </Tempo>
           <Rest>
             <eid>158909494984730</eid>
@@ -4021,17 +4046,10 @@
         <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>992657136418897</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <Marker>
           <eid>993224072101931</eid>
-          <linked>
-            </linked>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
@@ -4041,8 +4059,6 @@
         <voice>
           <Rest>
             <eid>582397565337626</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -4600,17 +4616,6 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>1312267127750682</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
             <eid>1037986221260826</eid>
             <linked>
               </linked>
@@ -4649,6 +4654,15 @@
             <offset x="5.5" y="-5.43355"/>
             <text>trumpete</text>
             </RehearsalMark>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>1694132670038027</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -4953,17 +4967,6 @@
         <voice>
           <Rest>
             <eid>1322897171808282</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1322957301350426</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -5310,18 +5313,11 @@
       <Measure>
         <LayoutBreak>
           <eid>1377271457775697</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>159991826743322</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>

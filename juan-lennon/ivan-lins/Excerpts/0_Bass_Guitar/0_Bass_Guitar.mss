@@ -375,9 +375,9 @@
     <lowerCaseMinorChords>0</lowerCaseMinorChords>
     <lowerCaseBassNotes>0</lowerCaseBassNotes>
     <allCapsNoteNames>0</allCapsNoteNames>
-    <chordStyle>std</chordStyle>
+    <chordStyle>jazz</chordStyle>
     <chordsXmlFile>0</chordsXmlFile>
-    <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
+    <chordDescriptionFile>chords_jazz.xml</chordDescriptionFile>
     <chordExtensionMag>1</chordExtensionMag>
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
@@ -438,19 +438,21 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>-- Juan Lennon  - Ivan Lins -- </evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>-- Juan Lennon  - Ivan Lins --</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
+    <evenFooterC>marcuswlima@gmail.com
+@marcuswlima_</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>marcuswlima@gmail.com
+@marcuswlima_</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -625,7 +627,7 @@
     <defaultOffsetType>1</defaultOffsetType>
     <defaultSystemFlag>0</defaultSystemFlag>
     <defaultText></defaultText>
-    <titleFontFace>Edwin</titleFontFace>
+    <titleFontFace>MuseJazz Text</titleFontFace>
     <titleFontSize>22</titleFontSize>
     <titleLineSpacing>1</titleLineSpacing>
     <titleFontSpatiumDependent>0</titleFontSpatiumDependent>
@@ -655,7 +657,7 @@
     <subTitleFrameRound>0</subTitleFrameRound>
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
     <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
-    <composerFontFace>Edwin</composerFontFace>
+    <composerFontFace>MuseJazz Text</composerFontFace>
     <composerFontSize>10</composerFontSize>
     <composerLineSpacing>1</composerLineSpacing>
     <composerFontSpatiumDependent>0</composerFontSpatiumDependent>
@@ -1141,11 +1143,11 @@
     <guitarBendArrowWidth>1</guitarBendArrowWidth>
     <guitarBendArrowHeight>1</guitarBendArrowHeight>
     <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
-    <headerFontFace>Edwin</headerFontFace>
-    <headerFontSize>9</headerFontSize>
+    <headerFontFace>MuseJazz Text</headerFontFace>
+    <headerFontSize>18</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
-    <headerFontStyle>0</headerFontStyle>
+    <headerFontStyle>1</headerFontStyle>
     <headerColor r="0" g="0" b="0" a="255"/>
     <headerAlign>center,top</headerAlign>
     <headerOffset x="0" y="0"/>
