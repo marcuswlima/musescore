@@ -1144,10 +1144,10 @@
     <guitarBendArrowHeight>1</guitarBendArrowHeight>
     <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
     <headerFontFace>MuseJazz Text</headerFontFace>
-    <headerFontSize>18</headerFontSize>
+    <headerFontSize>12</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
-    <headerFontStyle>1</headerFontStyle>
+    <headerFontStyle>0</headerFontStyle>
     <headerColor r="0" g="0" b="0" a="255"/>
     <headerAlign>center,top</headerAlign>
     <headerOffset x="0" y="0"/>
