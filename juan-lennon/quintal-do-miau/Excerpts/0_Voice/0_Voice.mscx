@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>1598800</LastEID>
+  <LastEID>1781084</LastEID>
   <Score>
     <eid>3997021119709188</eid>
     <name>Voice</name>
@@ -14316,6 +14316,12 @@ do Brega</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>7457824162447371</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -16162,27 +16168,19 @@ do Brega</text>
           </voice>
         </Measure>
       <Measure>
-        <Marker>
-          <eid>4018495956189227</eid>
-          <linked>
-            </linked>
-          <style>repeat_left</style>
-          <minDistance>-0.112901</minDistance>
-          <size>30</size>
-          <offset x="2.5" y="-4"/>
-          <text><font size="30"></font><sym>segno</sym></text>
-          <label>segno</label>
-          </Marker>
+        <startRepeat/>
         <voice>
           <RehearsalMark>
             <eid>4018483071287351</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
             <text>D</text>
             </RehearsalMark>
           <Rest>
             <eid>4018491661221914</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -16333,34 +16331,27 @@ do Brega</text>
           </voice>
         </Measure>
       <Measure>
-        <Jump>
-          <eid>4018749359259692</eid>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>4018753654227025</eid>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <Marker>
+          <eid>7647172090658859</eid>
           <linked>
             </linked>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"></font>D.S. al Fine</b></text>
-          <jumpTo>segno</jumpTo>
-          <playUntil>fine</playUntil>
-          <continueAt></continueAt>
-          </Jump>
-        <LayoutBreak>
-          <eid>4018753654227025</eid>
-          <subtype>section</subtype>
-          </LayoutBreak>
+          <text><b><font size="15"/>Fine</b></text>
+          <label>fine</label>
+          </Marker>
         <voice>
           <Rest>
             <eid>4018732179390490</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <eid>4018740769325067</eid>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -16745,7 +16736,7 @@ do Brega</text>
           <style>repeat_left</style>
           <size>30</size>
           <offset x="-1" y="-2.15322"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -17357,7 +17348,7 @@ do Brega</text>
           <size>15</size>
           <bold>1</bold>
           <offset x="-1" y="-5"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -17391,6 +17382,12 @@ do Brega</text>
           <label>codab</label>
           </Marker>
         <voice>
+          <RehearsalMark>
+            <eid>7189521850433591</eid>
+            <linked>
+              </linked>
+            <text>A</text>
+            </RehearsalMark>
           <Rest>
             <eid>4020222533042202</eid>
             <linked>
@@ -18437,6 +18434,12 @@ do Brega</text>
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <eid>7536052696776759</eid>
+            <linked>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
           <Rest>
             <eid>4021781606170650</eid>
             <linked>
@@ -18768,7 +18771,7 @@ do Brega</text>
             <eid>6636733789634607</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 146</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 146</text>
             </Tempo>
           <Rest>
             <eid>6528496318808090</eid>
@@ -18916,8 +18919,6 @@ do Brega</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>6574263490314251</eid>
-            <linked>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -18927,7 +18928,6 @@ do Brega</text>
           <RehearsalMark>
             <eid>6643030211690551</eid>
             <linked>
-              <indexDiff>-1</indexDiff>
               </linked>
             <text>A</text>
             </RehearsalMark>
@@ -18941,7 +18941,6 @@ do Brega</text>
           <Rest>
             <eid>6563882554359834</eid>
             <linked>
-              <indexDiff>-1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -19033,7 +19032,7 @@ do Brega</text>
             </linked>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -19523,14 +19522,14 @@ do Brega</text>
         </Measure>
       <Measure>
         <Jump>
-          <eid>6693384408268844</eid>
+          <eid>7618881141080108</eid>
           <linked>
             </linked>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.C. al Coda</b></text>
-          <jumpTo>start</jumpTo>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
           </Jump>
@@ -19546,11 +19545,19 @@ do Brega</text>
         </Measure>
       <Measure>
         <startRepeat/>
+        <Marker>
+          <eid>7629536954941483</eid>
+          <linked>
+            </linked>
+          <style>repeat_left</style>
+          <size>30</size>
+          <text><font size="30"/><sym>coda</sym></text>
+          <label>codab</label>
+          </Marker>
         <voice>
           <RehearsalMark>
             <eid>6700277830778935</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>C</text>
             </RehearsalMark>
@@ -19564,7 +19571,6 @@ do Brega</text>
           <Rest>
             <eid>6566648513298458</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -19739,18 +19745,11 @@ do Brega</text>
           </Marker>
         <LayoutBreak>
           <eid>6706329439699025</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>6567550456430618</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -20791,6 +20790,16 @@ do Brega</text>
           <eid>4023984924393553</eid>
           <subtype>section</subtype>
           </LayoutBreak>
+        <Marker>
+          <eid>7552068629823531</eid>
+          <linked>
+            </linked>
+          <style>repeat_right</style>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>Fine</b></text>
+          <label>fine</label>
+          </Marker>
         <voice>
           <Rest>
             <eid>4023976334458906</eid>
@@ -21654,24 +21663,10 @@ do Brega</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <eid>4025591242162187</eid>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <Marker>
-          <eid>4025617011965995</eid>
-          <linked>
-            </linked>
-          <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"></font><sym>segno</sym></text>
-          <label>segno</label>
-          </Marker>
+        <startRepeat/>
         <voice>
           <Rest>
             <eid>4025608422031386</eid>
@@ -21705,6 +21700,7 @@ do Brega</text>
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>4025681436475473</eid>
           <subtype>section</subtype>
@@ -21719,18 +21715,22 @@ do Brega</text>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
           </Jump>
+        <Marker>
+          <eid>7638264328486955</eid>
+          <linked>
+            </linked>
+          <style>repeat_right</style>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>Fine</b></text>
+          <label>fine</label>
+          </Marker>
         <voice>
           <Rest>
             <eid>4025664256606234</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <eid>4025672846540811</eid>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <VBox>
