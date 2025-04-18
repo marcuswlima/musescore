@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.40">
+<museScore version="4.50">
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
@@ -53,6 +53,7 @@
     <lyricsMelismaForce>0</lyricsMelismaForce>
     <lyricsMelismaMinLength>1</lyricsMelismaMinLength>
     <lyricsDashPosAtStartOfSystem>0</lyricsDashPosAtStartOfSystem>
+    <lyricsAvoidBarlines>1</lyricsAvoidBarlines>
     <lyricsOddFontFace>Edwin</lyricsOddFontFace>
     <lyricsOddFontSize>10</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
@@ -96,6 +97,7 @@
     <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
+    <maskBarlinesForText>0</maskBarlinesForText>
     <bracketWidth>0.45</bracketWidth>
     <bracketDistance>0.45</bracketDistance>
     <akkoladeWidth>1.5</akkoladeWidth>
@@ -112,7 +114,6 @@
     <keysigLeftMargin>0.5</keysigLeftMargin>
     <ambitusMargin>0.5</ambitusMargin>
     <timesigLeftMargin>0.63</timesigLeftMargin>
-    <timesigScale w="1" h="1"/>
     <midClefKeyRightMargin>1</midClefKeyRightMargin>
     <clefKeyRightMargin>0.8</clefKeyRightMargin>
     <clefKeyDistance>0.75</clefKeyDistance>
@@ -124,6 +125,26 @@
     <systemTrailerRightMargin>0.5</systemTrailerRightMargin>
     <clefBarlineDistance>0.5</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
+    <timeSigPlacement>normal</timeSigPlacement>
+    <timeSigCenterOnBarline>1</timeSigCenterOnBarline>
+    <timeSigVSMarginCentered>hangIntoMargin</timeSigVSMarginCentered>
+    <timeSigVSMarginNonCentered>rightAlignToBarline</timeSigVSMarginNonCentered>
+    <timeSigCenterAcrossStaveGroup>0</timeSigCenterAcrossStaveGroup>
+    <timeSigNormalStyle>normal</timeSigNormalStyle>
+    <timeSigNormalScale w="1" h="1"/>
+    <timeSigNormalScaleLock>1</timeSigNormalScaleLock>
+    <timeSigNormalNumDist>0</timeSigNormalNumDist>
+    <timeSigNormalY>0</timeSigNormalY>
+    <timeSigAboveStyle>normal</timeSigAboveStyle>
+    <timeSigAboveScale w="2" h="2"/>
+    <timeSigAboveScaleLock>1</timeSigAboveScaleLock>
+    <timeSigAboveNumDist>0.1</timeSigAboveNumDist>
+    <timeSigAboveY>-1</timeSigAboveY>
+    <timeSigAcrossStyle>narrow</timeSigAcrossStyle>
+    <timeSigAcrossScale w="4" h="4"/>
+    <timeSigAcrossScaleLock>1</timeSigAcrossScaleLock>
+    <timeSigAcrossNumDist>0.1</timeSigAcrossNumDist>
+    <timeSigAcrossY>0</timeSigAcrossY>
     <useStraightNoteFlags>0</useStraightNoteFlags>
     <stemWidth>0.1</stemWidth>
     <shortenStem>1</shortenStem>
@@ -180,6 +201,7 @@
     <articulationAnchorOther>0</articulationAnchorOther>
     <articulationStemHAlign>2</articulationStemHAlign>
     <articulationKeepTogether>1</articulationKeepTogether>
+    <trillAlwaysShowCueNote>0</trillAlwaysShowCueNote>
     <lastSystemFillLimit>0.3</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-1.75"/>
@@ -351,6 +373,7 @@
     <measureNumberSystem>1</measureNumberSystem>
     <measureNumberAllStaves>0</measureNumberAllStaves>
     <smallNoteMag>0.7</smallNoteMag>
+    <scaleRythmicSpacingForSmallNotes>0</scaleRythmicSpacingForSmallNotes>
     <graceNoteMag>0.7</graceNoteMag>
     <graceToMainNoteDist>0.45</graceToMainNoteDist>
     <graceToGraceNoteDist>0.3</graceToGraceNoteDist>
@@ -384,10 +407,17 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
+    <mergeMatchingRests>0</mergeMatchingRests>
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
+    <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
+    <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
     <minMMRestWidth>6</minMMRestWidth>
+    <mmRestConstantWidth>0</mmRestConstantWidth>
+    <mmRestReferenceWidth>2</mmRestReferenceWidth>
+    <mmRestMaxWidthIncrease>8</mmRestMaxWidthIncrease>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
+    <mmRestBetweenStaves>1</mmRestBetweenStaves>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
     <multiMeasureRestMargin>1.25</multiMeasureRestMargin>
     <mmRestHBarThickness>0.7</mmRestHBarThickness>
@@ -422,20 +452,26 @@
     <tieMidWidth>0.21</tieMidWidth>
     <tieDottedWidth>0.1</tieDottedWidth>
     <minTieLength>1</minTieLength>
+    <minHangingTieLength>1.5</minHangingTieLength>
     <minStraightGlissandoLength>1.2</minStraightGlissandoLength>
     <minWigglyGlissandoLength>2</minWigglyGlissandoLength>
     <slurMinDistance>0.5</slurMinDistance>
     <tieMinDistance>0.5</tieMinDistance>
+    <laissezVibMinDistance>0.5</laissezVibMinDistance>
     <headerToLineStartDistance>1</headerToLineStartDistance>
+    <lineEndToBarlineDistance>0.25</lineEndToBarlineDistance>
     <tiePlacementSingleNote>outside</tiePlacementSingleNote>
     <tiePlacementChord>outside</tiePlacementChord>
+    <tieDotsPlacement>auto</tieDotsPlacement>
     <tieMinShoulderHeight>0.3</tieMinShoulderHeight>
     <tieMaxShoulderHeight>2</tieMaxShoulderHeight>
+    <minLaissezVibLength>2</minLaissezVibLength>
+    <laissezVibUseSmuflSym>0</laissezVibUseSmuflSym>
     <sectionPause>3</sectionPause>
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
-    <headerFirstPage>1</headerFirstPage>
+    <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
     <evenHeaderC>Eduardo do Norte - Da Amazônia, do Mundo</evenHeaderC>
@@ -444,7 +480,7 @@
     <oddHeaderC>Eduardo do Norte - Da Amazônia, do Mundo </oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL>$v $M $m</evenFooterL>
     <evenFooterC>marcuswlima@gmail.com
@@ -1101,6 +1137,25 @@
     <systemTextLineColor r="0" g="0" b="0" a="255"/>
     <systemTextLineTextAlign>left,center</systemTextLineTextAlign>
     <systemTextLineSystemFlag>1</systemTextLineSystemFlag>
+    <noteLinePlacement>0</noteLinePlacement>
+    <noteLineFontFace>Edwin</noteLineFontFace>
+    <noteLineFontSize>10</noteLineFontSize>
+    <noteLineLineSpacing>1</noteLineLineSpacing>
+    <noteLineFontSpatiumDependent>1</noteLineFontSpatiumDependent>
+    <noteLineFontStyle>0</noteLineFontStyle>
+    <noteLineColor r="0" g="0" b="0" a="255"/>
+    <noteLineAlign>left,center</noteLineAlign>
+    <noteLineOffset x="0" y="0"/>
+    <noteLineFrameType>0</noteLineFrameType>
+    <noteLineFramePadding>0.2</noteLineFramePadding>
+    <noteLineFrameWidth>0.1</noteLineFrameWidth>
+    <noteLineFrameRound>0</noteLineFrameRound>
+    <noteLineFrameFgColor r="0" g="0" b="0" a="255"/>
+    <noteLineFrameBgColor r="255" g="255" b="255" a="0"/>
+    <noteLineWidth>0.15</noteLineWidth>
+    <noteLineStyle>solid</noteLineStyle>
+    <noteLineDashLineLen>5</noteLineDashLineLen>
+    <noteLineDashGapLen>5</noteLineDashGapLen>
     <glissandoFontFace>Edwin</glissandoFontFace>
     <glissandoFontSize>8</glissandoFontSize>
     <glissandoLineSpacing>1</glissandoLineSpacing>
@@ -1119,6 +1174,11 @@
     <glissandoText>gliss.</glissandoText>
     <glissandoStyle>0</glissandoStyle>
     <glissandoStyleHarp>3</glissandoStyleHarp>
+    <glissandoType>0</glissandoType>
+    <glissandoLineStyle>solid</glissandoLineStyle>
+    <glissandoDashLineLen>5</glissandoDashLineLen>
+    <glissandoDashGapLen>5</glissandoDashGapLen>
+    <glissandoShowText>1</glissandoShowText>
     <bendFontFace>Edwin</bendFontFace>
     <bendFontSize>8</bendFontSize>
     <bendLineSpacing>1</bendLineSpacing>
@@ -1534,6 +1594,19 @@
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>440</defaultsVersion>
-    <Spatium>1.74978</Spatium>
+    <changesBeforeBarlineRepeats>1</changesBeforeBarlineRepeats>
+    <changesBeforeBarlineOtherJumps>1</changesBeforeBarlineOtherJumps>
+    <placeClefsBeforeRepeats>0</placeClefsBeforeRepeats>
+    <changesBetweenEndStartRepeat>1</changesBetweenEndStartRepeat>
+    <showCourtesiesRepeats>0</showCourtesiesRepeats>
+    <useParensRepeatCourtesies>1</useParensRepeatCourtesies>
+    <showCourtesiesOtherJumps>0</showCourtesiesOtherJumps>
+    <useParensOtherJumpCourtesies>1</useParensOtherJumpCourtesies>
+    <showCourtesiesAfterCancellingRepeats>0</showCourtesiesAfterCancellingRepeats>
+    <useParensRepeatCourtesiesAfterCancelling>1</useParensRepeatCourtesiesAfterCancelling>
+    <showCourtesiesAfterCancellingOtherJumps>0</showCourtesiesAfterCancellingOtherJumps>
+    <useParensOtherJumpCourtesiesAfterCancelling>1</useParensOtherJumpCourtesiesAfterCancelling>
+    <smallParens>1</smallParens>
+    <spatium>1.74978</spatium>
     </Style>
   </museScore>

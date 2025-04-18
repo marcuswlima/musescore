@@ -7,8 +7,8 @@
 DADOS=../../../_dados
 
 
-pdftk ../../../_dados/Da\ Amazônia\,\ do\ Mundo-Electric_Bass.pdf cat 01-09 output musicas01a07.pdf
-pdftk ../../../_dados/Da\ Amazônia\,\ do\ Mundo.pdf               cat 16-19 output musicas08a09.pdf
+pdftk ../../../_dados/Da\ Amazônia\,\ do\ Mundo-Electric_Bass.pdf cat 01-01 output musicas01.pdf
+pdftk ../../../_dados/Da\ Amazônia\,\ do\ Mundo.pdf               cat 03-04 output musicas02.pdf
 pdftk ../../../_dados/Da\ Amazônia\,\ do\ Mundo-Electric_Bass.pdf cat 12-19 output musicas10a15.pdf
 pdftk ../../../_dados/Da\ Amazônia\,\ do\ Mundo.pdf               cat 34-39 output musicas16a17.pdf
 
