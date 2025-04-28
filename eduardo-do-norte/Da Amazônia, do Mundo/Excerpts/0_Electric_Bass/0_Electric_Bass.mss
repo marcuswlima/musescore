@@ -160,10 +160,10 @@
     <noteBarDistance>1.5</noteBarDistance>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
-    <mrNumberSeries>0</mrNumberSeries>
-    <mrNumberEveryXMeasures>4</mrNumberEveryXMeasures>
+    <mrNumberSeries>1</mrNumberSeries>
+    <mrNumberEveryXMeasures>1</mrNumberEveryXMeasures>
     <mrNumberSeriesWithParentheses>1</mrNumberSeriesWithParentheses>
-    <oneMeasureRepeatShow1>0</oneMeasureRepeatShow1>
+    <oneMeasureRepeatShow1>1</oneMeasureRepeatShow1>
     <fourMeasureRepeatShowExtenders>0</fourMeasureRepeatShowExtenders>
     <staffLineWidth>0.11</staffLineWidth>
     <ledgerLineWidth>0.16</ledgerLineWidth>
@@ -408,7 +408,7 @@
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <mergeMatchingRests>0</mergeMatchingRests>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
     <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
