@@ -163,68 +163,8 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>144.5</height>
-        <boxAutoSize>0</boxAutoSize>
-        <eid>qShtvWRU3bD_M9WEKpzNWoE</eid>
-        <Text>
-          <eid>6XDSYX8IipP_vAUhTTZZGNC</eid>
-          <style>title</style>
-          <bold>1</bold>
-          <offset x="0" y="10.62"/>
-          <text><b>Da Amanzonia, do Mundo</b></text>
-          </Text>
-        <Text>
-          <eid>3Fr4MKeJKS_9UkbYKFJUoO</eid>
-          <style>frame</style>
-          <size>16</size>
-          <bold>1</bold>
-          <align>center,bottom</align>
-          <text><b><font size="16"/>Maio/2025</b></text>
-          </Text>
-        <Text>
-          <eid>VhOxanK03TD_7UPgQ8vWyPI</eid>
-          <style>title</style>
-          <align>center,center</align>
-          <offset x="0" y="-76.9903"/>
-          <text>Eduardo du Norte</text>
-          </Text>
-        <Text>
-          <eid>cXs/dXvRHpI_QoA5ii1xJ7J</eid>
-          <style>frame</style>
-          <size>16</size>
-          <bold>1</bold>
-          <align>center,top</align>
-          <offset x="0" y="62.1172"/>
-          <text><b><font size="16"/>Backing Vocal + Bass</b></text>
-          </Text>
-        <Text>
-          <eid>SwBirjCzpaE_WP3oGZFWk4H</eid>
-          <style>frame</style>
-          <size>14</size>
-          <align>center,center</align>
-          <offset x="-0.87489" y="13.1233"/>
-          <text><font size="14"/>01. Carimbó Mundiado
-02. Quero Ver
-03. Igarapé
-04. Erundina
-05.Deixa de Leseira
-06. Amazonida
-07. Cheiro de Flor
-08. Passarinho
-09. Dois Botos / Nego Sol
-10. Chibé
-11. Descobri
-12. Cantador da Lua
-13. Canto de Rio
-14. Bem-te-vi
-15. Conexão
-16. Vai Sabiá
-17. Cravo e Canela
-18. Arreda</text>
-          </Text>
-        </VBox>
-      <VBox>
         <height>10</height>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>sMuPoHbWkZH_vZQF9PaaK5N</eid>
         <Text>
           <eid>w/AFLB9QMQP_VuEhDlCe18N</eid>
@@ -253,7 +193,7 @@
             <tempo>1.833333</tempo>
             <followText>1</followText>
             <eid>A7CJ/OeHE4E_OHVVqzteK9</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 110</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 110</text>
             </Tempo>
           <RehearsalMark>
             <eid>SOlwh3RAA3M_sFA6hPwI49O</eid>
@@ -300,7 +240,7 @@
           <style>repeat_left</style>
           <size>30</size>
           <offset x="1" y="-3.87774"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -2676,7 +2616,7 @@
           <size>15</size>
           <bold>1</bold>
           <offset x="-3.5" y="-1.5"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -2716,7 +2656,7 @@
           <eid>yI7bJBBEFqI_KmjXBW641+C</eid>
           <style>repeat_left</style>
           <size>28</size>
-          <text><font size="28"/><sym>coda</sym></text>
+          <text><font size="28"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -4014,7 +3954,7 @@
             <tempo>1.966667</tempo>
             <followText>1</followText>
             <eid>8gQbYN7iA+J_9S004g9T5nO</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 118</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 118</text>
             </Tempo>
           <Rest>
             <eid>3PLu15dC2iB_tRHFSj06GlF</eid>
@@ -5996,7 +5936,7 @@
             <followText>1</followText>
             <eid>C4dEXaJhHMO_e6VR3W/ZDYE</eid>
             <linkedMain/>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 104</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 104</text>
             </Tempo>
           <SystemText>
             <eid>eccv0aBAxRM_WfO+BLOk5NK</eid>
@@ -6029,7 +5969,7 @@
             <linked>
               <indexDiff>-3</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 104</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 104</text>
             </Tempo>
           <SystemText>
             <eid>FtaukAXUacK_WhoNwmfSfdC</eid>
@@ -6610,7 +6550,7 @@
             <size>15</size>
             <bold>1</bold>
             <italic>1</italic>
-            <text><b><i><font size="15"/>P1</i></b></text>
+            <text><b><i><font size="15"></font>P1</i></b></text>
             </StaffText>
           <Rest>
             <eid>LTA+ofh3qRL_J/sU3lg/D9B</eid>
@@ -6789,7 +6729,7 @@
             <tempo>1.6</tempo>
             <followText>1</followText>
             <eid>6neWkTGWj4_D6+tfk7BMLM</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 96</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 96</text>
             </Tempo>
           <Rest>
             <eid>otlFbwk1RII_/x00l3oZ4BK</eid>
@@ -7484,7 +7424,7 @@
           <eid>dvHNnYYglYB_hsW6eXCURvG</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -8125,7 +8065,7 @@
           <style>repeat_right</style>
           <size>16</size>
           <bold>1</bold>
-          <text><b><font size="16"/>D.S.</b></text>
+          <text><b><font size="16"></font>D.S.</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>end</playUntil>
           <continueAt></continueAt>
@@ -8196,7 +8136,7 @@
             <tempo>2.3</tempo>
             <followText>1</followText>
             <eid>5kMu8P4SahI_RmQ80tTt0vL</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 138</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 138</text>
             </Tempo>
           <Rest>
             <eid>PZYKRbya5AD_NEKTl35ONLO</eid>
@@ -9119,7 +9059,7 @@
             <size>15</size>
             <bold>1</bold>
             <italic>1</italic>
-            <text><b><i><font size="15"/>G.P.</i></b></text>
+            <text><b><i><font size="15"></font>G.P.</i></b></text>
             </StaffText>
           <Chord>
             <eid>kfz0Yz94AGK_IdNZWA6WUZN</eid>
@@ -9595,7 +9535,7 @@
             <followText>1</followText>
             <eid>/KEgQBiqRfO_jnagYnZu3tK</eid>
             <linkedMain/>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 101</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 101</text>
             </Tempo>
           <RehearsalMark>
             <eid>pnIj35Ae49L_dw6trSp0VzB</eid>
@@ -9628,7 +9568,7 @@
             <linked>
               <indexDiff>-3</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 101</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 101</text>
             </Tempo>
           <RehearsalMark>
             <eid>bBGA8CHiOPC_v9FD6HJP8bP</eid>
@@ -9950,7 +9890,7 @@
           <style>repeat_left</style>
           <size>31</size>
           <offset x="2.5" y="-3.5"/>
-          <text><font size="31"/><sym>segno</sym></text>
+          <text><font size="31"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -10777,7 +10717,7 @@
           <size>15</size>
           <bold>1</bold>
           <offset x="-1.5" y="-4"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -10807,7 +10747,7 @@
           <style>repeat_left</style>
           <size>30</size>
           <offset x="1.5" y="-2.98387"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -10912,7 +10852,7 @@
             <eid>KSnb8Z/DqOP_h1D5fd191KB</eid>
             <minDistance>0.430565</minDistance>
             <offset x="-3.5" y="-2.5"/>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 96</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 96</text>
             </Tempo>
           <Rest>
             <eid>86USVzyKzdC_WkbmmzpSNeG</eid>
@@ -12187,7 +12127,7 @@ Magaiver Santos</text>
             <tempo>2.133333</tempo>
             <followText>1</followText>
             <eid>At6UfDPN0xN_EaxdsvtgbzP</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 128</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 128</text>
             </Tempo>
           <RehearsalMark>
             <eid>ukIIcXx/0iJ_xKZTWuxLl9L</eid>
@@ -13582,7 +13522,7 @@ Magaiver Santos</text>
             <tempo>1.616667</tempo>
             <followText>1</followText>
             <eid>1xSIC4v6sDC_AN9ghd9cyGG</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 97</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 97</text>
             </Tempo>
           <Rest>
             <eid>Flz9F/f+8O_NqFzGia04tO</eid>
@@ -14867,8 +14807,8 @@ Magaiver Santos</text>
           <eid>GasUimBfkyD_GSQFP8RzAEL</eid>
           <linkedMain/>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -14889,7 +14829,7 @@ Magaiver Santos</text>
             </linked>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -15386,7 +15326,7 @@ Magaiver Santos</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.C. al Fine</b></text>
+          <text><b><font size="15"></font>D.C. al Fine</b></text>
           <jumpTo>start</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -15442,7 +15382,7 @@ Aldenor Macedo</text>
             <followText>1</followText>
             <eid>gCyFWUy3UrB_18ivkzOlyrP</eid>
             <linkedMain/>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 74</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 74</text>
             </Tempo>
           <Rest>
             <eid>8AWG1uUCDSH_KXk6kiFmJuP</eid>
@@ -15470,7 +15410,7 @@ Aldenor Macedo</text>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 74</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 74</text>
             </Tempo>
           <Rest>
             <eid>BRSZzOZsugK_RacUKeqjR3D</eid>
@@ -16220,7 +16160,7 @@ Aldenor Macedo</text>
             <tempo>1.766667</tempo>
             <followText>1</followText>
             <eid>QgQoZC/1l5H_dOQTjEQ9A5L</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 106</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 106</text>
             </Tempo>
           <Rest>
             <eid>Y2tmLkmkgrM_nZPXO3BPI4J</eid>
@@ -16813,7 +16753,7 @@ Aldenor Macedo</text>
           <eid>/cmPgyvKg0F_k8wSeU3/zPG</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -17237,7 +17177,7 @@ Aldenor Macedo</text>
           <size>15</size>
           <bold>1</bold>
           <offset x="-1" y="-2"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -17266,7 +17206,7 @@ Aldenor Macedo</text>
           <minDistance>0.162739</minDistance>
           <size>30</size>
           <offset x="3" y="-0.983867"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -17330,7 +17270,7 @@ Aldenor Macedo</text>
             <tempo>1.55</tempo>
             <followText>1</followText>
             <eid>VNDnlmYlWTF_CzBwrI7L/nF</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 93</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 93</text>
             </Tempo>
           <Rest>
             <eid>5knqdzR+cQI_gGeEYPJ00aC</eid>
@@ -20860,7 +20800,7 @@ Aldenor Macedo</text>
             <tempo>1.45</tempo>
             <followText>1</followText>
             <eid>D4UYOcuBB7G_IllGEKn9nDL</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 87</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 87</text>
             </Tempo>
           <Rest>
             <eid>3RxmlSZxpxF_jSP5V5xLPtL</eid>
@@ -21909,7 +21849,7 @@ Dudu Neves</text>
             <tempo>1.7</tempo>
             <followText>1</followText>
             <eid>BaLUeCAfUDJ_K9hFFM+F+BI</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 102</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 102</text>
             </Tempo>
           <Rest>
             <eid>Ko1/Q9zXR/N_XyiTb1gdniC</eid>
@@ -23049,7 +22989,7 @@ Dudu Neves</text>
             <tempo>1.766667</tempo>
             <followText>1</followText>
             <eid>uUfjE66xqUK_IvKGEgFDSnP</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 106</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 106</text>
             </Tempo>
           <RehearsalMark>
             <eid>vcRL5FC+JOL_wPZQz153w+B</eid>
@@ -23163,7 +23103,7 @@ Dudu Neves</text>
           <eid>equo/x7zwpN_TfDFYwydHDN</eid>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -24182,7 +24122,7 @@ Dudu Neves</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Fine</b></text>
+          <text><b><font size="15"></font>D.S. al Fine</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -24232,7 +24172,7 @@ Dudu Neves</text>
             <tempo>1.7</tempo>
             <followText>1</followText>
             <eid>b0rIreoxrmN_dlVvRIs2rJM</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 102</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 102</text>
             </Tempo>
           <Rest>
             <eid>RMTqrQuFGmO_ARxi/i+yXYI</eid>
@@ -25468,7 +25408,7 @@ Dudu Neves</text>
             <tempo>1.7</tempo>
             <followText>1</followText>
             <eid>uIqmVwhL8UF_KVJw8d8e6vO</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 102</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 102</text>
             </Tempo>
           <Rest>
             <eid>NbV0oZLJpoF_grdn4utRw6P</eid>
@@ -29181,7 +29121,7 @@ Dudu Neves</text>
             <tempo>2</tempo>
             <followText>1</followText>
             <eid>X2HHukjGF7G_KBmV7tzhvY</eid>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 120</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 120</text>
             </Tempo>
           <RehearsalMark>
             <eid>6UMivz1KghO_3FU1ErvAbcF</eid>
@@ -33590,7 +33530,7 @@ Dudu Neves</text>
             <size>15</size>
             <bold>1</bold>
             <italic>1</italic>
-            <text><b><i><font size="15"/>attacca</i></b></text>
+            <text><b><i><font size="15"></font>attacca</i></b></text>
             </StaffText>
           <Chord>
             <eid>iNDy6QAHqrP_/Ax8Na2TkgN</eid>
@@ -37351,7 +37291,6 @@ Dudu Neves</text>
             </KeySig>
           <TimeSig>
             <eid>gKPB7VlOaTK_7LdVUASNSeP</eid>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -37367,9 +37306,6 @@ Dudu Neves</text>
         <voice>
           <TimeSig>
             <eid>icLaOxFwjAO_EKIxSe6hmdO</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -37382,7 +37318,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>VDW/3Ciaxo_nril4IJEWTN</eid>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -37396,9 +37331,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>k1npTnp4iBG_ceuEpwjZeGJ</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -37423,7 +37355,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>//61w7/dC9H_kw0oPaWJP6L</eid>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -37437,9 +37368,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>p9WokimwkaF_xS21xRf8wNJ</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -37464,7 +37392,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>rSYxpO4eKoK_wuCvPAi1sd</eid>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -37478,9 +37405,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>4vakrgbVBvD_YBPmHSvgZ3J</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -51444,7 +51368,6 @@ Dudu Neves</text>
             </KeySig>
           <TimeSig>
             <eid>Rq//1E1woqD_doMNAMbt4/E</eid>
-            <linkedMain/>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -51466,18 +51389,15 @@ Dudu Neves</text>
         <voice>
           <TimeSig>
             <eid>P0RbyD2SoYO_Tcu5/EWEmAD</eid>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Harmony>
             <root>16</root>
             <name>m</name>
-            <eid>2nBXlbJsClC_srgdgnhBsUP</eid>
+            <eid>7JTxR0yP2SI_IleghIEpnzK</eid>
             <linked>
-              <indexDiff>-2</indexDiff>
+              <indexDiff>-1</indexDiff>
               </linked>
             </Harmony>
           <Rest>
@@ -51489,7 +51409,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>ztDctSxCYE_ESjmQfIGENC</eid>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -51521,9 +51440,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>TPrjz31QX+_/Dc0KCGKXkK</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -51548,7 +51464,7 @@ Dudu Neves</text>
           <Harmony>
             <root>16</root>
             <name>m</name>
-            <eid>2feMX+IvQpO_cK0F5cuKM8J</eid>
+            <eid>dU7vvdWsGBH_/+ROcqjOPzL</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -51609,7 +51525,7 @@ Dudu Neves</text>
           <Harmony>
             <root>17</root>
             <name>m</name>
-            <eid>RY7uwQ+z8mD_JTeLQ8mb5zP</eid>
+            <eid>077SBcebRWH_J3FDENbONfH</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -51680,7 +51596,7 @@ Dudu Neves</text>
           <Harmony>
             <root>16</root>
             <name>m</name>
-            <eid>lqvAAG0m6VN_bFfETi8R+9M</eid>
+            <eid>GxfryJ9NXmB_ihwSinCFIhG</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -51741,7 +51657,7 @@ Dudu Neves</text>
           <Harmony>
             <root>17</root>
             <name>m</name>
-            <eid>lETxGL67vGN_eh6RekYFeGO</eid>
+            <eid>E9UF/tCFJ5G_KijjOM6nohL</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -64571,7 +64487,7 @@ Dudu Neves</text>
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0.499999" y="3.99999"/>
-            <text><b><i><font size="15"/>attacca</i></b></text>
+            <text><b><i><font size="15"></font>attacca</i></b></text>
             </StaffText>
           <Rest>
             <eid>pvYiSTkJDpO_ts3JoBMCksN</eid>
@@ -64715,7 +64631,7 @@ Dudu Neves</text>
         <voice>
           <Harmony>
             <root>16</root>
-            <eid>KAUKLwkZOCH_0jRgrcKz3fC</eid>
+            <eid>ipFEnalIWyO_wy1gEBNuf+J</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -64756,7 +64672,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>R9BZo1QS4vE_06gv/7eLUPN</eid>
+            <eid>tzaz2RnIoSG_jeMyHSHdMyG</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -64849,7 +64765,7 @@ Dudu Neves</text>
         <voice>
           <Harmony>
             <root>16</root>
-            <eid>gz4XZ9RizgF_nIjlTk5Li2L</eid>
+            <eid>73SJkjLByTB_XOqvG41F8oK</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -64890,7 +64806,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>ovtugVRc2hH_IKSgEemKVp</eid>
+            <eid>UJw3FvJvCPE_mcAt3EqGp+N</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -64983,7 +64899,7 @@ Dudu Neves</text>
         <voice>
           <Harmony>
             <root>16</root>
-            <eid>xDGbm3kXUwB_c3r+LmdkGBJ</eid>
+            <eid>hQq8Hs1Bw7D_i0h5RtudjEN</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -65024,7 +64940,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>6pakaabT+iE_Mxs/6/8cd1H</eid>
+            <eid>zTPNxVgL7sL_TfDE3UxRP4B</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -65117,7 +65033,7 @@ Dudu Neves</text>
         <voice>
           <Harmony>
             <root>16</root>
-            <eid>uiLnOzyd3dP_zHohmIDunzD</eid>
+            <eid>fXXeoZ8jJ/F_OAEh0Kz4svH</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -65158,7 +65074,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>6xwE2oYjhSM_q4eJtSrNF+B</eid>
+            <eid>CXIsE/BZZUN_lknuyVqGlJC</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -65437,7 +65353,7 @@ Dudu Neves</text>
           <Harmony>
             <root>17</root>
             <name>7</name>
-            <eid>1MfA8vEJBUE_bX+yAixOwcI</eid>
+            <eid>B7OhSJcfPpH_flXKaKmPRUI</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -65451,7 +65367,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>+DNeoYDzF0M_NXvpqPgswcO</eid>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -65465,9 +65380,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>d+dXXGysFGD_48kSjywFuEG</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -65632,7 +65544,6 @@ Dudu Neves</text>
             </KeySig>
           <TimeSig>
             <eid>gEns836twVC_S7aVn98BzUC</eid>
-            <linkedMain/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -65648,9 +65559,6 @@ Dudu Neves</text>
         <voice>
           <TimeSig>
             <eid>Z0v3mcbrpKI_w//NHUFIaKJ</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -66483,16 +66391,6 @@ Dudu Neves</text>
           <Chord>
             <eid>Bb2AOYlV3mM_67Bia2cTXqP</eid>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>+EEgStZqMXI_1htd08T95lP</eid>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/2</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>stringsUpBow</subtype>
               <eid>KL2VZ60VJNJ_oLGy5wtwGwJ</eid>
@@ -66510,13 +66408,10 @@ Dudu Neves</text>
           <Chord>
             <eid>VSbuFe9uRFB_uKohHE2/QhO</eid>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>549VXCJdAdO_TLepKsHCxaB</eid>
+              </Articulation>
             <Note>
               <eid>n7tKl2BB30_dSeaELW2SLO</eid>
               <pitch>50</pitch>
@@ -66531,8 +66426,8 @@ Dudu Neves</text>
             <eid>LP1Z4yMXxYE_IBQ4xMMQNeN</eid>
             <durationType>half</durationType>
             <Articulation>
-              <subtype>stringsDownBow</subtype>
-              <eid>g0IAoEC0fRN_mMX8J6n2lmF</eid>
+              <subtype>stringsUpBow</subtype>
+              <eid>8yVpAU1myuK_mR6C7DZ2qzJ</eid>
               </Articulation>
             <Note>
               <eid>XNGQ3fMSCaC_nQ+DeLnqfOP</eid>
@@ -66657,6 +66552,16 @@ Dudu Neves</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>0sJy1MZBvBN_P4qK2lohKpG</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
                 <eid>GREx+UFKGpH_pdy7xiYK93G</eid>
                 <SlurSegment no="0">
                   <o1 x="-0.733742" y="0.10482"/>
@@ -66669,16 +66574,6 @@ Dudu Neves</text>
               <next>
                 <location>
                   <fractions>3/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>0sJy1MZBvBN_P4qK2lohKpG</eid>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -66841,16 +66736,6 @@ Dudu Neves</text>
           <Chord>
             <eid>3RZPw73l/LE_TFaSBzmeaoK</eid>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>F/WqivW6JhJ_RdQ90IaR8F</eid>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Articulation>
               <subtype>stringsDownBow</subtype>
               <eid>ZRat8sVVs2D_tL6T6EHPszH</eid>
@@ -66864,13 +66749,10 @@ Dudu Neves</text>
           <Chord>
             <eid>kyju/6+qjlO_k/LdKuQrQMD</eid>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
+            <Articulation>
+              <subtype>stringsUpBow</subtype>
+              <eid>sI8JdzwnYKH_GiPJU/wHOLB</eid>
+              </Articulation>
             <Note>
               <eid>ufZ42I8c9FM_OoS9C+PLHrM</eid>
               <pitch>52</pitch>
@@ -66882,15 +66764,18 @@ Dudu Neves</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>YPlmmdN/gfE_Hkmxxz6AsFK</eid>
+                <eid>wTGNHX6YfuI_T9FIlolw4tP</eid>
                 </Slur>
               <next>
                 <location>
-                  <measures>1</measures>
-                  <fractions>-3/4</fractions>
+                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>Nimh8dSgRMF_SOYpOAidAJD</eid>
+              </Articulation>
             <Note>
               <eid>JYNeEaHCB3K_WYH6CwBoeS</eid>
               <pitch>48</pitch>
@@ -66901,6 +66786,13 @@ Dudu Neves</text>
             <eid>j/QDId71HDH_6UdMHvzFJjK</eid>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>cHbatSXa8NG_QGF+S0By7LM</eid>
               <pitch>47</pitch>
@@ -66914,14 +66806,6 @@ Dudu Neves</text>
           <Chord>
             <eid>/jsyBnNntoL_gURDN//m1O</eid>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>3/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>ZlwLQlYwUgC_pm35gw4O48G</eid>
               <pitch>45</pitch>
@@ -67290,6 +67174,16 @@ Dudu Neves</text>
             <durationType>quarter</durationType>
             <Note>
               <eid>XAXln9pzh9P_syi3smRLxjN</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>jiKv0xGwrGJ_XbcEhcs9ZgN</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -67299,6 +67193,13 @@ Dudu Neves</text>
             <durationType>16th</durationType>
             <Note>
               <eid>3r5kSHTzHKP_gF+TnvnmznI</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -67316,6 +67217,16 @@ Dudu Neves</text>
           <Chord>
             <eid>eVG6eMprhTD_g0ePxE2FBYG</eid>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>2FPv/Ts12EE_0wDQOaUwVqC</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>kac7BDLA6CC_eF4ntEyCb4L</eid>
               <pitch>47</pitch>
@@ -67325,6 +67236,13 @@ Dudu Neves</text>
           <Chord>
             <eid>1Hd1f/66NhO_7a5aRVr72oP</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>c2G2VrjgfdO_mDa0HzKZZuB</eid>
               <pitch>47</pitch>
@@ -67446,6 +67364,17 @@ Dudu Neves</text>
           <Chord>
             <eid>UnLQVFak9zD_le51p9L5FkF</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>j4cPcwKsDZG_WabYf3+4WoE</eid>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-7/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>OiBZhAvHhtD_I1HZGy8W83</eid>
               <pitch>48</pitch>
@@ -67468,6 +67397,14 @@ Dudu Neves</text>
           <Chord>
             <eid>Ydqz7/25ouL_vKbqRydJ+zP</eid>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>7/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>d5d0nzDu91I_R4otMBhfQqK</eid>
               <pitch>45</pitch>
@@ -67606,6 +67543,16 @@ Dudu Neves</text>
           <Chord>
             <eid>RGfVNmHAAYE_c5JXHvdCz9O</eid>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>5iXCOAS4qkJ_ccfIIZOsZJK</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>kpKm5BFQegC_X7ievVdhydD</eid>
               <pitch>47</pitch>
@@ -67633,6 +67580,13 @@ Dudu Neves</text>
           <Chord>
             <eid>fE+JUHsH+wJ_jOkgg7IbGSC</eid>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>ebGiwDSt5AB_5FnT0VGULwI</eid>
               <pitch>36</pitch>
@@ -68179,6 +68133,16 @@ Dudu Neves</text>
           <Chord>
             <eid>4Knfw+q8qrC_HMgv8eJhpMG</eid>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>lytziZs7LkC_y5lc+3IxAcH</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>bRzK+37tJ/N_IiZXiXa9coI</eid>
               <pitch>47</pitch>
@@ -68188,6 +68152,13 @@ Dudu Neves</text>
           <Chord>
             <eid>zgbn5SK0+8H_nLz/DnJ0EdH</eid>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>IyNR5iVmE3N_4I8vzjkgXlE</eid>
               <pitch>50</pitch>
@@ -68210,6 +68181,16 @@ Dudu Neves</text>
           <Chord>
             <eid>uxuHC6hAn7O_XgH/nLQS+zC</eid>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>BiUNiGnA8k_QttgnqFCDVJ</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>SpzM6nwgDCE_+ap+gBIEty</eid>
               <pitch>45</pitch>
@@ -68219,6 +68200,13 @@ Dudu Neves</text>
           <Chord>
             <eid>lhQSTNmAHgM_Av2HF/ohqeB</eid>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>F++eJcKNfgJ_0ShMAsXxFiF</eid>
               <pitch>48</pitch>
@@ -68481,6 +68469,16 @@ Dudu Neves</text>
           <Chord>
             <eid>Ex0GX8Lz2ZC_Xc9k9lhXSvB</eid>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>SWI1g1FEHoB_EQIdTjhWLHF</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>S2nkkdNa7TB_ZzerT+9bc2H</eid>
               <pitch>50</pitch>
@@ -68490,6 +68488,13 @@ Dudu Neves</text>
           <Chord>
             <eid>+zaClIcxpbJ_y63OWX+JVr</eid>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>vQGjkismMWI_nleodfWCOfK</eid>
               <pitch>53</pitch>
@@ -68499,6 +68504,16 @@ Dudu Neves</text>
           <Chord>
             <eid>xDvNxYecB3J_5CJoumliEYO</eid>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>PyVt8/SMmsK_uF4a5/mK9KP</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>wKjvSD7uDdG_J6/rhIxWAGD</eid>
               <pitch>52</pitch>
@@ -68508,6 +68523,13 @@ Dudu Neves</text>
           <Chord>
             <eid>Rz9a3bJz4bN_uM+ZCFNSi3N</eid>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>0PEl9gkyHXI_+nQw41gdFYM</eid>
               <pitch>47</pitch>
@@ -80899,7 +80921,7 @@ Dudu Neves</text>
           <Harmony>
             <root>14</root>
             <name>m</name>
-            <eid>jZjlfnPQBJE_hZ/EnldaWa</eid>
+            <eid>MhhiFZ5aAa_TPu5jdCxY+C</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -80987,7 +81009,7 @@ Dudu Neves</text>
           <Harmony>
             <root>14</root>
             <name>m</name>
-            <eid>dyl1MFTRoYB_vxCWZRH+YNK</eid>
+            <eid>OxeYXpZoo3E_Fh/vvchWNhF</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -81001,7 +81023,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>ts9wd5gD+GI_inFChr1k0bD</eid>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -81015,9 +81036,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>mg+uDtBCPxI_IdLTRufRrOK</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -86368,7 +86386,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>R6hpSOzWmRD_XWlGLL5m8zE</eid>
+            <eid>f2hxaPzwdMK_lT1NpC083fO</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -86439,7 +86457,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>RR4LaEm7KaP_iK98CQ4UF1D</eid>
+            <eid>K6dcaUhbHUF_rvt+faq738D</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -86510,7 +86528,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>NYxo4RT1iRD_rj4kEu3NE6D</eid>
+            <eid>7L01wN3KxFE_15umaVJ8S+P</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -86675,7 +86693,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>iql98+QFSBF_02bhLxSodKN</eid>
+            <eid>Niw6zDF92yI_H6iqP6Iwf7L</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -86746,7 +86764,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>k29gZg1eowD_ZUlt9cNubr</eid>
+            <eid>DuBKtxacWxK_P34w9oY4nFN</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -86817,7 +86835,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>vg5aItCrOkH_yTv/VMWPlyH</eid>
+            <eid>x1pEk0cOVUJ_LpSPPiProhB</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87018,7 +87036,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>J/2LVlwts/I_FU5j7AfP3jN</eid>
+            <eid>ihl6Z4kSR8F_bBEJgUWyBlE</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87089,7 +87107,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>i+XuAFK17MM_XMU4vk7OWXF</eid>
+            <eid>U51BDIC9pZ_D7dh3dK730</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87160,7 +87178,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>Ff89ODAkd7E_sl6OXpZ6GtK</eid>
+            <eid>+DBpfxZoMaP_ErRBmE02q0H</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87231,7 +87249,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>NZtPeUkfZPI_2E9ITLFzG8M</eid>
+            <eid>8bmtCoN1kIG_61jMdqJNp8C</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87396,7 +87414,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>SIffZS4FhJF_RUcD/gzG3XH</eid>
+            <eid>7a+aYv2gVkN_ZMS1usxicGH</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87467,7 +87485,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>NC01R7OLrJP_iURHK5K0nBK</eid>
+            <eid>wVYOXCsIg5F_Mnwh9lzGq7B</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87538,7 +87556,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>xjIdT7a9qRF_BtME5s9WsVB</eid>
+            <eid>dOpVR4j/vLH_I4fkFdKgP4</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87609,7 +87627,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>WxW+IB8Od1G_QaFSvJ70WhL</eid>
+            <eid>bfem+uab13B_6uYnk9wWGeN</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>
@@ -87623,7 +87641,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>xcdqAm9fSuK_OYL16B5iCQI</eid>
-            <linkedMain/>
             </BarLine>
           </voice>
         </Measure>
@@ -87637,9 +87654,6 @@ Dudu Neves</text>
           <BarLine>
             <subtype>double</subtype>
             <eid>hNs2pDpfvGC_u/SWbSNk/yC</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
             </BarLine>
           </voice>
         </Measure>
@@ -87692,7 +87706,7 @@ Dudu Neves</text>
           <Harmony>
             <root>18</root>
             <name>m</name>
-            <eid>AG2atEzVA8O_P5SpybarnMG</eid>
+            <eid>axe59LSreiF_wYUu9c4VZOM</eid>
             <linked>
               <indexDiff>-1</indexDiff>
               </linked>

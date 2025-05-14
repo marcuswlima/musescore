@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.50">
-  <programVersion>4.5.1</programVersion>
-  <programRevision>603eca8</programRevision>
+  <programVersion>4.5.2</programVersion>
+  <programRevision>ac9d3bc</programRevision>
   <Score>
     <eid>Zwb5jEvUnlG_Ru8xKZAuD2I</eid>
     <name>Acoustic Bass</name>
@@ -31332,6 +31332,12 @@ $M</oddFooterC>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>fhTWhY7imIF_YRdB3IGhkIE</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -31343,6 +31349,7 @@ $M</oddFooterC>
             <location>
               <staves>-4</staves>
               </location>
+            <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
           <size>30</size>
@@ -31353,6 +31360,7 @@ $M</oddFooterC>
           <StaffText>
             <eid>tY0IwUw3r8M_LE4AQv0Vnj</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>2:34</text>
             </StaffText>
@@ -31362,7 +31370,7 @@ $M</oddFooterC>
               <location>
                 <staves>-4</staves>
                 </location>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <offset x="1" y="-5.5"/>
             <text>solo violão</text>
@@ -31370,13 +31378,13 @@ $M</oddFooterC>
           <Chord>
             <eid>HBByuUJcgnE_ohuAyfYUjsB</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <eid>GQ4mfvXAL1E_cvVm4NFMciP</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>28</pitch>
               <tpc>18</tpc>
@@ -34473,11 +34481,6 @@ $M</oddFooterC>
         <eid>b3DAIiwNPYH_/AKjQ7gssSB</eid>
         <LayoutBreak>
           <eid>68lY/wNhRmK_7H0lgYUUBRK</eid>
-          <linked>
-            <location>
-              <staves>-5</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
