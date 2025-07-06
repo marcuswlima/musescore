@@ -474,10 +474,10 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC>Juan Lennon e as mais tocadas do Brega</evenHeaderC>
+    <evenHeaderC>Ruan Lennon e as mais tocadas do Brega</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC>Juan Lennon e as mais tocadas do Brega</oddHeaderC>
+    <oddHeaderC>Ruan Lennon e as mais tocadas do Brega</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>0</footerFirstPage>
