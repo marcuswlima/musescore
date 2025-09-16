@@ -408,7 +408,7 @@
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <mergeMatchingRests>0</mergeMatchingRests>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
     <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
@@ -426,7 +426,7 @@
     <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
-    <hideEmptyStaves>0</hideEmptyStaves>
+    <hideEmptyStaves>1</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
