@@ -11,6 +11,12 @@
       <pageWidth>8.5</pageWidth>
       <pageHeight>11</pageHeight>
       <pagePrintableWidth>7.3189</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+      <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+      <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+      <pageOddTopMargin>0.590551</pageOddTopMargin>
+      <pageOddBottomMargin>0.590551</pageOddBottomMargin>
       <lyricsDashMaxLength>0.8</lyricsDashMaxLength>
       <lyricsMelismaPad>0.1</lyricsMelismaPad>
       <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
@@ -213,10 +219,10 @@
               </location>
             </linked>
           <style>frame</style>
-          <size>30</size>
+          <size>12</size>
           <align>center,top</align>
           <offset x="2.19421" y="80.0887"/>
-          <text><font size="30"/>Ruan Lennon 
+          <text><font size="30"></font>Ruan Lennon 
 O Baile do Brega Romântico</text>
           </Text>
         <Text>
@@ -274,7 +280,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 135</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 135</text>
             </Tempo>
           <Rest>
             <eid>QdwCkvfj7AL_fu37GhBvbyB</eid>
@@ -587,9 +593,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="-0.5" y="-3.64516"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -615,9 +621,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="-0.5" y="-3.64516"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -1015,10 +1021,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-1.5" y="-6.5"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -1120,8 +1125,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-1.5" y="-6.5"/>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
@@ -1155,9 +1159,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="1.5" y="-4.12903"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -1193,9 +1197,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="1.5" y="-4.12903"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -1848,11 +1852,6 @@ O Baile do Brega Romântico</text>
         <eid>ts9CDJjQxZJ_xocSXYwOwGP</eid>
         <LayoutBreak>
           <eid>drhu7UD+WHJ_haophP2vnBB</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -1924,7 +1923,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 135</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 135</text>
             </Tempo>
           <Rest>
             <eid>JBLjd/BDCrD_uHKP0vMnBSP</eid>
@@ -2810,21 +2809,11 @@ O Baile do Brega Romântico</text>
         <eid>pxvFwrM7hBP_SjwfGa68/mB</eid>
         <LayoutBreak>
           <eid>1Os0k9DpTWB_A6TGLeXdvVO</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>Mb+VYTJz3JO_ny01uNs8mOJ</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -2887,7 +2876,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 140</text>
             </Tempo>
           <Rest>
             <eid>/JfhRN/mScB_5FM06TG/HtP</eid>
@@ -3081,9 +3070,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="-1" y="-4.1129"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -3119,9 +3108,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="-1" y="-4.1129"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -3775,10 +3764,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-1" y="-6.57258"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -3884,8 +3872,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-1" y="-6.57258"/>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
@@ -3913,9 +3900,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="3" y="-5.78226"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -3940,9 +3927,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="3" y="-5.78226"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -4230,18 +4217,12 @@ O Baile do Brega Romântico</text>
         <eid>hHG2khC13+F_RApG1giW5fL</eid>
         <LayoutBreak>
           <eid>RlU7z6KYoQI_dfTZv7U7uWG</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
             <eid>FG/7z+fc1qO_otv9QPyQBbN</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -4307,7 +4288,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 135</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 135</text>
             </Tempo>
           <Rest>
             <eid>c78bJ6q6KcJ_yMhbWexro9I</eid>
@@ -5396,11 +5377,6 @@ O Baile do Brega Romântico</text>
         <eid>MfzvL69nFJM_mIbPHKanvEF</eid>
         <LayoutBreak>
           <eid>TKdl1gkqAfG_pzjg1NfIMO</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -5472,7 +5448,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 146</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 146</text>
             </Tempo>
           <Rest>
             <eid>F2Sp76+LrgK_R+0meDVkJ/</eid>
@@ -5579,24 +5555,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>WUhm8PuVg4O_rB49O2Lbp1H</eid>
         <voice>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <eid>jAVlwO+5kWO_rPDAo/V1M7P</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>RkXKHvgPi3H_3XsQF5hk0fC</eid>
             <linked>
@@ -5647,13 +5605,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>uVI5Ydu6TaC_EmQ4IAhs47O</eid>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <beginText>2.</beginText>
@@ -5863,9 +5814,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="4" y="-5"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -5898,9 +5849,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="4" y="-5"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -6430,24 +6381,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>4TCeR3R2l9C_e7EOrpZlb+M</eid>
         <voice>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <eid>4iUbjCOPqlM_IT/i/GV8/fM</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>SBJWc4zLVsD_mGk2x7wS/zG</eid>
             <linked>
@@ -6499,13 +6432,6 @@ O Baile do Brega Romântico</text>
         <eid>VNtCoiTRC/C_ubAgNZD2P1O</eid>
         <voice>
           <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Volta">
             <Volta>
               <beginText>2.</beginText>
               <eid>XB3WTzpTSwO_K/o55TSfQ8L</eid>
@@ -6543,9 +6469,8 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <size>12</size>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -6581,8 +6506,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
@@ -6609,9 +6533,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="3.5" y="-3.5"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -6644,9 +6568,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="3.5" y="-3.5"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -6843,21 +6767,11 @@ O Baile do Brega Romântico</text>
         <eid>YLo+uZO2UFO_L+VRy7+X3hP</eid>
         <LayoutBreak>
           <eid>XFOV5n1kDrD_CVSoZ+98BGI</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>xBnIcMvm1LI_f9kTAwpQOnB</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <minDistance>0.288125</minDistance>
             <text>fade out </text>
             </RehearsalMark>
@@ -6929,7 +6843,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 137</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 137</text>
             </Tempo>
           <Rest>
             <eid>c3UUr8AKuvN_s+iTVI9EuYJ</eid>
@@ -8002,11 +7916,6 @@ O Baile do Brega Romântico</text>
         <eid>5hbRw0pMr9H_9wC8PoRSC1H</eid>
         <LayoutBreak>
           <eid>gUKguv5/MEB_MgfR9z+xwPP</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -8025,29 +7934,6 @@ O Baile do Brega Romântico</text>
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <eid>eovrMCesQhP_g4TgU++wJzD</eid>
-        <linked>
-          <location>
-            <staves>-2</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
-        <Text>
-          <eid>XmUA9pU2AWK_dfg7qkill0B</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
-          <style>title</style>
-          <bold>1</bold>
-          <offset x="-2.72719" y="5.38654"/>
-          <text><b>Bloco2</b></text>
-          </Text>
-        </VBox>
       <VBox>
         <height>10</height>
         <eid>5J424UMXv8H_EKoR5SssQ4J</eid>
@@ -8099,9 +7985,9 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>6</indexDiff>
+              <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 141</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 141</text>
             </Tempo>
           <Rest>
             <eid>uWevl0PvmQH_rfxTAvKvviK</eid>
@@ -9160,23 +9046,6 @@ O Baile do Brega Romântico</text>
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <beginText>2.</beginText>
-              <eid>e1eGTGuDROP_XqCxzuImbzK</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>1uZ6RTmJZkF_8ciJL3+jgEG</eid>
             <linked>
@@ -9226,13 +9095,6 @@ O Baile do Brega Romântico</text>
         <eid>UwsBtvlDZOL_6noNNkqcMYN</eid>
         <startRepeat/>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <eid>OgCDiYbc0XE_cs8kkHsFe5M</eid>
             <linked>
@@ -9458,11 +9320,6 @@ O Baile do Brega Romântico</text>
         <eid>djNfB1C+yTN_fxsMvEXp7kF</eid>
         <LayoutBreak>
           <eid>6eXPCabd3g_pCkcy0axe5E</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -9534,7 +9391,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 141</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 141</text>
             </Tempo>
           <Rest>
             <eid>MUiwLR/Di2D_k/cmEJnolSM</eid>
@@ -10612,11 +10469,6 @@ O Baile do Brega Romântico</text>
         <eid>gZpMEJSFajE_HXylGQk/4AP</eid>
         <LayoutBreak>
           <eid>nCYyHoDD82G_7wd9yE1KGQC</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -10669,7 +10521,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 125</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 125</text>
             </Tempo>
           <Rest>
             <eid>XcyPbGmXpzM_/hazGILua9L</eid>
@@ -11527,21 +11379,11 @@ O Baile do Brega Romântico</text>
         <eid>wlQ25Id/eRL_bxHU5zCLhUE</eid>
         <LayoutBreak>
           <eid>E8tS5/R+BzB_uv5f7DC1q1C</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>bP8PXQVYiBB_BE2GTZPKghB</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <minDistance>4.29763e-16</minDistance>
             <text>fade out</text>
             </RehearsalMark>
@@ -11613,7 +11455,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 123</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 123</text>
             </Tempo>
           <Rest>
             <eid>FELTziAy5EN_D7X9p5XGmRO</eid>
@@ -12345,21 +12187,11 @@ O Baile do Brega Romântico</text>
         <eid>yJOjpcyEFAM_QKO/yTFAn6G</eid>
         <LayoutBreak>
           <eid>4q8vfFPrWPN_AzkVKwuFuJM</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>iYkye7OcrQE_POg32CU4SUP</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <minDistance>4.29763e-16</minDistance>
             <text>fade out</text>
             </RehearsalMark>
@@ -12423,7 +12255,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 136</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 136</text>
             </Tempo>
           <Rest>
             <eid>uOJl3vr7h8O_5StFxEbEFIK</eid>
@@ -12452,8 +12284,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -12479,8 +12311,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -13395,9 +13227,8 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <size>12</size>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -13595,8 +13426,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
@@ -13629,8 +13459,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <size>12</size>
+          <offset x="2.84869" y="-3.61951"/>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -13842,6 +13673,15 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>k2hx7A/YNJM_L4/I2yFZt+</eid>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>jzznwv7zWeO_FKWfEem0Mr</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>Es6YqtPpwnL_S9LeK9sR5FG</eid>
@@ -13852,102 +13692,11 @@ O Baile do Brega Romântico</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure>
-        <eid>htcMhbgC4mL_rygioWE43OF</eid>
-        <voice>
-          <RehearsalMark>
-            <eid>/o1lrmU6r/G_3NmMmbJnPkI</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
-            <text>fade out</text>
-            </RehearsalMark>
-          <Rest>
-            <eid>o/yKaihpfnE_/HAvcHhCulD</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <eid>vU7Zp/E8coL_ke7+3EXUwHI</eid>
-        <LayoutBreak>
-          <eid>7Qum0JlOD8N_S0F8vMQ0CdM</eid>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <RehearsalMark>
-            <eid>mvl/T5pJYiF_8hFaBvyj9aL</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
-            <text>fade out</text>
-            </RehearsalMark>
-          <Rest>
-            <eid>flpGHUifP4D_cSfqlQqHDKC</eid>
-            <placement>above</placement>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <eid>kvTyrAuw53B_VQy0zfVz8AM</eid>
-            <linked>
-              </linked>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>fABh3mT9MOO_ejFosVzp+CF</eid>
-        <LayoutBreak>
-          <eid>hjnxGa8X09M_7PrvJO1Bk7D</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>Bvf1NCDnE0H_Lqd3x9TnhF</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <eid>ttkaEwFKByK_JfYzlRkF6PC</eid>
-            <linked>
-              </linked>
-            </BarLine>
-          </voice>
-        </Measure>
       <VBox>
         <height>10</height>
         <eid>KFkFJdub4l_61ZJIuRiswB</eid>
-        <linked>
-          <location>
-            <staves>-2</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
         <Text>
           <eid>7OGpNpFVZlB_VeooBGIhiyH</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
           <style>title</style>
           <text>Os passa vida</text>
           </Text>
@@ -13957,7 +13706,6 @@ O Baile do Brega Romântico</text>
             <location>
               <staves>-2</staves>
               </location>
-            <indexDiff>1</indexDiff>
             </linked>
           <style>composer</style>
           <text>Banda Sayonara</text>
@@ -13968,7 +13716,6 @@ O Baile do Brega Romântico</text>
             <location>
               <staves>-2</staves>
               </location>
-            <indexDiff>1</indexDiff>
             </linked>
           <style>subtitle</style>
           <text>Ruan &amp; Katarina</text>
@@ -13979,9 +13726,6 @@ O Baile do Brega Romântico</text>
         <voice>
           <TimeSig>
             <eid>4uZctCd4eyD_IG2y7JlotAD</eid>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -13989,19 +13733,10 @@ O Baile do Brega Romântico</text>
             <tempo>2.25</tempo>
             <followText>1</followText>
             <eid>aKy+uTPWPvE_HMSPT3FJFQG</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              <indexDiff>5</indexDiff>
-              </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 135</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 135</text>
             </Tempo>
           <Rest>
             <eid>Yb+szQhexeO_UpimY1d/9xM</eid>
-            <linked>
-              <indexDiff>2</indexDiff>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -14624,8 +14359,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -14651,8 +14386,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -15215,10 +14950,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-0.5" y="-4"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -15320,8 +15054,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-0.5" y="-4"/>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
@@ -15355,9 +15088,9 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <minDistance>-0.0456683</minDistance>
-          <size>30</size>
+          <size>12</size>
           <offset x="3.5" y="-3.17207"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -15393,9 +15126,9 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <minDistance>-0.0456683</minDistance>
-          <size>30</size>
+          <size>12</size>
           <offset x="3.5" y="-3.17207"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -15685,11 +15418,6 @@ O Baile do Brega Romântico</text>
         <eid>8QT8qx+mIJC_WBxTf0uVV/H</eid>
         <LayoutBreak>
           <eid>4BofL+YPbNF_2WHkrYAyUbE</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -15764,7 +15492,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 116</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 116</text>
             </Tempo>
           <Rest>
             <eid>7FHjxntqU/H_UWGVHBA0DxF</eid>
@@ -17079,24 +16807,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>nd8njgAOEaB_q/3K2c0stKK</eid>
         <voice>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <eid>Bu77lSaPIBH_l7hh8aqcqVM</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>P2iQP5zZrfN_ApVk9pJe84P</eid>
             <linked>
@@ -17159,30 +16869,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>frZvBymWFhF_ZdWTJ7l6vDD</eid>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <beginText>2.</beginText>
-              <eid>Ni0CadZCfGI_mAsO9WBTgC</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>OemqqM5+24K_jHFOXYkIFzJ</eid>
             <linked>
@@ -17242,11 +16928,6 @@ O Baile do Brega Romântico</text>
         <eid>qEZzsT+cKSP_e0PTgRvNLOK</eid>
         <LayoutBreak>
           <eid>IW3fE9vaLNC_0/hkUC4HaZO</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -17265,28 +16946,6 @@ O Baile do Brega Romântico</text>
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <eid>VCb8HFMjQ5N_hEjMT5hDN+K</eid>
-        <linked>
-          <location>
-            <staves>-2</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
-        <Text>
-          <eid>q1UD5pqHcvB_vJlSbKAbWEG</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
-          <style>title</style>
-          <bold>1</bold>
-          <text><b>Bloco 3</b></text>
-          </Text>
-        </VBox>
       <VBox>
         <height>10</height>
         <eid>ymknYZsFdZ_qSdNZFe2yy</eid>
@@ -17338,17 +16997,10 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>6</indexDiff>
+              <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 125</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 125</text>
             </Tempo>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <eid>dPzbA6uId+F_kv5gWa3DQCO</eid>
             <linked>
@@ -18854,11 +18506,6 @@ O Baile do Brega Romântico</text>
         <eid>d7I8RWkwGeN_eFycOZ8w+8K</eid>
         <LayoutBreak>
           <eid>igvx52glP0I_LfEI+zntlKD</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -18930,7 +18577,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 128</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 128</text>
             </Tempo>
           <Rest>
             <eid>Caa30SCQNYI_xGmQOXPi1FG</eid>
@@ -20167,21 +19814,11 @@ O Baile do Brega Romântico</text>
         <eid>8oIe20PrOtE_JZR/jq+cItD</eid>
         <LayoutBreak>
           <eid>Sbn2p0GWgFG_xN1iVnTDSiL</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>ZtF2hKar8xL_LdZJaeNkJSE</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -20241,7 +19878,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 149</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 149</text>
             </Tempo>
           <Rest>
             <eid>NmhqLqIKAQJ_JgwLUtR02fC</eid>
@@ -20696,9 +20333,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="-1" y="-2.15322"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -20739,9 +20376,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="-1" y="-2.15322"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -21210,10 +20847,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-1" y="-5"/>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -21445,8 +21081,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-1" y="-5"/>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
@@ -21481,9 +21116,9 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <minDistance>-0.258062</minDistance>
-          <size>30</size>
+          <size>12</size>
           <offset x="2.5" y="-4.5"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -21510,9 +21145,9 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <minDistance>-0.258062</minDistance>
-          <size>30</size>
+          <size>12</size>
           <offset x="2.5" y="-4.5"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -21748,21 +21383,11 @@ O Baile do Brega Romântico</text>
         <eid>8O3ymaVJ9CO_yKcVuP/XxG</eid>
         <LayoutBreak>
           <eid>YOSL8pJxiWC_K0ATzKtdGxB</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>0j91bqnHIzF_BwCk7hHjZLN</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -21833,7 +21458,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 140</text>
             </Tempo>
           <Rest>
             <eid>m8wwz+BTawC_0KZOnw5UyeK</eid>
@@ -21866,7 +21491,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 140</text>
             </Tempo>
           <Rest>
             <eid>WF2qRJcHhEC_s9CZBdNkBdN</eid>
@@ -22928,22 +22553,12 @@ O Baile do Brega Romântico</text>
         <eid>2NFzH20pWGN_siD9T55VsmK</eid>
         <LayoutBreak>
           <eid>bQx5vllf0pH_yOZRUlNEaf</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>HDbf4bMhANJ_r3EVAILkPHF</eid>
             <autoplace>0</autoplace>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -23006,7 +22621,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 137</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 137</text>
             </Tempo>
           <Rest>
             <eid>bcr/wOvXLPD_zOjsG7zCc1N</eid>
@@ -23035,8 +22650,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -23062,8 +22677,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -23669,9 +23284,8 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <size>12</size>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -23776,8 +23390,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
@@ -23804,9 +23417,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="2.5" y="-3.78226"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -23832,9 +23445,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="2.5" y="-3.78226"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -23935,22 +23548,12 @@ O Baile do Brega Romântico</text>
         <eid>SR2Ihwt1bnO_Oxkrg1ifZRI</eid>
         <LayoutBreak>
           <eid>exmrqv4DLMI_Sh12Y8oX9xG</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>hblNXiWgS7L_tX/uGPnT6/E</eid>
             <autoplace>0</autoplace>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -23968,28 +23571,6 @@ O Baile do Brega Romântico</text>
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <eid>LD7Wnl5+l5P_t/ks1ZAOehB</eid>
-        <linked>
-          <location>
-            <staves>-2</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
-        <Text>
-          <eid>l+M79V/dPjB_oqX6iOHjxoH</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
-          <style>title</style>
-          <bold>1</bold>
-          <text><b>Bloco4</b></text>
-          </Text>
-        </VBox>
       <VBox>
         <height>10</height>
         <eid>QEwmdkFhw9D_icoF8Acl0LK</eid>
@@ -24297,8 +23878,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>31</size>
-          <text><font size="31"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="31"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -24324,8 +23905,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>31</size>
-          <text><font size="31"/><sym>segno</sym></text>
+          <size>12</size>
+          <text><font size="31"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -25033,9 +24614,8 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <size>12</size>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -25161,8 +24741,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
@@ -25195,9 +24774,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="2.5" y="-3.41129"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -25223,9 +24802,9 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
+          <size>12</size>
           <offset x="2.5" y="-3.41129"/>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -25461,21 +25040,11 @@ O Baile do Brega Romântico</text>
         <eid>NHFDQGGwlKL_B8oO9YUlUvE</eid>
         <LayoutBreak>
           <eid>+5u2LUR0sZG_7xPcPAhv71H</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>yduHjGtHXH_Vxma1y3tkkM</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -25538,7 +25107,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 121</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 121</text>
             </Tempo>
           <Rest>
             <eid>7U+FzB/vppK_t98Y5SCA3fE</eid>
@@ -26084,24 +25653,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>OdXIncBYu+M_XUuG6+WNQkJ</eid>
         <voice>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <eid>9nhClFstBaM_z46mssXhAgP</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>3</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>RV9X5pk5czD_og5E6JUEuYG</eid>
             <linked>
@@ -26152,13 +25703,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>8LBUzxzaXuJ_wb+yCmyJkkH</eid>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <beginText>2.</beginText>
@@ -26886,11 +26430,6 @@ O Baile do Brega Romântico</text>
         <eid>JFPrcWOFHpC_03YVqOexmBO</eid>
         <LayoutBreak>
           <eid>nOSmndK0rXG_WFu9iys/WL</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -26954,7 +26493,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 132</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 132</text>
             </Tempo>
           <Rest>
             <eid>Vf+FdG01a8I_AQsuOLKjb4C</eid>
@@ -28554,11 +28093,6 @@ O Baile do Brega Romântico</text>
         <eid>oHWgm4a3f1N_wOeeA9t7dsO</eid>
         <LayoutBreak>
           <eid>jduAAy68rIE_NHtla7/3OnE</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -28622,7 +28156,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 130</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 130</text>
             </Tempo>
           <Rest>
             <eid>ctkirMG+rMN_VhHXjIJnTsM</eid>
@@ -29732,11 +29266,6 @@ O Baile do Brega Romântico</text>
         <eid>q53HP6/S0iN_asmjwmSZu+J</eid>
         <LayoutBreak>
           <eid>UQy4oOsaLVJ_MwZy20IbYKN</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -29808,7 +29337,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 136</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 136</text>
             </Tempo>
           <Rest>
             <eid>iU8XVlWEqPG_XdprHVyLLuJ</eid>
@@ -30753,11 +30282,6 @@ O Baile do Brega Romântico</text>
         <eid>jAjXogF+WOL_eTVncS1eq5K</eid>
         <LayoutBreak>
           <eid>qYuXtnapGOH_nFyhBBt8k7</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -30829,7 +30353,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 142</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 142</text>
             </Tempo>
           <Rest>
             <eid>UfG9RXU4RIH_vzTxW36xxD</eid>
@@ -31731,21 +31255,11 @@ O Baile do Brega Romântico</text>
         <eid>Y51sBuLX4pI_sncZRYgRqeM</eid>
         <LayoutBreak>
           <eid>ryhn19cJR+K_hZ9Qo8pFjBF</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>14v8jYCeBbF_uxAduKa56cH</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -31808,7 +31322,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 142</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 142</text>
             </Tempo>
           <Rest>
             <eid>cqhycFfRr9C_OM1PyEz9hbD</eid>
@@ -32708,21 +32222,11 @@ O Baile do Brega Romântico</text>
         <eid>y2XavodebaN_n5vdRQd8bBC</eid>
         <LayoutBreak>
           <eid>BkG+3KjiVV_su6NsGczKFH</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>UGrg8GHJ+tJ_se8SspoAN5J</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              </linked>
             <text>fade out</text>
             </RehearsalMark>
           <Rest>
@@ -32785,7 +32289,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 139</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 139</text>
             </Tempo>
           <Rest>
             <eid>/W8m+VMtVRF_MIrY88ngwE</eid>
@@ -33565,11 +33069,6 @@ O Baile do Brega Romântico</text>
         <eid>4FkQYuSeKBD_p3cl7aNM1ZN</eid>
         <LayoutBreak>
           <eid>/w2DFOFHNEK_siMkou7P0lG</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -33633,7 +33132,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 153</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 153</text>
             </Tempo>
           <Rest>
             <eid>MDyfW1oz9zL_7K1QQpUldpJ</eid>
@@ -34060,9 +33559,9 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <minDistance>-1</minDistance>
-          <size>30</size>
+          <size>12</size>
           <offset x="-2.5" y="-3.83742"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -34099,9 +33598,9 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <minDistance>-1</minDistance>
-          <size>30</size>
+          <size>12</size>
           <offset x="-2.5" y="-3.83742"/>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -34578,9 +34077,8 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Coda</b></text>
+          <size>12</size>
+          <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -34740,8 +34238,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <text><b><font size="15"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
@@ -34774,8 +34271,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -34801,8 +34298,8 @@ O Baile do Brega Romântico</text>
             <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
-          <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <size>12</size>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
@@ -35023,11 +34520,6 @@ O Baile do Brega Romântico</text>
         <eid>GjbDxRQUUIO_LRfd52/J7EL</eid>
         <LayoutBreak>
           <eid>QhuN4yWNUaG_b3ZGCRvECLL</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -35046,29 +34538,6 @@ O Baile do Brega Romântico</text>
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <eid>nvtrEk5jQiP_B/cA3RNUX/</eid>
-        <linked>
-          <location>
-            <staves>-2</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
-        <Text>
-          <eid>0wGuQizmqJI_fOoXLm8YegC</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
-          <style>title</style>
-          <bold>1</bold>
-          <offset x="0.87489" y="4.37445"/>
-          <text><b>Bloco 5</b></text>
-          </Text>
-        </VBox>
       <VBox>
         <height>10</height>
         <eid>1VU9dW4CkML_LM5DIJJ7jvC</eid>
@@ -35118,7 +34587,7 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
             <text>violão folk</text>
             </RehearsalMark>
@@ -35130,9 +34599,9 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 129</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 129</text>
             </Tempo>
           <Rest>
             <eid>dtdr5GfYjoJ_M23cHVcUnSG</eid>
@@ -35161,7 +34630,7 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
             <text>violão folk</text>
             </RehearsalMark>
@@ -35173,9 +34642,9 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 129</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 129</text>
             </Tempo>
           <Rest>
             <eid>nZesro5ZnqL_bizoLI8ceLI</eid>
@@ -36145,11 +35614,6 @@ O Baile do Brega Romântico</text>
         <eid>Ci0ZQ/qkSND_q/yrGXdyjvB</eid>
         <LayoutBreak>
           <eid>khRrXwbDKJI_VSDkI86zl/G</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -36160,6 +35624,12 @@ O Baile do Brega Romântico</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>4H2+/evrTsH_8L5Qudb4lSJ</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <VBox>
@@ -36169,6 +35639,7 @@ O Baile do Brega Romântico</text>
           <location>
             <staves>-2</staves>
             </location>
+          <indexDiff>1</indexDiff>
           </linked>
         <Text>
           <eid>j0Km06PzvNG_fsc1x7rHZCE</eid>
@@ -36176,6 +35647,7 @@ O Baile do Brega Romântico</text>
             <location>
               <staves>-2</staves>
               </location>
+            <indexDiff>1</indexDiff>
             </linked>
           <style>title</style>
           <text>O que me faz te amar</text>
@@ -36186,6 +35658,7 @@ O Baile do Brega Romântico</text>
             <location>
               <staves>-2</staves>
               </location>
+            <indexDiff>1</indexDiff>
             </linked>
           <style>composer</style>
           <text>Lucas Magalhâes</text>
@@ -36202,12 +35675,14 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 138</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 138</text>
             </Tempo>
           <Rest>
             <eid>QLtPFf8oUcB_yf5HJ5AXimM</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -37115,11 +36590,6 @@ O Baile do Brega Romântico</text>
         <eid>pXzwndFVcXK_RWh1pPYSDUI</eid>
         <LayoutBreak>
           <eid>fncN8XfmbPI_n/W3J46Q5AJ</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -37172,7 +36642,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 123</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 123</text>
             </Tempo>
           <Rest>
             <eid>qhmuiNp3UoG_ID+7xesm4HF</eid>
@@ -37198,7 +36668,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 123</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 123</text>
             </Tempo>
           <Rest>
             <eid>OwevCz1HoZI_bLd6NNAyaHH</eid>
@@ -37264,8 +36734,6 @@ O Baile do Brega Romântico</text>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <bold>1</bold>
-            <italic>1</italic>
             <text><b><i>2vez solo guitarra</i></b></text>
             </SystemText>
           <Rest>
@@ -37298,8 +36766,6 @@ O Baile do Brega Romântico</text>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <bold>1</bold>
-            <italic>1</italic>
             <text><b><i>2vez solo guitarra</i></b></text>
             </SystemText>
           <Rest>
@@ -37392,8 +36858,6 @@ O Baile do Brega Romântico</text>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <bold>1</bold>
-            <italic>1</italic>
             <text><b><i>2vez solo teclado</i></b></text>
             </SystemText>
           <Rest>
@@ -37416,8 +36880,6 @@ O Baile do Brega Romântico</text>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <bold>1</bold>
-            <italic>1</italic>
             <text><b><i>2vez solo teclado</i></b></text>
             </SystemText>
           <Rest>
@@ -38206,11 +37668,6 @@ O Baile do Brega Romântico</text>
         <eid>lqmNfOxPG1_iF6aYcGUi+F</eid>
         <LayoutBreak>
           <eid>0A8jN+mAfSD_rR3QCaCHGXM</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -38274,7 +37731,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 160</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 160</text>
             </Tempo>
           <Rest>
             <eid>W15/fTuTkwB_mmjvVTaRu0I</eid>
@@ -39635,11 +39092,6 @@ O Baile do Brega Romântico</text>
         <eid>IEMhWWUcT6N_NFD3zPkYL+K</eid>
         <LayoutBreak>
           <eid>5tXDQOKj0HP_627FvToxP5M</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -39703,7 +39155,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 141</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 141</text>
             </Tempo>
           <Rest>
             <eid>VBVRTswyEiF_/CWG0D1bnhM</eid>
@@ -40906,11 +40358,6 @@ O Baile do Brega Romântico</text>
         <eid>4lSwsxZ753_+49TCVrgidH</eid>
         <LayoutBreak>
           <eid>79LMC+VBlUK_gAdF+Bi9uqO</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -40974,7 +40421,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 116</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 116</text>
             </Tempo>
           <Rest>
             <eid>e6hjqa5JoGG_zjAxATGPpxH</eid>
@@ -42293,24 +41740,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>BtlrRvb3rmJ_z86iu0d6Ix</eid>
         <voice>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <eid>7rXlm3LCMwL_+vTDgdaYqKO</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>WqNtdZl/eXB_u2fca7MXXJI</eid>
             <linked>
@@ -42373,30 +41802,6 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>9ewhF+oQA+O_GTAoEybSi4O</eid>
         <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <beginText>2.</beginText>
-              <eid>10op3omuy+H_72P3Z+ei+EM</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>4</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <eid>7wGRH5Zh3pB_zrXiTOWCtYC</eid>
             <linked>
@@ -42456,11 +41861,6 @@ O Baile do Brega Romântico</text>
         <eid>Fey4SnxXGfG_1vL1jiAcOFE</eid>
         <LayoutBreak>
           <eid>4k5Z+NDLS6E_E9+gdAiQ5NN</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -42524,15 +41924,8 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 146</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 146</text>
             </Tempo>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-4</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <eid>9HtIi0bvxLE_BCCddSqmu4D</eid>
             <linked>
@@ -43888,12 +43281,6 @@ O Baile do Brega Romântico</text>
           </LayoutBreak>
         <Marker>
           <eid>fRq3qs0v4II_DcI36mrUT9P</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              <fractions>5/1</fractions>
-              </location>
-            </linked>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
@@ -43971,20 +43358,10 @@ O Baile do Brega Romântico</text>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>WsjpyJZbmjO_z14bqvkkF6O</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <Marker>
           <eid>3MwY1rX4/tI_8hfKhdjLfoP</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            </linked>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
@@ -44042,7 +43419,7 @@ O Baile do Brega Romântico</text>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 137</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 137</text>
             </Tempo>
           <Rest>
             <eid>FJ3fidaOh1N_6sdthssvaaM</eid>
@@ -44484,8 +43861,6 @@ O Baile do Brega Romântico</text>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <bold>1</bold>
-            <italic>1</italic>
             <text><b><i>2vez guitarra </i></b></text>
             </SystemText>
           <Rest>
@@ -44509,8 +43884,6 @@ O Baile do Brega Romântico</text>
                 <staves>-2</staves>
                 </location>
               </linked>
-            <bold>1</bold>
-            <italic>1</italic>
             <text><b><i>2vez guitarra </i></b></text>
             </SystemText>
           <Rest>
@@ -44973,11 +44346,6 @@ O Baile do Brega Romântico</text>
         <eid>f6B0b70q/sJ_7W4HhtLVtCI</eid>
         <LayoutBreak>
           <eid>3KZP9G1vYHI_1Zavc/UrsgL</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -44987,23 +44355,6 @@ O Baile do Brega Romântico</text>
                 <measures>-1</measures>
                 </location>
               </prev>
-            </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <beginText>2.</beginText>
-              <eid>bJybLfJSapO_3yXCa1Vrvb</eid>
-              <linked>
-                <location>
-                  <staves>-2</staves>
-                  </location>
-                </linked>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
             </Spanner>
           <Rest>
             <eid>+SZS38s5aJP_3XjkjttTs6P</eid>
@@ -45065,15 +44416,8 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 139</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 139</text>
             </Tempo>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <eid>35q5L9ZGd1N_lu6l3KQLcGG</eid>
             <linked>
@@ -45104,6 +44448,18 @@ O Baile do Brega Romântico</text>
             <minDistance>-2.47581</minDistance>
             <text>violão folk</text>
             </RehearsalMark>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <eid>bJybLfJSapO_3yXCa1Vrvb</eid>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <eid>HAAkKYPiI0B_dZPDOljiiPP</eid>
             <linked>
@@ -45140,6 +44496,13 @@ O Baile do Brega Romântico</text>
       <Measure>
         <eid>JNDQS8qNggP_D5iSShTqSaJ</eid>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <eid>HgxaA0+b6RP_kY80ixGwiXL</eid>
             <linked>
@@ -46123,11 +45486,6 @@ O Baile do Brega Romântico</text>
         <eid>n+MwjNHm5CF_Q+nT/r/EKGM</eid>
         <LayoutBreak>
           <eid>6tTaSWxOSwC_qKlbYYkg1/L</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -46146,30 +45504,6 @@ O Baile do Brega Romântico</text>
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <eid>LG3rscLXPLC_fQaJnu6w8OO</eid>
-        <linked>
-          <location>
-            <staves>-2</staves>
-            </location>
-          <indexDiff>1</indexDiff>
-          </linked>
-        <Text>
-          <eid>WvZmRSoUC3_09w5sxQePzC</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            <indexDiff>1</indexDiff>
-            </linked>
-          <style>frame</style>
-          <size>16</size>
-          <bold>1</bold>
-          <offset x="76.9903" y="6.99912"/>
-          <text><b><font size="16"/>Bloco 6</b></text>
-          </Text>
-        </VBox>
       <VBox>
         <height>10</height>
         <eid>GTGaxl5eDGD_RgcV0NMWRyJ</eid>
@@ -46221,9 +45555,9 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 150</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 150</text>
             </Tempo>
           <Rest>
             <eid>d+NrNbDwZWE_+sSXz0UNuQL</eid>
@@ -46254,9 +45588,9 @@ O Baile do Brega Romântico</text>
               <location>
                 <staves>-2</staves>
                 </location>
-              <indexDiff>8</indexDiff>
+              <indexDiff>6</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 150</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 150</text>
             </Tempo>
           <Rest>
             <eid>EVJU640fw0_/OkxWbTm0UP</eid>
@@ -46319,19 +45653,10 @@ O Baile do Brega Romântico</text>
         <voice>
           <RehearsalMark>
             <eid>q4Q8S0BplN_yZ6ow04MPNB</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <text>teclado</text>
             </RehearsalMark>
           <Rest>
             <eid>j43iX+SdOUF_sI1R2o4cm1E</eid>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -46343,12 +45668,6 @@ O Baile do Brega Romântico</text>
         <voice>
           <RehearsalMark>
             <eid>R7e6KFwHTdM_T6KLKEtZeAL</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <text>teclado</text>
             </RehearsalMark>
           <Rest>
@@ -46574,8 +45893,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
+          <size>12</size>
           <offset x="13" y="-6.79852"/>
-          <text><font size="31"/><sym>segno</sym><font size="18"/><font face="Edwin"/>(faz repetições)</text>
+          <text><font size="31"></font><sym>segno</sym><font size="18"></font><font face="Edwin"></font>(faz repetições)</text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -46609,8 +45929,9 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_left</style>
+          <size>12</size>
           <offset x="13" y="-6.79852"/>
-          <text><font size="31"/><sym>segno</sym><font size="18"/><font face="Edwin"/>(faz repetições)</text>
+          <text><font size="31"></font><sym>segno</sym><font size="18"></font><font face="Edwin"></font>(faz repetições)</text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -47032,17 +46353,10 @@ O Baile do Brega Romântico</text>
           </LayoutBreak>
         <Jump>
           <eid>hqJK3RDTFLE_JIVLr+Z5GYJ</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              <fractions>7/1</fractions>
-              </location>
-            </linked>
           <style>repeat_right</style>
-          <size>16</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-0.5" y="-6.5"/>
-          <text><b><font size="16"/>D.S. al Fine</b></text>
+          <text><b><font size="16"></font>D.S. al Fine</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -47142,23 +46456,12 @@ O Baile do Brega Romântico</text>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>EZSAKajdFZN_wt9nNpKzBZE</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <Jump>
           <eid>XSHhWjwgOEE_nKUvcAdkpYD</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            </linked>
           <style>repeat_right</style>
-          <size>16</size>
-          <bold>1</bold>
+          <size>12</size>
           <offset x="-0.5" y="-6.5"/>
           <text><b><font size="16"></font>D.S. al Fine</b></text>
           <jumpTo>segno</jumpTo>
@@ -47224,7 +46527,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 154</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 154</text>
             </Tempo>
           <Rest>
             <eid>6QRt3WQwAWO_PW8zzzrmP2C</eid>
@@ -47258,7 +46561,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 154</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 154</text>
             </Tempo>
           <Rest>
             <eid>cU1BfDIsapO_hBz3VLpzGEE</eid>
@@ -48511,11 +47814,6 @@ O Baile do Brega Romântico</text>
         <eid>pWLwhJhOI0F_4Xph8ps9smD</eid>
         <LayoutBreak>
           <eid>jaRs7Kx2ZnO_XUGEOU+E/lB</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -48579,7 +47877,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 152</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 152</text>
             </Tempo>
           <Rest>
             <eid>s7eldOBNYLB_ekgoHyP69BC</eid>
@@ -49553,11 +48851,6 @@ O Baile do Brega Romântico</text>
         <eid>/NiKAY+ZtGG_vHasNOKtRyB</eid>
         <LayoutBreak>
           <eid>UjxAjdVl0mK_Ddm12DWNeXJ</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -49629,7 +48922,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 146</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 146</text>
             </Tempo>
           <RehearsalMark>
             <eid>9P/ZPtswv9E_8sBoEoyXCIP</eid>
@@ -49672,7 +48965,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 146</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 146</text>
             </Tempo>
           <RehearsalMark>
             <eid>sNBpYcmYRsO_nYzkv8lReOL</eid>
@@ -50042,19 +49335,10 @@ O Baile do Brega Romântico</text>
         <voice>
           <RehearsalMark>
             <eid>e7rBsBevZ8J_YIiJt2ELvdK</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <text>B</text>
             </RehearsalMark>
           <Rest>
             <eid>12OSOvCGlwC_kq/e4po7nU</eid>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -50066,12 +49350,6 @@ O Baile do Brega Romântico</text>
         <voice>
           <RehearsalMark>
             <eid>8gAx02zeemN_o8HI4ViABiO</eid>
-            <linked>
-              <location>
-                <staves>-2</staves>
-                </location>
-              <indexDiff>1</indexDiff>
-              </linked>
             <text>B</text>
             </RehearsalMark>
           <Rest>
@@ -50453,9 +49731,8 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
-          <text><b><font size="15"/>D.C.</b></text>
+          <size>12</size>
+          <text><b><font size="15"></font>D.C.</b></text>
           <jumpTo>start</jumpTo>
           <playUntil>end</playUntil>
           <continueAt></continueAt>
@@ -50675,8 +49952,7 @@ O Baile do Brega Romântico</text>
               </location>
             </linked>
           <style>repeat_right</style>
-          <size>15</size>
-          <bold>1</bold>
+          <size>12</size>
           <text><b><font size="15"></font>D.C.</b></text>
           <jumpTo>start</jumpTo>
           <playUntil>end</playUntil>
@@ -50760,11 +50036,6 @@ O Baile do Brega Romântico</text>
         <eid>Sq+j45a9kzJ_1vCwmBbUOqO</eid>
         <LayoutBreak>
           <eid>7Dmb4Hsk3zM_gTRTKT/0/E</eid>
-          <linked>
-            <location>
-              <staves>-3</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
@@ -50836,7 +50107,7 @@ O Baile do Brega Romântico</text>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 147</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 147</text>
             </Tempo>
           <Rest>
             <eid>iXu8td7MEsE_SGvNtkJR2KN</eid>
@@ -51596,6 +50867,9 @@ O Baile do Brega Romântico</text>
             <subtype>end</subtype>
             <eid>XqJvkU9rlpC_iVbgdSZVaXL</eid>
             <linked>
+              <location>
+                <fractions>14/1</fractions>
+                </location>
               </linked>
             </BarLine>
           </voice>
@@ -51673,19 +50947,19 @@ O Baile do Brega Romântico</text>
           </voice>
         </Measure>
       <Measure>
-        <eid>PtPx+WRak9H_UXqUna3sLrG</eid>
+        <eid>U77xfZZhpfL_45/3zN4WasJ</eid>
         <LayoutBreak>
-          <eid>3yX79kM3j/_k6OC9b1tHoE</eid>
+          <eid>AIuTp5ZFoQI_Y2qhFqTjmvN</eid>
           <linked>
             <location>
-              <staves>-3</staves>
+              <staves>-2</staves>
               </location>
             </linked>
           <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>QCKqApydOCD_eRxe7gxiLd</eid>
+            <eid>rltDRr4OubO_DqpRSHWji6J</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -51693,7 +50967,2783 @@ O Baile do Brega Romântico</text>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <eid>f2dUgbrjj6M_XC3Tp9m6jaN</eid>
+            <eid>bdL10320U4E_8kqFCMZgSy</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>cXSmID4tFhB_FPwDrb8XV4P</eid>
+        <linked>
+          <location>
+            <staves>-2</staves>
+            </location>
+          <indexDiff>1</indexDiff>
+          </linked>
+        <Text>
+          <eid>URADGan+90_zA99tdR5UmM</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>title</style>
+          <text>Warilow</text>
+          </Text>
+        <Text>
+          <eid>zB0yJZCanHD_gndOw2+BPZM</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>composer</style>
+          <text>Banda Warilou</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <eid>GcfFtDTeNIN_luKRQk7ITEP</eid>
+        <voice>
+          <TimeSig>
+            <eid>VVi0c1GbhwD_/Abdu44hSeC</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>1.983333</tempo>
+            <followText>1</followText>
+            <eid>IH1juAx2NdP_XeBwTWCV+FJ</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 119</text>
+            </Tempo>
+          <Rest>
+            <eid>WDCcM/ss6lM_AL6KTUvRhkI</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>7cQDEswIFqF_aye2VFCuH5B</eid>
+        <voice>
+          <Rest>
+            <eid>bJgz5TXqp+J_PVFk1twS4GP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>ZQZPNbW3fwF_aBy6ZUJWuHM</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>komQbBn/Z9_bQIKU/LV8GC</eid>
+        <voice>
+          <Rest>
+            <eid>O8c68BgIitN_gdOyD9HZmDK</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>sCiGkoEfXRK_6P1XGBruTwF</eid>
+        <voice>
+          <Rest>
+            <eid>HvtCNNgs5KH_nw0rfr6T8oC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>ovPfBdQuwCC_49xa415IBx</eid>
+        <voice>
+          <Rest>
+            <eid>AJrTE0dNwDF_nSs72rFGIUF</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>MCNWC/hGfsL_RYr9j8Es/BK</eid>
+        <voice>
+          <Rest>
+            <eid>Mm9pBTHchAN_9wTKoMCBtrP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>HWKhl16zJxN_B610SzRVO8</eid>
+        <voice>
+          <Rest>
+            <eid>U23RZ+fq2ZB_l3bO5el0taK</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>3Cmzty4c7TG_++PJd9q2pGN</eid>
+        <voice>
+          <Rest>
+            <eid>eM3HyAPwaSD_fpAniYG2h/H</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>8Z6ZGJ0qCcO_fWdp4+k4chL</eid>
+        <voice>
+          <Rest>
+            <eid>AAfkp+X5CPK_I27zHz2vOVB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>WWYCZ2S2C9L_UOzH+WxO5aN</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>TqY8Rzoz7ZN_2ZzWDgxUVHC</eid>
+        <startRepeat/>
+        <voice>
+          <RehearsalMark>
+            <eid>XncoGLDZtPH_QuWsf4RuduL</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>A</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>yp2NQplid4_b0YtlM6bBhB</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>0keksTcL9zM_DJPaeY3y4KH</eid>
+        <voice>
+          <Rest>
+            <eid>lCG/SUA5JvO_qPoqlQkj6dI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>bpI1Upnq7WB_nkrGYr2e1EK</eid>
+        <voice>
+          <Rest>
+            <eid>H4ze0crrg9O_atIAd9nO7MC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>0qnefFNhwRI_MVdVS3k6PIC</eid>
+        <voice>
+          <Rest>
+            <eid>2eqsVi0lq1E_1MrtUTmDT2</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>8JHzehRKJCI_fnkXUCnb71O</eid>
+        <voice>
+          <Rest>
+            <eid>EeiPNUC+vyL_/rYrj8PCZEJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>r9vSKCs3CgO_NQ2ROycLojO</eid>
+        <voice>
+          <Rest>
+            <eid>wUESmHf3LWI_EQviRRQviUP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>OpXrzlL/dNP_d6JiAsEz5xF</eid>
+        <voice>
+          <Rest>
+            <eid>9bAaNYJcEcF_rsxlSbkdunE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>fQiIBQKvQ+O_8dDBAAWR9nG</eid>
+        <voice>
+          <Rest>
+            <eid>Za23T1H9yRB_546UKt6f1z</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>qy6nmeGNtMN_X71pZJm/Gl</eid>
+        <voice>
+          <Rest>
+            <eid>0s5tt6N+YDD_EfBcH19/QyJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>HcWMXxalEcN_vKIDjhNblWF</eid>
+        <voice>
+          <Rest>
+            <eid>SmX4ya8IIy_uxxcdO6dIOD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>aGh2Aen93SC_Oij236e9fPM</eid>
+        <voice>
+          <Rest>
+            <eid>/z2fz0BOWAP_Ma+8oBQkU8N</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>p+d3zO2upfE_jzY8SGMVpqG</eid>
+        <voice>
+          <Rest>
+            <eid>S4PDcxS1/zN_iuk7Bs3Bf8H</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>9J9VGqjGLXL_YibopUQejVG</eid>
+        <voice>
+          <Rest>
+            <eid>w30MqVeLDhO_60criDFvDzG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>UVIPY2xY1VB_/GqQiEtgsDI</eid>
+        <voice>
+          <Rest>
+            <eid>Y4TT9DWonCD_SAhDlbQWb+D</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>/T/I4Jo55ZN_DxIS9BsuTu</eid>
+        <voice>
+          <Rest>
+            <eid>c7+nMZZ5NXF_I/CKJLO4M2E</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>Vs1uodcytfH_Jio3nU5+ULI</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>X19IhOMgwsI_pDW0ADQzrzP</eid>
+        <voice>
+          <RehearsalMark>
+            <eid>7YZ1i7btS/_8YzQ1/WQscO</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>/T1JvrptFfG_olEuKuXf6+O</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>AZiN75Ad4qC_K22qblcW0ZH</eid>
+        <voice>
+          <Rest>
+            <eid>odc96MnoDBD_GVH2Q8BB+bB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>cD/fL9vIpoF_tYd9YI6jcNP</eid>
+        <voice>
+          <Rest>
+            <eid>Qa/iJq7wqTM_rkMagBAd0pJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>LXGdpJpwITO_fhwaiVFg4WE</eid>
+        <voice>
+          <Rest>
+            <eid>KryznYleYEJ_GwMq3EzGQuC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>5tzPIJE/EgK_NmX+NT+goeH</eid>
+        <voice>
+          <Rest>
+            <eid>K02t2whN1aM_tbVAgAsBHZO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>rI7B2O04eEB_WlhXxC/oNLH</eid>
+        <voice>
+          <Rest>
+            <eid>U00/7CwimcC_n3wXiYrPKtP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>DDb8G5l/tqL_2ZrUWELV77C</eid>
+        <voice>
+          <Rest>
+            <eid>w3ivEXr4wJJ_JoiQoypGqHD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>9fO0klSQHlO_DvQklLOg0BM</eid>
+        <voice>
+          <Rest>
+            <eid>0Q+y3ilVMiE_zawv8X9VGMN</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>SNKX8VJGohP_C0ogQn/DDoK</eid>
+        <voice>
+          <Rest>
+            <eid>1H4myZLH8JI_JkDUEzlFKuF</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>VniX2TRIo7D_4iOFIF0z7+K</eid>
+        <voice>
+          <Rest>
+            <eid>cFFYUMSONFE_GEK0JUBIY6G</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>QxIXgjQnL9I_7u1SAZ9Lc6L</eid>
+        <voice>
+          <Rest>
+            <eid>o5GvE6S8JS_9SC16yAqtCM</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>xDs9USNHt0M_meSUUmN3g1E</eid>
+        <voice>
+          <Rest>
+            <eid>FNXabDsIvSI_1tn3u7i8weD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>6hiG1aZxTuB_Go17k970tfE</eid>
+        <voice>
+          <Rest>
+            <eid>fdSM2mf0HZH_LDVaerE+lgP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>DLiY5I5ia8E_K9PAa9GfPZL</eid>
+        <voice>
+          <Rest>
+            <eid>LozkoTdZJ8O_SwsLnSUTD1P</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>6DHhr70C7aG_bXwY5B8IzLM</eid>
+        <voice>
+          <Rest>
+            <eid>Xu45DZ9eRKG_mjeJzpbciNL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>I85JEZx7oOB_RXT9B7016aJ</eid>
+        <voice>
+          <Rest>
+            <eid>aQlKKg1pX5H_RutAYovoqTG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>h0xgVuKyWwK_XtF/qVbjbvH</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>lLK9qypk+XM_gDNUmNYyQMM</eid>
+        <Marker>
+          <eid>q1DxEWXILxN_ZQ8i4vFZpWI</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>repeat_left</style>
+          <size>31</size>
+          <text><font size="31"/><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
+        <voice>
+          <Rest>
+            <eid>BCdWL8AyIPG_Yoj0c3MTQS</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>1PHMMxGlUAK_PbrFkcxEbFD</eid>
+        <voice>
+          <Rest>
+            <eid>B0gGx+1Oq9_Lg8Vh84KAwB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>thqryXJxDAP_oaUPb6M6iGC</eid>
+        <voice>
+          <Rest>
+            <eid>AaTxHym+M9J_xQBiyNV50hB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>eBf509PfUYI_TnPialvzb1I</eid>
+        <voice>
+          <Rest>
+            <eid>yT6T+9EzGJ_XUfgahnlU+J</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>IqNicqFDV6F_gcLPgr49rQK</eid>
+        <voice>
+          <Rest>
+            <eid>jdupESY971K_m33zcmaOAgG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>A6gau1Mc40H_FBktN5CKVTK</eid>
+        <voice>
+          <Rest>
+            <eid>09mgPaWyk/P_iAWymzCQ/WJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Y0IS4Q5udAI_VjutAOXHjNJ</eid>
+        <voice>
+          <Rest>
+            <eid>KPSLN6pyUTC_g47EdUTHspB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>fxrgdg5ZEy_H+jB34uNeaL</eid>
+        <voice>
+          <Rest>
+            <eid>D21jsCyxY2E_nyBwoWCCnTD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>K0wxV9pkMAP_wVdYpDEqD5J</eid>
+        <voice>
+          <Rest>
+            <eid>GEhb6nQhUfO_zX66XpExq+B</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>nBIwpzOA8QP_Y8JMPUVMJWO</eid>
+        <voice>
+          <Rest>
+            <eid>L5v0oArm5JM_sILSLHAOvsB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>LlHYpxh7w/H_Fr/7mhMQ0GC</eid>
+        <voice>
+          <Rest>
+            <eid>tAK/jIlL+rF_QtK79jAY5WP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>pS1Cb//o59O_HJSSErdy5CK</eid>
+        <voice>
+          <Rest>
+            <eid>X13TtN15cZC_BcBJSUcFgmI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Sd0fqCgJZ1D_gxL5oS9jVD</eid>
+        <voice>
+          <Rest>
+            <eid>JFhJzhsWgTE_Snrsk6tGBaO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>qD3vylWyfHH_YZDpeF/94AP</eid>
+        <voice>
+          <Rest>
+            <eid>pimviKlwyjJ_GCwl1TyzC3G</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>DKT4GJYZE1G_ebVqdiPuB7I</eid>
+        <voice>
+          <Rest>
+            <eid>3Dpu9fCFlAO_+MTlDkymaON</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>C5dc2JQ0AKP_H+M3IlLfCp</eid>
+        <voice>
+          <Rest>
+            <eid>oO/Eagszc9_GZEB0eivxb</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>90+S4XlFEdE_WDZdIPBBZcO</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>P8FxeQ0zojM_oLMFW1B1ilH</eid>
+        <voice>
+          <RehearsalMark>
+            <eid>r9e5jR+i6oG_KoEQ11M87bJ</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>C</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>xtHgkyeKwGB_L6p9L2kXr4E</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>2OwnX5cotBP_tkStNmqOYjB</eid>
+        <voice>
+          <Rest>
+            <eid>zMTKJhA/25B_KAkDbk0FSsL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>+hkd+NnRQRD_c9YNeI60dqJ</eid>
+        <voice>
+          <Rest>
+            <eid>C0odY0XhZmJ_7jogoHIjW0C</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>WZX4QfX9EuL_SrgGV3lzmvG</eid>
+        <voice>
+          <Rest>
+            <eid>GnI9cqpaEtM_aMpHR7p8uVO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>D0dQ8XuYTQM_zXvw/0G6AeG</eid>
+        <voice>
+          <Rest>
+            <eid>d5mG5e+SA1I_d4kXcNegEm</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>HIx4igP2cPF_IlwcZ14CubK</eid>
+        <voice>
+          <Rest>
+            <eid>BUvT98BFPhI_NJJpU+t0GzE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>GfNrCDDv6mJ_fTlWrEyd7YD</eid>
+        <voice>
+          <Rest>
+            <eid>d8s7Bwj6IlE_usTYGz/t8dL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>fzoLaisGMzL_o9VdvoiAuUO</eid>
+        <voice>
+          <Rest>
+            <eid>Ss/es4L3ilL_x6u2QDVqXx</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>0RaMZmM3p0N_bvJs3nVL0wL</eid>
+        <voice>
+          <Rest>
+            <eid>vVOx5SRdsjL_MN9UD0N2biI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>+nmKx9EbAzO_1GGY3B8JaHL</eid>
+        <voice>
+          <Rest>
+            <eid>oaMMTCuno3K_tR6N8hcikEC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>YuC8LY5SYbJ_Pi1XOMs4nqB</eid>
+        <voice>
+          <Rest>
+            <eid>BREISLyQXrM_d29TA3V4hoD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>rLEiwcRK8AN_Xo96b7s7fnC</eid>
+        <voice>
+          <Rest>
+            <eid>LJ3Ay6uPMnJ_nV8f8Y0FpgJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>zDBhiJjH6uG_soUBwbhA7IN</eid>
+        <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <eid>7UPYV7KIzlK_cHXVfyS57+H</eid>
+              <linked>
+                <location>
+                  <staves>-2</staves>
+                  </location>
+                </linked>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <eid>/XV0kUwQYNM_NDgCXeNEnnP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>LqHuapLx1gL_ANdhsd6rVOH</eid>
+        <endRepeat>2</endRepeat>
+        <Marker>
+          <eid>pLovurFU8GE_Efu9jopKJ0G</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <style>repeat_right</style>
+          <size>16</size>
+          <bold>1</bold>
+          <text><b><font size="16"/>Fine</b></text>
+          <label>fine</label>
+          </Marker>
+        <voice>
+          <Rest>
+            <eid>w3JYENhfdEL_Qvhw/pKhiDG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>M8DJTxIgl6_Qgb+mFstcLG</eid>
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <eid>1SvosH/KJpF_kgRRrTcEeXG</eid>
+              <linked>
+                <location>
+                  <staves>-2</staves>
+                  </location>
+                </linked>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <eid>pAfhzPVs7DE_5EWQxe36NTG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>3XIkR1Hx6fH_DZFXlhvLEZO</eid>
+        <voice>
+          <Rest>
+            <eid>mmIJIppTyuC_PcrYu9YQ0oL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>lMZBsr3VENC_NsrMkAbf0cJ</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>JlnmC0ipyOI_utSZ6VCRWaL</eid>
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <eid>ZNgFaR42LZK_V/jB1DbPsGC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>5zoPZsKl3OK_Lh3Nr193UGD</eid>
+        <voice>
+          <Rest>
+            <eid>Ru8LXFBawP_IDl9jDQyXgB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>4TiJPm/QfF_ovhhLlxWRBI</eid>
+        <voice>
+          <Rest>
+            <eid>D5FWhVWPWDM_xXScpoccjIH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>iDLEy/XSdqG_NuyFuWKiSrB</eid>
+        <voice>
+          <Rest>
+            <eid>xRmzJS96lWN_LU6DfcDmqGK</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>SD+nhTLP/iD_RCVrwNfe3UE</eid>
+        <voice>
+          <Rest>
+            <eid>KjidpRwfI2I_KHKjsgXwKdH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Yc4oInDBWSJ_w7o2gsWUCnB</eid>
+        <voice>
+          <Rest>
+            <eid>R6f9lBOeN5F_eaAelXHNs5D</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>XFve+jvgGqM_olISCK4WO+B</eid>
+        <voice>
+          <Rest>
+            <eid>azKBlZL4hEM_ZnTg6+adYOP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>anRyIt77IoH_xvoR9zTGhLI</eid>
+        <voice>
+          <Rest>
+            <eid>s9a3hV3iHFD_DoncYL87czF</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>SRCamynzG5D_rVQIxb7Oi8P</eid>
+        <voice>
+          <Rest>
+            <eid>GCwX5xLKuCO_Tq4QW/z0ZPO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>0fBIQdLgIoO_nzRbbdspIFG</eid>
+        <voice>
+          <Rest>
+            <eid>NXaXKRWOKJC_QpTjUczvzFI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>kyZ7c4XBOPF_I24cRE9ocdP</eid>
+        <voice>
+          <Rest>
+            <eid>tXh3GLEILTI_ve0uYfsW+mJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>QuN7CAB9l9G_/7sZ1Gg75pK</eid>
+        <voice>
+          <Rest>
+            <eid>nfMn/GzMukH_3j7wlsM2NlH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>+TzK882kBNG_a38eDMnVphC</eid>
+        <voice>
+          <Rest>
+            <eid>lsuDTsqQ/+K_4b7inDEtSCI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>UEnBVC+mi2M_O9OuCvTR56B</eid>
+        <voice>
+          <Rest>
+            <eid>GAgDX4eKFVF_lATH2Ik9wQ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>e0hY1iVDKIO_Rtb5iQv0O0J</eid>
+        <voice>
+          <Rest>
+            <eid>XRqZCfa1PiH_kBs8bibtFqL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>YCE1OyLw7LB_wOYabxF69UL</eid>
+        <Jump>
+          <eid>uMKoxFh0xCP_Tf8S3fTvxDK</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <style>repeat_right</style>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>D.S. al Fine</b></text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>fine</playUntil>
+          <continueAt></continueAt>
+          </Jump>
+        <LayoutBreak>
+          <eid>BmNMILMRGwB_BOBpOQXU9gK</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>OBdwB9FUHiJ_eeingehxluI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>CCK9DWqewv_X1ljSAoMXVJ</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <VBox>
+        <height>10</height>
+        <eid>qAW143cRU1I_y2cp0Mx3LlE</eid>
+        <linked>
+          <location>
+            <staves>-2</staves>
+            </location>
+          <indexDiff>1</indexDiff>
+          </linked>
+        <Text>
+          <eid>cmtrzL+nqfC_/goNHS0ol3E</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>title</style>
+          <text>Sou seu DJ, sou seu cantor</text>
+          </Text>
+        <Text>
+          <eid>N0Mj8VJKLUN_lAuY9gcjbEP</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>composer</style>
+          <text>Allan Rodrigo</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <eid>euVP2ymT9AD_J3S4DijdBbO</eid>
+        <voice>
+          <TimeSig>
+            <eid>xamKTErBZg_TkSR+dxigiF</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>2.366667</tempo>
+            <followText>1</followText>
+            <eid>4CGhderL7HF_mQwOdVDs4BB</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 142</text>
+            </Tempo>
+          <Rest>
+            <eid>or9R29On3+K_rlO5LW4jqhB</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>jmmkwRQjtqN_hMEGlOE7oj</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>uObRdeOcYBF_VZiTX5Mu8QB</eid>
+        <voice>
+          <Rest>
+            <eid>vzCK19kfVuD_EVl9VB2DMeL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>TnOo7u8BQxO_/VZfrxlx24P</eid>
+        <voice>
+          <Rest>
+            <eid>wEUPritZPJC_s1KrJfG+NFL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Hs8fvcRLFyO_xnwtu+KjpxI</eid>
+        <voice>
+          <Rest>
+            <eid>WPcKG0LO6/K_lYFUcG/sSGM</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>HmmYXWLZkOM_nJKJVz/n96H</eid>
+        <voice>
+          <Rest>
+            <eid>jVfNWXKLwxO_OIQFoJ6UROK</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>QaTPH6TawCK_n11LVg32xXL</eid>
+        <voice>
+          <Rest>
+            <eid>XCMtx991YDB_1jeNosK0cZG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>uGDwAKG1XuJ_D17Ft4jsL5K</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>zPls68UvwkL_pZHTc8h5pRL</eid>
+        <voice>
+          <RehearsalMark>
+            <eid>NtDUQzmNsqH_S2Xaz0wAxUI</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>A</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>5IA6QhygaqN_7NSneKjsaBB</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Lhc0tVvJ78I_YOKk5eq89XE</eid>
+        <voice>
+          <Rest>
+            <eid>rswxcS2KdkD_lLlIuBCSFUI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>bbnegI8Z1uM_GmHof06AaCG</eid>
+        <voice>
+          <Rest>
+            <eid>NNlLYZSizVJ_NXVmU1ZKxmG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>I1v/nfEGRlJ_1N6i02lCkGP</eid>
+        <voice>
+          <Rest>
+            <eid>Q52Bj5mTh2C_4a+m4A91XoO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>AG8uhh38RyB_3bvGjypIXNF</eid>
+        <voice>
+          <Rest>
+            <eid>HsmusHQ1Y9J_xYDoKMELs9B</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>+NR9zKdCHVJ_4nb0jIPJH5E</eid>
+        <voice>
+          <Rest>
+            <eid>TI44Xw6sYNM_ULO8qu5G5HP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>tw1m8xY1KEN_84Fpr3xNb7</eid>
+        <voice>
+          <Rest>
+            <eid>1HSJ0FqeNkD_NscT9U7sR8O</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>aF9gwb1+FQI_eo1LT9Jc6zE</eid>
+        <voice>
+          <Rest>
+            <eid>wkLsbFLyeCG_4Nbdc9bogkN</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>NjziHv7LIIJ_qbkrnJlkRcN</eid>
+        <voice>
+          <Rest>
+            <eid>FV4xmnWadUJ_IulSEZhsgOK</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>isCqZtqfzrL_Q6Q8iWT8fLI</eid>
+        <voice>
+          <Rest>
+            <eid>rlWgCoyJJ7G_QdNjWxLy3VH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>teReZ35P5/I_6HCba7mO9DD</eid>
+        <voice>
+          <Rest>
+            <eid>I9431rU2AKB_PQkSo466NnN</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>LWQxkSxFtlL_kDisgCXTCLO</eid>
+        <voice>
+          <Rest>
+            <eid>fYLeDd5VKeH_9npvjqNK6LD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>tgWKwVq63jH_gj4Uz7m+rTJ</eid>
+        <voice>
+          <Rest>
+            <eid>M4uEpduEukE_yElxL08wbu</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>2sVHhPb6Z2J_DB9T+Mo53wN</eid>
+        <voice>
+          <Rest>
+            <eid>43sgNEli5gF_Waylx1MNrcB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>urpxp+yPLyM_LJEyqDTHJsN</eid>
+        <voice>
+          <Rest>
+            <eid>4abU97/y9bD_+x78XSvDXuN</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>X5xMYKfgtGH_Pu7v9qShB9B</eid>
+        <voice>
+          <Rest>
+            <eid>jzl8PVMLYYP_5j2EX5W5WFH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>KEAYIrpD95_PdhNzt1xH+</eid>
+        <voice>
+          <Rest>
+            <eid>F/FCt5nXrrG_BUog4eWaMtC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>MvcXAq+9meO_5LkfihzcgxF</eid>
+        <voice>
+          <Rest>
+            <eid>UXAK1bVI0wG_9wP4kzo3H8N</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>d70wCsmZ0LP_2YDluXzgKFB</eid>
+        <voice>
+          <Rest>
+            <eid>5ZbjgCqTioG_EPX0v/KnKUP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>bdQp3yRYeVD_1Q4M74kT20H</eid>
+        <voice>
+          <Rest>
+            <eid>CZSw8KrFRD_Issl/aYtn5J</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>jDy9CM/t3DK_1HslzY0oO5I</eid>
+        <voice>
+          <Rest>
+            <eid>excinKBOgSF_DxOXR+2fRXO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>jOolHf70rOM_2VpcfbO3t2B</eid>
+        <voice>
+          <Rest>
+            <eid>WAuya+jydNF_icahrwUS0+G</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>g1Sdhy0ULjL_ciwnMI8/OaG</eid>
+        <voice>
+          <Rest>
+            <eid>XTi0+mgHXzD_+CnouGvOZeK</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>qw7K2FGQKtB_fhBBR6Uc20D</eid>
+        <voice>
+          <Rest>
+            <eid>IpvQth3Kj+O_JsGj9Oxax3M</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>T7JzUf+AAXP_lxyRhTfG6cD</eid>
+        <voice>
+          <Rest>
+            <eid>NqPISyY+MTN_mBtTLilnciJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>ZuZWtVlLSBO_9WoBsTSiTfC</eid>
+        <voice>
+          <RehearsalMark>
+            <eid>HVHAnRgeL3H_ETwmVSUEgwC</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>+50CujjQobF_Eq0/HkD8mRF</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Y5JdJMb6M7B_ckAW+5+P6ND</eid>
+        <voice>
+          <Rest>
+            <eid>JcpAtJuPNAH_N6morrbbfEH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>GK/HVtv9ujE_cqEe7HR7uWC</eid>
+        <voice>
+          <Rest>
+            <eid>qz/99GKKmSB_REa6dCNA1lC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>8VAqPVxY+IO_Td4uvsA/mwO</eid>
+        <voice>
+          <Rest>
+            <eid>dt/ZQSCF0bG_imCIJ645R3L</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>JyAhiMGSH0D_FQ9UdNr31+L</eid>
+        <voice>
+          <Rest>
+            <eid>3KMHnJdpcvM_4nTz8CSrmiG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>r2dbe3sxmrB_NBhUycy03+D</eid>
+        <voice>
+          <Rest>
+            <eid>2VDKTERca3N_pVvH7OsKH9F</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>MRiyWJ+6EeP_3Lw7/4DjQI</eid>
+        <voice>
+          <Rest>
+            <eid>wO3a5ldLTZI_SKaeD7j6ZLM</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>fca+tB6cvgN_0/CpFVfeOPB</eid>
+        <voice>
+          <Rest>
+            <eid>anybvpW7+d_pTLrMaU2pAD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>lO/EHtfuTzN_D87+wrUdHNF</eid>
+        <voice>
+          <Rest>
+            <eid>7lPXQAr39KI_DwNkXKk1YBM</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>6cMm3UKc8Y_2k035eB4rrJ</eid>
+        <voice>
+          <Rest>
+            <eid>woUaU3duphM_OfIIvQGfKEH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>rbZgCi3Ty1G_cG0z4P7HPZN</eid>
+        <voice>
+          <Rest>
+            <eid>hNXQZyxkc8O_q4IpYamZtVF</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>6c9SbSLbm4_3I8yq/5gXSJ</eid>
+        <voice>
+          <Rest>
+            <eid>pUGIeKREscN_q4KnzKHP+iF</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>VKHkvKk1m9J_CQEdmhaMEF</eid>
+        <voice>
+          <Rest>
+            <eid>upnNS9JXf8C_ynMqdBABPx</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>CGBLst7Har_4OLykEEmN6I</eid>
+        <voice>
+          <Rest>
+            <eid>ZJMV9qwOOOB_XaebDKydt6L</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>NTP7ESS9kiL_sytYRmPi40D</eid>
+        <voice>
+          <Rest>
+            <eid>J6PSZUuY0TD_pXz6ZjtCYxM</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>WWMaL1+MRMB_B9SGE7MBE0G</eid>
+        <voice>
+          <Rest>
+            <eid>N42q3JtZrIL_IsivdXYNswB</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>2D/xYVn3cAF_j/Y5FyrfPOJ</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>G7UENUeqiWI_ekY9xALuzyC</eid>
+        <Marker>
+          <eid>IWi5XJhXRND_BstgVRHazyE</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>repeat_left</style>
+          <size>30</size>
+          <text><font size="30"/><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
+        <voice>
+          <RehearsalMark>
+            <eid>FYnJyi1bM1L_WEbQi2qwrqI</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <minDistance>0.310087</minDistance>
+            <offset x="5.50746" y="-5.00234"/>
+            <text>teclado</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>5AmO7oJ+c0I_XwT2U/0soUC</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>HW9IzL3V0rK_Y4VCgelPRzL</eid>
+        <voice>
+          <Rest>
+            <eid>Qw5vX8bOVYN_18iPcK0Zip</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>sdeJYg+Gz2K_L5wZYW+r6BL</eid>
+        <voice>
+          <Rest>
+            <eid>bWkdziTQfhE_+mWKrfkuHhC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>qSoeoPC52yB_GNYoPN5ATUH</eid>
+        <voice>
+          <Rest>
+            <eid>hnSIBYEv0zK_IPS2KsEpSHG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>9JRgl399iLF_Xm0Sitz8n3G</eid>
+        <voice>
+          <Rest>
+            <eid>aOFYUmA3kQ_7UR/HOPgNUP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>oQcWJzALq3B_pPKZkIHuQUM</eid>
+        <voice>
+          <RehearsalMark>
+            <eid>8vTvNFLYHtO_icS6abocSO</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>A</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>3qKaI9NlVPM_N+sVdJMhzbH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>6eB5R5tsMIH_iMoLmpvtR5B</eid>
+        <voice>
+          <Rest>
+            <eid>wpPYX6/iD6L_s2jd3UOTmbJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>rHhpHU8teGM_sTXVqhTQpoK</eid>
+        <voice>
+          <Rest>
+            <eid>gpmufC7oEZF_yHxB/Ilav6G</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>QZ4sVZGLdrO_druGB+6SqRE</eid>
+        <voice>
+          <Rest>
+            <eid>JaOF0tE/LlB_Hs4treI7LbJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>UwzEoumcPGB_6A6SlyuMhVC</eid>
+        <voice>
+          <Rest>
+            <eid>O6nWnnczFTD_QhB9efkeHlL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>kBixP1QsArL_riIPYu7QC4B</eid>
+        <voice>
+          <Rest>
+            <eid>QSQmWUQeZHE_IiTWJ+q2LMN</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>kS/BMrBdFzL_iGcfhuGzR0E</eid>
+        <voice>
+          <Rest>
+            <eid>zbJihP+bjYH_jQlFTDCEoMD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>SIp3YcKCjnI_BQv5dTdfx9C</eid>
+        <voice>
+          <Rest>
+            <eid>XOTrqGVrOCK_6B+yhORPAjI</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>ORmcl5Aqu2O_HyFmdqGZLMM</eid>
+        <voice>
+          <Rest>
+            <eid>BptL8p35MEB_dRteCmjdefE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>4/sxefZriPB_oab6aM3LjFL</eid>
+        <voice>
+          <Rest>
+            <eid>b/O6C+S/jAF_PqXWblej0VE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>mP+tpOOH6oL_bkHfBBVOul</eid>
+        <voice>
+          <Rest>
+            <eid>i4XfjcakJXE_DLNwUso0GeE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>RtD3AmHYOcM_oCUHZGfEVTD</eid>
+        <voice>
+          <Rest>
+            <eid>vKe3cVWrLJC_BODXvYIRqfP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>4DVXlAMmTwM_lqR5EvyJCeO</eid>
+        <voice>
+          <Rest>
+            <eid>Zx4OFMqAbOO_zWY3sUVxZ8B</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>SkwWwyU26TE_95Zejfc8QM</eid>
+        <voice>
+          <RehearsalMark>
+            <eid>yGvtCFeWR5G_6WPn01KuaVE</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              </linked>
+            <text>B</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>IRIlz1qsiPP_g+/4S0b8V+G</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>j5yOe+nVNnM_VH1Q+eGp5wL</eid>
+        <voice>
+          <Rest>
+            <eid>WiQ8VhRVYSP_SJ0ClpppHED</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>ZKhVW2a3J/O_uQBBAVMH4tB</eid>
+        <voice>
+          <Rest>
+            <eid>NX+7j4Izg4L_RdMiIxsD0FP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>8Ur2Jfam02P_l4AQIfW4xmG</eid>
+        <voice>
+          <Rest>
+            <eid>LH4FNv9YSbM_yXph8lkfFjG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>MBSlEkxlOQO_PhWJCkztknN</eid>
+        <voice>
+          <Rest>
+            <eid>ST1Nyjp3PKG_6dSLNea2eFJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>vGsKBjP6GGH_uXzpCE6PnNG</eid>
+        <voice>
+          <Rest>
+            <eid>p+dnjtts+NL_7mgxMY5J7YO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>CcD4J2rKFiE_AC6BvlzN7AD</eid>
+        <voice>
+          <Rest>
+            <eid>qgNi8U0ZMmO_M0uuOoerE5K</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>XyaCxEVxVtC_ZFygMTH48kM</eid>
+        <voice>
+          <Rest>
+            <eid>QVcsGqt5QfC_c4to/OZg6m</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>RuqWXLoAo7K_haZx4fMl+6K</eid>
+        <voice>
+          <Rest>
+            <eid>nFWb4RuU4lN_4JANZXfP7lL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>LVJm0hdoPRP_AbW3Awk0gPO</eid>
+        <voice>
+          <Rest>
+            <eid>7588WObopPJ_G9kPT/lZeNL</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>5OJjtNLtKbE_Bm7EsVCg+yB</eid>
+        <voice>
+          <Rest>
+            <eid>oYDk+4NnF4H_SLKdKH1anED</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>dcT1ayCZ9CH_OPWAkADnCjC</eid>
+        <voice>
+          <Rest>
+            <eid>sAE5oXgSwdH_5H9zA+yMExM</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>+dfB4t0HWw_f9yd+o41brC</eid>
+        <voice>
+          <Rest>
+            <eid>DeK5uS9MODP_LmGO19MW/XP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Luz6H+tweWJ_Pbjjz/EeEMN</eid>
+        <voice>
+          <Rest>
+            <eid>wWYEtfvcaRC_fRLBRuzEWfM</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>AG7Efw9G15N_21kPP2m9oTP</eid>
+        <voice>
+          <Rest>
+            <eid>hf7aIxVww/I_gHTQGk7vsfG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>9msPEy8KzpB_wtEJ3vw9a3F</eid>
+        <Marker>
+          <eid>G7gdqnrLWr_2cFpihEIwZ</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <style>repeat_right</style>
+          <size>15</size>
+          <bold>1</bold>
+          <text><b><font size="15"/>To Coda</b></text>
+          <label>coda</label>
+          </Marker>
+        <voice>
+          <Rest>
+            <eid>WQgrYQpb2WH_vu68ptz3NoJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>8tAddodzWdP_41Tp8xKgPeM</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>jKGjylIDROE_CP/LxAHpq7N</eid>
+        <voice>
+          <RehearsalMark>
+            <eid>Knpnr9WVNBO_6uQVgTxLLuM</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <offset x="5.69738" y="-5.57208"/>
+            <text>teclado</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>p6tXa7WCQ0_s1ZDliSSbSH</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>fjccxCt/QYG_8fpkG95LYYM</eid>
+        <voice>
+          <Rest>
+            <eid>9jylAdHEJLO_0UungxGCeZE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>UAhurc1peiL_cbPDxryvaFH</eid>
+        <voice>
+          <Rest>
+            <eid>n5TAUjsPBj_cFuqCmkVO9G</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>geghXHDiS0L_jQIAvz26jGE</eid>
+        <voice>
+          <Rest>
+            <eid>am/fGTi1eeM_8Cb0F7ZuSCJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>wey9zMfD7cH_3pIUX5dFe8G</eid>
+        <voice>
+          <Rest>
+            <eid>IAKSjJ6nUXO_q3+qLpMmWQH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>jqeCNEsRokG_SpQgvXN1iMO</eid>
+        <voice>
+          <Rest>
+            <eid>n7gfxK4emGK_+R4/ytZc8NO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>OprxP/lpVfP_GZh4TLClrbK</eid>
+        <voice>
+          <Rest>
+            <eid>nFRg2I7pECB_mmB+BOisYDJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>QQa4te3rRkL_Uneh93VLWmD</eid>
+        <Jump>
+          <eid>LmfY5z+NfXG_W4TU50yQp3I</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <style>repeat_right</style>
+          <size>16</size>
+          <bold>1</bold>
+          <text><b><font size="16"/>D.S. al Coda</b></text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>coda</playUntil>
+          <continueAt>codab</continueAt>
+          </Jump>
+        <voice>
+          <Rest>
+            <eid>OK7CrZofl+H_TX5TQEx1M4E</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>TboEQOchPSD_ZBim0rtrC0H</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>JE9d+OGHnRG_U049jI/VNoM</eid>
+        <startRepeat/>
+        <Marker>
+          <eid>ToOUdhJYTjN_LbBmSgXGvKE</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>repeat_left</style>
+          <size>30</size>
+          <text><font size="30"/><sym>coda</sym></text>
+          <label>codab</label>
+          </Marker>
+        <voice>
+          <Rest>
+            <eid>gDC36h6UzJD_W1jVChulFmM</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>i8luhG8Cz2_5E6Q0QAPisO</eid>
+        <voice>
+          <Rest>
+            <eid>OVD6SKd/e6K_P6shTYtWK0</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>RlXkeiV/ETM_aFHBdxHRHXM</eid>
+        <voice>
+          <Rest>
+            <eid>1FkriSmpg7O_RkUdQ0mQkmG</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>QgCjJcwW3OI_usfkY1HB6JK</eid>
+        <voice>
+          <Rest>
+            <eid>hL4/EXidf1O_7mIRZ7XUozE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>ROBlWovOZAE_V0W80wv4CcF</eid>
+        <voice>
+          <Rest>
+            <eid>fc1IdHBKv7H_JOByM+T7c4M</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>mgD9w+eyhLL_qFIHYb+fJsC</eid>
+        <voice>
+          <Rest>
+            <eid>UL9p4L/3uMG_wJgarVlpwEJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>wj+V4PecVnM_ztGU1/ayGXK</eid>
+        <voice>
+          <Rest>
+            <eid>QnC1DPo60PO_6iFUcuurRmJ</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>ppJIGekhhHM_CJzfY+6ixEB</eid>
+        <voice>
+          <Rest>
+            <eid>vRNaY4kcPIC_JgHn6QRT+8J</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>MsYtKJkhjiL_0OvubiuJvuC</eid>
+        <voice>
+          <Rest>
+            <eid>eCcCBUASNXJ_tNCtphEvvBE</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>hfSRL0+RDSE_n/9VVsUzT</eid>
+        <voice>
+          <Rest>
+            <eid>ozNV1PbVBHO_LMJUCBAdYZD</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>gAPsnC2eB2L_ecDEDNRqGYN</eid>
+        <voice>
+          <Rest>
+            <eid>UHxDzBFieUM_TnMqTuNzZHO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>sElWM1uAD7P_arrHgsP9djJ</eid>
+        <voice>
+          <Rest>
+            <eid>nldwinpC9gL_GJqzvwVJAWO</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>ho3SFRi9pCF_AXvUX/XkKn</eid>
+        <voice>
+          <Rest>
+            <eid>mVAY38JUr0L_SJQkSbJsagH</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>WW0/2AXhHJ_cK6n4argGf</eid>
+        <voice>
+          <Rest>
+            <eid>/trjDRSWlfG_bDH3qvEzz1B</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>gR6bzUwY6AJ_ocpOsJYJSPC</eid>
+        <voice>
+          <Rest>
+            <eid>8I81tyotc2P_mpuFsR/ueuP</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>v3mPQlrAGoL_SpzmXHm+2GN</eid>
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Rest>
+            <eid>ZD7lRl7DEnI_/A84oa1ErVK</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <eid>Q88g9/9Z0JJ_2S5eXJ43n9G</eid>
+        <LayoutBreak>
+          <eid>DQ+F7ga1/RE_HFRJSwWYs7O</eid>
+          <linked>
+            <location>
+              <staves>-2</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>cDQD7op4FFN_yt7bwvzu/sC</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            <eid>qKvL7keiMcJ_cvMfh820ghK</eid>
             <linked>
               </linked>
             </BarLine>

@@ -1,8 +1,16 @@
 {
     "tracks": [
         {
+            "instrumentId": "voice",
+            "partId": "2",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
             "instrumentId": "chord_symbols",
-            "partId": "1",
+            "partId": "2",
             "soloMuteState": {
                 "mute": true,
                 "solo": false
@@ -18,15 +26,7 @@
         },
         {
             "instrumentId": "chord_symbols",
-            "partId": "2",
-            "soloMuteState": {
-                "mute": true,
-                "solo": false
-            }
-        },
-        {
-            "instrumentId": "voice",
-            "partId": "2",
+            "partId": "1",
             "soloMuteState": {
                 "mute": true,
                 "solo": false

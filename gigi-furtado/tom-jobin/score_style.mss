@@ -94,7 +94,7 @@
     <doubleBarDistance>0.37</doubleBarDistance>
     <endBarDistance>0.37</endBarDistance>
     <repeatBarlineDotSeparation>0.37</repeatBarlineDotSeparation>
-    <repeatBarTips>0</repeatBarTips>
+    <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <maskBarlinesForText>1</maskBarlinesForText>

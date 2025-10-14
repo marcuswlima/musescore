@@ -1,8 +1,16 @@
 {
     "tracks": [
         {
-            "instrumentId": "drum-kit-4",
-            "partId": "3",
+            "instrumentId": "electric-bass",
+            "partId": "1",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "chord_symbols",
+            "partId": "1",
             "soloMuteState": {
                 "mute": true,
                 "solo": false
@@ -17,16 +25,8 @@
             }
         },
         {
-            "instrumentId": "chord_symbols",
-            "partId": "1",
-            "soloMuteState": {
-                "mute": true,
-                "solo": false
-            }
-        },
-        {
-            "instrumentId": "electric-bass",
-            "partId": "1",
+            "instrumentId": "drum-kit-4",
+            "partId": "3",
             "soloMuteState": {
                 "mute": true,
                 "solo": false
