@@ -19656,6 +19656,9 @@ O Baile do Brega Romântico</text>
         <LayoutBreak>
           <eid>8z0BJduDcTD_M/MGkU+NYZM</eid>
           <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
             </linked>
           <subtype>section</subtype>
           </LayoutBreak>
@@ -53571,6 +53574,9 @@ O Baile do Brega Romântico</text>
         <LayoutBreak>
           <eid>YJwJFYuOdHD_S/3AmyTAOLN</eid>
           <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
             </linked>
           <subtype>section</subtype>
           </LayoutBreak>
@@ -53615,11 +53621,12 @@ O Baile do Brega Romântico</text>
         <voice>
           <KeySig>
             <eid>B13OZ4hq9VF_Z6Fl2CtQTIO</eid>
-            <concertKey>-4</concertKey>
+            <concertKey>1</concertKey>
             </KeySig>
           <TimeSig>
             <eid>j49E+cdxrOF_j0gODqXqoLH</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>4</sigD>
@@ -53629,12 +53636,14 @@ O Baile do Brega Romântico</text>
             <followText>1</followText>
             <eid>R9/Ey3ofUm_cvnfrjPWD2M</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 119</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 119</text>
             </Tempo>
           <Rest>
             <eid>+VYQzg93cwB_YpJnAbfWpdE</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -53664,8 +53673,6 @@ O Baile do Brega Romântico</text>
         <voice>
           <Rest>
             <eid>dS2gI875DGO_Vc/cTwK+AhC</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
@@ -53750,14 +53757,12 @@ O Baile do Brega Romântico</text>
           <RehearsalMark>
             <eid>YcDg/LE+iBP_u/Mlet0cBJI</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>A</text>
             </RehearsalMark>
           <Rest>
             <eid>JP53HNaTmtF_WdRn+w80waO</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -54150,7 +54155,7 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <size>31</size>
-          <text><font size="31"/><sym>segno</sym></text>
+          <text><font size="31"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -54796,7 +54801,7 @@ O Baile do Brega Romântico</text>
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"/>D.S. al Fine</b></text>
+          <text><b><font size="15"></font>D.S. al Fine</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -54804,6 +54809,9 @@ O Baile do Brega Romântico</text>
         <LayoutBreak>
           <eid>Fbqh4NfkMoO_8buKcSNVf</eid>
           <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
             </linked>
           <subtype>section</subtype>
           </LayoutBreak>
@@ -54863,7 +54871,7 @@ O Baile do Brega Romântico</text>
             <eid>eeRNTFgRf+M_my35StpCCHJ</eid>
             <linked>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 142</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 142</text>
             </Tempo>
           <Rest>
             <eid>x7KxVtsao/J_j+4edZVmQAG</eid>
@@ -55464,7 +55472,7 @@ O Baile do Brega Romântico</text>
             </linked>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>segno</sym></text>
+          <text><font size="30"></font><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <voice>
@@ -56009,7 +56017,7 @@ O Baile do Brega Romântico</text>
           <style>repeat_right</style>
           <size>16</size>
           <bold>1</bold>
-          <text><b><font size="16"/>D.S. al Coda</b></text>
+          <text><b><font size="16"></font>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -56030,18 +56038,16 @@ O Baile do Brega Romântico</text>
         <Marker>
           <eid>OOFBY8cS6cC_fIBrwM2ZqZG</eid>
           <linked>
-            <indexDiff>1</indexDiff>
             </linked>
           <style>repeat_left</style>
           <size>30</size>
-          <text><font size="30"/><sym>coda</sym></text>
+          <text><font size="30"></font><sym>coda</sym></text>
           <label>codab</label>
           </Marker>
         <voice>
           <Rest>
             <eid>rqZ0RNB2tzN_CQ4bryYgLHJ</eid>
             <linked>
-              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -56234,6 +56240,9 @@ O Baile do Brega Romântico</text>
         <LayoutBreak>
           <eid>TGU36Ph+75L_fT/0eJlgxTF</eid>
           <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
             </linked>
           <subtype>section</subtype>
           </LayoutBreak>

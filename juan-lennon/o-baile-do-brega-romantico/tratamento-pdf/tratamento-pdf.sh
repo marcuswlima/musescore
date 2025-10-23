@@ -24,5 +24,14 @@ p56.pdf p57.pdf p58.pdf p59.pdf p70.pdf p71.pdf p72.pdf p73.pdf p60.pdf p61.pdf 
 p45.pdf p46.pdf p54.pdf p55.pdf \
 output.pdf
 
+pdfunite        \
+p84.pdf p85.pdf \
+/home/marcuswlima/Musician/github/_dados/warilow.pdf
 
+
+pdfunite        \
+p49.pdf \
+/home/marcuswlima/Musician/github/_dados/amor-amor.pdf
+
+rm *.pdf
 
