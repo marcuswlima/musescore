@@ -409,16 +409,16 @@
     <lowerCaseMinorChords>0</lowerCaseMinorChords>
     <lowerCaseBassNotes>0</lowerCaseBassNotes>
     <allCapsNoteNames>0</allCapsNoteNames>
-    <chordStyle>std</chordStyle>
+    <chordStyle>jazz</chordStyle>
     <chordsXmlFile>0</chordsXmlFile>
-    <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
+    <chordDescriptionFile>chords_jazz.xml</chordDescriptionFile>
     <chordExtensionMag>1</chordExtensionMag>
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
     <verticallyStackModifiers>0</verticallyStackModifiers>
     <chordStackedModifierMag>0.75</chordStackedModifierMag>
-    <chordBassNoteStagger>0</chordBassNoteStagger>
+    <chordBassNoteStagger>1</chordBassNoteStagger>
     <chordBassNoteScale>1</chordBassNoteScale>
     <polychordDividerThickness>0.11</polychordDividerThickness>
     <polychordDividerSpacing>0.4</polychordDividerSpacing>
