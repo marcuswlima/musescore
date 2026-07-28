@@ -62,7 +62,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "double-bass",
+            "instrumentId": "voice",
             "out": {
                 "auxSends": [
                     {
@@ -77,11 +77,11 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 2
+                "volumeDb": 0
             },
             "partId": "1",
             "soloMuteState": {
-                "mute": false,
+                "mute": true,
                 "solo": false
             }
         },
@@ -109,7 +109,7 @@
             },
             "partId": "999",
             "soloMuteState": {
-                "mute": true,
+                "mute": false,
                 "solo": false
             }
         },
@@ -128,7 +128,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "piano",
+            "instrumentId": "bass-guitar",
             "out": {
                 "auxSends": [
                     {
@@ -143,7 +143,45 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": -0.699999988079071
+                "volumeDb": 0
+            },
+            "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "chord_symbols",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
             },
             "partId": "2",
             "soloMuteState": {

@@ -34,21 +34,21 @@
     <lyricsPosAbove x="0" y="-2"/>
     <lyricsPosBelow x="0" y="3"/>
     <lyricsMinTopDistance>1</lyricsMinTopDistance>
-    <lyricsMinBottomDistance>1.5</lyricsMinBottomDistance>
+    <lyricsMinBottomDistance>2</lyricsMinBottomDistance>
     <lyricsMinDistance>0.25</lyricsMinDistance>
     <lyricsLineHeight>1</lyricsLineHeight>
     <lyricsDashMinLength>0.4</lyricsDashMinLength>
-    <lyricsDashMaxLength>0.6</lyricsDashMaxLength>
+    <lyricsDashMaxLength>0.8</lyricsDashMaxLength>
     <lyricsDashMaxDistance>16</lyricsDashMaxDistance>
     <lyricsDashForce>1</lyricsDashForce>
     <lyricsDashFirstAndLastGapAreHalf>1</lyricsDashFirstAndLastGapAreHalf>
     <lyricsAlignVerseNumber>1</lyricsAlignVerseNumber>
     <lyricsLineThickness>0.1</lyricsLineThickness>
     <lyricsMelismaAlign>left,baseline</lyricsMelismaAlign>
-    <lyricsMelismaPad>0.2</lyricsMelismaPad>
+    <lyricsMelismaPad>0.1</lyricsMelismaPad>
     <lyricsDashPad>0.05</lyricsDashPad>
-    <lyricsDashLineThickness>0.1</lyricsDashLineThickness>
-    <lyricsDashYposRatio>0.5</lyricsDashYposRatio>
+    <lyricsDashLineThickness>0.15</lyricsDashLineThickness>
+    <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
     <lyricsShowDashIfSyllableOnFirstNote>1</lyricsShowDashIfSyllableOnFirstNote>
     <lyricsMelismaForce>0</lyricsMelismaForce>
     <lyricsMelismaMinLength>1</lyricsMelismaMinLength>
@@ -94,21 +94,21 @@
     <frameSystemDistance>7</frameSystemDistance>
     <paddingToNotationAbove>2</paddingToNotationAbove>
     <paddingToNotationBelow>2</paddingToNotationBelow>
-    <minMeasureWidth>8</minMeasureWidth>
+    <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.18</barWidth>
     <doubleBarWidth>0.18</doubleBarWidth>
     <endBarWidth>0.55</endBarWidth>
     <doubleBarDistance>0.37</doubleBarDistance>
-    <endBarDistance>0.37</endBarDistance>
-    <repeatBarlineDotSeparation>0.37</repeatBarlineDotSeparation>
-    <repeatBarTips>1</repeatBarTips>
+    <endBarDistance>0.335</endBarDistance>
+    <repeatBarlineDotSeparation>0.400354</repeatBarlineDotSeparation>
+    <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
-    <maskBarlinesForText>1</maskBarlinesForText>
-    <bracketWidth>0.45</bracketWidth>
+    <maskBarlinesForText>0</maskBarlinesForText>
+    <bracketWidth>0.44</bracketWidth>
     <bracketDistance>0.45</bracketDistance>
-    <akkoladeWidth>1.5</akkoladeWidth>
-    <akkoladeBarDistance>0.35</akkoladeBarDistance>
+    <akkoladeWidth>1.6</akkoladeWidth>
+    <akkoladeBarDistance>0.4</akkoladeBarDistance>
     <dividerLeft>0</dividerLeft>
     <dividerLeftSym>systemDivider</dividerLeftSym>
     <dividerLeftX>0</dividerLeftX>
@@ -117,13 +117,13 @@
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
-    <clefLeftMargin>0.75</clefLeftMargin>
+    <clefLeftMargin>0.8</clefLeftMargin>
     <keysigLeftMargin>0.5</keysigLeftMargin>
     <ambitusMargin>0.5</ambitusMargin>
     <timesigLeftMargin>0.63</timesigLeftMargin>
     <midClefKeyRightMargin>1</midClefKeyRightMargin>
     <clefKeyRightMargin>0.8</clefKeyRightMargin>
-    <clefKeyDistance>0.75</clefKeyDistance>
+    <clefKeyDistance>1</clefKeyDistance>
     <clefTimesigDistance>1</clefTimesigDistance>
     <keyTimesigDistance>1</keyTimesigDistance>
     <keyBarlineDistance>1</keyBarlineDistance>
@@ -154,19 +154,19 @@
     <timeSigAcrossNumDist>0.1</timeSigAcrossNumDist>
     <timeSigAcrossY>0</timeSigAcrossY>
     <useStraightNoteFlags>0</useStraightNoteFlags>
-    <stemWidth>0.1</stemWidth>
+    <stemWidth>0.11</stemWidth>
     <shortenStem>1</shortenStem>
     <stemLength>3.5</stemLength>
     <stemLengthSmall>2.25</stemLengthSmall>
     <shortStemStartLocation>1</shortStemStartLocation>
-    <shortestStem>2.5</shortestStem>
+    <shortestStem>2.25</shortestStem>
     <combineVoice>1</combineVoice>
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
-    <minNoteDistance>0.5</minNoteDistance>
-    <barNoteDistance>1.25</barNoteDistance>
+    <minNoteDistance>0.2</minNoteDistance>
+    <barNoteDistance>1.3</barNoteDistance>
     <barAccidentalDistance>0.65</barAccidentalDistance>
     <noteBarDistance>1.5</noteBarDistance>
-    <spacingDensity>1.3</spacingDensity>
+    <spacingDensity>1</spacingDensity>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
     <mrNumberSeries>0</mrNumberSeries>
@@ -176,11 +176,11 @@
     <fourMeasureRepeatShowExtenders>0</fourMeasureRepeatShowExtenders>
     <staffLineWidth>0.11</staffLineWidth>
     <ledgerLineWidth>0.16</ledgerLineWidth>
-    <ledgerLineLength>0.33</ledgerLineLength>
+    <ledgerLineLength>0.35</ledgerLineLength>
     <stemSlashPosition>2</stemSlashPosition>
     <stemSlashAngle>40</stemSlashAngle>
     <stemSlashThickness>0.125</stemSlashThickness>
-    <accidentalDistance>0.25</accidentalDistance>
+    <accidentalDistance>0.22</accidentalDistance>
     <accidentalNoteDistance>0.25</accidentalNoteDistance>
     <bracketedAccidentalPadding>0.175</bracketedAccidentalPadding>
     <alignAccidentalsLeft>0</alignAccidentalsLeft>
@@ -192,7 +192,7 @@
     <keysigNaturalDistance>0.4</keysigNaturalDistance>
     <beamWidth>0.5</beamWidth>
     <useWideBeams>0</useWideBeams>
-    <beamMinLen>1.1</beamMinLen>
+    <beamMinLen>1.3</beamMinLen>
     <beamNoSlope>0</beamNoSlope>
     <snapCustomBeamsToGrid>1</snapCustomBeamsToGrid>
     <frenchStyleBeams>0</frenchStyleBeams>
@@ -200,23 +200,23 @@
     <dotNoteDistance>0.5</dotNoteDistance>
     <dotRestDistance>0.25</dotRestDistance>
     <dotDotDistance>0.65</dotDotDistance>
-    <propertyDistanceHead>0.4</propertyDistanceHead>
-    <propertyDistanceStem>0.4</propertyDistanceStem>
-    <propertyDistance>0.4</propertyDistance>
+    <propertyDistanceHead>0.5</propertyDistanceHead>
+    <propertyDistanceStem>0.5</propertyDistanceStem>
+    <propertyDistance>0.5</propertyDistance>
     <articulationMag>1</articulationMag>
     <articulationPosAbove x="0" y="0"/>
     <articulationAnchorDefault>2</articulationAnchorDefault>
-    <articulationAnchorLuteFingering>1</articulationAnchorLuteFingering>
+    <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
     <articulationAnchorOther>0</articulationAnchorOther>
     <articulationStemHAlign>2</articulationStemHAlign>
     <articulationKeepTogether>1</articulationKeepTogether>
     <trillAlwaysShowCueNote>0</trillAlwaysShowCueNote>
     <lastSystemFillLimit>0.3</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
-    <hairpinPosAbove x="0" y="-1.75"/>
-    <hairpinPosBelow x="0" y="1.75"/>
-    <hairpinLinePosAbove x="0" y="-1"/>
-    <hairpinLinePosBelow x="0" y="2"/>
+    <hairpinPosAbove x="0" y="-2"/>
+    <hairpinPosBelow x="0" y="2"/>
+    <hairpinLinePosAbove x="0" y="-3"/>
+    <hairpinLinePosBelow x="0" y="4"/>
     <hairpinHeight>1.15</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
     <hairpinLineWidth>0.12</hairpinLineWidth>
@@ -254,7 +254,7 @@
     <pedalDashGapLen>4</pedalDashGapLen>
     <pedalHookHeight>1.2</pedalHookHeight>
     <pedalFontFace>Edwin</pedalFontFace>
-    <pedalFontSize>10</pedalFontSize>
+    <pedalFontSize>12</pedalFontSize>
     <pedalLineSpacing>1</pedalLineSpacing>
     <pedalFontSpatiumDependent>1</pedalFontSpatiumDependent>
     <pedalMusicalSymbolsScale>1</pedalMusicalSymbolsScale>
@@ -270,7 +270,7 @@
     <pedalPosition>left</pedalPosition>
     <pedalText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</pedalText>
     <pedalHookText></pedalHookText>
-    <pedalContinueText>&lt;sym&gt;keyboardPedalParensLeft&lt;/sym&gt;&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;&lt;sym&gt;keyboardPedalParensRight&lt;/sym&gt;</pedalContinueText>
+    <pedalContinueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</pedalContinueText>
     <pedalContinueHookText></pedalContinueHookText>
     <pedalEndText></pedalEndText>
     <pedalRosetteEndText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</pedalRosetteEndText>
@@ -301,7 +301,7 @@
     <nashvilleNumberPosAbove x="0" y="-2.5"/>
     <nashvilleNumberPosBelow x="0" y="3.5"/>
     <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
-    <chordSymbolAFontSize>10</chordSymbolAFontSize>
+    <chordSymbolAFontSize>11</chordSymbolAFontSize>
     <chordSymbolALineSpacing>1</chordSymbolALineSpacing>
     <chordSymbolAFontSpatiumDependent>1</chordSymbolAFontSpatiumDependent>
     <chordSymbolAFontStyle>0</chordSymbolAFontStyle>
@@ -314,7 +314,7 @@
     <chordSymbolAFrameFgColor r="0" g="0" b="0" a="255"/>
     <chordSymbolAFrameBgColor r="255" g="255" b="255" a="0"/>
     <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
-    <chordSymbolBFontSize>10</chordSymbolBFontSize>
+    <chordSymbolBFontSize>11</chordSymbolBFontSize>
     <chordSymbolBLineSpacing>1</chordSymbolBLineSpacing>
     <chordSymbolBFontSpatiumDependent>1</chordSymbolBFontSpatiumDependent>
     <chordSymbolBFontStyle>2</chordSymbolBFontStyle>
@@ -365,7 +365,7 @@
     <fretDotSize>1</fretDotSize>
     <fretDotSpatiumSize>0.5</fretDotSpatiumSize>
     <fretStringSpacing>0.7</fretStringSpacing>
-    <fretFretSpacing>0.7</fretFretSpacing>
+    <fretFretSpacing>0.8</fretFretSpacing>
     <fretOrientation>0</fretOrientation>
     <maxFretShiftAbove>0</maxFretShiftAbove>
     <maxFretShiftBelow>0</maxFretShiftBelow>
@@ -373,7 +373,7 @@
     <fretUseCustomSuffix>0</fretUseCustomSuffix>
     <fretCustomSuffix>fr</fretCustomSuffix>
     <barreAppearanceSlur>0</barreAppearanceSlur>
-    <barreLineWidth>0.85</barreLineWidth>
+    <barreLineWidth>1</barreLineWidth>
     <fretShowFingerings>0</fretShowFingerings>
     <fretStyleExtended>0</fretStyleExtended>
     <showPageNumber>1</showPageNumber>
@@ -385,7 +385,7 @@
     <measureNumberSystem>1</measureNumberSystem>
     <measureNumberPlacementMode>above-system</measureNumberPlacementMode>
     <smallNoteMag>0.7</smallNoteMag>
-    <scaleRythmicSpacingForSmallNotes>1</scaleRythmicSpacingForSmallNotes>
+    <scaleRythmicSpacingForSmallNotes>0</scaleRythmicSpacingForSmallNotes>
     <graceNoteMag>0.7</graceNoteMag>
     <graceToMainNoteDist>0.45</graceToMainNoteDist>
     <graceToGraceNoteDist>0.3</graceToGraceNoteDist>
@@ -409,9 +409,9 @@
     <lowerCaseMinorChords>0</lowerCaseMinorChords>
     <lowerCaseBassNotes>0</lowerCaseBassNotes>
     <allCapsNoteNames>0</allCapsNoteNames>
-    <chordStyle>jazz</chordStyle>
+    <chordStyle>legacy</chordStyle>
     <chordsXmlFile>0</chordsXmlFile>
-    <chordDescriptionFile>chords_jazz.xml</chordDescriptionFile>
+    <chordDescriptionFile>chords_legacy.xml</chordDescriptionFile>
     <chordExtensionMag>1</chordExtensionMag>
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
@@ -429,18 +429,18 @@
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <mergeMatchingRests>0</mergeMatchingRests>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
-    <minEmptyMeasures>1</minEmptyMeasures>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <minEmptyMeasures>2</minEmptyMeasures>
     <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
     <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
-    <minMMRestWidth>6</minMMRestWidth>
+    <minMMRestWidth>4</minMMRestWidth>
     <mmRestConstantWidth>0</mmRestConstantWidth>
     <mmRestReferenceWidth>2</mmRestReferenceWidth>
     <mmRestMaxWidthIncrease>8</mmRestMaxWidthIncrease>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
     <mmRestBetweenStaves>1</mmRestBetweenStaves>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
-    <multiMeasureRestMargin>1.25</multiMeasureRestMargin>
+    <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
     <mmRestHBarThickness>0.7</mmRestHBarThickness>
     <mmRestHBarVStrokeThickness>0.2</mmRestHBarVStrokeThickness>
     <mmRestHBarVStrokeHeight>2</mmRestHBarVStrokeHeight>
@@ -460,17 +460,17 @@
     <tenutoGateTime>100</tenutoGateTime>
     <staccatoGateTime>50</staccatoGateTime>
     <slurGateTime>100</slurGateTime>
-    <arpeggioNoteDistance>0.4</arpeggioNoteDistance>
+    <arpeggioNoteDistance>0.5</arpeggioNoteDistance>
     <arpeggioAccidentalDistance>0.3</arpeggioAccidentalDistance>
     <arpeggioAccidentalDistanceMin>0.33</arpeggioAccidentalDistanceMin>
     <arpeggioLineWidth>0.18</arpeggioLineWidth>
     <arpeggioHookLen>0.8</arpeggioHookLen>
     <arpeggioHiddenInStdIfTab>0</arpeggioHiddenInStdIfTab>
-    <slurEndWidth>0.05</slurEndWidth>
+    <slurEndWidth>0.07</slurEndWidth>
     <slurMidWidth>0.21</slurMidWidth>
     <slurDottedWidth>0.1</slurDottedWidth>
     <angleHangingSlursAwayFromStaff>0</angleHangingSlursAwayFromStaff>
-    <tieEndWidth>0.05</tieEndWidth>
+    <tieEndWidth>0.07</tieEndWidth>
     <tieMidWidth>0.21</tieMidWidth>
     <tieDottedWidth>0.1</tieDottedWidth>
     <minTieLength>1</minTieLength>
@@ -484,7 +484,7 @@
     <lineEndToBarlineDistance>0.25</lineEndToBarlineDistance>
     <barlineToLineStartDistance>0.65</barlineToLineStartDistance>
     <tiePlacementSingleNote>outside</tiePlacementSingleNote>
-    <tiePlacementChord>outside</tiePlacementChord>
+    <tiePlacementChord>inside</tiePlacementChord>
     <tieDotsPlacement>auto</tieDotsPlacement>
     <tieMinShoulderHeight>0.3</tieMinShoulderHeight>
     <tieMaxShoulderHeight>2</tieMaxShoulderHeight>
@@ -497,19 +497,19 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Karl Ditters von Dittersdorf - Concerto in E Major</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Karl Ditters von Dittersdorf - Concerto in E Major</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
+    <evenFooterC>marcuswlima@gmail.com</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>marcuswlima@gmail.com</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -605,9 +605,9 @@
     <tupletOutOfStaff>1</tupletOutOfStaff>
     <tupletVHeadDistance>0.5</tupletVHeadDistance>
     <tupletVStemDistance>0.5</tupletVStemDistance>
-    <tupletStemLeftDistance>0.5</tupletStemLeftDistance>
+    <tupletStemLeftDistance>0</tupletStemLeftDistance>
     <tupletStemRightDistance>0.5</tupletStemRightDistance>
-    <tupletNoteLeftDistance>0</tupletNoteLeftDistance>
+    <tupletNoteLeftDistance>-0.5</tupletNoteLeftDistance>
     <tupletNoteRightDistance>0</tupletNoteRightDistance>
     <tupletBracketWidth>0.1</tupletBracketWidth>
     <tupletDirection>0</tupletDirection>
@@ -633,7 +633,7 @@
     <tupletPosition>center</tupletPosition>
     <tupletExtendToEndOfDuration>0</tupletExtendToEndOfDuration>
     <tupletNumberRythmicCenter>0</tupletNumberRythmicCenter>
-    <scaleBarlines>0</scaleBarlines>
+    <scaleBarlines>1</scaleBarlines>
     <barGraceDistance>1</barGraceDistance>
     <minVerticalDistance>0.5</minVerticalDistance>
     <skylineMinHorizontalClearance>0.25</skylineMinHorizontalClearance>
@@ -646,8 +646,8 @@
     <dynamicsFont>Leland</dynamicsFont>
     <dynamicsSize>1</dynamicsSize>
     <dynamicsPlacement>1</dynamicsPlacement>
-    <dynamicsPosAbove x="0" y="-1"/>
-    <dynamicsPosBelow x="0" y="2"/>
+    <dynamicsPosAbove x="0" y="-1.5"/>
+    <dynamicsPosBelow x="0" y="2.5"/>
     <avoidBarLines>1</avoidBarLines>
     <snapToDynamics>1</snapToDynamics>
     <centerOnNotehead>1</centerOnNotehead>
@@ -721,7 +721,7 @@
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
     <titlePosition>center</titlePosition>
     <subTitleFontFace>Edwin</subTitleFontFace>
-    <subTitleFontSize>14</subTitleFontSize>
+    <subTitleFontSize>16</subTitleFontSize>
     <subTitleLineSpacing>1</subTitleLineSpacing>
     <subTitleFontSpatiumDependent>0</subTitleFontSpatiumDependent>
     <subTitleFontStyle>0</subTitleFontStyle>
@@ -1069,7 +1069,7 @@
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
     <measureNumberPosAbove x="0" y="-2"/>
-    <measureNumberPosBelow x="0" y="2"/>
+    <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
     <measureNumberHPlacement>left</measureNumberHPlacement>
@@ -1220,7 +1220,7 @@
     <rehearsalMarkFrameBgColor r="255" g="255" b="255" a="0"/>
     <rehearsalMarkPosition>center</rehearsalMarkPosition>
     <rehearsalMarkPlacement>0</rehearsalMarkPlacement>
-    <rehearsalMarkPosAbove x="0" y="-2"/>
+    <rehearsalMarkPosAbove x="0" y="-3"/>
     <rehearsalMarkPosBelow x="0" y="4"/>
     <rehearsalMarkMinDistance>0.5</rehearsalMarkMinDistance>
     <repeatPlayCountFontFace>Edwin</repeatPlayCountFontFace>
@@ -1295,7 +1295,7 @@
     <textLineTextAlign>left,center</textLineTextAlign>
     <textLineSystemFlag>0</textLineSystemFlag>
     <systemTextLineFontFace>Edwin</systemTextLineFontFace>
-    <systemTextLineFontSize>10</systemTextLineFontSize>
+    <systemTextLineFontSize>12</systemTextLineFontSize>
     <systemTextLineFontSpatiumDependent>1</systemTextLineFontSpatiumDependent>
     <systemTextLineFontStyle>0</systemTextLineFontStyle>
     <systemTextLineColor r="0" g="0" b="0" a="255"/>
@@ -1371,12 +1371,12 @@
     <guitarBendArrowHeight>1</guitarBendArrowHeight>
     <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
     <headerFontFace>Edwin</headerFontFace>
-    <headerFontSize>9</headerFontSize>
+    <headerFontSize>11</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
-    <headerFontStyle>0</headerFontStyle>
+    <headerFontStyle>1</headerFontStyle>
     <headerColor r="0" g="0" b="0" a="255"/>
-    <headerAlign>center,top</headerAlign>
+    <headerAlign>center,center</headerAlign>
     <headerOffset x="0" y="0"/>
     <headerFrameType>0</headerFrameType>
     <headerFramePadding>0.2</headerFramePadding>
@@ -1391,8 +1391,8 @@
     <footerFontSpatiumDependent>0</footerFontSpatiumDependent>
     <footerFontStyle>0</footerFontStyle>
     <footerColor r="0" g="0" b="0" a="255"/>
-    <footerAlign>center,bottom</footerAlign>
-    <footerOffset x="0" y="0"/>
+    <footerAlign>center,center</footerAlign>
+    <footerOffset x="0" y="5"/>
     <footerFrameType>0</footerFrameType>
     <footerFramePadding>0.2</footerFramePadding>
     <footerFrameWidth>0.1</footerFrameWidth>
@@ -1406,8 +1406,8 @@
     <copyrightFontSpatiumDependent>0</copyrightFontSpatiumDependent>
     <copyrightFontStyle>0</copyrightFontStyle>
     <copyrightColor r="0" g="0" b="0" a="255"/>
-    <copyrightAlign>center,bottom</copyrightAlign>
-    <copyrightOffset x="0" y="0"/>
+    <copyrightAlign>center,center</copyrightAlign>
+    <copyrightOffset x="0" y="5"/>
     <copyrightFrameType>0</copyrightFrameType>
     <copyrightFramePadding>0.2</copyrightFramePadding>
     <copyrightFrameWidth>0.1</copyrightFrameWidth>
@@ -1421,7 +1421,7 @@
     <pageNumberFontSpatiumDependent>0</pageNumberFontSpatiumDependent>
     <pageNumberFontStyle>1</pageNumberFontStyle>
     <pageNumberColor r="0" g="0" b="0" a="255"/>
-    <pageNumberAlign>center,top</pageNumberAlign>
+    <pageNumberAlign>center,center</pageNumberAlign>
     <pageNumberOffset x="0" y="0"/>
     <pageNumberFrameType>0</pageNumberFrameType>
     <pageNumberFramePadding>0.2</pageNumberFramePadding>
@@ -1455,10 +1455,10 @@
     <stickingFontSpatiumDependent>1</stickingFontSpatiumDependent>
     <stickingFontStyle>0</stickingFontStyle>
     <stickingColor r="0" g="0" b="0" a="255"/>
-    <stickingAlign>center,baseline</stickingAlign>
+    <stickingAlign>left,baseline</stickingAlign>
     <stickingOffset x="0" y="0"/>
     <stickingPlacement>1</stickingPlacement>
-    <stickingPosAbove x="0" y="-1"/>
+    <stickingPosAbove x="0" y="-2"/>
     <stickingPosBelow x="0" y="2"/>
     <stickingMinDistance>0.5</stickingMinDistance>
     <stickingFrameType>0</stickingFrameType>
@@ -1467,7 +1467,7 @@
     <stickingFrameRound>0</stickingFrameRound>
     <stickingFrameFgColor r="0" g="0" b="0" a="255"/>
     <stickingFrameBgColor r="255" g="255" b="255" a="0"/>
-    <stickingPosition>center</stickingPosition>
+    <stickingPosition>left</stickingPosition>
     <figuredBassFontFace>MScoreBC</figuredBassFontFace>
     <figuredBassFontSize>8</figuredBassFontSize>
     <figuredBassLineSpacing>1</figuredBassLineSpacing>
@@ -1689,7 +1689,7 @@
     <letRingPlacement>1</letRingPlacement>
     <letRingPosAbove x="0" y="0"/>
     <letRingPosBelow x="0" y="0"/>
-    <letRingLineWidth>0.11</letRingLineWidth>
+    <letRingLineWidth>0.15</letRingLineWidth>
     <letRingLineStyle>dashed</letRingLineStyle>
     <letRingDashLineLen>5</letRingDashLineLen>
     <letRingDashGapLen>5</letRingDashGapLen>
@@ -1711,9 +1711,9 @@
     <palmMuteTextAlign>left,center</palmMuteTextAlign>
     <palmMuteHookHeight>0.6</palmMuteHookHeight>
     <palmMutePlacement>1</palmMutePlacement>
-    <palmMutePosAbove x="0" y="0"/>
-    <palmMutePosBelow x="0" y="0"/>
-    <palmMuteLineWidth>0.11</palmMuteLineWidth>
+    <palmMutePosAbove x="0" y="-4"/>
+    <palmMutePosBelow x="0" y="4"/>
+    <palmMuteLineWidth>0.15</palmMuteLineWidth>
     <palmMuteLineStyle>dashed</palmMuteLineStyle>
     <palmMuteDashLineLen>5</palmMuteDashLineLen>
     <palmMuteDashGapLen>5</palmMuteDashGapLen>
@@ -1730,7 +1730,7 @@
     <fermataPosBelow x="0" y="0.5"/>
     <fermataMinDistance>0.4</fermataMinDistance>
     <fingeringPlacement>0</fingeringPlacement>
-    <articulationMinDistance>0.4</articulationMinDistance>
+    <articulationMinDistance>0.5</articulationMinDistance>
     <fingeringMinDistance>0.5</fingeringMinDistance>
     <hairpinMinDistance>0.7</hairpinMinDistance>
     <letRingMinDistance>0.7</letRingMinDistance>
@@ -1780,18 +1780,18 @@
     <chordlineThickness>0.16</chordlineThickness>
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
-    <defaultsVersion>450</defaultsVersion>
-    <changesBeforeBarlineRepeats>1</changesBeforeBarlineRepeats>
-    <changesBeforeBarlineOtherJumps>1</changesBeforeBarlineOtherJumps>
+    <defaultsVersion>302</defaultsVersion>
+    <changesBeforeBarlineRepeats>0</changesBeforeBarlineRepeats>
+    <changesBeforeBarlineOtherJumps>0</changesBeforeBarlineOtherJumps>
     <placeClefsBeforeRepeats>0</placeClefsBeforeRepeats>
     <changesBetweenEndStartRepeat>1</changesBetweenEndStartRepeat>
-    <showCourtesiesRepeats>1</showCourtesiesRepeats>
+    <showCourtesiesRepeats>0</showCourtesiesRepeats>
     <useParensRepeatCourtesies>1</useParensRepeatCourtesies>
-    <showCourtesiesOtherJumps>1</showCourtesiesOtherJumps>
+    <showCourtesiesOtherJumps>0</showCourtesiesOtherJumps>
     <useParensOtherJumpCourtesies>1</useParensOtherJumpCourtesies>
-    <showCourtesiesAfterCancellingRepeats>1</showCourtesiesAfterCancellingRepeats>
+    <showCourtesiesAfterCancellingRepeats>0</showCourtesiesAfterCancellingRepeats>
     <useParensRepeatCourtesiesAfterCancelling>1</useParensRepeatCourtesiesAfterCancelling>
-    <showCourtesiesAfterCancellingOtherJumps>1</showCourtesiesAfterCancellingOtherJumps>
+    <showCourtesiesAfterCancellingOtherJumps>0</showCourtesiesAfterCancellingOtherJumps>
     <useParensOtherJumpCourtesiesAfterCancelling>1</useParensOtherJumpCourtesiesAfterCancelling>
     <smallParens>1</smallParens>
     <repeatPlayCountPreset>nx</repeatPlayCountPreset>

@@ -162,11 +162,11 @@
     <shortestStem>2.5</shortestStem>
     <combineVoice>1</combineVoice>
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
-    <minNoteDistance>0.5</minNoteDistance>
+    <minNoteDistance>0.35</minNoteDistance>
     <barNoteDistance>1.25</barNoteDistance>
     <barAccidentalDistance>0.65</barAccidentalDistance>
     <noteBarDistance>1.5</noteBarDistance>
-    <spacingDensity>1.3</spacingDensity>
+    <spacingDensity>1</spacingDensity>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
     <mrNumberSeries>0</mrNumberSeries>
@@ -289,7 +289,7 @@
     <harmonyPlacement>0</harmonyPlacement>
     <romanNumeralPlacement>1</romanNumeralPlacement>
     <nashvilleNumberPlacement>0</nashvilleNumberPlacement>
-    <harmonyVoiceLiteral>1</harmonyVoiceLiteral>
+    <harmonyVoiceLiteral>0</harmonyVoiceLiteral>
     <harmonyVoicing>0</harmonyVoicing>
     <harmonyDuration>0</harmonyDuration>
     <chordSymbolAPosAbove x="0" y="-2.5"/>
@@ -306,7 +306,7 @@
     <chordSymbolAFontSpatiumDependent>1</chordSymbolAFontSpatiumDependent>
     <chordSymbolAFontStyle>0</chordSymbolAFontStyle>
     <chordSymbolAColor r="0" g="0" b="0" a="255"/>
-    <chordSymbolAAlign>left,baseline</chordSymbolAAlign>
+    <chordSymbolAAlign>center,baseline</chordSymbolAAlign>
     <chordSymbolAFrameType>0</chordSymbolAFrameType>
     <chordSymbolAFramePadding>0.2</chordSymbolAFramePadding>
     <chordSymbolAFrameWidth>0.1</chordSymbolAFrameWidth>
@@ -319,7 +319,7 @@
     <chordSymbolBFontSpatiumDependent>1</chordSymbolBFontSpatiumDependent>
     <chordSymbolBFontStyle>2</chordSymbolBFontStyle>
     <chordSymbolBColor r="0" g="0" b="0" a="255"/>
-    <chordSymbolBAlign>left,baseline</chordSymbolBAlign>
+    <chordSymbolBAlign>center,baseline</chordSymbolBAlign>
     <chordSymbolBFrameType>0</chordSymbolBFrameType>
     <chordSymbolBFramePadding>0.2</chordSymbolBFramePadding>
     <chordSymbolBFrameWidth>0.1</chordSymbolBFrameWidth>
@@ -418,12 +418,12 @@
     <chordModifierAdjust>0</chordModifierAdjust>
     <verticallyStackModifiers>0</verticallyStackModifiers>
     <chordStackedModifierMag>0.75</chordStackedModifierMag>
-    <chordBassNoteStagger>0</chordBassNoteStagger>
+    <chordBassNoteStagger>1</chordBassNoteStagger>
     <chordBassNoteScale>1</chordBassNoteScale>
     <polychordDividerThickness>0.11</polychordDividerThickness>
     <polychordDividerSpacing>0.4</polychordDividerSpacing>
-    <verticallyAlignChordSymbols>0</verticallyAlignChordSymbols>
-    <chordSymPosition>left</chordSymPosition>
+    <verticallyAlignChordSymbols>1</verticallyAlignChordSymbols>
+    <chordSymPosition>center</chordSymPosition>
     <chordAlignmentToFretboard>center</chordAlignmentToFretboard>
     <chordAlignmentExcludeModifiers>0</chordAlignmentExcludeModifiers>
     <concertPitch>0</concertPitch>
@@ -1242,7 +1242,7 @@
     <repeatPlayCountPosBelow x="0" y="4"/>
     <repeatPlayCountMinDistance>0.5</repeatPlayCountMinDistance>
     <repeatLeftFontFace>Edwin</repeatLeftFontFace>
-    <repeatLeftFontSize>18</repeatLeftFontSize>
+    <repeatLeftFontSize>10</repeatLeftFontSize>
     <repeatLeftLineSpacing>1</repeatLeftLineSpacing>
     <repeatLeftFontSpatiumDependent>1</repeatLeftFontSpatiumDependent>
     <repeatLeftFontStyle>0</repeatLeftFontStyle>
@@ -1257,7 +1257,7 @@
     <repeatLeftFrameBgColor r="255" g="255" b="255" a="0"/>
     <repeatLeftPosition>left</repeatLeftPosition>
     <repeatRightFontFace>Edwin</repeatRightFontFace>
-    <repeatRightFontSize>11</repeatRightFontSize>
+    <repeatRightFontSize>10</repeatRightFontSize>
     <repeatRightLineSpacing>1</repeatRightLineSpacing>
     <repeatRightFontSpatiumDependent>1</repeatRightFontSpatiumDependent>
     <repeatRightFontStyle>0</repeatRightFontStyle>
@@ -1780,7 +1780,7 @@
     <chordlineThickness>0.16</chordlineThickness>
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
-    <defaultsVersion>450</defaultsVersion>
+    <defaultsVersion>460</defaultsVersion>
     <changesBeforeBarlineRepeats>1</changesBeforeBarlineRepeats>
     <changesBeforeBarlineOtherJumps>1</changesBeforeBarlineOtherJumps>
     <placeClefsBeforeRepeats>0</placeClefsBeforeRepeats>
@@ -1795,7 +1795,7 @@
     <useParensOtherJumpCourtesiesAfterCancelling>1</useParensOtherJumpCourtesiesAfterCancelling>
     <smallParens>1</smallParens>
     <repeatPlayCountPreset>nx</repeatPlayCountPreset>
-    <repeatPlayCountShow>0</repeatPlayCountShow>
+    <repeatPlayCountShow>1</repeatPlayCountShow>
     <repeatPlayCountShowSingleRepeats>0</repeatPlayCountShowSingleRepeats>
     <systemObjectsBelowBottomStaff>0</systemObjectsBelowBottomStaff>
     <spatium>1.74978</spatium>
