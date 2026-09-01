@@ -117,8 +117,8 @@
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
-    <dividerLeftAlignToSystemBarline>0</dividerLeftAlignToSystemBarline>
-    <dividerRightAlignToSystemBarline>0</dividerRightAlignToSystemBarline>
+    <dividerLeftAlignToSystemBarline>1</dividerLeftAlignToSystemBarline>
+    <dividerRightAlignToSystemBarline>1</dividerRightAlignToSystemBarline>
     <dividerLeftSize>1</dividerLeftSize>
     <dividerRightSize>1</dividerRightSize>
     <clefLeftMargin>0.75</clefLeftMargin>
@@ -1102,7 +1102,7 @@
     <measureNumberAlternatePosAbove x="0" y="-4"/>
     <measureNumberAlternatePosBelow x="0" y="4"/>
     <measureNumberAlternateFrameType>1</measureNumberAlternateFrameType>
-    <measureNumberAlternateFramePadding>0.3</measureNumberAlternateFramePadding>
+    <measureNumberAlternateFramePadding>0.2</measureNumberAlternateFramePadding>
     <measureNumberAlternateFrameWidth>0.1</measureNumberAlternateFrameWidth>
     <measureNumberAlternateFrameRound>0</measureNumberAlternateFrameRound>
     <measureNumberAlternateFrameFgColor r="0" g="0" b="0" a="255"/>
@@ -1897,7 +1897,7 @@
     <user12MusicalSymbolSize>10</user12MusicalSymbolSize>
     <voltaMusicalSymbolSize>11</voltaMusicalSymbolSize>
     <autoplaceEnabled>1</autoplaceEnabled>
-    <defaultsVersion>460</defaultsVersion>
+    <defaultsVersion>470</defaultsVersion>
     <changesBeforeBarlineRepeats>1</changesBeforeBarlineRepeats>
     <changesBeforeBarlineOtherJumps>1</changesBeforeBarlineOtherJumps>
     <placeClefsBeforeRepeats>0</placeClefsBeforeRepeats>
@@ -1972,6 +1972,6 @@
     <palmMuteBeginFilledArrowWidth>0.85</palmMuteBeginFilledArrowWidth>
     <palmMuteEndFilledArrowHeight>1</palmMuteEndFilledArrowHeight>
     <palmMuteEndFilledArrowWidth>0.85</palmMuteEndFilledArrowWidth>
-    <spatium>1.74978</spatium>
+    <spatium>1.75</spatium>
     </Style>
   </museScore>

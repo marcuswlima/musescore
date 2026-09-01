@@ -101,7 +101,7 @@
     <doubleBarDistance>0.37</doubleBarDistance>
     <endBarDistance>0.37</endBarDistance>
     <repeatBarlineDotSeparation>0.37</repeatBarlineDotSeparation>
-    <repeatBarTips>1</repeatBarTips>
+    <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <maskBarlinesForText>1</maskBarlinesForText>
@@ -117,8 +117,8 @@
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
-    <dividerLeftAlignToSystemBarline>0</dividerLeftAlignToSystemBarline>
-    <dividerRightAlignToSystemBarline>0</dividerRightAlignToSystemBarline>
+    <dividerLeftAlignToSystemBarline>1</dividerLeftAlignToSystemBarline>
+    <dividerRightAlignToSystemBarline>1</dividerRightAlignToSystemBarline>
     <dividerLeftSize>1</dividerLeftSize>
     <dividerRightSize>1</dividerRightSize>
     <clefLeftMargin>0.75</clefLeftMargin>
@@ -415,9 +415,9 @@
     <lowerCaseMinorChords>0</lowerCaseMinorChords>
     <lowerCaseBassNotes>0</lowerCaseBassNotes>
     <allCapsNoteNames>0</allCapsNoteNames>
-    <chordStyle>jazz</chordStyle>
+    <chordStyle>std</chordStyle>
     <chordsXmlFile>0</chordsXmlFile>
-    <chordDescriptionFile>chords_jazz.xml</chordDescriptionFile>
+    <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
     <chordExtensionMag>1</chordExtensionMag>
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
@@ -435,7 +435,7 @@
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <mergeMatchingRests>0</mergeMatchingRests>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>1</minEmptyMeasures>
     <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
     <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
@@ -506,19 +506,21 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Quartett von Joseph Lauber
+Kontrabass IV</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Quartett von Joseph Lauber
+Kontrabass IV</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
+    <footerFirstPage>0</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$C</evenFooterC>
+    <evenFooterC>@_marcuswlima</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>@_marcuswlima</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -1102,7 +1104,7 @@
     <measureNumberAlternatePosAbove x="0" y="-4"/>
     <measureNumberAlternatePosBelow x="0" y="4"/>
     <measureNumberAlternateFrameType>1</measureNumberAlternateFrameType>
-    <measureNumberAlternateFramePadding>0.3</measureNumberAlternateFramePadding>
+    <measureNumberAlternateFramePadding>0.2</measureNumberAlternateFramePadding>
     <measureNumberAlternateFrameWidth>0.1</measureNumberAlternateFrameWidth>
     <measureNumberAlternateFrameRound>0</measureNumberAlternateFrameRound>
     <measureNumberAlternateFrameFgColor r="0" g="0" b="0" a="255"/>
@@ -1897,7 +1899,7 @@
     <user12MusicalSymbolSize>10</user12MusicalSymbolSize>
     <voltaMusicalSymbolSize>11</voltaMusicalSymbolSize>
     <autoplaceEnabled>1</autoplaceEnabled>
-    <defaultsVersion>460</defaultsVersion>
+    <defaultsVersion>470</defaultsVersion>
     <changesBeforeBarlineRepeats>1</changesBeforeBarlineRepeats>
     <changesBeforeBarlineOtherJumps>1</changesBeforeBarlineOtherJumps>
     <placeClefsBeforeRepeats>0</placeClefsBeforeRepeats>
@@ -1972,6 +1974,6 @@
     <palmMuteBeginFilledArrowWidth>0.85</palmMuteBeginFilledArrowWidth>
     <palmMuteEndFilledArrowHeight>1</palmMuteEndFilledArrowHeight>
     <palmMuteEndFilledArrowWidth>0.85</palmMuteEndFilledArrowWidth>
-    <spatium>1.74978</spatium>
+    <spatium>1.75</spatium>
     </Style>
   </museScore>
