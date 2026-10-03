@@ -172,7 +172,7 @@
     <spacingDensity>1</spacingDensity>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
-    <mrNumberSeries>0</mrNumberSeries>
+    <mrNumberSeries>1</mrNumberSeries>
     <mrNumberEveryXMeasures>4</mrNumberEveryXMeasures>
     <mrNumberSeriesWithParentheses>1</mrNumberSeriesWithParentheses>
     <oneMeasureRepeatShow1>0</oneMeasureRepeatShow1>
@@ -435,20 +435,20 @@
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <mergeMatchingRests>0</mergeMatchingRests>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
-    <minEmptyMeasures>1</minEmptyMeasures>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <minEmptyMeasures>2</minEmptyMeasures>
     <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
     <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
     <minMMRestWidth>6</minMMRestWidth>
     <mmRestConstantWidth>0</mmRestConstantWidth>
     <mmRestReferenceWidth>2</mmRestReferenceWidth>
     <mmRestMaxWidthIncrease>8</mmRestMaxWidthIncrease>
-    <mmRestNumberPos>-0.5</mmRestNumberPos>
+    <mmRestNumberPos>1.5</mmRestNumberPos>
     <mmRestBetweenStaves>1</mmRestBetweenStaves>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
     <multiMeasureRestMargin>1.25</multiMeasureRestMargin>
     <mmRestHBarThickness>0.7</mmRestHBarThickness>
-    <mmRestHBarVStrokeThickness>0.2</mmRestHBarVStrokeThickness>
+    <mmRestHBarVStrokeThickness>0.15</mmRestHBarVStrokeThickness>
     <mmRestHBarVStrokeHeight>2</mmRestHBarVStrokeHeight>
     <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
     <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
@@ -506,19 +506,21 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Gigi Furtado / Maria Betânia 80 anos</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Gigi Furtado / Maria Betânia 80 anos</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>1</footerOddEven>
+    <footerFirstPage>0</footerFirstPage>
+    <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>$C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>$c
+@_marcuswlima
+marcuswlima@gmail.com</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -1108,7 +1110,7 @@
     <measureNumberAlternateFrameFgColor r="0" g="0" b="0" a="255"/>
     <measureNumberAlternateFrameBgColor r="255" g="255" b="255" a="0"/>
     <measureNumberAlternatePosition>left</measureNumberAlternatePosition>
-    <mmRestShowMeasureNumberRange>0</mmRestShowMeasureNumberRange>
+    <mmRestShowMeasureNumberRange>1</mmRestShowMeasureNumberRange>
     <mmRestRangeBracketType>0</mmRestRangeBracketType>
     <mmRestRangeFontFace>Edwin</mmRestRangeFontFace>
     <mmRestRangeFontSize>8</mmRestRangeFontSize>

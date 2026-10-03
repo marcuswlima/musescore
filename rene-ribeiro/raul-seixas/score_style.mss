@@ -506,19 +506,21 @@
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
-    <evenHeaderC></evenHeaderC>
+    <evenHeaderC>Rene Ribeiro / Metamorfose Ambulante</evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>Rene Ribeiro / Metamorfose Ambulante</oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
-    <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>1</footerOddEven>
+    <footerFirstPage>0</footerFirstPage>
+    <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>$C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>$c
+@_marcuswlima
+marcuswlima@gmail.com</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
