@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.60">
-  <programVersion>4.6.5</programVersion>
-  <programRevision>653f38d</programRevision>
+<museScore version="4.70">
+  <programVersion>4.7.4</programVersion>
+  <programRevision>7688c00</programRevision>
   <Score>
     <eid>gjtOojixqDF_703bmuD3O7L</eid>
     <name>Bass Guitar</name>
@@ -17,7 +17,11 @@
       <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
       <pageOddTopMargin>0.590551</pageOddTopMargin>
       <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+      <dividerLeftAlignToSystemBarline>0</dividerLeftAlignToSystemBarline>
+      <dividerRightAlignToSystemBarline>0</dividerRightAlignToSystemBarline>
       <createMultiMeasureRests>1</createMultiMeasureRests>
+      <measureNumberAlternateFramePadding>0.3</measureNumberAlternateFramePadding>
+      <defaultsVersion>460</defaultsVersion>
       <spatium>1.74978</spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -106,6 +110,13 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.9</tempo>
+            <followText>1</followText>
+            <eid>HLf55oqHjKJ_0PH/5EN8fAC</eid>
+            <linkedTo>Z4BXKfJrHDC_0dTuE6oDlU</linkedTo>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 174</text>
+            </Tempo>
           <Rest>
             <eid>m4Yy5UqvYAE_ITwcwoaG5RG</eid>
             <linkedTo>1rAO0wtlkwP_jCmDp8gLKrF</linkedTo>
@@ -422,7 +433,7 @@
           <Chord>
             <eid>BHt3ojmRQoC_lOGfID4++MF</eid>
             <linkedTo>29J59/L7WrL_y22idEQ0v2M</linkedTo>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
               <eid>m+KHSVixqLC_VLS314dFMDH</eid>
               <linkedTo>+BVjh8Y9mkD_OEI98SmAioP</linkedTo>
@@ -430,6 +441,12 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <eid>mFcmBIpVtwJ_AryJaYV516J</eid>
+            <linkedTo>aXUIinQo8FC_dNxhWFHyKeM</linkedTo>
+            <BeamMode>begin16</BeamMode>
+            <durationType>16th</durationType>
+            </Rest>
           <Chord>
             <eid>MF+brW1yK5F_HlyYGW+8lRB</eid>
             <linkedTo>/X3qslz4S5F_kSMuEE22PiI</linkedTo>
@@ -579,6 +596,11 @@
             <Note>
               <eid>LLytMsKPoVB_a6rhJWVAClN</eid>
               <linkedTo>Kktw3HB9SMD_CpCUedLOv/</linkedTo>
+              <Fingering>
+                <eid>i0+XOoeojW_cMaayoWaxJM</eid>
+                <linkedTo>7EWs/dSqR9J_G7B42WHT8AP</linkedTo>
+                <text>1</text>
+                </Fingering>
               <pitch>32</pitch>
               <tpc>22</tpc>
               </Note>
@@ -590,6 +612,11 @@
             <Note>
               <eid>UwN6+mw1DoE_BLOpfUQjgVD</eid>
               <linkedTo>CpxHEDNtLeC_PRx1xO7qnaN</linkedTo>
+              <Fingering>
+                <eid>6OWpFiLEwiD_ElEmPgftJe</eid>
+                <linkedTo>fpllMXa4l6D_dmHNOAYkY7I</linkedTo>
+                <text>2</text>
+                </Fingering>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -605,6 +632,11 @@
                 <subtype>accidentalNatural</subtype>
                 <eid>D9oQICaDUtI_Qt+gWdJ7ZVJ</eid>
                 </Accidental>
+              <Fingering>
+                <eid>5O7c8zeRinM_rWLE5z+5sFP</eid>
+                <linkedTo>C+V/lkCdGI_+hib2GIUujM</linkedTo>
+                <text>1</text>
+                </Fingering>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
@@ -620,6 +652,11 @@
                 <subtype>accidentalNatural</subtype>
                 <eid>E7uKKoLGmhO_xghopOXdDuD</eid>
                 </Accidental>
+              <Fingering>
+                <eid>IVpCBxGM5YL_nQmnkD6JDtO</eid>
+                <linkedTo>c8jKMma+VMN_13CRf5zA2GN</linkedTo>
+                <text>1</text>
+                </Fingering>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -631,6 +668,11 @@
             <Note>
               <eid>rBHbhtRFFw_XEojeqf7f0I</eid>
               <linkedTo>KZz8BT0jhIN_PCWY7pgnQk</linkedTo>
+              <Fingering>
+                <eid>scYSxh7ELxK_NbISlwsU8zG</eid>
+                <linkedTo>XMYSuMxCRpK_vqlKdnaAAfG</linkedTo>
+                <text>4</text>
+                </Fingering>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -696,6 +738,11 @@
                 <subtype>accidentalSharp</subtype>
                 <eid>sExlE4+YDL_tMifL8y8yNJ</eid>
                 </Accidental>
+              <Fingering>
+                <eid>DP/QsYzT4AD_hbWZLVnweF</eid>
+                <linkedTo>PFlufFb0yv_E+n7W0KeHsP</linkedTo>
+                <text>4</text>
+                </Fingering>
               <pitch>39</pitch>
               <tpc>23</tpc>
               </Note>
@@ -707,6 +754,11 @@
             <Note>
               <eid>zhDILK1RS+P_qwhkssOwsuC</eid>
               <linkedTo>FEF76yf93vB_EbHl4r0HkBF</linkedTo>
+              <Fingering>
+                <eid>jSwzOaCL9MF_dggW8LeTNEB</eid>
+                <linkedTo>0HBupIdpq4H_w8nJ5u/oQQB</linkedTo>
+                <text>4</text>
+                </Fingering>
               <pitch>39</pitch>
               <tpc>23</tpc>
               </Note>
@@ -731,6 +783,11 @@
             <Note>
               <eid>/M+4NOQw+EG_E692fieOY2D</eid>
               <linkedTo>2IPXR6tJsuK_NSLhbxSUoMJ</linkedTo>
+              <Fingering>
+                <eid>QvyPwUfe4yP_GtyKXzQja1L</eid>
+                <linkedTo>oh5kwFhb+5P_V97jVXUw+G</linkedTo>
+                <text>4</text>
+                </Fingering>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
@@ -808,6 +865,11 @@
             <Note>
               <eid>+WkXkiV65wG_8wzZ2QeW8bB</eid>
               <linkedTo>c1TqevX+kJC_MSSG0gr3NHL</linkedTo>
+              <Fingering>
+                <eid>nA/rwsHVB+H_u4tMDT3EOaM</eid>
+                <linkedTo>vJquq1zf4UO_bj5wZLXVarE</linkedTo>
+                <text>0</text>
+                </Fingering>
               <pitch>28</pitch>
               <tpc>18</tpc>
               </Note>
@@ -819,6 +881,11 @@
             <Note>
               <eid>uKGLbER/8yC_mjyQwz/59p</eid>
               <linkedTo>27H9o3RE6zK_taxhjU36d2J</linkedTo>
+              <Fingering>
+                <eid>yXFncKvY2wL_ox1RDwsbVUD</eid>
+                <linkedTo>l/tql+78PsJ_qjAmV3Ab22P</linkedTo>
+                <text>1</text>
+                </Fingering>
               <pitch>32</pitch>
               <tpc>22</tpc>
               </Note>
@@ -830,6 +897,11 @@
             <Note>
               <eid>tQ1v+oWj8LG_+nkFlTGH36O</eid>
               <linkedTo>/uwsl99KBCH_IVC+sctEFEH</linkedTo>
+              <Fingering>
+                <eid>pmVt7hIhEFO_dm57BzIEiBE</eid>
+                <linkedTo>V2z8F7DfNE_Sw4twjCxJZC</linkedTo>
+                <text>1</text>
+                </Fingering>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
@@ -853,6 +925,11 @@
             <Note>
               <eid>gPLwYGrL0hK_75NeR7zyU8B</eid>
               <linkedTo>SOZKq/+iVSF_V+uFJ1a674F</linkedTo>
+              <Fingering>
+                <eid>E3tNENn2ZS_/N2gXuxq7rL</eid>
+                <linkedTo>ZmTBF7F+MlG_5S+3ohgqd4J</linkedTo>
+                <text>4</text>
+                </Fingering>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -7799,7 +7876,7 @@
             <followText>1</followText>
             <eid>/5Ja/C8FasM_qKi7LXCKwiO</eid>
             <linkedTo>vkrrkYxaygJ_CHAykzJk4hP</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 140</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 140</text>
             </Tempo>
           <Chord>
             <eid>ifXQVc8nxAF_x8JUmb2bNsN</eid>
@@ -9200,9 +9277,9 @@
           <eid>jYk0DkILTJC_gHERBIyXCdJ</eid>
           <linkedTo>KQXhrcpsj0M_E3HjXL099EH</linkedTo>
           <style>repeat_left</style>
-          <musicSymbolSize>30</musicSymbolSize>
           <offset x="-1.74575" y="-5.3135"/>
           <frameType>1</frameType>
+          <musicSymbolSize>30</musicSymbolSize>
           <text><sym>segno</sym></text>
           <label>segno</label>
           <markerType>segno</markerType>
@@ -12773,9 +12850,9 @@
           <eid>f/mgAU6KPSO_7Foio2PqmpP</eid>
           <linkedTo>BYpDUb+BOmP_50Ro6EF71jD</linkedTo>
           <style>repeat_left</style>
-          <musicSymbolSize>30</musicSymbolSize>
           <offset x="3.4915" y="-3.59042"/>
           <frameType>1</frameType>
+          <musicSymbolSize>30</musicSymbolSize>
           <text><sym>coda</sym></text>
           <label>codab</label>
           <markerType>codab</markerType>
@@ -13215,7 +13292,7 @@
             <followText>1</followText>
             <eid>2nKeMKNyupB_6xKtEeEE8iI</eid>
             <linkedTo>fRM08rwZ0GF_LrqLhitr1lO</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 84</text>
+            <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 84</text>
             </Tempo>
           <Chord>
             <eid>mga77/7eSgL_s+iCTpBq47D</eid>
@@ -14459,7 +14536,7 @@
             <followText>1</followText>
             <eid>vtQkPYa6YRI_noamuyxYzlJ</eid>
             <linkedTo>4ljLaz1A5dG_QzOdaF20vLG</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 135</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 135</text>
             </Tempo>
           <Chord>
             <eid>k0gXuOhGsLD_ISyBIZTthkH</eid>
@@ -21659,13 +21736,6 @@
           </LayoutBreak>
         <voice>
           <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Volta">
             <Volta>
               <beginText>2.</beginText>
               <eid>wvPUFlC/auM_xo4YMey6T+E</eid>
@@ -21677,6 +21747,13 @@
                 <measures>1</measures>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <eid>EdGS0DJGtEI_AkBHrF+5MsK</eid>
@@ -21694,155 +21771,6 @@
             <eid>8N/xzsRJIGE_KhhOczJLp5N</eid>
             <linkedTo>6YNF13c03rB_341bXGbDtRC</linkedTo>
             </BarLine>
-          </voice>
-        </Measure>
-      <VBox>
-        <height>10</height>
-        <eid>tvugYbLWDSC_LHXpHazRv9I</eid>
-        <linkedTo>3+SWepy5v7L_vAPMFoD+TJE</linkedTo>
-        <Text>
-          <eid>o1n5+sXW2AC_vficaIhbU+F</eid>
-          <linkedTo>+RtJyoYip1E_+01evRw7hlK</linkedTo>
-          <style>title</style>
-          <text>Angústia</text>
-          </Text>
-        </VBox>
-      <Measure>
-        <eid>+kJCAKYzXRN_hMMy0kkaKCE</eid>
-        <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <eid>jgepJveJsQJ_dRwnY4Xq8dH</eid>
-            <linkedTo>g/KZOTxLWoK_/zjoXpEpZ9H</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <eid>cpcIEYs5pgK_CSKljKlD9RO</eid>
-        <LayoutBreak>
-          <eid>hoR0Wo2dhxG_1abqkRMgqG</eid>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>uf5Br7ty6YJ_AgA8HWA8coM</eid>
-            <placement>above</placement>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>8clYmC0OIR_aGSP1rVtlWM</eid>
-        <voice>
-          <Rest>
-            <eid>RreQ+d8w0+H_+oP8yphBwjP</eid>
-            <linkedTo>c0MrW2b18mH_oA9wXM+cUGD</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>aQ2sGQnqnRL_eM6UqW0c2zG</eid>
-        <voice>
-          <Rest>
-            <eid>1xZRupIITRI_yW1XybCqo9N</eid>
-            <linkedTo>s26LmM5QCoM_OUcAlL0HpIJ</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>EJgT5LcM1RF_zqu76AtBDrE</eid>
-        <voice>
-          <Rest>
-            <eid>V+AzirftkbF_2fARohWeQjJ</eid>
-            <linkedTo>doT+IizaNkO_T9+PO+BPbtL</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>dnkZxVpPaJI_Zqc20+31g/D</eid>
-        <voice>
-          <Rest>
-            <eid>a87XktnS2mO_ZhqkhMqqSRK</eid>
-            <linkedTo>pUyJBzr2UJJ_82rbu/eDbtM</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>KXob+XnmQ9G_6R+8QHOqPbK</eid>
-        <voice>
-          <Rest>
-            <eid>W4YwTyV/KWN_CkwM5ixktzN</eid>
-            <linkedTo>/SISkfEkKpG_EftxbJq0OiH</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>zMH6+pY26eN_pxBvudnxfPC</eid>
-        <voice>
-          <Rest>
-            <eid>nTV9RabAZvK_4d3h+fjXUFB</eid>
-            <linkedTo>vW+CfdqTe+N_76K7DQPIguL</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>2jkC9xZBLPH_uv2DV4jBzxF</eid>
-        <voice>
-          <Rest>
-            <eid>mgC0NVs/oFC_RLuue6NdJzM</eid>
-            <linkedTo>hb1nua84/wG_+/wli47vzWK</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>GpNXkgNHFAC_mYxD3FOZ/jH</eid>
-        <voice>
-          <Rest>
-            <eid>x+Ah+63y0TC_H8+TXBZZihM</eid>
-            <linkedTo>mnOMf1KHoIC_cfUJPFPBoQI</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>aOOQRL8FH6C_3jK8ML+vmcM</eid>
-        <LayoutBreak>
-          <eid>V5oPP7RRuDM_keWgweMDEqO</eid>
-          <linkedTo>PrKNmnkBGHM_phsN6QW2vxE</linkedTo>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>0rys6L21LnG_YB4pwsTPsjJ</eid>
-            <linkedTo>XaVRn0WWiGF_E7rbmqAKdSH</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <VBox>
@@ -21874,8 +21802,15 @@
             <followText>1</followText>
             <eid>fgVwhbJu90C_TuMO+pbHEdM</eid>
             <linkedTo>vKArcA6UePL_YhQe7BPEfiN</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 93</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 93</text>
             </Tempo>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <eid>lXaYooDd4GK_SIx5BbqtPFD</eid>
             <linkedTo>6FirgBNU2xE_yKbfvz4RiuH</linkedTo>
@@ -21899,7 +21834,7 @@
             <followText>1</followText>
             <eid>UdXKB8A8I9L_h6BHVjzS12E</eid>
             <linkedTo>vKArcA6UePL_YhQe7BPEfiN</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 93</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 93</text>
             </Tempo>
           <Rest>
             <eid>/yVGP6AEPvI_/HjQYepynyI</eid>
@@ -26352,7 +26287,7 @@
             <followText>1</followText>
             <eid>HCRerPxH7JB_TYlRoaWeXLN</eid>
             <linkedTo>HjEwcrUj7II_6XlIdXnzcbH</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 108</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 108</text>
             </Tempo>
           <Rest>
             <eid>UXBWftrZ/nJ_GwTyUzWtsMM</eid>
@@ -28524,7 +28459,7 @@
             <followText>1</followText>
             <eid>U9cFrPsSl3N_JOohTFpHTAH</eid>
             <linkedTo>vs6vtT7XshL_Ag3r1hzTx7I</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 79</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 79</text>
             </Tempo>
           <Harmony>
             <rootCase>1</rootCase>
@@ -28557,7 +28492,7 @@
             <followText>1</followText>
             <eid>5BgBrIkZsrF_EfzB918/FID</eid>
             <linkedTo>vs6vtT7XshL_Ag3r1hzTx7I</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 79</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 79</text>
             </Tempo>
           <Harmony>
             <rootCase>1</rootCase>
@@ -30429,149 +30364,6 @@
         </Measure>
       <VBox>
         <height>10</height>
-        <eid>v51t8Dgp2ZO_uYDEMve3rYB</eid>
-        <linkedTo>wxU8nMqP/J_zCZ2af6Dh/</linkedTo>
-        <Text>
-          <eid>YxqwDKEFHCO_F+CQg2BPV1I</eid>
-          <linkedTo>brgRjEi6K/F_Z/8f2OnEeTM</linkedTo>
-          <style>title</style>
-          <text>Doce e o Amargo
-</text>
-          </Text>
-        </VBox>
-      <Measure>
-        <eid>8mSzkhbyX3E_RjniydPq/3L</eid>
-        <voice>
-          <Rest>
-            <eid>Ds1Fp86+usM_2SCbmkGEfLM</eid>
-            <linkedTo>zpekz2qAIWF_eC+16TatDBH</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <eid>aQSpFHVv+CM_ahYEJlEzWoJ</eid>
-        <LayoutBreak>
-          <eid>aJn0wzZtj7M_YEW1kmJo2kB</eid>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>WQ3Krt3NdeH_SoS0Irm9/NB</eid>
-            <placement>above</placement>
-            <durationType>measure</durationType>
-            <duration>180/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>88vLvyUJkdP_i/Q4UsQAF1</eid>
-        <voice>
-          <Rest>
-            <eid>rM8lz5QhcfO_QpzoOhNRpjN</eid>
-            <linkedTo>59+jCRGo+8O_WigXAncPG9I</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>8b4nPJsdqcI_EmbNXstnsaD</eid>
-        <voice>
-          <Rest>
-            <eid>AuD4tHDRWBG_3wO5U2ILNsE</eid>
-            <linkedTo>Z2qWGEH+KtK_Xfkvw/CTG2C</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>S0nD51mQ4iB_P7hqqyK4pHD</eid>
-        <voice>
-          <Rest>
-            <eid>wNrrRleL0wH_zr6vCXqer7D</eid>
-            <linkedTo>d/01XvxhkoP_Yxc9H12QxJI</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>zfFLr8yhZjB_zLEH3ajkGw</eid>
-        <voice>
-          <Rest>
-            <eid>ZVkUs1xOxjF_FJpzybOi7tJ</eid>
-            <linkedTo>HeVi+kbI87F_jkPRPOL0EGF</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>W294f2m/+mG_3vkgT4EciFO</eid>
-        <voice>
-          <Rest>
-            <eid>Dwsg3MQep1G_L6qnIzYT3PD</eid>
-            <linkedTo>uO8D4GNlw+I_461jyQfvpiH</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>bEJY253IxdE_04Br1t/nwuJ</eid>
-        <voice>
-          <Rest>
-            <eid>PLZa7g6sNyH_FzpQhPpNMXG</eid>
-            <linkedTo>0nCVaIj1gGH_e3+a3NbuFmO</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>LYVtTDy0xVL_fByEgFfFiuM</eid>
-        <voice>
-          <Rest>
-            <eid>WqtoXQxGV7K_udPtDxBVLvH</eid>
-            <linkedTo>5Adzh82UyVL_WNEklFZUQtG</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>LCuxCa+F/TF_f8QERSE2lSC</eid>
-        <voice>
-          <Rest>
-            <eid>VE7j0xIklVE_EcGOMUbzDgB</eid>
-            <linkedTo>n7Ky37/UChJ_NBeyusSPrFD</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>nb+NRLzLqiN_ahujkIDfMaI</eid>
-        <LayoutBreak>
-          <eid>uPhGNqdKD3G_D7cFu/nHFHD</eid>
-          <linkedTo>QSRa+XRatTL_OmSSu+DSalP</linkedTo>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>MA1xD0fzTnG_x8r0xKh7owD</eid>
-            <linkedTo>1Bf4fy1aOlO_UIWvWVbZmeI</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <VBox>
-        <height>10</height>
         <eid>wNoaAH6RyHN_rwtmh1WCcXG</eid>
         <linkedTo>sAAsD8Jbk7_aCb1tCf/AIG</linkedTo>
         <Text>
@@ -30595,7 +30387,7 @@
             <followText>1</followText>
             <eid>EqeKzoXeQSJ_5WYFtsAzMOD</eid>
             <linkedTo>Ub/xbQrFbjN_033OiO2zymH</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 121</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 121</text>
             </Tempo>
           <Chord>
             <eid>PV9yFoA6apF_mkUsSoXHfUG</eid>
@@ -31993,7 +31785,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"></font>Fine 3v</b></text>
+          <text><b><font size="15"/>Fine 3v</b></text>
           <label>fine</label>
           </Marker>
         <voice>
@@ -32297,7 +32089,7 @@
             <followText>1</followText>
             <eid>jJP4BIo/gUL_rd/w+fEpE5L</eid>
             <linkedTo>m/xDD1QuD3K_PGhHYMb+HbL</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 93</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 93</text>
             </Tempo>
           <Harmony>
             <rootCase>1</rootCase>
@@ -39064,8 +38856,7 @@
           <eid>Q3lVt6hFJcG_k4pu9w2lKf</eid>
           <linkedTo>8avQ17EMbRD_kKib9iRvTbC</linkedTo>
           <style>repeat_right</style>
-          <size>12</size>
-          <text><b><font size="15"></font>Fine</b></text>
+          <text><b><font size="15"/>Fine</b></text>
           <label>fine</label>
           </Marker>
         <voice>
@@ -39103,7 +38894,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"></font>Fine</b></text>
+          <text><b><font size="15"/>Fine</b></text>
           <label>fine</label>
           </Marker>
         <voice>
@@ -39146,7 +38937,7 @@
             <followText>1</followText>
             <eid>U8rg1grRvRP_y0VuBRsuNQH</eid>
             <linkedTo>DbIxfgFIpUJ_c2PBDmgPsvN</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 82</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 82</text>
             </Tempo>
           <Harmony>
             <rootCase>1</rootCase>
@@ -40399,7 +40190,7 @@
             <followText>1</followText>
             <eid>2nwsemyQgqN_RI2KeefBJyN</eid>
             <linkedTo>XuwqeVrPUdI_Gan54LFtRjK</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 95</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 95</text>
             </Tempo>
           <Rest>
             <eid>APaHwmIfx+K_U6E/v0TilWO</eid>
@@ -43209,7 +43000,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"></font>Fine</b></text>
+          <text><b><font size="15"/>Fine</b></text>
           <label>fine</label>
           </Marker>
         <voice>
@@ -43264,7 +43055,7 @@
             <followText>1</followText>
             <eid>fDdtlPJAQ7L_hVWKUoZyfDD</eid>
             <linkedTo>yO3hjoWDRVL_KcyvErNY16K</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 82</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 82</text>
             </Tempo>
           <Harmony>
             <rootCase>1</rootCase>
@@ -51218,7 +51009,7 @@
             <followText>1</followText>
             <eid>BGyRo2MHk5P_yFmXEt3rlBL</eid>
             <linkedTo>xAujhlHGz1N_ueR9fIgGMiE</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 134</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 134</text>
             </Tempo>
           <Rest>
             <eid>z3Vw0koKavK_WqMjDyLVXwB</eid>
@@ -52575,8 +52366,7 @@
           <eid>5Z/AChx7/tD_mduFgUTcrq</eid>
           <linkedTo>dA8c/w44E9N_tOXhIj3MQhM</linkedTo>
           <style>title</style>
-          <text>Bandido Corazon
-</text>
+          <text>Bandido Corazon<br/></text>
           </Text>
         </VBox>
       <Measure>
@@ -52597,7 +52387,7 @@
             <followText>1</followText>
             <eid>dTaxZ+YzxgF_gsrsuC1MEnG</eid>
             <linkedTo>qBYaLpkS6oB_zIcfVgYfcb</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 122</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 122</text>
             </Tempo>
           <Chord>
             <eid>XXu5Yb3uQPO_65C93hvk73E</eid>
@@ -56742,7 +56532,7 @@
             <followText>1</followText>
             <eid>lY1jluZq5VL_yJfl0hV+pq</eid>
             <linkedTo>G2lyULjkOQI_5rGb2j7HIU</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 70</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 70</text>
             </Tempo>
           <Harmony>
             <rootCase>1</rootCase>
@@ -56776,7 +56566,7 @@
             <followText>1</followText>
             <eid>8HSga3Ad+vK_zrBZff5VBzK</eid>
             <linkedTo>G2lyULjkOQI_5rGb2j7HIU</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 70</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 70</text>
             </Tempo>
           <Harmony>
             <rootCase>1</rootCase>
@@ -58011,7 +57801,7 @@
             <followText>1</followText>
             <eid>aQeJkIa8RwC_slZSSPv3WPJ</eid>
             <linkedTo>Q3Y11U5ToxM_Gys8jYnV00P</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 164</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 164</text>
             </Tempo>
           <Rest>
             <eid>VBN5fP+UxkP_I6pcIw9sVpE</eid>
@@ -58943,8 +58733,7 @@
           <eid>M1anFRIjVFL_7pbymBHST6L</eid>
           <linkedTo>us5Ne7LchjM_CsDhfcs4mOD</linkedTo>
           <style>title</style>
-          <text>Corra E Olhe O Céu
-</text>
+          <text>Corra E Olhe O Céu<br/></text>
           </Text>
         </VBox>
       <Measure>
@@ -58975,7 +58764,7 @@
             <followText>1</followText>
             <eid>2RTrofov4TC_rA0uSV3SWbD</eid>
             <linkedTo>eHeGmJnMGkL_qPDs/ZL3pvO</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 88</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 88</text>
             </Tempo>
           <Chord>
             <eid>OEpuWN+vvyP_pId/44zCyXF</eid>
@@ -63727,7 +63516,7 @@
             <followText>1</followText>
             <eid>FlyzcZFaS5_h/SabfHSW4F</eid>
             <linkedTo>6zrJVgdIyBK_O5PcglphTGL</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 130</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 130</text>
             </Tempo>
           <Chord>
             <eid>Mnz/teA3rfD_56IdXY0jbzG</eid>
@@ -64787,8 +64576,8 @@
           <eid>EMMpEzIcA5J_qv4MrN2fMsJ</eid>
           <linkedTo>VFLT9DFjDMO_mBX15PB6pP</linkedTo>
           <style>repeat_left</style>
-          <musicSymbolSize>30</musicSymbolSize>
           <family>ScoreText</family>
+          <musicSymbolSize>30</musicSymbolSize>
           <text><sym>segno</sym></text>
           <label>segno</label>
           <markerType>segno</markerType>
@@ -66980,7 +66769,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"></font>To <sym>coda</sym></b></text>
+          <text><b><font size="15"/>To <sym>coda</sym></b></text>
           <label>coda</label>
           <markerType>codasym</markerType>
           </Marker>
@@ -67860,7 +67649,7 @@
           <style>repeat_right</style>
           <size>15</size>
           <bold>1</bold>
-          <text><b><font size="15"></font>D.S. al Coda</b></text>
+          <text><b><font size="15"/>D.S. al Coda</b></text>
           <jumpTo>segno</jumpTo>
           <playUntil>coda</playUntil>
           <continueAt>codab</continueAt>
@@ -67898,8 +67687,8 @@
           <eid>FkGvAQ1u37_RMM6Bcdoi9I</eid>
           <linkedTo>TWAhXlu1C4K_vm5OuQCRCoB</linkedTo>
           <style>repeat_left</style>
-          <musicSymbolSize>31</musicSymbolSize>
           <offset x="2.86394" y="-4.91411"/>
+          <musicSymbolSize>31</musicSymbolSize>
           <text><sym>coda</sym></text>
           <label>codab</label>
           <markerType>codab</markerType>
@@ -67973,161 +67762,6 @@
         </Measure>
       <VBox>
         <height>10</height>
-        <eid>okRgywB8m2D_pYnhgT5u6lE</eid>
-        <linkedTo>VU1zQHYM6ZG_XbEWq84fTXC</linkedTo>
-        <Text>
-          <eid>FIm+s3w4DJH_g5VvihIYL9I</eid>
-          <linkedTo>M6lNA3QIBIN_e5oA0oFUOqI</linkedTo>
-          <style>title</style>
-          <text>Pecados de Adão</text>
-          </Text>
-        </VBox>
-      <Measure>
-        <eid>jaBswv1VvvL_/opDimi3cBB</eid>
-        <voice>
-          <Rest>
-            <eid>H36/YlPFFdN_Z/0HgFtZwnH</eid>
-            <linkedTo>UTlpT4Bc51P_MBCjSWjDImN</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="40/4">
-        <multiMeasureRest>10</multiMeasureRest>
-        <eid>mOTpx2K/k0F_IEF6S/E0+NP</eid>
-        <LayoutBreak>
-          <eid>ydfckdcVl6D_az2YRdY81GC</eid>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>vaxAyApZAxJ_Sj8ksRoFECJ</eid>
-            <placement>above</placement>
-            <durationType>measure</durationType>
-            <duration>80/4</duration>
-            </Rest>
-          <location>
-            <fractions>-10/1</fractions>
-            </location>
-          <BarLine>
-            <subtype>end</subtype>
-            <eid>QjuGj+hAMdK_uBRicast5SD</eid>
-            <linkedTo>4uPK/XHiFAM_eDLA/rpLRN</linkedTo>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>rmKpgGxK9nD_cdIZMrhbvIF</eid>
-        <voice>
-          <Rest>
-            <eid>4JitqyR5csD_IbXypws5B9L</eid>
-            <linkedTo>rNTRoJyDevE_PQc+aU9JK+J</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>esh6Q3/JK/E_evORTcdeREO</eid>
-        <voice>
-          <Rest>
-            <eid>ba3ydFyrwvH_4M/HQ3dDXoN</eid>
-            <linkedTo>Ur5MW0IjxcD_qWsTJ1AZGhC</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>emhlOBJOfzD_Wn/dF5RT1zI</eid>
-        <voice>
-          <Rest>
-            <eid>l29qlIwj0aP_BYhFNL/Jm2C</eid>
-            <linkedTo>SPxRiPWAV1B_EuBuGNjxxYL</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>072my6Zv+0I_onrQnN/U/VG</eid>
-        <voice>
-          <Rest>
-            <eid>fw+4h5y7A3B_i8IVWadrJSN</eid>
-            <linkedTo>nrH1B2kebxD_tqhkUnnNCDK</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>/yOH/GhdgxJ_NZrtT5Zf3lL</eid>
-        <voice>
-          <Rest>
-            <eid>SX/VUusPdMN_CDc6aOqHTQB</eid>
-            <linkedTo>ZgxFSOslLlN_7noIQN34rkK</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>NsZLXIPv8tF_urkVgEADjlF</eid>
-        <voice>
-          <Rest>
-            <eid>GQU9uHCA+0C_xxJnWVJgGWC</eid>
-            <linkedTo>O0LNoWtv1ZL_JknpyLWh78N</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>L6XtqkUzUfP_1ZGy2ExjuRH</eid>
-        <voice>
-          <Rest>
-            <eid>e76R2k+31+C_oSVP3fZVBwP</eid>
-            <linkedTo>uZwhCO8w5lM_9BkqDKadXWF</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>syNNI4VVKQN_VTGLAEjNDTH</eid>
-        <voice>
-          <Rest>
-            <eid>0JiRssBo0ZD_DJ63Najf1qG</eid>
-            <linkedTo>dnHFPMf0jNG_74pPNsJnSpF</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <eid>YEVblV/BxmN_uT4VhAPRBiE</eid>
-        <LayoutBreak>
-          <eid>BbqkbqVUWDM_1ecK7HfAd/N</eid>
-          <linkedTo>yXehdgNcu8O_kzStFnKUwEP</linkedTo>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>tySaLnwvB+D_hCGHfuorTcF</eid>
-            <linkedTo>hUu9i6LH8yP_KAlRYtGExYI</linkedTo>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            <eid>8TDnEOoYEpC_VdAGVolt08H</eid>
-            <linkedTo>4uPK/XHiFAM_eDLA/rpLRN</linkedTo>
-            </BarLine>
-          </voice>
-        </Measure>
-      <VBox>
-        <height>10</height>
         <eid>wkbbgBh96jE_uTUXigoXItF</eid>
         <linkedTo>P+F8YB1c+NN_mnxtYdQE5KM</linkedTo>
         <Text>
@@ -68151,7 +67785,7 @@
             <followText>1</followText>
             <eid>h5+xv4Zk0fL_+kHynDu1GzP</eid>
             <linkedTo>NDnJkRIspbL_VO9R3b3ExuB</linkedTo>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 144</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 144</text>
             </Tempo>
           <Rest>
             <eid>4ouju88lLIH_vCEQdZbSHgD</eid>
